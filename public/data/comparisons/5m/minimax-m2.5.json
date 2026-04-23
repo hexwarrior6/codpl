@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 653,
+    "ttftP95": 653,
+    "avgMedianTps": 112.6009488619225,
+    "avgLatency": 24.568632666,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 930.7898765215351,
+    "compositeScore": 88.7787950894945,
+    "latestProbeAt": "2026-04-24T05:58:22.867962189+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 682,
+    "ttftP95": 682,
+    "avgMedianTps": 93.10809311961475,
+    "avgLatency": 15.010647674,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 1046.9823668676884,
+    "compositeScore": 84.01676348648593,
+    "latestProbeAt": "2026-04-24T05:57:51.50196838+08:00"
+  },
+  {
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 835,
+    "ttftP95": 835,
+    "avgMedianTps": 41.82270835327463,
+    "avgLatency": 53.53634531,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -254.47238263035206,
+    "compositeScore": 50.32548804330944,
+    "latestProbeAt": "2026-04-24T05:55:41.492492129+08:00"
+  }
+]

@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 872,
-    "ttftP95": 16874.149999999994,
-    "avgMedianTps": 150.96183644497773,
-    "avgLatency": 17.152109408059996,
-    "successRate": 0.9960159362549801,
-    "sampleCount": 502,
-    "score": 1298.5842197233465,
-    "compositeScore": 84.60634365718954,
-    "latestProbeAt": "2026-04-24T04:59:15.234526313+08:00"
+    "ttftP50": 873,
+    "ttftP95": 16701.849999999962,
+    "avgMedianTps": 151.12579226153528,
+    "avgLatency": 17.1225178391494,
+    "successRate": 0.996031746031746,
+    "sampleCount": 504,
+    "score": 1300.1235536222225,
+    "compositeScore": 84.58980846866442,
+    "latestProbeAt": "2026-04-24T05:57:58.294297466+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5329,
+    "ttftP50": 5330,
     "ttftP95": 26858.99999999999,
-    "avgMedianTps": 139.99434882219708,
-    "avgLatency": 23.705076793504954,
+    "avgMedianTps": 140.28830742260078,
+    "avgLatency": 23.702441988365784,
     "successRate": 0.996039603960396,
     "sampleCount": 505,
-    "score": 177.57877705595467,
+    "score": 179.20839878685604,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T04:46:56.52160202+08:00"
+    "latestProbeAt": "2026-04-24T05:52:54.440911503+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2938,
-    "ttftP95": 17063,
-    "avgMedianTps": 62.99046172392439,
-    "avgLatency": 38.087972390113805,
-    "successRate": 0.9920792079207921,
+    "ttftP50": 2937.5,
+    "ttftP95": 17135.849999999933,
+    "avgMedianTps": 63.140223038006305,
+    "avgLatency": 38.08038310229003,
+    "successRate": 0.9900990099009901,
     "sampleCount": 505,
-    "score": -169.77733148850666,
-    "compositeScore": 44.87627713375065,
-    "latestProbeAt": "2026-04-24T04:52:45.249633272+08:00"
+    "score": -170.5692294282229,
+    "compositeScore": 44.96858936436535,
+    "latestProbeAt": "2026-04-24T05:53:27.136841623+08:00"
   }
 ]
