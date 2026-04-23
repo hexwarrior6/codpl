@@ -15,14 +15,14 @@
   {
     "provider": "天翼云",
     "providerPlatform": "ctyun",
-    "ttftP50": 650,
-    "ttftP95": 7885.799999999979,
-    "avgMedianTps": 84.71262429728701,
-    "avgLatency": 41.249138763,
+    "ttftP50": 646.5,
+    "ttftP95": 1927.749999999997,
+    "avgMedianTps": 85.34615240029807,
+    "avgLatency": 40.80876799779167,
     "successRate": 1,
-    "sampleCount": 25,
-    "score": 347.04727670872194,
-    "compositeScore": 79.67280240417284,
+    "sampleCount": 24,
+    "score": 362.5577144569967,
+    "compositeScore": 80.13081274703511,
     "latestProbeAt": "2026-04-24T04:46:58.593212237+08:00"
   }
 ]

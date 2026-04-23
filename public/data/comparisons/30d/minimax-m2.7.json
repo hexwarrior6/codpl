@@ -15,14 +15,14 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 1267,
-    "ttftP95": 6445,
-    "avgMedianTps": 62.89149758926022,
-    "avgLatency": 30.674788134132907,
-    "successRate": 0.9772830531576556,
-    "sampleCount": 2201,
-    "score": 334.36233533989434,
-    "compositeScore": 56.95107736710685,
+    "ttftP50": 1269,
+    "ttftP95": 6444.299999999999,
+    "avgMedianTps": 62.87300067664624,
+    "avgLatency": 30.677040366413816,
+    "successRate": 0.9772520473157416,
+    "sampleCount": 2198,
+    "score": 333.76404221527366,
+    "compositeScore": 56.91722377253549,
     "latestProbeAt": "2026-04-24T04:45:12.093130056+08:00"
   },
   {
