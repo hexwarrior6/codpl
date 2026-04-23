@@ -92335,9 +92335,9 @@
     "provider": "Ollama Cloud",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "tokensPerSec": 17.359385452887246,
-    "medianTps": 37.61037332037132,
-    "ttft": 2106
+    "tokensPerSec": 16.69907122839471,
+    "medianTps": 36.675996594796715,
+    "ttft": 1897.3333333333333
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-pro",

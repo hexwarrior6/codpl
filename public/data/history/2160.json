@@ -357984,10 +357984,10 @@
     "provider": "Ollama Cloud",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 17.359385452887246,
-    "medianTps": 37.61037332037132,
-    "ttft": 2106,
-    "dataPoints": 2
+    "avgTps": 16.69907122839471,
+    "medianTps": 36.675996594796715,
+    "ttft": 1897.3333333333333,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/24 02:00",

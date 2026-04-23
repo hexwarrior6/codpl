@@ -16324,10 +16324,10 @@
     "provider": "Ollama Cloud",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 66.925787647734,
-    "medianTps": 71.60900507567703,
-    "ttft": 19467.555555555555,
-    "dataPoints": 9
+    "avgTps": 61.77105316090156,
+    "medianTps": 67.92882888247408,
+    "ttft": 17668.8,
+    "dataPoints": 10
   },
   {
     "timePoint": "04/24",

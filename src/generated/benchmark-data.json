@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generatedAt": "2026-04-23T18:20:03Z",
-    "generatedAtUnix": 1776968403625,
+    "generatedAt": "2026-04-23T18:23:16Z",
+    "generatedAtUnix": 1776968596122,
     "activeProviderCount": 0,
     "activeModelCount": 0,
     "snapshotCount": 0
@@ -120,11 +120,11 @@
       "provider": "Ollama Cloud",
       "model": "glm-5",
       "modelDisplay": "glm-5",
-      "avgTtft": 1199.5428571428572,
-      "avgTps": 129.8574382940961,
-      "medianTps": 126.42840467578941,
-      "avgTotalTime": 21.86216379934286,
-      "successCount": 35,
+      "avgTtft": 1269.0555555555557,
+      "avgTps": 128.58576449357008,
+      "medianTps": 125.49670627267113,
+      "avgTotalTime": 22.103074589583333,
+      "successCount": 36,
       "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
@@ -286,19 +286,6 @@
       "abnormalTps": false
     },
     {
-      "provider": "Ollama Cloud",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 11142.885714285714,
-      "avgTps": 67.03845689196928,
-      "medianTps": 68.36034884617261,
-      "avgTotalTime": 137.3218998494,
-      "successCount": 35,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
       "provider": "无问芯穹",
       "model": "minimax-m2.1",
       "modelDisplay": "minimax-m2.1",
@@ -319,6 +306,19 @@
       "avgTps": 73.1680743390836,
       "medianTps": 67.56059723788991,
       "avgTotalTime": 30.572295404805555,
+      "successCount": 36,
+      "errorCount": 0,
+      "hasThinking": true,
+      "abnormalTps": false
+    },
+    {
+      "provider": "Ollama Cloud",
+      "model": "glm-5.1",
+      "modelDisplay": "glm-5.1",
+      "avgTtft": 10874.472222222223,
+      "avgTps": 65.60345649995374,
+      "medianTps": 67.42831813221359,
+      "avgTotalTime": 137.56389596969447,
       "successCount": 36,
       "errorCount": 0,
       "hasThinking": true,

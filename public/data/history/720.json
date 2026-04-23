@@ -2,16 +2,6 @@
   {
     "timePoint": "03/25 02:00",
     "provider": "联通云",
-    "model": "MiniMax-M2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 43.42070655876489,
-    "medianTps": 58.40568398275952,
-    "ttft": 850,
-    "dataPoints": 1
-  },
-  {
-    "timePoint": "03/25 02:00",
-    "provider": "联通云",
     "model": "glm-5",
     "modelDisplay": "glm-5",
     "avgTps": 13.102509484243141,
@@ -318504,20 +318494,20 @@
     "provider": "Ollama Cloud",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 80.91786264447707,
-    "medianTps": 99.53000934288198,
-    "ttft": 1004,
-    "dataPoints": 1
+    "avgTps": 82.4975220598183,
+    "medianTps": 96.20863575320676,
+    "ttft": 2353,
+    "dataPoints": 2
   },
   {
     "timePoint": "04/24 02:00",
     "provider": "Ollama Cloud",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 17.359385452887246,
-    "medianTps": 37.61037332037132,
-    "ttft": 2106,
-    "dataPoints": 2
+    "avgTps": 16.69907122839471,
+    "medianTps": 36.675996594796715,
+    "ttft": 1897.3333333333333,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/24 02:00",
