@@ -16,14 +16,14 @@
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
     "ttftP50": 335,
-    "ttftP95": 4035.6999999999953,
-    "avgMedianTps": 74.89916654979031,
-    "avgLatency": 34.76646695928244,
-    "successRate": 0.9442033477991321,
-    "sampleCount": 1613,
-    "score": 457.43667311581305,
-    "compositeScore": 83.34751398138164,
-    "latestProbeAt": "2026-04-24T03:31:10.40609552+08:00"
+    "ttftP95": 4034.049999999997,
+    "avgMedianTps": 74.92826730601084,
+    "avgLatency": 34.75665761675535,
+    "successRate": 0.9442379182156134,
+    "sampleCount": 1614,
+    "score": 457.8910816327948,
+    "compositeScore": 83.36497443511396,
+    "latestProbeAt": "2026-04-24T03:59:57.380399981+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -54,15 +54,15 @@
   {
     "provider": "腾讯云",
     "providerPlatform": "tencent_token_plan",
-    "ttftP50": 2031,
-    "ttftP95": 28989.19999999999,
-    "avgMedianTps": 198.83563616368465,
-    "avgLatency": 28.79076247456851,
+    "ttftP50": 2044,
+    "ttftP95": 28979,
+    "avgMedianTps": 198.76319983088626,
+    "avgLatency": 28.78020086539812,
     "successRate": 1,
-    "sampleCount": 1270,
-    "score": 1067.0447551178952,
-    "compositeScore": 72.40844166199727,
-    "latestProbeAt": "2026-04-24T03:25:07.738991754+08:00"
+    "sampleCount": 1271,
+    "score": 1064.2741773503649,
+    "compositeScore": 72.3163920955826,
+    "latestProbeAt": "2026-04-24T04:00:09.769894684+08:00"
   },
   {
     "provider": "优云",
@@ -106,15 +106,15 @@
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5514,
-    "ttftP95": 24197.049999999985,
-    "avgMedianTps": 153.6157802044818,
-    "avgLatency": 23.031201543513124,
-    "successRate": 0.9834254143646409,
-    "sampleCount": 543,
-    "score": 226.54005700370385,
+    "ttftP50": 5512,
+    "ttftP95": 24176.899999999983,
+    "avgMedianTps": 153.46100012470055,
+    "avgLatency": 23.027548928117774,
+    "successRate": 0.9834558823529411,
+    "sampleCount": 544,
+    "score": 226.1331598981999,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T03:28:00.622386706+08:00"
+    "latestProbeAt": "2026-04-24T03:59:58.531558702+08:00"
   },
   {
     "provider": "百度云(千帆)",

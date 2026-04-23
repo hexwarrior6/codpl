@@ -41,15 +41,15 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 681,
-    "ttftP95": 3150.6000000000013,
-    "avgMedianTps": 93.80084386473106,
-    "avgLatency": 19.608869860896107,
+    "ttftP50": 677,
+    "ttftP95": 3128.449999999996,
+    "avgMedianTps": 94.1270986745408,
+    "avgLatency": 19.611538567141025,
     "successRate": 1,
-    "sampleCount": 77,
-    "score": 936.3833166659837,
-    "compositeScore": 84.45358334367674,
-    "latestProbeAt": "2026-04-24T03:31:10.40609552+08:00"
+    "sampleCount": 78,
+    "score": 939.0741278687192,
+    "compositeScore": 84.73432587393332,
+    "latestProbeAt": "2026-04-24T03:59:57.380399981+08:00"
   },
   {
     "provider": "MiniMax",
@@ -67,15 +67,15 @@
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5459,
-    "ttftP95": 24121.5,
-    "avgMedianTps": 139.972491453358,
-    "avgLatency": 23.963941204828952,
+    "ttftP50": 5406,
+    "ttftP95": 24099,
+    "avgMedianTps": 139.0873913165267,
+    "avgLatency": 23.926449141220782,
     "successRate": 1,
-    "sampleCount": 76,
-    "score": 148.93641859942431,
+    "sampleCount": 77,
+    "score": 155.16311936864054,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T03:28:00.622386706+08:00"
+    "latestProbeAt": "2026-04-24T03:59:58.531558702+08:00"
   },
   {
     "provider": "百炼(阿里云)",
@@ -119,15 +119,15 @@
   {
     "provider": "腾讯云",
     "providerPlatform": "tencent_token_plan",
-    "ttftP50": 2854,
-    "ttftP95": 18810.400000000012,
-    "avgMedianTps": 75.6832278577822,
-    "avgLatency": 27.528496656454543,
+    "ttftP50": 2855.5,
+    "ttftP95": 18592.799999999963,
+    "avgMedianTps": 76.08176413110453,
+    "avgLatency": 27.372579484179486,
     "successRate": 1,
-    "sampleCount": 77,
-    "score": 195.08695073532942,
-    "compositeScore": 52.9104274248705,
-    "latestProbeAt": "2026-04-24T03:25:07.738991754+08:00"
+    "sampleCount": 78,
+    "score": 201.0760976821399,
+    "compositeScore": 53.141968691058054,
+    "latestProbeAt": "2026-04-24T04:00:09.769894684+08:00"
   },
   {
     "provider": "百度云(千帆)",

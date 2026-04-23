@@ -15,14 +15,14 @@
   {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
-    "ttftP50": 509,
-    "ttftP95": 5214.399999999998,
-    "avgMedianTps": 68.54661802982413,
-    "avgLatency": 25.909410077249333,
-    "successRate": 0.7400793650793651,
-    "sampleCount": 504,
-    "score": 401.82382132707653,
-    "compositeScore": 73.50093926209632,
-    "latestProbeAt": "2026-04-24T03:23:37.082669169+08:00"
+    "ttftP50": 508.5,
+    "ttftP95": 5208.849999999996,
+    "avgMedianTps": 68.63801975943406,
+    "avgLatency": 25.879745076938505,
+    "successRate": 0.7405940594059406,
+    "sampleCount": 505,
+    "score": 403.7285510390823,
+    "compositeScore": 73.56995912204424,
+    "latestProbeAt": "2026-04-24T04:00:11.63087767+08:00"
   }
 ]

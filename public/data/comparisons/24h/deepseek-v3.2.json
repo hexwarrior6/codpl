@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 543,
-    "ttftP95": 1290.4,
-    "avgMedianTps": 57.2819193393362,
-    "avgLatency": 25.702382766584407,
+    "ttftP50": 538,
+    "ttftP95": 1290.05,
+    "avgMedianTps": 57.32822488903408,
+    "avgLatency": 25.632624622923068,
     "successRate": 1,
-    "sampleCount": 77,
-    "score": 592.5319468714072,
-    "compositeScore": 65.8092546305169,
-    "latestProbeAt": "2026-04-24T03:24:58.495304991+08:00"
+    "sampleCount": 78,
+    "score": 595.5537337611279,
+    "compositeScore": 65.97049821281301,
+    "latestProbeAt": "2026-04-24T03:59:57.741134683+08:00"
   },
   {
     "provider": "火山引擎",
@@ -28,28 +28,28 @@
   {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
-    "ttftP50": 1079,
-    "ttftP95": 1438.6,
-    "avgMedianTps": 35.87724188228167,
-    "avgLatency": 35.665823989662336,
+    "ttftP50": 1073.5,
+    "ttftP95": 1438.1999999999998,
+    "avgMedianTps": 35.95837579308696,
+    "avgLatency": 35.60987292229487,
     "successRate": 1,
-    "sampleCount": 77,
-    "score": 107.81785155213163,
-    "compositeScore": 43.059740539447645,
-    "latestProbeAt": "2026-04-24T03:27:58.447776669+08:00"
+    "sampleCount": 78,
+    "score": 110.80343170114998,
+    "compositeScore": 43.182147622223255,
+    "latestProbeAt": "2026-04-24T04:00:09.085890885+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 1366.5,
-    "ttftP95": 1902.75,
-    "avgMedianTps": 38.235662163832835,
-    "avgLatency": 36.615368742789464,
+    "ttftP50": 1363,
+    "ttftP95": 1898.0000000000002,
+    "avgMedianTps": 38.33263775818074,
+    "avgLatency": 36.55336956105194,
     "successRate": 1,
-    "sampleCount": 76,
-    "score": 40.729754413260366,
-    "compositeScore": 41.06688675802644,
-    "latestProbeAt": "2026-04-24T03:31:14.102782965+08:00"
+    "sampleCount": 77,
+    "score": 43.56158752278611,
+    "compositeScore": 41.16207109181515,
+    "latestProbeAt": "2026-04-24T04:00:09.880270613+08:00"
   },
   {
     "provider": "Ollama Cloud",

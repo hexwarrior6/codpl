@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 587,
+    "ttftP95": 587,
+    "avgMedianTps": 68.59330037453893,
+    "avgLatency": 25.480048831,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 657.1585814722335,
+    "compositeScore": 71.47200019858164,
+    "latestProbeAt": "2026-04-24T04:00:03.275348962+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-24T03:59:57.851524951+08:00"
+  }
+]
