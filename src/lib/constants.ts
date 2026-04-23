@@ -7,7 +7,7 @@ export const PROVIDER_METRIC_ROTATION_MS = 6000;
 export const DOMESTIC_WINDOW_OPTIONS = ['5m', '1h', '6h', '24h', '7d', '30d', '90d'] as const;
 export type DomesticWindow = (typeof DOMESTIC_WINDOW_OPTIONS)[number];
 
-export const HISTORY_TIME_RANGES = [24, 72, 168, 720, 2160] as const;
+export const HISTORY_TIME_RANGES = [24, 72, 168, 720, 2160, 8760] as const;
 export type HistoryTimeRange = (typeof HISTORY_TIME_RANGES)[number];
 
 export const METRIC_HELP_TEXT = {
