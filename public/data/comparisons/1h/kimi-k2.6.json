@@ -2,28 +2,15 @@
   {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 425,
-    "ttftP95": 603.2,
-    "avgMedianTps": 163.68717686490066,
-    "avgLatency": 16.906098569999997,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": 1474.470596939404,
-    "compositeScore": 94.97499659470816,
-    "latestProbeAt": "2026-04-24T02:57:43.305349975+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 940,
-    "ttftP95": 983.2,
-    "avgMedianTps": 80.95139235295183,
-    "avgLatency": 37.350037676333336,
+    "ttftP50": 415,
+    "ttftP95": 602.2,
+    "avgMedianTps": 165.5227799662523,
+    "avgLatency": 14.809649769333332,
     "successRate": 1,
     "sampleCount": 3,
-    "score": 363.9574122093776,
-    "compositeScore": 72.0938528510799,
-    "latestProbeAt": "2026-04-24T02:59:54.883308063+08:00"
+    "score": 1539.8954355641804,
+    "compositeScore": 95.31851164261593,
+    "latestProbeAt": "2026-04-24T03:00:31.768604193+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
@@ -41,14 +28,27 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 963.5,
+    "ttftP50": 849.5,
     "ttftP95": 5000.699999999999,
-    "avgMedianTps": 57.19494153834528,
-    "avgLatency": 65.40421149175,
+    "avgMedianTps": 65.88848361750507,
+    "avgLatency": 60.810278834,
     "successRate": 1,
     "sampleCount": 4,
-    "score": -484.63563806367847,
-    "compositeScore": 57.48374326500877,
-    "latestProbeAt": "2026-04-24T02:58:50.607509127+08:00"
+    "score": -294.82606914496955,
+    "compositeScore": 64.51657570361965,
+    "latestProbeAt": "2026-04-24T03:03:41.882102234+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 761,
+    "ttftP95": 922.1,
+    "avgMedianTps": 61.122730413139074,
+    "avgLatency": 40.952572455,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 190.7220711038343,
+    "compositeScore": 63.2442987178068,
+    "latestProbeAt": "2026-04-24T03:04:42.003967544+08:00"
   }
 ]
