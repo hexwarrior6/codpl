@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 874,
+    "ttftP50": 872,
     "ttftP95": 20490.1999999998,
-    "avgMedianTps": 150.45514577366757,
-    "avgLatency": 17.896149587884615,
+    "avgMedianTps": 151.1363147920374,
+    "avgLatency": 17.849801893628204,
     "successRate": 1,
     "sampleCount": 78,
-    "score": 1280.52713494489,
-    "compositeScore": 84.57329220995283,
-    "latestProbeAt": "2026-04-24T04:21:52.211201988+08:00"
+    "score": 1286.1728414115194,
+    "compositeScore": 84.60634365718954,
+    "latestProbeAt": "2026-04-24T04:59:15.234526313+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 3840,
-    "ttftP95": 20365.1,
-    "avgMedianTps": 141.62668868095807,
-    "avgLatency": 22.713064246640002,
-    "successRate": 0.9868421052631579,
-    "sampleCount": 76,
-    "score": 500.7756311829063,
-    "compositeScore": 63.21928094887362,
-    "latestProbeAt": "2026-04-24T04:07:03.839911268+08:00"
+    "ttftP50": 3837.5,
+    "ttftP95": 20349.05,
+    "avgMedianTps": 141.09505281954506,
+    "avgLatency": 22.66564819844872,
+    "successRate": 0.9873417721518988,
+    "sampleCount": 79,
+    "score": 499.77088410795125,
+    "compositeScore": 63.22867655350977,
+    "latestProbeAt": "2026-04-24T04:46:56.52160202+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2757,
-    "ttftP95": 19497.09999999998,
-    "avgMedianTps": 75.57267992611388,
-    "avgLatency": 26.624713391115385,
+    "ttftP50": 2752,
+    "ttftP95": 19387.399999999987,
+    "avgMedianTps": 76.06659242174025,
+    "avgLatency": 26.388108970202538,
     "successRate": 1,
-    "sampleCount": 78,
-    "score": 236.41824477879857,
-    "compositeScore": 53.342959340525226,
-    "latestProbeAt": "2026-04-24T04:11:32.389814453+08:00"
+    "sampleCount": 79,
+    "score": 246.29683027537806,
+    "compositeScore": 53.66549481098198,
+    "latestProbeAt": "2026-04-24T04:52:45.249633272+08:00"
   }
 ]

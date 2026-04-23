@@ -2,40 +2,40 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 494,
-    "ttftP95": 7872.25,
-    "avgMedianTps": 93.36130636202455,
-    "avgLatency": 54.9267996816923,
+    "ttftP50": 460,
+    "ttftP95": 2551.999999999997,
+    "avgMedianTps": 94.38047113078542,
+    "avgLatency": 50.28108079332,
     "successRate": 1,
-    "sampleCount": 26,
-    "score": 88.19784612983972,
-    "compositeScore": 88.82129840632678,
-    "latestProbeAt": "2026-04-24T04:06:31.794416343+08:00"
+    "sampleCount": 25,
+    "score": 217.25580695171266,
+    "compositeScore": 90.46156907398631,
+    "latestProbeAt": "2026-04-24T04:48:24.155108815+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 597.5,
+    "ttftP50": 593,
     "ttftP95": 938.75,
-    "avgMedianTps": 89.17790559175576,
-    "avgLatency": 26.434338655653846,
+    "avgMedianTps": 91.82904148602026,
+    "avgLatency": 24.97104814984616,
     "successRate": 1,
     "sampleCount": 26,
-    "score": 754.7089671591884,
-    "compositeScore": 83.56698123133116,
-    "latestProbeAt": "2026-04-24T04:11:12.514034442+08:00"
+    "score": 808.0980451699676,
+    "compositeScore": 85.26672885111094,
+    "latestProbeAt": "2026-04-24T04:52:31.219444539+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 28691.5,
-    "ttftP95": 165061.75,
-    "avgMedianTps": 43.59989986944442,
-    "avgLatency": 94.49610072161543,
-    "successRate": 0.9629629629629629,
-    "sampleCount": 27,
-    "score": -6876.140155860757,
-    "compositeScore": 26.159939921666652,
-    "latestProbeAt": "2026-04-24T04:18:54.99476183+08:00"
+    "ttftP50": 4943,
+    "ttftP95": 162299.1999999999,
+    "avgMedianTps": 51.01592054795728,
+    "avgLatency": 72.81028973943998,
+    "successRate": 0.9615384615384616,
+    "sampleCount": 26,
+    "score": -1541.2232586597943,
+    "compositeScore": 30.609552328774367,
+    "latestProbeAt": "2026-04-24T04:55:24.917676734+08:00"
   }
 ]
