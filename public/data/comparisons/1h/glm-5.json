@@ -28,15 +28,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1442,
-    "ttftP95": 2451.3999999999996,
-    "avgMedianTps": 115.64661891198952,
-    "avgLatency": 26.483083830800002,
+    "ttftP50": 1377.5,
+    "ttftP95": 2391,
+    "avgMedianTps": 121.728425384701,
+    "avgLatency": 25.163235253166665,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": 743.402617701937,
-    "compositeScore": 77.34963241255059,
-    "latestProbeAt": "2026-04-24T03:27:06.263257366+08:00"
+    "sampleCount": 6,
+    "score": 825.7896709790394,
+    "compositeScore": 78.0098208703736,
+    "latestProbeAt": "2026-04-24T03:32:15.64276564+08:00"
   },
   {
     "provider": "京东云",
@@ -132,15 +132,15 @@
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 1129,
-    "ttftP95": 1275.8,
-    "avgMedianTps": 50.636477761126834,
-    "avgLatency": 45.8437961326,
+    "ttftP50": 1176,
+    "ttftP95": 1907,
+    "avgMedianTps": 50.03410785262049,
+    "avgLatency": 46.70225586716666,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": -68.07603674823895,
-    "compositeScore": 51.2617758539049,
-    "latestProbeAt": "2026-04-24T03:29:31.435126067+08:00"
+    "sampleCount": 6,
+    "score": -102.55174956344354,
+    "compositeScore": 50.311928168167455,
+    "latestProbeAt": "2026-04-24T03:34:08.62924067+08:00"
   },
   {
     "provider": "讯飞星辰",
@@ -158,15 +158,15 @@
   {
     "provider": "联通云",
     "providerPlatform": "cucloud",
-    "ttftP50": 859,
-    "ttftP95": 946.8,
-    "avgMedianTps": 23.96398480184143,
-    "avgLatency": 88.40489784580001,
+    "ttftP50": 892.5,
+    "ttftP95": 1663,
+    "avgMedianTps": 26.086401897299837,
+    "avgLatency": 85.34595661850001,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": -1238.1385373339515,
-    "compositeScore": 39.201434574679034,
-    "latestProbeAt": "2026-04-24T03:29:11.160766589+08:00"
+    "sampleCount": 6,
+    "score": -1155.630504078701,
+    "compositeScore": 39.92294445417409,
+    "latestProbeAt": "2026-04-24T03:33:42.99299612+08:00"
   },
   {
     "provider": "Alaya Code",

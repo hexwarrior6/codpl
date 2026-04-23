@@ -15,15 +15,15 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 890.5,
-    "ttftP95": 1766.45,
-    "avgMedianTps": 42.06519690045958,
-    "avgLatency": 41.00938950419113,
-    "successRate": 0.9432314410480349,
-    "sampleCount": 1603,
-    "score": -7.712115153986019,
-    "compositeScore": 49.54258703421837,
-    "latestProbeAt": "2026-04-24T03:29:35.542554746+08:00"
+    "ttftP50": 891,
+    "ttftP95": 1766.3999999999999,
+    "avgMedianTps": 42.06375153066549,
+    "avgLatency": 41.01097305882617,
+    "successRate": 0.9432668329177057,
+    "sampleCount": 1604,
+    "score": -7.824984368955484,
+    "compositeScore": 49.53362160813889,
+    "latestProbeAt": "2026-04-24T03:32:43.968115744+08:00"
   },
   {
     "provider": "百度云(千帆)",

@@ -44587,9 +44587,9 @@
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "tokensPerSec": 85.61846104223886,
-    "medianTps": 91.09566397287546,
-    "ttft": 3255.5833333333335
+    "tokensPerSec": 88.10872883685234,
+    "medianTps": 91.3889495901359,
+    "ttft": 3107.808510638298
   },
   {
     "seriesKey": "腾讯云",
@@ -126511,9 +126511,9 @@
     "provider": "无问芯穹",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 67.2343364434193,
-    "medianTps": 68.89173006819792,
-    "ttft": 2609.09375
+    "tokensPerSec": 72.2761074771888,
+    "medianTps": 69.59380715771971,
+    "ttft": 2801.6511627906975
   },
   {
     "seriesKey": "百度云(千帆)",
@@ -137143,9 +137143,9 @@
     "provider": "百度云(千帆)",
     "model": "qianfan-code-latest",
     "modelDisplay": "Qianfan Code Latest",
-    "tokensPerSec": 41.7586632485762,
-    "medianTps": 49.12850021004109,
-    "ttft": 945.5
+    "tokensPerSec": 41.29812184822273,
+    "medianTps": 49.14203250507317,
+    "ttft": 931.8235294117648
   },
   {
     "seriesKey": "火山引擎",
@@ -148195,9 +148195,9 @@
     "provider": "火山引擎",
     "model": "ark-code-latest",
     "modelDisplay": "Ark Code Latest",
-    "tokensPerSec": 49.476011123695,
-    "medianTps": 60.72974867740762,
-    "ttft": 12655
+    "tokensPerSec": 48.99503084367247,
+    "medianTps": 59.553193043782684,
+    "ttft": 9224.238095238095
   },
   {
     "seriesKey": "联通云",
@@ -159559,9 +159559,9 @@
     "provider": "联通云",
     "model": "MiniMax-M2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 26.900063583624323,
-    "medianTps": 27.110842996226733,
-    "ttft": 9646.4
+    "tokensPerSec": 27.71610446837242,
+    "medianTps": 27.65061937283611,
+    "ttft": 10913.23076923077
   },
   {
     "seriesKey": "讯飞星辰(Claude标准)",
