@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "logicalModelId": "glm-5",
+    "displayName": "glm-5",
+    "providerCount": 15
+  },
+  {
+    "logicalModelId": "minimax-m2.5",
+    "displayName": "MiniMax-M2.5",
+    "providerCount": 14
+  },
+  {
+    "logicalModelId": "kimi-k2.5",
+    "displayName": "kimi-k2.5",
+    "providerCount": 12
+  },
+  {
+    "logicalModelId": "glm-5.1",
+    "displayName": "glm-5.1",
+    "providerCount": 7
+  },
+  {
+    "logicalModelId": "deepseek-v3.2",
+    "displayName": "deepseek-v3.2",
+    "providerCount": 5
+  },
+  {
+    "logicalModelId": "minimax-m2.7",
+    "displayName": "minimax-m2.7",
+    "providerCount": 5
+  },
+  {
+    "logicalModelId": "glm-4.7",
+    "displayName": "glm-4.7",
+    "providerCount": 4
+  },
+  {
+    "logicalModelId": "kimi-k2.6",
+    "displayName": "kimi-k2.6",
+    "providerCount": 4
+  },
+  {
+    "logicalModelId": "minimax-m2.1",
+    "displayName": "minimax-m2.1",
+    "providerCount": 3
+  },
+  {
+    "logicalModelId": "glm-5-turbo",
+    "displayName": "GLM-5-Turbo",
+    "providerCount": 2
+  },
+  {
+    "logicalModelId": "mimo-v2-omni",
+    "displayName": "MiMo-V2-Omni",
+    "providerCount": 2
+  },
+  {
+    "logicalModelId": "mimo-v2-pro",
+    "displayName": "MiMo-V2-Pro",
+    "providerCount": 2
+  },
+  {
+    "logicalModelId": "mimo-v2.5",
+    "displayName": "MiMo-V2.5",
+    "providerCount": 2
+  },
+  {
+    "logicalModelId": "mimo-v2.5-pro",
+    "displayName": "MiMo-V2.5-Pro",
+    "providerCount": 2
+  },
+  {
+    "logicalModelId": "ark-code-latest",
+    "displayName": "Ark Code Latest",
+    "providerCount": 1
+  },
+  {
+    "logicalModelId": "hunyuan-2.0-instruct",
+    "displayName": "Hunyuan 2.0 Instruct",
+    "providerCount": 1
+  },
+  {
+    "logicalModelId": "kat-coder-pro-v2",
+    "displayName": "KAT-Coder-ProV2",
+    "providerCount": 1
+  },
+  {
+    "logicalModelId": "qianfan-code-latest",
+    "displayName": "Qianfan Code Latest",
+    "providerCount": 1
+  },
+  {
+    "logicalModelId": "deepseek-v3.2-thinking",
+    "displayName": "deepseek-v3.2-thinking",
+    "providerCount": 1
+  },
+  {
+    "logicalModelId": "qwen3.5-plus",
+    "displayName": "qwen3.5-plus",
+    "providerCount": 1
+  },
+  {
+    "logicalModelId": "step-3.5-flash",
+    "displayName": "step-3.5-flash",
+    "providerCount": 1
+  }
+]
