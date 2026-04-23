@@ -59,7 +59,7 @@ const BenchmarkDataContext = createContext<BenchmarkDataState | null>(null);
 
 export function BenchmarkDataProvider({ children }: { children: ReactNode }) {
   const snapshot = useMemo<BenchmarkSnapshot>(() => {
-    const raw = (snapshotJson ?? {}) as Partial<BenchmarkSnapshot>;
+    const raw = (snapshotJson ?? {}) as unknown as Partial<BenchmarkSnapshot>;
     const latest = Array.isArray(raw.latest) ? raw.latest : [];
     const providers = mergeProvidersWithCatalog(Array.isArray(raw.providers) ? raw.providers : [], latest);
     return {

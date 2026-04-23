@@ -40,13 +40,13 @@ export function TrendsRoute() {
     <div className="flex flex-col gap-3 sm:gap-4">
       <div className="flex flex-col gap-1">
         <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">趋势分析</h1>
-        <p className="text-xs text-muted-foreground sm:text-sm">24 小时分钟级折线 + 30 天小时级面积，点击图例可单独高亮一条线。</p>
+        <p className="text-xs text-muted-foreground sm:text-sm">24 小时至 90 天趋势联动展示，点击图例可单独高亮一条线。</p>
       </div>
 
       <Tabs defaultValue="short">
         <TabsList>
           <TabsTrigger value="short">短期趋势</TabsTrigger>
-          <TabsTrigger value="long">性能历史（30 天）</TabsTrigger>
+          <TabsTrigger value="long">性能历史（90 天）</TabsTrigger>
         </TabsList>
 
         <TabsContent value="short" className="mt-4">
@@ -76,7 +76,7 @@ export function TrendsRoute() {
 
         <TabsContent value="long" className="mt-4">
           <SectionCard
-            title={`性能趋势 · 近 30 天${performanceViewMode === 'provider' ? '（厂家视角）' : '（模型视角）'}`}
+            title={`性能趋势 · 近 90 天${performanceViewMode === 'provider' ? '（厂家视角）' : '（模型视角）'}`}
             subtitle="每小时聚合（多轮预热后取 MedianTPS 平均），点击图例可单独查看某条曲线。"
             action={
               <div className="flex flex-wrap items-center gap-2">
@@ -93,7 +93,7 @@ export function TrendsRoute() {
             <PerformanceAreaChart
               points={activePerfData}
               metric={activePerfMetric}
-              emptyStateText={`最近 30 天内暂无足够的${performanceViewMode === 'provider' ? '厂家' : '模型'}性能数据。`}
+              emptyStateText={`最近 90 天内暂无足够的${performanceViewMode === 'provider' ? '厂家' : '模型'}性能数据。`}
             />
           </SectionCard>
         </TabsContent>
