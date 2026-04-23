@@ -6,6 +6,7 @@ import { useBenchmarkData } from '@/hooks/use-benchmark-data';
 import { useHistoryData } from '@/hooks/use-history-data';
 import { cn } from '@/lib/cn';
 import { HISTORY_TIME_RANGES, type HistoryTimeRange } from '@/lib/constants';
+import { normalizeModelDisplay } from '@/lib/model-normalize';
 
 type Metric = 'tps' | 'ttft';
 type ViewMode = 'provider' | 'model';
@@ -54,9 +55,10 @@ export function TrendsRoute() {
     const seen = new Set<string>();
     const unique: Array<{ model: string; modelDisplay: string }> = [];
     allModels.forEach((m) => {
-      if (!seen.has(m.model)) {
-        seen.add(m.model);
-        unique.push(m);
+      const normalized = normalizeModelDisplay(m.model, m.modelDisplay);
+      if (!seen.has(normalized)) {
+        seen.add(normalized);
+        unique.push({ model: normalized, modelDisplay: normalized });
       }
     });
     return unique.sort((a, b) => a.model.localeCompare(b.model));
@@ -67,9 +69,12 @@ export function TrendsRoute() {
     const seen = new Set<string>();
     const unique: Array<{ model: string; modelDisplay: string }> = [];
     [...history, ...latest].forEach((item) => {
-      if (item.provider === providerFilter && !seen.has(item.model)) {
-        seen.add(item.model);
-        unique.push({ model: item.model, modelDisplay: item.modelDisplay });
+      if (item.provider === providerFilter) {
+        const normalized = normalizeModelDisplay(item.model, item.modelDisplay);
+        if (!seen.has(normalized)) {
+          seen.add(normalized);
+          unique.push({ model: normalized, modelDisplay: normalized });
+        }
       }
     });
     return unique.sort((a, b) => a.model.localeCompare(b.model));
@@ -97,11 +102,8 @@ export function TrendsRoute() {
     if (viewMode === 'provider' && providerFilter !== 'all') {
       result = result.filter((item) => item.provider === providerFilter);
     }
-    if (viewMode === 'model' && modelFilter !== 'all') {
-      result = result.filter((item) => item.model === modelFilter);
-    }
-    if (viewMode === 'provider' && providerFilter !== 'all' && modelFilter !== 'all') {
-      result = result.filter((item) => item.model === modelFilter);
+    if (modelFilter !== 'all') {
+      result = result.filter((item) => normalizeModelDisplay(item.model, item.modelDisplay) === modelFilter);
     }
     return result;
   }, [history, viewMode, providerFilter, modelFilter]);
@@ -111,11 +113,8 @@ export function TrendsRoute() {
     if (viewMode === 'provider' && providerFilter !== 'all') {
       result = result.filter((item) => item.provider === providerFilter);
     }
-    if (viewMode === 'model' && modelFilter !== 'all') {
-      result = result.filter((item) => item.model === modelFilter);
-    }
-    if (viewMode === 'provider' && providerFilter !== 'all' && modelFilter !== 'all') {
-      result = result.filter((item) => item.model === modelFilter);
+    if (modelFilter !== 'all') {
+      result = result.filter((item) => normalizeModelDisplay(item.model, item.modelDisplay) === modelFilter);
     }
     return result;
   }, [latest, viewMode, providerFilter, modelFilter]);

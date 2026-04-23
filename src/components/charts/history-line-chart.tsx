@@ -41,7 +41,8 @@ export function HistoryLineChart({ historyData, latestData, metric, emptyStateTe
     const buckets = new Map<string, Record<string, number | string>>();
     historyData.forEach((item) => {
       const existing = buckets.get(item.timePoint) ?? { timePoint: item.timePoint };
-      const seriesKey = `${item.provider}__${item.model}`;
+      const normalizedModel = normalizeModelDisplay(item.model, item.modelDisplay);
+      const seriesKey = `${item.provider}__${normalizedModel}`;
       if (metric === 'ttft') {
         existing[seriesKey] = clampTtftValue(item.ttft);
         existing[`${seriesKey}_original`] = item.ttft;
@@ -50,15 +51,20 @@ export function HistoryLineChart({ historyData, latestData, metric, emptyStateTe
       }
       buckets.set(item.timePoint, existing);
     });
-    const seriesKeys = Array.from(new Set(historyData.map((item) => `${item.provider}__${item.model}`)));
+    const seriesKeys = Array.from(new Set(historyData.map((item) => {
+      const normalizedModel = normalizeModelDisplay(item.model, item.modelDisplay);
+      return `${item.provider}__${normalizedModel}`;
+    })));
     const seriesDefs = seriesKeys.map((key, index) => {
-      const matched = historyData.find((item) => `${item.provider}__${item.model}` === key);
+      const matched = historyData.find((item) => {
+        const normalizedModel = normalizeModelDisplay(item.model, item.modelDisplay);
+        return `${item.provider}__${normalizedModel}` === key;
+      });
       const latest = latestData.find((item) => item.model === matched?.model && item.provider === matched?.provider);
       const modelLabel = normalizeModelDisplay(matched?.model || '', matched?.modelDisplay || latest?.modelDisplay || matched?.model || '');
-      const label = modelLabel;
       return {
         key,
-        label,
+        label: modelLabel,
         color: palette[index % palette.length],
         provider: matched?.provider || '',
         model: matched?.model || '',
