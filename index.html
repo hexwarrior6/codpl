@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" type="image/png" href="/logo108.png" />
+    <title>Coding Plan Benchmark</title>
+    <meta name="description" content="多厂商 Coding Plan 测速面板：实时 TPS、TTFT、综合评分与 30 天历史。" />
+    <meta name="theme-color" content="#0f172a" />
+    <script>
+      (function () {
+        var stored = null;
+        try { stored = localStorage.getItem('cpb-theme'); } catch (e) {}
+        var wantsDark = stored === 'dark' || (!stored && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (wantsDark) {
+          document.documentElement.classList.add('dark');
+        }
+        var layout = null;
+        try { layout = localStorage.getItem('cpb-layout-mode'); } catch (e) {}
+        document.documentElement.setAttribute('data-layout-mode', layout === 'wide' ? 'wide' : 'standard');
+      })();
+    </script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6e3bc975e817378f1fa25c6c024bb6fd";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    <script>LA.init({id:"3PPGZl7skpfu2VxH",ck:"3PPGZl7skpfu2VxH",autoTrack:true,hashMode:true})</script>
+  </head>
+  <body class="bg-background text-foreground antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

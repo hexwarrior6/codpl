@@ -1,0 +1,248 @@
+import { useMemo, useState } from 'react';
+import { ArrowDown, ArrowUp, ArrowUpDown } from 'lucide-react';
+import { SectionCard } from '@/components/layout/section-card';
+import { ProviderBadge } from '@/components/provider/provider-badge';
+import { SegmentedControl } from '@/components/leaderboard/segmented-control';
+import { useBenchmarkData } from '@/hooks/use-benchmark-data';
+import { computeCompositeScore } from '@/lib/scoring';
+import { DOMESTIC_WINDOW_OPTIONS, type DomesticWindow } from '@/lib/constants';
+import { cn } from '@/lib/cn';
+import { formatDuration, formatNumber, formatPercent, formatRelativeTime } from '@/lib/format';
+import type { ModelProviderRow } from '@/lib/types';
+
+interface Column {
+  key: keyof ModelProviderRow | 'compositeScore';
+  label: string;
+  firstDir: 'asc' | 'desc';
+  sortType: 'number' | 'string' | 'date';
+  align?: 'left' | 'right';
+}
+
+const COLUMNS: Column[] = [
+  { key: 'provider', label: '厂家', firstDir: 'asc', sortType: 'string', align: 'left' },
+  { key: 'avgMedianTps', label: 'MedianTPS', firstDir: 'desc', sortType: 'number', align: 'right' },
+  { key: 'ttftP50', label: 'TTFT P50', firstDir: 'asc', sortType: 'number', align: 'right' },
+  { key: 'ttftP95', label: 'TTFT P95', firstDir: 'asc', sortType: 'number', align: 'right' },
+  { key: 'successRate', label: '成功率', firstDir: 'desc', sortType: 'number', align: 'right' },
+  { key: 'avgLatency', label: '平均总耗时', firstDir: 'asc', sortType: 'number', align: 'right' },
+  { key: 'sampleCount', label: '样本数', firstDir: 'desc', sortType: 'number', align: 'right' },
+  { key: 'latestProbeAt', label: '最近测速', firstDir: 'desc', sortType: 'date', align: 'right' },
+];
+
+type SortState = { key: Column['key'] | null; direction: 'asc' | 'desc' | null };
+
+export function ComparisonRoute() {
+  const {
+    modelList,
+    modelComparison,
+    comparisonModel,
+    comparisonWindow,
+    setComparisonModel,
+    setComparisonWindow,
+    loading,
+  } = useBenchmarkData();
+
+  const [sortState, setSortState] = useState<SortState>({ key: null, direction: null });
+
+  const multiProviderModels = useMemo(() => modelList.filter((m) => m.providerCount >= 2), [modelList]);
+
+  const withComposite = useMemo(
+    () =>
+      modelComparison.map((item) => ({
+        ...item,
+        compositeScore: computeCompositeScore(item.avgMedianTps || 0, item.ttftP50 || 0).composite,
+      })),
+    [modelComparison],
+  );
+
+  const sorted = useMemo(() => {
+    const defaultSort = (list: typeof withComposite) =>
+      list.slice().sort((l, r) => {
+        if (r.compositeScore !== l.compositeScore) return r.compositeScore - l.compositeScore;
+        if ((r.avgMedianTps || 0) !== (l.avgMedianTps || 0)) return (r.avgMedianTps || 0) - (l.avgMedianTps || 0);
+        if ((l.ttftP50 || 0) !== (r.ttftP50 || 0)) return (l.ttftP50 || 0) - (r.ttftP50 || 0);
+        if ((r.successRate || 0) !== (l.successRate || 0)) return (r.successRate || 0) - (l.successRate || 0);
+        return `${l.provider || ''}`.localeCompare(`${r.provider || ''}`);
+      });
+
+    if (!sortState.key || !sortState.direction) return defaultSort(withComposite);
+    const column = COLUMNS.find((c) => c.key === sortState.key);
+    if (!column) return defaultSort(withComposite);
+    const dir = sortState.direction === 'asc' ? 1 : -1;
+    return [...withComposite].sort((l, r) => {
+      const lv = (l as any)[column.key];
+      const rv = (r as any)[column.key];
+      let cmp = 0;
+      if (column.sortType === 'string') cmp = `${lv ?? ''}`.localeCompare(`${rv ?? ''}`);
+      else if (column.sortType === 'date') cmp = (lv ? new Date(lv).getTime() : 0) - (rv ? new Date(rv).getTime() : 0);
+      else cmp = (Number(lv) || 0) - (Number(rv) || 0);
+      if (cmp !== 0) return cmp * dir;
+      return `${l.provider || ''}`.localeCompare(`${r.provider || ''}`);
+    });
+  }, [withComposite, sortState]);
+
+  const handleSort = (column: Column) => {
+    setSortState((prev) => {
+      if (prev.key !== column.key) return { key: column.key, direction: column.firstDir };
+      if (prev.direction === column.firstDir) return { key: column.key, direction: column.firstDir === 'asc' ? 'desc' : 'asc' };
+      return { key: null, direction: null };
+    });
+  };
+
+  return (
+    <div className="flex flex-col gap-3 sm:gap-4">
+      <div className="flex flex-col gap-1">
+        <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">模型多厂家对比</h1>
+        <p className="text-xs text-muted-foreground sm:text-sm">选择一个模型，查看同模型在各家的实际速度、成功率和样本覆盖。</p>
+      </div>
+
+      <SectionCard
+        title="选择模型"
+        subtitle={`当前窗口 ${comparisonWindow}，按综合评分排序。`}
+        action={
+          <SegmentedControl
+            options={DOMESTIC_WINDOW_OPTIONS.map((w) => ({ value: w, label: w }))}
+            value={comparisonWindow}
+            onChange={(v) => setComparisonWindow(v as DomesticWindow)}
+            size="sm"
+          />
+        }
+      >
+        {multiProviderModels.length ? (
+          <div className="-mx-1 flex flex-wrap gap-2 px-1">
+            {multiProviderModels.map((m) => (
+              <button
+                key={m.logicalModelId}
+                onClick={() => setComparisonModel(m.logicalModelId)}
+                className={cn(
+                  'inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium transition-colors',
+                  comparisonModel === m.logicalModelId
+                    ? 'border-primary/60 bg-primary/10 text-foreground shadow-sm'
+                    : 'border-border/60 bg-background/60 text-muted-foreground hover:border-border hover:text-foreground',
+                )}
+              >
+                <span className="max-w-[14ch] truncate">{m.displayName}</span>
+                <span className="rounded bg-secondary px-1.5 py-0.5 text-[10px] text-muted-foreground">{m.providerCount} 家</span>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="text-sm text-muted-foreground">暂无多厂家共有的模型。</div>
+        )}
+      </SectionCard>
+
+      {comparisonModel ? (
+        <SectionCard title={`${comparisonModel} · 跨厂家对比`} subtitle="点击表头可切换排序方向；窄屏下以卡片形式展示。">
+          {sorted.length ? (
+            <>
+              {/* Desktop / tablet: table */}
+              <div className="hidden overflow-x-auto rounded-lg border border-border/60 md:block">
+                <table className="min-w-full divide-y divide-border/60 text-sm">
+                  <thead className="bg-secondary/40 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                    <tr>
+                      {COLUMNS.map((col) => {
+                        const isActive = sortState.key === col.key;
+                        const indicator = isActive
+                          ? sortState.direction === 'asc'
+                            ? <ArrowUp className="h-3 w-3" />
+                            : <ArrowDown className="h-3 w-3" />
+                          : <ArrowUpDown className="h-3 w-3 opacity-60" />;
+                        return (
+                          <th key={String(col.key)} className={cn('px-4 py-3', col.align === 'right' ? 'text-right' : 'text-left')}>
+                            <button
+                              type="button"
+                              onClick={() => handleSort(col)}
+                              className={cn(
+                                'inline-flex items-center gap-1 font-semibold transition-colors',
+                                col.align === 'right' && 'ml-auto',
+                                isActive ? 'text-foreground' : 'hover:text-foreground',
+                              )}
+                              aria-label={`按 ${col.label} 排序`}
+                            >
+                              {col.label}
+                              {indicator}
+                            </button>
+                          </th>
+                        );
+                      })}
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-border/40 bg-card/60">
+                    {sorted.map((item) => (
+                      <tr key={`${item.provider}-${item.providerPlatform}`} className="hover:bg-secondary/30">
+                        <td className="px-4 py-3">
+                          <ProviderBadge provider={item.provider} model={comparisonModel} />
+                        </td>
+                        <td className="px-4 py-3 text-right num-tabular">
+                          <span className="font-semibold">{formatNumber(item.avgMedianTps)}</span>
+                          <span className="ml-1 text-xs text-muted-foreground">tok/s</span>
+                        </td>
+                        <td className="px-4 py-3 text-right num-tabular">{formatNumber(item.ttftP50, 0)} ms</td>
+                        <td className="px-4 py-3 text-right num-tabular">{formatNumber(item.ttftP95, 0)} ms</td>
+                        <td className="px-4 py-3 text-right num-tabular">
+                          <span className="font-semibold">{formatPercent(item.successRate)}</span>
+                        </td>
+                        <td className="px-4 py-3 text-right num-tabular">{formatDuration(item.avgLatency)}</td>
+                        <td className="px-4 py-3 text-right num-tabular">{item.sampleCount}</td>
+                        <td className="px-4 py-3 text-right text-xs text-muted-foreground">{formatRelativeTime(item.latestProbeAt)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              {/* Mobile: card list */}
+              <div className="flex flex-col gap-3 md:hidden">
+                {sorted.map((item) => (
+                  <article
+                    key={`${item.provider}-${item.providerPlatform}-mobile`}
+                    className="rounded-xl border border-border/60 bg-background/60 p-3"
+                  >
+                    <header className="flex items-center justify-between gap-2">
+                      <ProviderBadge provider={item.provider} model={comparisonModel} />
+                      <span className="text-[11px] text-muted-foreground">{formatRelativeTime(item.latestProbeAt)}</span>
+                    </header>
+                    <dl className="mt-3 grid grid-cols-2 gap-x-3 gap-y-2 text-xs">
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-wider text-muted-foreground">MedianTPS</dt>
+                        <dd className="num-tabular font-semibold text-foreground">
+                          {formatNumber(item.avgMedianTps)} <span className="text-[10px] font-normal text-muted-foreground">tok/s</span>
+                        </dd>
+                      </div>
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-wider text-muted-foreground">成功率</dt>
+                        <dd className="num-tabular font-semibold text-foreground">{formatPercent(item.successRate)}</dd>
+                      </div>
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-wider text-muted-foreground">TTFT P50</dt>
+                        <dd className="num-tabular text-foreground">{formatNumber(item.ttftP50, 0)} ms</dd>
+                      </div>
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-wider text-muted-foreground">TTFT P95</dt>
+                        <dd className="num-tabular text-foreground">{formatNumber(item.ttftP95, 0)} ms</dd>
+                      </div>
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-wider text-muted-foreground">平均耗时</dt>
+                        <dd className="num-tabular text-foreground">{formatDuration(item.avgLatency)}</dd>
+                      </div>
+                      <div>
+                        <dt className="text-[10px] uppercase tracking-wider text-muted-foreground">样本数</dt>
+                        <dd className="num-tabular text-foreground">{item.sampleCount}</dd>
+                      </div>
+                    </dl>
+                  </article>
+                ))}
+              </div>
+            </>
+          ) : loading ? (
+            <div className="text-sm text-muted-foreground">正在加载…</div>
+          ) : (
+            <div className="rounded-lg border border-dashed border-border/60 p-6 text-center text-sm text-muted-foreground">
+              当前窗口内暂无该模型的测速数据。
+            </div>
+          )}
+        </SectionCard>
+      ) : null}
+    </div>
+  );
+}

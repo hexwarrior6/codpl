@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "generatedAt": "",
+    "generatedAtUnix": 0,
+    "activeProviderCount": 0,
+    "activeModelCount": 0,
+    "snapshotCount": 0
+  },
+  "summary": {
+    "shanghaiDate": "",
+    "dailyRunIndex": 0,
+    "nextRunAt": ""
+  },
+  "latest": [],
+  "providers": [],
+  "historyByHours": {},
+  "providerPerformance": [],
+  "modelPerformance": [],
+  "modelList": [],
+  "modelComparisons": {},
+  "snapshots": []
+}

@@ -1,0 +1,13 @@
+import { cn } from '@/lib/cn';
+import type { HTMLAttributes } from 'react';
+
+export function Separator({ className, orientation = 'horizontal', ...props }: HTMLAttributes<HTMLDivElement> & { orientation?: 'horizontal' | 'vertical' }) {
+  return (
+    <div
+      aria-orientation={orientation}
+      role="separator"
+      className={cn('shrink-0 bg-border', orientation === 'horizontal' ? 'h-px w-full' : 'h-full w-px', className)}
+      {...props}
+    />
+  );
+}
