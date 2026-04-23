@@ -8796,6 +8796,18 @@
     "ttft": 374.3333333333333
   },
   {
+    "seriesKey": "阶跃星辰",
+    "seriesLabel": "阶跃星辰",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "阶跃星辰",
+    "model": "step-3.5-flash",
+    "modelDisplay": "step-3.5-flash",
+    "tokensPerSec": 295.46331883412216,
+    "medianTps": 318.6380937890579,
+    "ttft": 192.66666666666666
+  },
+  {
     "seriesKey": "快手 StreamLake",
     "seriesLabel": "快手 StreamLake",
     "timestamp": "2026/04/06 21:00",
@@ -13716,6 +13728,18 @@
     "ttft": 598
   },
   {
+    "seriesKey": "快手 StreamLake",
+    "seriesLabel": "快手 StreamLake",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "快手 StreamLake",
+    "model": "kat-coder-pro-v2",
+    "modelDisplay": "KAT-Coder-ProV2",
+    "tokensPerSec": 117.68892662672256,
+    "medianTps": 152.70101703517454,
+    "ttft": 606
+  },
+  {
     "seriesKey": "Alaya Code",
     "seriesLabel": "Alaya Code",
     "timestamp": "2026/04/16 16:00",
@@ -15859,9 +15883,9 @@
     "provider": "Alaya Code",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 124.29678645696875,
-    "medianTps": 48.640343810379555,
-    "ttft": 26230.333333333332
+    "tokensPerSec": 150.60751594536663,
+    "medianTps": 105.40163002169406,
+    "ttft": 16902.333333333332
   },
   {
     "seriesKey": "小米 MiMo",
@@ -21466,6 +21490,18 @@
     "tokensPerSec": 113.66039584985123,
     "medianTps": 116.65501342844334,
     "ttft": 445.8333333333333
+  },
+  {
+    "seriesKey": "小米 MiMo",
+    "seriesLabel": "小米 MiMo",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2-pro",
+    "modelDisplay": "MiMo-V2-Pro",
+    "tokensPerSec": 118.07416062015629,
+    "medianTps": 129.60103197857288,
+    "ttft": 445.6666666666667
   },
   {
     "seriesKey": "移动云",
@@ -27202,6 +27238,18 @@
     "tokensPerSec": 117.73281612649826,
     "medianTps": 115.22458196341681,
     "ttft": 192.66666666666666
+  },
+  {
+    "seriesKey": "移动云",
+    "seriesLabel": "移动云",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "移动云",
+    "model": "cm-code-latest",
+    "modelDisplay": "cm-code-latest",
+    "tokensPerSec": 93.78435304784375,
+    "medianTps": 92.87826504443119,
+    "ttft": 599
   },
   {
     "seriesKey": "京东云",
@@ -35347,9 +35395,9 @@
     "provider": "京东云",
     "model": "MiniMax-M2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 68.68758535972962,
-    "medianTps": 96.39055912307725,
-    "ttft": 398
+    "tokensPerSec": 77.68121066494834,
+    "medianTps": 106.83623425352042,
+    "ttft": 574.0625
   },
   {
     "seriesKey": "优云",
@@ -41299,9 +41347,9 @@
     "provider": "优云",
     "model": "moonshotai/kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 53.52251934342972,
-    "medianTps": 68.99702147024702,
-    "ttft": 943
+    "tokensPerSec": 54.3401926225617,
+    "medianTps": 65.15133757258002,
+    "ttft": 1159.8
   },
   {
     "seriesKey": "Ollama Cloud",
@@ -44539,9 +44587,9 @@
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "tokensPerSec": 77.5712745314983,
-    "medianTps": 85.77167945144147,
-    "ttft": 3821.65
+    "tokensPerSec": 85.61846104223886,
+    "medianTps": 91.09566397287546,
+    "ttft": 3255.5833333333335
   },
   {
     "seriesKey": "腾讯云",
@@ -49519,9 +49567,9 @@
     "provider": "腾讯云",
     "model": "hunyuan-2.0-instruct",
     "modelDisplay": "Hunyuan 2.0 Instruct",
-    "tokensPerSec": 60.5056932955695,
-    "medianTps": 80.7088171154346,
-    "ttft": 1944
+    "tokensPerSec": 73.89928260740837,
+    "medianTps": 88.56861865895402,
+    "ttft": 1638.6923076923076
   },
   {
     "seriesKey": "OpenCode Go",
@@ -54415,9 +54463,9 @@
     "provider": "OpenCode Go",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "tokensPerSec": 57.36051221893245,
-    "medianTps": 63.90573091241932,
-    "ttft": 2424.5
+    "tokensPerSec": 66.89446426730781,
+    "medianTps": 80.700491318015,
+    "ttft": 2060.809523809524
   },
   {
     "seriesKey": "天翼云",
@@ -59446,6 +59494,18 @@
     "tokensPerSec": 75.06577542264398,
     "medianTps": 76.80078419122624,
     "ttft": 890.3333333333334
+  },
+  {
+    "seriesKey": "天翼云",
+    "seriesLabel": "天翼云",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "天翼云",
+    "model": "GLM-5",
+    "modelDisplay": "GLM-5",
+    "tokensPerSec": 68.85817597863667,
+    "medianTps": 70.03135374227101,
+    "ttft": 2294.3333333333335
   },
   {
     "seriesKey": "MiniMax",
@@ -70632,6 +70692,18 @@
     "ttft": 816.8333333333334
   },
   {
+    "seriesKey": "MiniMax",
+    "seriesLabel": "MiniMax",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 67.07710093492989,
+    "medianTps": 65.19470625717875,
+    "ttft": 724.1666666666666
+  },
+  {
     "seriesKey": "智谱",
     "seriesLabel": "智谱",
     "timestamp": "2026/03/15 02:00",
@@ -80974,6 +81046,18 @@
     "tokensPerSec": 48.56992795219535,
     "medianTps": 70.87146642244423,
     "ttft": 1198.6666666666667
+  },
+  {
+    "seriesKey": "智谱",
+    "seriesLabel": "智谱",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "智谱",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 53.972105440266255,
+    "medianTps": 75.10714255426812,
+    "ttft": 711.4444444444445
   },
   {
     "seriesKey": "讯飞星辰",
@@ -91632,6 +91716,18 @@
     "ttft": 2186
   },
   {
+    "seriesKey": "讯飞星辰",
+    "seriesLabel": "讯飞星辰",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "讯飞星辰",
+    "model": "astron-code-latest",
+    "modelDisplay": "Astron Code Latest",
+    "tokensPerSec": 47.493971391199885,
+    "medianTps": 48.342408111699704,
+    "ttft": 2507.3333333333335
+  },
+  {
     "seriesKey": "联通元景",
     "seriesLabel": "联通元景",
     "timestamp": "2026/03/26 16:00",
@@ -93991,9 +94087,9 @@
     "provider": "联通元景",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 65.21019042032526,
-    "medianTps": 103.931628466692,
-    "ttft": 7760
+    "tokensPerSec": 66.48373643476612,
+    "medianTps": 97.21688859364768,
+    "ttft": 2872.222222222222
   },
   {
     "seriesKey": "Kimi(月之暗面)",
@@ -105274,6 +105370,18 @@
     "tokensPerSec": 48.43301470857862,
     "medianTps": 61.745372172991004,
     "ttft": 651.6666666666666
+  },
+  {
+    "seriesKey": "Kimi(月之暗面)",
+    "seriesLabel": "Kimi(月之暗面)",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 46.144439416906486,
+    "medianTps": 61.675965536716404,
+    "ttft": 605.6666666666666
   },
   {
     "seriesKey": "百炼(阿里云)",
@@ -116659,9 +116767,9 @@
     "provider": "百炼(阿里云)",
     "model": "qwen3.5-plus",
     "modelDisplay": "Qwen3.5 Plus",
-    "tokensPerSec": 36.7765635686464,
-    "medianTps": 41.56874952906849,
-    "ttft": 3671.6666666666665
+    "tokensPerSec": 45.70692512999852,
+    "medianTps": 50.835175819791424,
+    "ttft": 2337.133333333333
   },
   {
     "seriesKey": "无问芯穹",
@@ -126403,9 +126511,9 @@
     "provider": "无问芯穹",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 69.60555017715079,
-    "medianTps": 73.4168711382878,
-    "ttft": 3467.375
+    "tokensPerSec": 67.2343364434193,
+    "medianTps": 68.89173006819792,
+    "ttft": 2609.09375
   },
   {
     "seriesKey": "百度云(千帆)",
@@ -137035,9 +137143,9 @@
     "provider": "百度云(千帆)",
     "model": "qianfan-code-latest",
     "modelDisplay": "Qianfan Code Latest",
-    "tokensPerSec": 34.15238582263463,
-    "medianTps": 41.26906383945218,
-    "ttft": 1259.2
+    "tokensPerSec": 41.7586632485762,
+    "medianTps": 49.12850021004109,
+    "ttft": 945.5
   },
   {
     "seriesKey": "火山引擎",
@@ -148087,9 +148195,9 @@
     "provider": "火山引擎",
     "model": "ark-code-latest",
     "modelDisplay": "Ark Code Latest",
-    "tokensPerSec": 43.292430146053476,
-    "medianTps": 55.67582150662778,
-    "ttft": 922.6666666666666
+    "tokensPerSec": 49.476011123695,
+    "medianTps": 60.72974867740762,
+    "ttft": 12655
   },
   {
     "seriesKey": "联通云",
@@ -159451,9 +159559,9 @@
     "provider": "联通云",
     "model": "MiniMax-M2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 17.964726780869142,
-    "medianTps": 20.88274015257391,
-    "ttft": 1965.75
+    "tokensPerSec": 26.900063583624323,
+    "medianTps": 27.110842996226733,
+    "ttft": 9646.4
   },
   {
     "seriesKey": "讯飞星辰(Claude标准)",

@@ -62,6 +62,19 @@ export function TrendsRoute() {
     return unique.sort((a, b) => a.model.localeCompare(b.model));
   }, [history, latest]);
 
+  const providerModels = useMemo(() => {
+    if (viewMode !== 'provider' || providerFilter === 'all') return [];
+    const seen = new Set<string>();
+    const unique: Array<{ model: string; modelDisplay: string }> = [];
+    [...history, ...latest].forEach((item) => {
+      if (item.provider === providerFilter && !seen.has(item.model)) {
+        seen.add(item.model);
+        unique.push({ model: item.model, modelDisplay: item.modelDisplay });
+      }
+    });
+    return unique.sort((a, b) => a.model.localeCompare(b.model));
+  }, [history, latest, viewMode, providerFilter]);
+
   useEffect(() => {
     setProviderFilter('all');
     setModelFilter('all');
@@ -87,6 +100,9 @@ export function TrendsRoute() {
     if (viewMode === 'model' && modelFilter !== 'all') {
       result = result.filter((item) => item.model === modelFilter);
     }
+    if (viewMode === 'provider' && providerFilter !== 'all' && modelFilter !== 'all') {
+      result = result.filter((item) => item.model === modelFilter);
+    }
     return result;
   }, [history, viewMode, providerFilter, modelFilter]);
 
@@ -96,6 +112,9 @@ export function TrendsRoute() {
       result = result.filter((item) => item.provider === providerFilter);
     }
     if (viewMode === 'model' && modelFilter !== 'all') {
+      result = result.filter((item) => item.model === modelFilter);
+    }
+    if (viewMode === 'provider' && providerFilter !== 'all' && modelFilter !== 'all') {
       result = result.filter((item) => item.model === modelFilter);
     }
     return result;
@@ -108,7 +127,15 @@ export function TrendsRoute() {
       ? '一年视图按天聚合，90 天前只保留每日最佳。'
       : historyTimeRange >= 2160
         ? '90 天视图保留小时级数据，建议配合筛选查看波动。'
-        : '支持"全部 / 单个"真过滤，不是只高亮图例。';
+        : viewMode === 'provider'
+          ? providerFilter === 'all'
+            ? '选择厂家查看其下所有模型的趋势对比。'
+            : modelFilter === 'all'
+              ? `显示 ${providerFilter} 的全部模型，可进一步筛选单个模型。`
+              : `仅显示 ${providerFilter} 的选中模型。`
+          : modelFilter === 'all'
+            ? '选择模型查看其在各厂家的趋势表现。'
+            : '仅显示选中模型的趋势。';
 
   const emptyStateText = historyState.loading
     ? '正在加载历史分片…'
@@ -180,6 +207,37 @@ export function TrendsRoute() {
                 )}
               >
                 {provider}
+              </button>
+            ))}
+          </div>
+        ) : null}
+        {viewMode === 'provider' && providerFilter !== 'all' && providerModels.length > 0 ? (
+          <div className="mt-2 flex max-w-full flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() => setModelFilter('all')}
+              className={cn(
+                'inline-flex items-center rounded-md border px-2.5 py-1 text-[11px] font-medium transition-colors',
+                modelFilter === 'all'
+                  ? 'border-primary/60 bg-primary/10 text-foreground'
+                  : 'border-border/60 bg-background/60 text-muted-foreground hover:text-foreground',
+              )}
+            >
+              全部模型
+            </button>
+            {providerModels.map((m) => (
+              <button
+                key={m.model}
+                type="button"
+                onClick={() => setModelFilter(m.model)}
+                className={cn(
+                  'inline-flex items-center rounded-md border px-2.5 py-1 text-[11px] font-medium transition-colors',
+                  modelFilter === m.model
+                    ? 'border-primary/60 bg-primary/10 text-foreground'
+                    : 'border-border/60 bg-background/60 text-muted-foreground hover:text-foreground',
+                )}
+              >
+                {m.modelDisplay || m.model}
               </button>
             ))}
           </div>

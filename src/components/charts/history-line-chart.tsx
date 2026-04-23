@@ -55,7 +55,7 @@ export function HistoryLineChart({ historyData, latestData, metric, emptyStateTe
       const matched = historyData.find((item) => `${item.provider}__${item.model}` === key);
       const latest = latestData.find((item) => item.model === matched?.model && item.provider === matched?.provider);
       const modelLabel = normalizeModelDisplay(matched?.model || '', matched?.modelDisplay || latest?.modelDisplay || matched?.model || '');
-      const label = viewMode === 'model' ? modelLabel : matched?.provider || '';
+      const label = modelLabel;
       return {
         key,
         label,

@@ -1,15 +1,5 @@
 {
-  "generatedAt": "2026-04-23T19:20:10Z",
-  "generatedAtUnix": 1776972010249,
-  "runs": [
-    {
-      "key": "2026-04-23T18-08-53Z-00",
-      "file": "snapshots/2026-04-23T18-08-53Z-00.json",
-      "runStartedAt": "2026-04-23T18:08:53Z",
-      "generatedAt": "2026-04-23T18:42:21Z",
-      "totalTasks": 228,
-      "successCount": 217,
-      "errorCount": 11
-    }
-  ]
+  "generatedAt": "2026-04-23T17:31:58Z",
+  "generatedAtUnix": 1776965518068,
+  "runs": []
 }
