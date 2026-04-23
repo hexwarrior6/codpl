@@ -16294,40 +16294,40 @@
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "avgTps": 38.85719160414869,
-    "medianTps": 35.936118879027255,
-    "ttft": 3148.818181818182,
-    "dataPoints": 11
+    "avgTps": 39.59007408082092,
+    "medianTps": 36.69708589273331,
+    "ttft": 3001,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",
     "provider": "Ollama Cloud",
     "model": "glm-4.7",
     "modelDisplay": "glm-4.7",
-    "avgTps": 44.374676264558474,
-    "medianTps": 36.92648072115577,
-    "ttft": 40862.583333333336,
-    "dataPoints": 12
+    "avgTps": 43.691584045620026,
+    "medianTps": 37.51438354053675,
+    "ttft": 37822.38461538462,
+    "dataPoints": 13
   },
   {
     "timePoint": "04/24",
     "provider": "Ollama Cloud",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 115.70665409867733,
-    "medianTps": 122.70716463830497,
-    "ttft": 1244.75,
-    "dataPoints": 12
+    "avgTps": 112.05329980606766,
+    "medianTps": 119.06029727413936,
+    "ttft": 1259.923076923077,
+    "dataPoints": 13
   },
   {
     "timePoint": "04/24",
     "provider": "Ollama Cloud",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 74.55340879161808,
-    "medianTps": 79.55616449125972,
-    "ttft": 15395.333333333334,
-    "dataPoints": 12
+    "avgTps": 70.20011755532072,
+    "medianTps": 80.60875823365933,
+    "ttft": 16565.384615384617,
+    "dataPoints": 13
   },
   {
     "timePoint": "04/24",
@@ -16604,30 +16604,30 @@
     "provider": "无问芯穹",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 49.44359087886044,
-    "medianTps": 55.395585645273925,
-    "ttft": 2237.909090909091,
-    "dataPoints": 11
+    "avgTps": 49.55409398421014,
+    "medianTps": 55.29447391993555,
+    "ttft": 2158.8333333333335,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",
     "provider": "无问芯穹",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 48.849902730429214,
-    "medianTps": 52.89305404168834,
-    "ttft": 3038.4545454545455,
-    "dataPoints": 11
+    "avgTps": 49.31184277591558,
+    "medianTps": 53.36947390792589,
+    "ttft": 2874,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",
     "provider": "无问芯穹",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 38.79519540265098,
-    "medianTps": 50.65926186117165,
-    "ttft": 1679.909090909091,
-    "dataPoints": 11
+    "avgTps": 38.66380636338996,
+    "medianTps": 50.470020847782315,
+    "ttft": 1634.4166666666667,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",
@@ -16644,20 +16644,20 @@
     "provider": "无问芯穹",
     "model": "minimax-m2.5",
     "modelDisplay": "minimax-m2.5",
-    "avgTps": 92.22735515034555,
-    "medianTps": 86.51532194938595,
-    "ttft": 3539,
-    "dataPoints": 11
+    "avgTps": 92.9196945990613,
+    "medianTps": 86.93108646130804,
+    "ttft": 3462.1666666666665,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",
     "provider": "无问芯穹",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 82.12196153518329,
-    "medianTps": 68.30757522063958,
-    "ttft": 11784,
-    "dataPoints": 11
+    "avgTps": 86.44062434785828,
+    "medianTps": 76.34244699705975,
+    "ttft": 11992.583333333334,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",
@@ -16844,20 +16844,20 @@
     "provider": "联通云",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 20.24924201240928,
-    "medianTps": 26.1599873993656,
-    "ttft": 4059.3636363636365,
-    "dataPoints": 11
+    "avgTps": 20.225790174382826,
+    "medianTps": 25.651478337980564,
+    "ttft": 3792.6666666666665,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",
     "provider": "联通云",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 62.51551230041088,
-    "medianTps": 29.491404748134123,
-    "ttft": 31688,
-    "dataPoints": 11
+    "avgTps": 59.16296650735806,
+    "medianTps": 29.480099944943138,
+    "ttft": 28292.555555555555,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/24",

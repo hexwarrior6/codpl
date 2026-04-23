@@ -26,6 +26,19 @@
     "latestProbeAt": "2026-04-24T03:02:32.776177135+08:00"
   },
   {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 14287,
+    "ttftP95": 19408.9,
+    "avgMedianTps": 88.97601803010453,
+    "avgLatency": 34.62122994533333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -2189.0746404527063,
+    "compositeScore": 53.385610818062716,
+    "latestProbeAt": "2026-04-24T03:07:41.44245492+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 2655.5,
@@ -37,19 +50,6 @@
     "score": -47.15652815596616,
     "compositeScore": 39.23368849155896,
     "latestProbeAt": "2026-04-24T03:05:23.323417375+08:00"
-  },
-  {
-    "provider": "无问芯穹",
-    "providerPlatform": "infini_genstudio",
-    "ttftP50": 13540.5,
-    "ttftP95": 19334.25,
-    "avgMedianTps": 51.10100877631591,
-    "avgLatency": 37.475497128,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -2338.381375542105,
-    "compositeScore": 30.660605265789542,
-    "latestProbeAt": "2026-04-24T03:03:39.995771078+08:00"
   },
   {
     "provider": "火山引擎",

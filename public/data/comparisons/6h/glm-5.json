@@ -2,15 +2,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 833,
-    "ttftP95": 3663.9999999999995,
-    "avgMedianTps": 115.94492255215118,
-    "avgLatency": 25.23541645508696,
+    "ttftP50": 918.5,
+    "ttftP95": 3644.999999999999,
+    "avgMedianTps": 114.25129615015122,
+    "avgLatency": 25.505429692541668,
     "successRate": 1,
-    "sampleCount": 23,
-    "score": 898.1841239357332,
-    "compositeScore": 85.26646005130333,
-    "latestProbeAt": "2026-04-24T03:02:45.63923384+08:00"
+    "sampleCount": 24,
+    "score": 864.1720345873655,
+    "compositeScore": 83.85682779384531,
+    "latestProbeAt": "2026-04-24T03:07:06.980425109+08:00"
   },
   {
     "provider": "联通元景",
@@ -132,15 +132,15 @@
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 1532,
-    "ttftP95": 5625.199999999998,
-    "avgMedianTps": 53.088745539624135,
-    "avgLatency": 43.68308007017391,
+    "ttftP50": 1530.5,
+    "ttftP95": 5559.799999999997,
+    "avgMedianTps": 53.134308014690355,
+    "avgLatency": 43.59746846433333,
     "successRate": 1,
-    "sampleCount": 23,
-    "score": -79.94452851660299,
-    "compositeScore": 48.32942840948372,
-    "latestProbeAt": "2026-04-24T03:02:01.089756246+08:00"
+    "sampleCount": 24,
+    "score": -77.23086352019129,
+    "compositeScore": 48.3708984185031,
+    "latestProbeAt": "2026-04-24T03:06:34.049198249+08:00"
   },
   {
     "provider": "讯飞星辰",
@@ -158,15 +158,15 @@
   {
     "provider": "联通云",
     "providerPlatform": "cucloud",
-    "ttftP50": 1033,
-    "ttftP95": 9935.949999999999,
-    "avgMedianTps": 24.159835042623694,
-    "avgLatency": 107.2688971048182,
-    "successRate": 0.9565217391304348,
-    "sampleCount": 23,
-    "score": -1786.8416782342779,
-    "compositeScore": 36.65784254188243,
-    "latestProbeAt": "2026-04-24T03:03:28.17494448+08:00"
+    "ttftP50": 946,
+    "ttftP95": 9840.899999999998,
+    "avgMedianTps": 23.981489113063756,
+    "avgLatency": 106.6445052288261,
+    "successRate": 0.9583333333333334,
+    "sampleCount": 24,
+    "score": -1753.090362708937,
+    "compositeScore": 37.82011663940311,
+    "latestProbeAt": "2026-04-24T03:08:01.225040083+08:00"
   },
   {
     "provider": "Alaya Code",

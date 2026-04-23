@@ -41,15 +41,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1399,
+    "ttftP50": 1463.5,
     "ttftP95": 3369.449999999999,
-    "avgMedianTps": 105.92492978707224,
-    "avgLatency": 29.172660602999997,
+    "avgMedianTps": 99.86689967738977,
+    "avgLatency": 29.9793340505,
     "successRate": 1,
     "sampleCount": 4,
-    "score": 626.4330636474338,
-    "compositeScore": 77.78638443331127,
-    "latestProbeAt": "2026-04-24T03:02:45.63923384+08:00"
+    "score": 557.0180468018386,
+    "compositeScore": 77.05625640730517,
+    "latestProbeAt": "2026-04-24T03:07:06.980425109+08:00"
   },
   {
     "provider": "优云",
@@ -119,15 +119,15 @@
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 1098,
-    "ttftP95": 1125.9,
-    "avgMedianTps": 54.3523382600993,
-    "avgLatency": 41.6980577995,
+    "ttftP50": 1129,
+    "ttftP95": 1273,
+    "avgMedianTps": 54.29564048713734,
+    "avgLatency": 41.674839043,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 64.06258457309559,
-    "compositeScore": 53.8929664709664,
-    "latestProbeAt": "2026-04-24T03:02:01.089756246+08:00"
+    "sampleCount": 3,
+    "score": 58.10286684782409,
+    "compositeScore": 53.45727348951121,
+    "latestProbeAt": "2026-04-24T03:06:34.049198249+08:00"
   },
   {
     "provider": "百炼(阿里云)",
@@ -158,15 +158,15 @@
   {
     "provider": "联通云",
     "providerPlatform": "cucloud",
-    "ttftP50": 843,
-    "ttftP95": 855.6,
-    "avgMedianTps": 27.431025372452176,
-    "avgLatency": 93.6075489015,
+    "ttftP50": 857,
+    "ttftP95": 858.8,
+    "avgMedianTps": 24.973309802549835,
+    "avgLatency": 93.37432725333333,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -1344.2025703027866,
-    "compositeScore": 41.55291391900929,
-    "latestProbeAt": "2026-04-24T03:03:28.17494448+08:00"
+    "sampleCount": 3,
+    "score": -1355.9183225180345,
+    "compositeScore": 39.84065884536372,
+    "latestProbeAt": "2026-04-24T03:08:01.225040083+08:00"
   },
   {
     "provider": "Alaya Code",

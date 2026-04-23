@@ -44539,9 +44539,9 @@
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "tokensPerSec": 85.22732073537634,
-    "medianTps": 88.71561311113147,
-    "ttft": 3100.909090909091
+    "tokensPerSec": 73.78803052308119,
+    "medianTps": 82.26976377904406,
+    "ttft": 4591.533333333334
   },
   {
     "seriesKey": "腾讯云",
@@ -126403,9 +126403,9 @@
     "provider": "无问芯穹",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 66.98419278739578,
-    "medianTps": 68.84169986401999,
-    "ttft": 3189.6363636363635
+    "tokensPerSec": 69.60555017715079,
+    "medianTps": 73.4168711382878,
+    "ttft": 3467.375
   },
   {
     "seriesKey": "百度云(千帆)",
@@ -159451,9 +159451,9 @@
     "provider": "联通云",
     "model": "MiniMax-M2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 14.803062191803868,
-    "medianTps": 17.041710214067628,
-    "ttft": 2937.5
+    "tokensPerSec": 17.964726780869142,
+    "medianTps": 20.88274015257391,
+    "ttft": 1965.75
   },
   {
     "seriesKey": "讯飞星辰(Claude标准)",

@@ -133,14 +133,14 @@
     "provider": "联通云",
     "providerPlatform": "cucloud",
     "ttftP50": 932,
-    "ttftP95": 14068.349999999917,
-    "avgMedianTps": 41.511368083696986,
-    "avgLatency": 97.32181542615942,
-    "successRate": 0.9685401201838105,
-    "sampleCount": 2829,
-    "score": -1401.837056967993,
-    "compositeScore": 48.5531463086342,
-    "latestProbeAt": "2026-04-24T03:03:28.17494448+08:00"
+    "ttftP95": 14053,
+    "avgMedianTps": 41.503541199559464,
+    "avgLatency": 97.32020508997951,
+    "successRate": 0.9685512367491166,
+    "sampleCount": 2830,
+    "score": -1401.8326433030147,
+    "compositeScore": 48.54845017815168,
+    "latestProbeAt": "2026-04-24T03:08:01.225040083+08:00"
   },
   {
     "provider": "讯飞星辰(Claude标准)",

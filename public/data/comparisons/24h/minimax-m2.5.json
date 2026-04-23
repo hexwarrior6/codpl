@@ -106,15 +106,15 @@
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2832.5,
-    "ttftP95": 16229.049999999981,
-    "avgMedianTps": 76.54972283676287,
-    "avgLatency": 26.666578318945948,
-    "successRate": 0.9866666666666667,
-    "sampleCount": 75,
-    "score": 212.80054571359528,
-    "compositeScore": 53.53941819993775,
-    "latestProbeAt": "2026-04-24T03:02:45.827921973+08:00"
+    "ttftP50": 2821,
+    "ttftP95": 16059.89999999999,
+    "avgMedianTps": 76.74911981350539,
+    "avgLatency": 26.56754350714667,
+    "successRate": 0.9868421052631579,
+    "sampleCount": 76,
+    "score": 218.94823646552334,
+    "compositeScore": 53.717749287206324,
+    "latestProbeAt": "2026-04-24T03:07:12.526443716+08:00"
   },
   {
     "provider": "腾讯云",

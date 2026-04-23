@@ -30,13 +30,13 @@
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1352.5,
     "ttftP95": 15729.699999999997,
-    "avgMedianTps": 78.44987076118177,
-    "avgLatency": 53.823629844991956,
+    "avgMedianTps": 78.50787410493044,
+    "avgLatency": 53.702527019769065,
     "successRate": 0.9940119760479041,
     "sampleCount": 501,
-    "score": -151.3795455098043,
-    "compositeScore": 65.34398057452609,
-    "latestProbeAt": "2026-04-24T03:02:45.63923384+08:00"
+    "score": -148.0039548167399,
+    "compositeScore": 65.3787825807753,
+    "latestProbeAt": "2026-04-24T03:07:06.980425109+08:00"
   },
   {
     "provider": "京东云",
@@ -133,14 +133,14 @@
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
     "ttftP50": 1424,
-    "ttftP95": 5431.249999999996,
-    "avgMedianTps": 53.648233735764585,
-    "avgLatency": 37.98762013036923,
+    "ttftP95": 5422.9999999999945,
+    "avgMedianTps": 53.64932578321949,
+    "avgLatency": 37.99487268295814,
     "successRate": 1,
-    "sampleCount": 501,
-    "score": 87.39889915535684,
-    "compositeScore": 49.719792836753584,
-    "latestProbeAt": "2026-04-24T03:02:01.089756246+08:00"
+    "sampleCount": 502,
+    "score": 87.22413762536348,
+    "compositeScore": 49.72044806522652,
+    "latestProbeAt": "2026-04-24T03:06:34.049198249+08:00"
   },
   {
     "provider": "讯飞星辰",
@@ -158,15 +158,15 @@
   {
     "provider": "联通云",
     "providerPlatform": "cucloud",
-    "ttftP50": 901,
-    "ttftP95": 8017.749999999998,
-    "avgMedianTps": 39.55124610777453,
-    "avgLatency": 92.50124006259965,
-    "successRate": 0.9859719438877755,
-    "sampleCount": 499,
-    "score": -1269.4515810305684,
-    "compositeScore": 47.86510161148814,
-    "latestProbeAt": "2026-04-24T03:03:28.17494448+08:00"
+    "ttftP50": 900,
+    "ttftP95": 8008.999999999996,
+    "avgMedianTps": 39.51170580869739,
+    "avgLatency": 92.50206489808524,
+    "successRate": 0.986,
+    "sampleCount": 500,
+    "score": -1269.4813875999469,
+    "compositeScore": 47.85739847800687,
+    "latestProbeAt": "2026-04-24T03:08:01.225040083+08:00"
   },
   {
     "provider": "Alaya Code",
