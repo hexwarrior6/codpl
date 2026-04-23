@@ -93,20 +93,6 @@ npm run dev
 npm run build
 ```
 
-## 静态部署
-
-- 代码托管：GitHub
-- 主静态部署：腾讯云 EO
-- 海外可用节点：Cloudflare
-- 前端技术栈：Vite + React + TypeScript
-
-腾讯云 EO 推荐配置：
-
-- 分支：`main`
-- 安装命令：`npm install`
-- 构建命令：`npm run build`
-- 输出目录：`dist`
-
 ## 相关文档
 
 - 拨测覆盖的全部厂家与模型：[BENCHMARK_COVERAGE.md](./BENCHMARK_COVERAGE.md)
