@@ -2,40 +2,40 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 452,
-    "ttftP95": 1622.3499999999995,
-    "avgMedianTps": 103.05763823279685,
-    "avgLatency": 43.99654520513637,
+    "ttftP50": 446,
+    "ttftP95": 1656,
+    "avgMedianTps": 106.05963600086758,
+    "avgLatency": 43.739508316761906,
     "successRate": 1,
-    "sampleCount": 22,
-    "score": 428.03219926837164,
-    "compositeScore": 94.08639728080693,
-    "latestProbeAt": "2026-04-24T05:51:48.145367046+08:00"
+    "sampleCount": 21,
+    "score": 453.6701080861578,
+    "compositeScore": 94.27918790575576,
+    "latestProbeAt": "2026-04-24T06:47:07.086968486+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 593,
-    "ttftP95": 780.65,
-    "avgMedianTps": 92.217749507479,
-    "avgLatency": 24.11068435227273,
-    "successRate": 0.9565217391304348,
-    "sampleCount": 23,
-    "score": 788.4611273684908,
-    "compositeScore": 85.49995366398618,
-    "latestProbeAt": "2026-04-24T05:53:27.081735247+08:00"
+    "ttftP50": 584.5,
+    "ttftP95": 813.3499999999997,
+    "avgMedianTps": 92.27267835322242,
+    "avgLatency": 23.4991565195,
+    "successRate": 0.8181818181818182,
+    "sampleCount": 22,
+    "score": 667.4389753136527,
+    "compositeScore": 85.74120177157569,
+    "latestProbeAt": "2026-04-24T06:42:37.004121152+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1340,
+    "ttftP50": 1303,
     "ttftP95": 63672.69999999999,
-    "avgMedianTps": 59.096099313510116,
-    "avgLatency": 45.944369519173904,
+    "avgMedianTps": 67.59941199954086,
+    "avgLatency": 34.37732353795651,
     "successRate": 1,
     "sampleCount": 23,
-    "score": -62.03264209828694,
-    "compositeScore": 53.865673639613526,
-    "latestProbeAt": "2026-04-24T05:55:57.701321483+08:00"
+    "score": 285.5633835483327,
+    "compositeScore": 59.37162041900197,
+    "latestProbeAt": "2026-04-24T06:52:12.777566517+08:00"
   }
 ]

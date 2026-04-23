@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 872,
-    "ttftP95": 16868,
-    "avgMedianTps": 151.07130507065264,
-    "avgLatency": 17.12271418973652,
-    "successRate": 0.9960238568588469,
-    "sampleCount": 503,
-    "score": 1299.9838325393494,
-    "compositeScore": 84.60634365718954,
-    "latestProbeAt": "2026-04-24T05:57:58.294297466+08:00"
+    "ttftP50": 873,
+    "ttftP95": 16993.55,
+    "avgMedianTps": 151.01560924303928,
+    "avgLatency": 17.174388638243993,
+    "successRate": 0.9960159362549801,
+    "sampleCount": 502,
+    "score": 1298.149875757116,
+    "compositeScore": 84.58980846866442,
+    "latestProbeAt": "2026-04-24T06:54:31.842531252+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5330,
-    "ttftP95": 26858.99999999999,
-    "avgMedianTps": 140.28830742260078,
-    "avgLatency": 23.702441988365784,
+    "ttftP50": 5353,
+    "ttftP95": 26981.499999999996,
+    "avgMedianTps": 139.55964248413713,
+    "avgLatency": 23.86047103354272,
     "successRate": 0.996039603960396,
     "sampleCount": 505,
-    "score": 179.20839878685604,
+    "score": 166.28568302665053,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T05:52:54.440911503+08:00"
+    "latestProbeAt": "2026-04-24T06:50:11.294110833+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2937.5,
-    "ttftP95": 17135.849999999933,
-    "avgMedianTps": 63.140223038006305,
-    "avgLatency": 38.08038310229003,
-    "successRate": 0.9900990099009901,
+    "ttftP50": 2939,
+    "ttftP95": 17354.399999999983,
+    "avgMedianTps": 63.152157614260894,
+    "avgLatency": 38.146750867529214,
+    "successRate": 0.9841584158415841,
     "sampleCount": 505,
-    "score": -170.5692294282229,
-    "compositeScore": 44.96858936436535,
-    "latestProbeAt": "2026-04-24T05:53:27.136841623+08:00"
+    "score": -178.39741016108087,
+    "compositeScore": 44.968385037002015,
+    "latestProbeAt": "2026-04-24T06:42:37.060562983+08:00"
   }
 ]
