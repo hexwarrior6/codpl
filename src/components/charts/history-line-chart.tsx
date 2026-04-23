@@ -15,6 +15,7 @@ interface HistoryLineChartProps {
   metric: Metric;
   emptyStateText: string;
   height?: number;
+  viewMode?: 'provider' | 'model';
 }
 
 function useIsMobile(breakpoint = 640) {
@@ -31,7 +32,7 @@ function useIsMobile(breakpoint = 640) {
   return isMobile;
 }
 
-export function HistoryLineChart({ historyData, latestData, metric, emptyStateText, height }: HistoryLineChartProps) {
+export function HistoryLineChart({ historyData, latestData, metric, emptyStateText, height, viewMode = 'provider' }: HistoryLineChartProps) {
   const [activeKey, setActiveKey] = useState<string | null>(null);
   const isMobile = useIsMobile();
   const effectiveHeight = height ?? (isMobile ? 260 : 380);
@@ -53,9 +54,11 @@ export function HistoryLineChart({ historyData, latestData, metric, emptyStateTe
     const seriesDefs = seriesKeys.map((key, index) => {
       const matched = historyData.find((item) => `${item.provider}__${item.model}` === key);
       const latest = latestData.find((item) => item.model === matched?.model && item.provider === matched?.provider);
+      const modelLabel = normalizeModelDisplay(matched?.model || '', matched?.modelDisplay || latest?.modelDisplay || matched?.model || '');
+      const label = viewMode === 'model' ? modelLabel : matched?.provider || '';
       return {
         key,
-        label: `${matched?.provider || ''} / ${normalizeModelDisplay(matched?.model || '', matched?.modelDisplay || latest?.modelDisplay || matched?.model || '')}`,
+        label,
         color: palette[index % palette.length],
         provider: matched?.provider || '',
         model: matched?.model || '',

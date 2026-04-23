@@ -1,967 +1,17 @@
 {
   "meta": {
-    "generatedAt": "2026-04-23T18:50:10Z",
-    "generatedAtUnix": 1776970210376,
-    "activeProviderCount": 0,
-    "activeModelCount": 0,
-    "snapshotCount": 1
+    "generatedAt": "2026-04-23T17:31:58Z",
+    "generatedAtUnix": 1776965518069,
+    "activeProviderCount": 18,
+    "activeModelCount": 68,
+    "snapshotCount": 0
   },
   "summary": {
     "shanghaiDate": "2026/4/24",
-    "dailyRunIndex": 4,
-    "nextRunAt": "2026/4/24 02:53"
+    "dailyRunIndex": 0,
+    "nextRunAt": "2026/4/24 02:31"
   },
-  "latest": [
-    {
-      "provider": "阶跃星辰",
-      "model": "step-3.5-flash",
-      "modelDisplay": "step-3.5-flash",
-      "avgTtft": 1362.6666666666667,
-      "avgTps": 234.78766104185544,
-      "medianTps": 257.211598196317,
-      "avgTotalTime": 8.12254413975758,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "快手 StreamLake",
-      "model": "kat-coder-pro-v2",
-      "modelDisplay": "KAT-Coder-ProV2",
-      "avgTtft": 616.8484848484849,
-      "avgTps": 117.09175061720839,
-      "medianTps": 160.69350839929115,
-      "avgTotalTime": 10.338676361424245,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "小米 MiMo",
-      "model": "mimo-v2.5",
-      "modelDisplay": "MiMo-V2.5",
-      "avgTtft": 355.6,
-      "avgTps": 146.8800425564693,
-      "medianTps": 160.0659949976308,
-      "avgTotalTime": 8.329687723000001,
-      "successCount": 15,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "联通元景",
-      "model": "kimi-k2.6",
-      "modelDisplay": "kimi-k2.6",
-      "avgTtft": 398.06060606060606,
-      "avgTps": 112.0996011664716,
-      "medianTps": 154.3676712165277,
-      "avgTotalTime": 13.47268607330303,
-      "successCount": 27,
-      "errorCount": 6,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "京东云",
-      "model": "MiniMax-M2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 413.8181818181818,
-      "avgTps": 91.98562721488783,
-      "medianTps": 147.33715814266606,
-      "avgTotalTime": 18.428412815909095,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Alaya Code",
-      "model": "minimax-m2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 6988.787878787879,
-      "avgTps": 161.47422853215485,
-      "medianTps": 146.70761850005388,
-      "avgTotalTime": 22.572322325878787,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "minimax-m2.1",
-      "modelDisplay": "minimax-m2.1",
-      "avgTtft": 4727.176470588235,
-      "avgTps": 148.61265135864508,
-      "medianTps": 143.0531898078908,
-      "avgTotalTime": 19.33210941644117,
-      "successCount": 34,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Alaya Code",
-      "model": "minimax-m2.1",
-      "modelDisplay": "minimax-m2.1",
-      "avgTtft": 6673,
-      "avgTps": 175.31025875998984,
-      "medianTps": 134.4513265916051,
-      "avgTotalTime": 23.042079103757573,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 1283.1515151515152,
-      "avgTps": 126.08427467798383,
-      "medianTps": 123.51023160885643,
-      "avgTotalTime": 22.35973473184848,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "腾讯云",
-      "model": "hunyuan-2.0-instruct",
-      "modelDisplay": "Hunyuan 2.0 Instruct",
-      "avgTtft": 1006.5151515151515,
-      "avgTps": 62.43006655209886,
-      "medianTps": 103.85471694634602,
-      "avgTotalTime": 25.320495046818177,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "minimax-m2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1191.7941176470588,
-      "avgTps": 103.71378494704163,
-      "medianTps": 101.48071857887984,
-      "avgTotalTime": 26.355819779382355,
-      "successCount": 34,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Alaya Code",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 14738.666666666666,
-      "avgTps": 117.38361954700498,
-      "medianTps": 91.683813176475,
-      "avgTotalTime": 43.44483547487878,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "火山引擎",
-      "model": "minimax-m2.5",
-      "modelDisplay": "minimax-m2.5",
-      "avgTtft": 937.2121212121212,
-      "avgTps": 92.30044290240738,
-      "medianTps": 91.57124020862861,
-      "avgTotalTime": 19.552977903484848,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "移动云",
-      "model": "cm-code-latest",
-      "modelDisplay": "cm-code-latest",
-      "avgTtft": 1670.3333333333333,
-      "avgTps": 89.49577676219319,
-      "medianTps": 91.11770078861672,
-      "avgTotalTime": 33.130268195484845,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "京东云",
-      "model": "Kimi-K2.5",
-      "modelDisplay": "Kimi-K2.5",
-      "avgTtft": 526.4848484848485,
-      "avgTps": 66.85074421384884,
-      "medianTps": 84.85375358147016,
-      "avgTotalTime": 31.586328727333328,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "glm-4.7",
-      "modelDisplay": "glm-4.7",
-      "avgTtft": 704.0909090909091,
-      "avgTps": 75.4981902486329,
-      "medianTps": 83.73027214354802,
-      "avgTotalTime": 30.49435864124242,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "京东云",
-      "model": "GLM-4.7",
-      "modelDisplay": "GLM-4.7",
-      "avgTtft": 5305.363636363636,
-      "avgTps": 37.12953733105406,
-      "medianTps": 76.24585249587345,
-      "avgTotalTime": 66.30708509799999,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "OpenCode Go",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 2161.878787878788,
-      "avgTps": 64.3968772858395,
-      "medianTps": 75.99257564781706,
-      "avgTotalTime": 40.0213948890606,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "小米 MiMo",
-      "model": "mimo-v2.5-pro",
-      "modelDisplay": "MiMo-V2.5-Pro",
-      "avgTtft": 953.8666666666667,
-      "avgTps": 73.305486513568,
-      "medianTps": 74.89105565693596,
-      "avgTotalTime": 16.387769507733335,
-      "successCount": 15,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "联通元景",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 171.1818181818182,
-      "avgTps": 56.05460516068203,
-      "medianTps": 72.15163055913065,
-      "avgTotalTime": 50.953933817969705,
-      "successCount": 16,
-      "errorCount": 17,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "minimax-m2.5",
-      "modelDisplay": "minimax-m2.5",
-      "avgTtft": 5171.454545454545,
-      "avgTps": 75.17068550070805,
-      "medianTps": 71.55188515578652,
-      "avgTotalTime": 27.373167110727273,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "腾讯云",
-      "model": "minimax-m2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 4619.333333333333,
-      "avgTps": 75.6434614154492,
-      "medianTps": 69.57797842183751,
-      "avgTotalTime": 28.508001155090902,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "minimax-m2.1",
-      "modelDisplay": "minimax-m2.1",
-      "avgTtft": 4880.424242424242,
-      "avgTps": 74.51898041088207,
-      "medianTps": 69.5524078144299,
-      "avgTotalTime": 27.074692224303025,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "OpenCode Go",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 1764.3939393939395,
-      "avgTps": 63.71253535765669,
-      "medianTps": 68.26334439003206,
-      "avgTotalTime": 38.729187056969685,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 11638.69696969697,
-      "avgTps": 63.1480021373458,
-      "medianTps": 68.12559905002841,
-      "avgTotalTime": 146.27147222230306,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "MiniMax",
-      "model": "MiniMax-M2.7-highspeed",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 1548.909090909091,
-      "avgTps": 65.56226269587182,
-      "medianTps": 66.53401340694573,
-      "avgTotalTime": 27.304142568484842,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "MiniMax",
-      "model": "MiniMax-M2.5-highspeed",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1080.030303030303,
-      "avgTps": 65.4456198210481,
-      "medianTps": 66.4236232715421,
-      "avgTotalTime": 26.451147202272725,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "天翼云",
-      "model": "GLM-5-Turbo",
-      "modelDisplay": "GLM-5-Turbo",
-      "avgTtft": 1641.7575757575758,
-      "avgTps": 56.9783058363969,
-      "medianTps": 65.29141916430187,
-      "avgTotalTime": 58.25023605709093,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "腾讯云",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 2665.818181818182,
-      "avgTps": 44.43241128332886,
-      "medianTps": 64.15662846610564,
-      "avgTotalTime": 51.733285914666666,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "智谱",
-      "model": "glm-5-turbo",
-      "modelDisplay": "GLM-5-Turbo",
-      "avgTtft": 1323.8181818181818,
-      "avgTps": 41.91038795777449,
-      "medianTps": 63.91116350928339,
-      "avgTotalTime": 27.110056863606065,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "优云",
-      "model": "zai-org/glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 2961.090909090909,
-      "avgTps": 49.245806531337934,
-      "medianTps": 63.51425989398592,
-      "avgTotalTime": 37.97087854154545,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 2801.0882352941176,
-      "avgTps": 59.010809211109944,
-      "medianTps": 62.059276000275155,
-      "avgTotalTime": 55.56198680764707,
-      "successCount": 34,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "火山引擎",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 4792.030303030303,
-      "avgTps": 41.26236238579038,
-      "medianTps": 59.15732887256653,
-      "avgTotalTime": 60.92220441745455,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "智谱",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 3398.848484848485,
-      "avgTps": 40.022290162614354,
-      "medianTps": 58.614780583200165,
-      "avgTotalTime": 26.339072158030305,
-      "successCount": 32,
-      "errorCount": 1,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "京东云",
-      "model": "GLM-5",
-      "modelDisplay": "GLM-5",
-      "avgTtft": 1775.6060606060605,
-      "avgTps": 57.378140151296634,
-      "medianTps": 58.26837102905069,
-      "avgTotalTime": 27.71516456430303,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "智谱",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 2668.2727272727275,
-      "avgTps": 42.002531650072704,
-      "medianTps": 57.90823796375787,
-      "avgTotalTime": 25.29421355951515,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "优云",
-      "model": "MiniMax-M2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1349.2121212121212,
-      "avgTps": 56.211234519731036,
-      "medianTps": 57.83364205324222,
-      "avgTotalTime": 33.88882944672727,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "天翼云",
-      "model": "GLM-5.1",
-      "modelDisplay": "GLM-5.1",
-      "avgTtft": 2640.3030303030305,
-      "avgTps": 57.826453048500625,
-      "medianTps": 57.347362136261026,
-      "avgTotalTime": 51.24882843893939,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "天翼云",
-      "model": "GLM-5",
-      "modelDisplay": "GLM-5",
-      "avgTtft": 2664.848484848485,
-      "avgTps": 57.600430624394406,
-      "medianTps": 57.06570158336096,
-      "avgTotalTime": 51.7531695980303,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百炼(阿里云)",
-      "model": "MiniMax-M2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1408.3939393939395,
-      "avgTps": 54.893756427593516,
-      "medianTps": 56.695619723385256,
-      "avgTotalTime": 35.31116844184849,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "京东云",
-      "model": "DeepSeek-V3.2",
-      "modelDisplay": "DeepSeek-V3.2",
-      "avgTtft": 665.1212121212121,
-      "avgTps": 52.42978001997356,
-      "medianTps": 56.46048433576955,
-      "avgTotalTime": 26.403431834393935,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 2890.3030303030305,
-      "avgTps": 51.88608352520791,
-      "medianTps": 55.59183659555082,
-      "avgTotalTime": 43.18225459881818,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百炼(阿里云)",
-      "model": "qwen3.5-plus",
-      "modelDisplay": "Qwen3.5 Plus",
-      "avgTtft": 1171.2727272727273,
-      "avgTps": 54.47345219442882,
-      "medianTps": 55.29185064593852,
-      "avgTotalTime": 16.714147929848487,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 2466.6363636363635,
-      "avgTps": 41.673835831005704,
-      "medianTps": 54.0833580094118,
-      "avgTotalTime": 39.73511177551515,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "OpenCode Go",
-      "model": "minimax-m2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 3351.7272727272725,
-      "avgTps": 53.16668882962649,
-      "medianTps": 53.23528983190507,
-      "avgTotalTime": 41.96805518487878,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 2437.969696969697,
-      "avgTps": 49.34138063865527,
-      "medianTps": 52.95878197012503,
-      "avgTotalTime": 40.775109239818185,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "minimax-m2.7",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 12064.727272727272,
-      "avgTps": 59.760374880437254,
-      "medianTps": 52.74828001306359,
-      "avgTotalTime": 43.17348684590908,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百度云(千帆)",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 1176.1515151515152,
-      "avgTps": 51.531438423817136,
-      "medianTps": 52.344536947844894,
-      "avgTotalTime": 44.44295898930302,
-      "successCount": 30,
-      "errorCount": 3,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百炼(阿里云)",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 2292.7272727272725,
-      "avgTps": 46.91558036430844,
-      "medianTps": 51.574408834526324,
-      "avgTotalTime": 55.11625001245454,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "火山引擎",
-      "model": "kimi-k2.6",
-      "modelDisplay": "kimi-k2.6",
-      "avgTtft": 1104.3030303030303,
-      "avgTps": 36.386197295673306,
-      "medianTps": 50.93780904352376,
-      "avgTotalTime": 55.38935870166666,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "腾讯云",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 1090.3030303030303,
-      "avgTps": 37.49028604052916,
-      "medianTps": 50.83966703096163,
-      "avgTotalTime": 53.46363958375757,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "优云",
-      "model": "moonshotai/kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 1452.121212121212,
-      "avgTps": 37.00654145870123,
-      "medianTps": 49.0987728578547,
-      "avgTotalTime": 45.30080248675757,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Kimi(月之暗面)",
-      "model": "kimi-for-coding",
-      "modelDisplay": "kimi-k2.6",
-      "avgTtft": 1801.939393939394,
-      "avgTps": 37.01390504238621,
-      "medianTps": 48.550088825036696,
-      "avgTotalTime": 40.18308201669697,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "讯飞星辰",
-      "model": "astron-code-latest",
-      "modelDisplay": "glm-5",
-      "avgTtft": 1668.090909090909,
-      "avgTps": 45.67304059889402,
-      "medianTps": 47.342073671922066,
-      "avgTotalTime": 34.530104084393926,
-      "successCount": 29,
-      "errorCount": 4,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "OpenCode Go",
-      "model": "minimax-m2.7",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 4214.666666666667,
-      "avgTps": 42.03496428259021,
-      "medianTps": 46.80654593380862,
-      "avgTotalTime": 45.87765068245456,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "OpenCode Go",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 1583.909090909091,
-      "avgTps": 48.885745401339705,
-      "medianTps": 46.762171237371625,
-      "avgTotalTime": 52.72997894669697,
-      "successCount": 30,
-      "errorCount": 3,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百炼(阿里云)",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 1966.121212121212,
-      "avgTps": 37.506673980269376,
-      "medianTps": 46.403932581454555,
-      "avgTotalTime": 31.907399409333333,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "kimi-k2.6",
-      "modelDisplay": "kimi-k2.6",
-      "avgTtft": 4452.121212121212,
-      "avgTps": 39.710107667896395,
-      "medianTps": 45.88862727711921,
-      "avgTotalTime": 72.47272446893939,
-      "successCount": 30,
-      "errorCount": 3,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百度云(千帆)",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 758.5151515151515,
-      "avgTps": 33.43796215215381,
-      "medianTps": 44.37052479662649,
-      "avgTotalTime": 67.69391023627273,
-      "successCount": 31,
-      "errorCount": 2,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "deepseek-v3.2",
-      "modelDisplay": "deepseek-v3.2",
-      "avgTtft": 3135.4848484848485,
-      "avgTps": 44.97049866909676,
-      "medianTps": 44.14673420392249,
-      "avgTotalTime": 75.67735619090908,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "火山引擎",
-      "model": "deepseek-v3.2",
-      "modelDisplay": "deepseek-v3.2",
-      "avgTtft": 1022.8787878787879,
-      "avgTps": 30.336423685893134,
-      "medianTps": 40.06006608933409,
-      "avgTotalTime": 40.61200282739394,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "minimax-m2.7",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 4034.470588235294,
-      "avgTps": 40.48975018020573,
-      "medianTps": 39.23793705408409,
-      "avgTotalTime": 46.24376961744118,
-      "successCount": 34,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百度云(千帆)",
-      "model": "minimax-m2.5",
-      "modelDisplay": "minimax-m2.5",
-      "avgTtft": 778.3636363636364,
-      "avgTps": 27.47954249144874,
-      "medianTps": 39.11299920251087,
-      "avgTotalTime": 69.5117301592121,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "deepseek-v3.2",
-      "modelDisplay": "deepseek-v3.2",
-      "avgTtft": 1424.8181818181818,
-      "avgTps": 34.9181810319553,
-      "medianTps": 38.64220475954316,
-      "avgTotalTime": 35.94292897615151,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "无问芯穹",
-      "model": "deepseek-v3.2-thinking",
-      "modelDisplay": "deepseek-v3.2-thinking",
-      "avgTtft": 1446.8181818181818,
-      "avgTps": 34.76342748256163,
-      "medianTps": 37.85628740721971,
-      "avgTotalTime": 35.85638702287879,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Alaya Code",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 68949.72727272728,
-      "avgTps": 34.65332539081031,
-      "medianTps": 36.34924794764905,
-      "avgTotalTime": 167.51874110906058,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "百度云(千帆)",
-      "model": "deepseek-v3.2",
-      "modelDisplay": "deepseek-v3.2",
-      "avgTtft": 1086.2727272727273,
-      "avgTps": 34.736953127102396,
-      "medianTps": 36.17242883029695,
-      "avgTotalTime": 33.53970991263637,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "联通元景",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 41372.09090909091,
-      "avgTps": 19.568505243651398,
-      "medianTps": 33.76490101050499,
-      "avgTotalTime": 197.82943022939392,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "火山引擎",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 344.57575757575756,
-      "avgTps": 22.02400079600039,
-      "medianTps": 33.172107962958044,
-      "avgTotalTime": 119.02731068703032,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "联通云",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 28560.424242424244,
-      "avgTps": 48.63155778469499,
-      "medianTps": 31.052541278408224,
-      "avgTotalTime": 103.87041304424243,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "联通云",
-      "model": "MiniMax-M2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 2409.6666666666665,
-      "avgTps": 19.33543087389461,
-      "medianTps": 28.413060740193586,
-      "avgTotalTime": 97.0641208348485,
-      "successCount": 33,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "glm-4.7",
-      "modelDisplay": "glm-4.7",
-      "avgTtft": 68412.15151515152,
-      "avgTps": 39.206403342888116,
-      "medianTps": 28.395753765915305,
-      "avgTotalTime": 116.27527812296972,
-      "successCount": 32,
-      "errorCount": 1,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "联通云",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 3125.2727272727275,
-      "avgTps": 15.178962342287278,
-      "medianTps": 22.214158247912675,
-      "avgTotalTime": 127.72793345460603,
-      "successCount": 32,
-      "errorCount": 1,
-      "hasThinking": true,
-      "abnormalTps": false
-    }
-  ],
+  "latest": [],
   "providers": [
     {
       "name": "讯飞星辰",
@@ -975,7 +25,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-9C222A26",
       "domesticPolicy": {
         "providerPlatform": "iflytek_astron",
@@ -1022,7 +72,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "aliyun_bailian",
         "stickyTtlSeconds": 300,
@@ -1050,7 +100,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "moonshot_kimi",
         "stickyTtlSeconds": 900,
@@ -1084,7 +134,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "minimax",
         "stickyTtlSeconds": 300,
@@ -1112,7 +162,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "stepfun",
         "stickyTtlSeconds": 300,
@@ -1170,7 +220,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "volcengine",
         "stickyTtlSeconds": 300,
@@ -1210,7 +260,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "bigmodel_glm",
         "stickyTtlSeconds": 300,
@@ -1286,7 +336,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://cloud.infini-ai.com/login?redirect=/genstudio/invitation\u0026invite_code=8ikcCWUF",
       "domesticPolicy": {
         "providerPlatform": "infini_genstudio",
@@ -1386,7 +436,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://3.cn/2J-iqCzC",
       "domesticPolicy": {
         "providerPlatform": "jdcloud",
@@ -1427,7 +477,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://passport.compshare.cn/register?referral_code=3z65GjelIQiFwPCZN3CL1i",
       "domesticPolicy": {
         "providerPlatform": "modelverse",
@@ -1468,7 +518,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "cucloud",
         "stickyTtlSeconds": 300,
@@ -1584,7 +634,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "baidu_qianfan",
         "stickyTtlSeconds": 300,
@@ -1618,7 +668,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://platform.xiaomimimo.com/#/docs/news/token-plan-release",
       "domesticPolicy": {
         "providerPlatform": "xiaomi_mimo",
@@ -1647,7 +697,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "streamlake",
         "stickyTtlSeconds": 300,
@@ -1711,7 +761,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "opencode_go",
         "stickyTtlSeconds": 300,
@@ -1751,7 +801,7 @@
           "apiType": "openai"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "ctyun",
         "stickyTtlSeconds": 300,
@@ -1827,7 +877,7 @@
           "apiType": "openai"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://ollama.com/",
       "domesticPolicy": {
         "providerPlatform": "ollama_cloud",
@@ -1874,7 +924,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://codingplan.alayanew.com",
       "domesticPolicy": {
         "providerPlatform": "alaya_code",
@@ -1892,15 +942,5 @@
       }
     }
   ],
-  "snapshots": [
-    {
-      "key": "2026-04-23T18-08-53Z-00",
-      "file": "snapshots/2026-04-23T18-08-53Z-00.json",
-      "runStartedAt": "2026-04-23T18:08:53Z",
-      "generatedAt": "2026-04-23T18:42:21Z",
-      "totalTasks": 228,
-      "successCount": 217,
-      "errorCount": 11
-    }
-  ]
+  "snapshots": []
 }

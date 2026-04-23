@@ -104,7 +104,6 @@ function SidebarFooter() {
         <ThemeToggle compact />
         <LayoutModeToggle />
       </div>
-      <div className="text-right text-[10px] uppercase tracking-wider text-muted-foreground">v2</div>
     </div>
   );
 }

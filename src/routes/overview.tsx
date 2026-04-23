@@ -72,11 +72,6 @@ export function OverviewRoute() {
               <Button asChild variant="outline" size="sm" className="sm:h-9 sm:px-4 sm:text-sm">
                 <Link to="/compare">模型多厂家对比</Link>
               </Button>
-              <Button asChild variant="ghost" size="sm" className="sm:h-9 sm:px-4 sm:text-sm">
-                <a href="/benchmark-dashboard/index.html" target="_blank" rel="noreferrer">
-                  编程能力面板 →
-                </a>
-              </Button>
             </div>
           </div>
 
