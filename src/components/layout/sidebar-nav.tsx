@@ -1,4 +1,4 @@
-import { BarChart3, GaugeCircle, LayoutDashboard, LineChart, MessageSquare, ScrollText, Server, Sparkles, ArrowUpRight, Heart } from 'lucide-react';
+import { BarChart3, GaugeCircle, LayoutDashboard, LineChart, MessageSquare, ScrollText, Server, Heart } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 import { cn } from '@/lib/cn';
 
@@ -67,25 +67,6 @@ export function SidebarNav({ onNavigate, orientation = 'vertical' }: { onNavigat
           </NavLink>
         );
       })}
-      <a
-        href="/benchmark-dashboard/index.html"
-        target="_blank"
-        rel="noreferrer"
-        onClick={onNavigate}
-        className={cn(
-          'group mt-1 flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground',
-          !isVertical && 'flex-shrink-0',
-        )}
-      >
-        <span className="flex h-8 w-8 items-center justify-center rounded-md bg-background/50 text-muted-foreground ring-1 ring-border/60">
-          <Sparkles className="h-4 w-4" />
-        </span>
-        <span className="flex min-w-0 flex-1 flex-col">
-          <span className="truncate font-medium text-foreground/90 group-hover:text-foreground">能力面板</span>
-          {isVertical ? <span className="truncate text-[11px] text-muted-foreground">编程题作品集</span> : null}
-        </span>
-        <ArrowUpRight className="h-3.5 w-3.5 text-muted-foreground" />
-      </a>
     </nav>
   );
 }

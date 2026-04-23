@@ -1,9 +1,6 @@
-import type { ReactNode } from 'react';
-import { GitBranch, History, MessageSquareText } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { MessageSquareText } from 'lucide-react';
 import { GiscusComments } from '@/components/community/giscus-comments';
 import { SectionCard } from '@/components/layout/section-card';
-import { Button } from '@/components/ui/button';
 import { useBenchmarkData } from '@/hooks/use-benchmark-data';
 import { formatRelativeTime, formatTimestamp } from '@/lib/format';
 
@@ -15,35 +12,9 @@ export function CommunityRoute() {
       <div className="flex flex-col gap-1">
         <h1 className="flex items-center gap-2 text-xl font-semibold tracking-tight sm:text-2xl">
           <MessageSquareText className="h-5 w-5 text-primary" aria-hidden="true" />
-          社区与协作
+          社区
         </h1>
-        <p className="text-xs text-muted-foreground sm:text-sm">
-          站点已经切换为纯静态部署，因此不再内置登录、评论和服务端会话；讨论与协作建议放到仓库工作流或外部社区里完成。
-        </p>
       </div>
-
-      <SectionCard
-        title="为什么不再内置留言板"
-        subtitle="静态站点只负责展示构建期生成的结果快照，不再承担运行时写接口。"
-      >
-        <div className="grid gap-3 md:grid-cols-3">
-          <InfoCard
-            icon={<GitBranch className="h-4 w-4 text-primary" />}
-            title="提交即留痕"
-            description="每一轮拨测都会生成新的 JSON 快照并进入 Git 历史，数据变更天然可追溯。"
-          />
-          <InfoCard
-            icon={<History className="h-4 w-4 text-primary" />}
-            title="部署更轻"
-            description="没有常驻 Go 服务、数据库会话和评论接口，Cloudflare Pages 只需托管静态产物。"
-          />
-          <InfoCard
-            icon={<MessageSquareText className="h-4 w-4 text-primary" />}
-            title="讨论外置"
-            description="需要交流时，建议放到仓库 Issue / Discussion、触发构建的 PR，或其他外部社区线程中。"
-          />
-        </div>
-      </SectionCard>
 
       <SectionCard
         title="当前数据状态"
@@ -71,16 +42,6 @@ export function CommunityRoute() {
       >
         <GiscusComments />
       </SectionCard>
-    </div>
-  );
-}
-
-function InfoCard({ icon, title, description }: { icon: ReactNode; title: string; description: string }) {
-  return (
-    <div className="flex flex-col gap-2 rounded-lg border border-border/60 bg-background/60 p-4">
-      <div className="flex h-8 w-8 items-center justify-center rounded-md border border-border/60 bg-card">{icon}</div>
-      <h2 className="text-sm font-semibold text-foreground">{title}</h2>
-      <p className="text-xs leading-relaxed text-muted-foreground">{description}</p>
     </div>
   );
 }
