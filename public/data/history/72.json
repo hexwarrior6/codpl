@@ -114,40 +114,40 @@
     "provider": "Ollama Cloud",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 45.708701117141196,
-    "medianTps": 61.07677924838461,
-    "ttft": 96341,
-    "dataPoints": 2
+    "avgTps": 89.65472125738678,
+    "medianTps": 86.47466446772034,
+    "ttft": 1144,
+    "dataPoints": 1
   },
   {
     "timePoint": "04/21 02:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
-    "avgTps": 112.2259819043702,
-    "medianTps": 154.32010137798486,
-    "ttft": 11669.5,
-    "dataPoints": 2
+    "avgTps": 52.04975157937341,
+    "medianTps": 132.50371213290282,
+    "ttft": 22460,
+    "dataPoints": 1
   },
   {
     "timePoint": "04/21 02:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 72.39653487048393,
-    "medianTps": 84.22878124931759,
-    "ttft": 1006.5,
-    "dataPoints": 2
+    "avgTps": 95.95114457112085,
+    "medianTps": 95.94429093839105,
+    "ttft": 1355,
+    "dataPoints": 1
   },
   {
     "timePoint": "04/21 02:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 48.49975511466883,
-    "medianTps": 47.077490279299916,
-    "ttft": 4192,
-    "dataPoints": 2
+    "avgTps": 52.93100849644109,
+    "medianTps": 52.90543643141069,
+    "ttft": 5720,
+    "dataPoints": 1
   },
   {
     "timePoint": "04/21 02:00",
@@ -204,20 +204,20 @@
     "provider": "OpenCode Go",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 160.95438763198695,
-    "medianTps": 71.16385983473906,
-    "ttft": 2243.25,
-    "dataPoints": 4
+    "avgTps": 158.51953271865716,
+    "medianTps": 56.6826667664074,
+    "ttft": 2228.6666666666665,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/21 02:00",
     "provider": "OpenCode Go",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 59.01546621500131,
-    "medianTps": 64.26916952373531,
-    "ttft": 1319.5,
-    "dataPoints": 4
+    "avgTps": 55.885577025260886,
+    "medianTps": 63.97417494839326,
+    "ttft": 1389,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/21 02:00",
@@ -50134,50 +50134,50 @@
     "provider": "Ollama Cloud",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 62.00553961233413,
-    "medianTps": 80.00151234592904,
-    "ttft": 1294,
-    "dataPoints": 2
+    "avgTps": 68.7717017858664,
+    "medianTps": 87.78545527748658,
+    "ttft": 1263.6666666666667,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/24 02:00",
     "provider": "Ollama Cloud",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "avgTps": 34.37823964462375,
-    "medianTps": 52.66422638382657,
-    "ttft": 3324.5,
-    "dataPoints": 2
+    "avgTps": 36.63917215999069,
+    "medianTps": 50.27524797789224,
+    "ttft": 2545.3333333333335,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/24 02:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
-    "avgTps": 137.4759971578877,
-    "medianTps": 145.05190745783722,
-    "ttft": 4534,
-    "dataPoints": 2
+    "avgTps": 143.23687542326581,
+    "medianTps": 148.41951251303718,
+    "ttft": 3308.6666666666665,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/24 02:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 77.92591582075417,
-    "medianTps": 84.00240691500055,
-    "ttft": 652,
-    "dataPoints": 2
+    "avgTps": 78.13975814292397,
+    "medianTps": 79.95583084698559,
+    "ttft": 657,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/24 02:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 64.05262960551383,
-    "medianTps": 60.016656183258725,
-    "ttft": 1900,
-    "dataPoints": 2
+    "avgTps": 64.27766427421585,
+    "medianTps": 60.03453254249897,
+    "ttft": 1672,
+    "dataPoints": 3
   },
   {
     "timePoint": "04/24 02:00",
