@@ -1,4 +1,4 @@
-import { Github, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -104,12 +104,7 @@ function SidebarFooter() {
         <ThemeToggle compact />
         <LayoutModeToggle />
       </div>
-      <Button asChild variant="outline" className="w-full justify-center">
-        <a href="https://github.com/hloolx/codpl" target="_blank" rel="noreferrer">
-          <Github className="h-4 w-4" />
-          GitHub
-        </a>
-      </Button>
+      <div className="text-right text-[10px] uppercase tracking-wider text-muted-foreground">v2</div>
     </div>
   );
 }

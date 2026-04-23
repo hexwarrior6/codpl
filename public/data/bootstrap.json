@@ -1,0 +1,946 @@
+{
+  "meta": {
+    "generatedAt": "2026-04-23T17:31:58Z",
+    "generatedAtUnix": 1776965518069,
+    "activeProviderCount": 18,
+    "activeModelCount": 68,
+    "snapshotCount": 0
+  },
+  "summary": {
+    "shanghaiDate": "2026/4/24",
+    "dailyRunIndex": 0,
+    "nextRunAt": "2026/4/24 02:31"
+  },
+  "latest": [],
+  "providers": [
+    {
+      "name": "讯飞星辰",
+      "platform": "iflytek_astron",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "astron-code-latest",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "purchaseUrl": "https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-9C222A26",
+      "domesticPolicy": {
+        "providerPlatform": "iflytek_astron",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "百炼(阿里云)",
+      "platform": "aliyun_bailian",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "qwen3.5-plus",
+          "name": "qwen3.5-plus",
+          "logicalModelId": "qwen3.5-plus",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "aliyun_bailian",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "dual_window",
+        "cooldownOn429Seconds": 240,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 30,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 5,
+        "probeReservePercent": 0.1,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "Kimi(月之暗面)",
+      "platform": "moonshot_kimi",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "kimi-for-coding",
+          "name": "kimi-k2.6",
+          "logicalModelId": "kimi-k2.6",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "moonshot_kimi",
+        "stickyTtlSeconds": 900,
+        "rateLimitMode": "session_sticky",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 1200,
+        "cooldownOn401Seconds": 45,
+        "maxConcurrent": 3,
+        "baseRpm": 18,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 4,
+        "probeReservePercent": 0.1,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "MiniMax",
+      "platform": "minimax",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "MiniMax-M2.7-highspeed",
+          "name": "minimax-m2.7",
+          "logicalModelId": "minimax-m2.7",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "MiniMax-M2.5-highspeed",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "minimax",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "阶跃星辰",
+      "platform": "stepfun",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "step-3.5-flash",
+          "name": "step-3.5-flash",
+          "logicalModelId": "step-3.5-flash",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "stepfun",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "stable_high_priority",
+        "cooldownOn429Seconds": 120,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 36,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "火山引擎",
+      "platform": "volcengine",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "minimax-m2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "minimax2.7",
+          "name": "minimax-m2.7",
+          "logicalModelId": "minimax-m2.7",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5.1",
+          "name": "glm-5.1",
+          "logicalModelId": "glm-5.1",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "deepseek-v3.2",
+          "name": "deepseek-v3.2",
+          "logicalModelId": "deepseek-v3.2",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.6",
+          "name": "kimi-k2.6",
+          "logicalModelId": "kimi-k2.6",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "volcengine",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "智谱",
+      "platform": "bigmodel_glm",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5-turbo",
+          "name": "GLM-5-Turbo",
+          "logicalModelId": "glm-5-turbo",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5.1",
+          "name": "glm-5.1",
+          "logicalModelId": "glm-5.1",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "bigmodel_glm",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "family_split",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 720,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 24,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "无问芯穹",
+      "platform": "infini_genstudio",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "deepseek-v3.2",
+          "name": "deepseek-v3.2",
+          "logicalModelId": "deepseek-v3.2",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "deepseek-v3.2-thinking",
+          "name": "deepseek-v3.2-thinking",
+          "logicalModelId": "deepseek-v3.2-thinking",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-4.7",
+          "name": "glm-4.7",
+          "logicalModelId": "glm-4.7",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "minimax-m2.1",
+          "name": "minimax-m2.1",
+          "logicalModelId": "minimax-m2.1",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5.1",
+          "name": "glm-5.1",
+          "logicalModelId": "glm-5.1",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "minimax-m2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "minimax-m2.7",
+          "name": "minimax-m2.7",
+          "logicalModelId": "minimax-m2.7",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "purchaseUrl": "https://cloud.infini-ai.com/login?redirect=/genstudio/invitation\u0026invite_code=8ikcCWUF",
+      "domesticPolicy": {
+        "providerPlatform": "infini_genstudio",
+        "stickyTtlSeconds": 600,
+        "rateLimitMode": "aggregator_stable",
+        "cooldownOn429Seconds": 240,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 24,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "腾讯云",
+      "platform": "tencent_token_plan",
+      "apiType": "openai",
+      "models": [
+        {
+          "id": "hunyuan-2.0-instruct",
+          "name": "Hunyuan 2.0 Instruct",
+          "logicalModelId": "hunyuan-2.0-instruct",
+          "apiType": "openai"
+        },
+        {
+          "id": "minimax-m2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "openai"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "openai"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "openai"
+        }
+      ],
+      "active": false,
+      "purchaseUrl": "https://curl.qcloud.com/SOnqJUPT",
+      "domesticPolicy": {
+        "providerPlatform": "tencent_token_plan",
+        "stickyTtlSeconds": 600,
+        "rateLimitMode": "strong_sticky",
+        "cooldownOn429Seconds": 240,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 4,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "京东云",
+      "platform": "jdcloud",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "DeepSeek-V3.2",
+          "name": "deepseek-v3.2",
+          "logicalModelId": "deepseek-v3.2",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "GLM-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "GLM-4.7",
+          "name": "glm-4.7",
+          "logicalModelId": "glm-4.7",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "Kimi-K2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "purchaseUrl": "https://3.cn/2J-iqCzC",
+      "domesticPolicy": {
+        "providerPlatform": "jdcloud",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "优云",
+      "platform": "modelverse",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "moonshotai/kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "zai-org/glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "purchaseUrl": "https://passport.compshare.cn/register?referral_code=3z65GjelIQiFwPCZN3CL1i",
+      "domesticPolicy": {
+        "providerPlatform": "modelverse",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "联通云",
+      "platform": "cucloud",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "cucloud",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "联通元景",
+      "platform": "yuanjing",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5.1",
+          "name": "glm-5.1",
+          "logicalModelId": "glm-5.1",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.6",
+          "name": "kimi-k2.6",
+          "logicalModelId": "kimi-k2.6",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": false,
+      "purchaseUrl": "https://maas.ai-yuanjing.com/aibase/home",
+      "domesticPolicy": {
+        "providerPlatform": "yuanjing",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "移动云",
+      "platform": "cmecloud",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "cm-code-latest",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": false,
+      "purchaseUrl": "https://ecloud.10086.cn/portal/act/codingplan",
+      "domesticPolicy": {
+        "providerPlatform": "cmecloud",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "百度云(千帆)",
+      "platform": "baidu_qianfan",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "deepseek-v3.2",
+          "name": "deepseek-v3.2",
+          "logicalModelId": "deepseek-v3.2",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "minimax-m2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "baidu_qianfan",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_cooldown",
+        "cooldownOn429Seconds": 300,
+        "cooldownOn403Seconds": 1200,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 18,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "小米 MiMo",
+      "platform": "xiaomi_mimo",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "mimo-v2.5-pro",
+          "name": "MiMo-V2.5-Pro",
+          "logicalModelId": "mimo-v2.5-pro",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "mimo-v2.5",
+          "name": "MiMo-V2.5",
+          "logicalModelId": "mimo-v2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "purchaseUrl": "https://platform.xiaomimimo.com/#/docs/news/token-plan-release",
+      "domesticPolicy": {
+        "providerPlatform": "xiaomi_mimo",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "快手 StreamLake",
+      "platform": "streamlake",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "kat-coder-pro-v2",
+          "name": "KAT-Coder-ProV2",
+          "logicalModelId": "kat-coder-pro-v2",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "streamlake",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "OpenCode Go",
+      "platform": "opencode_go",
+      "apiType": "mixed",
+      "models": [
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "openai"
+        },
+        {
+          "id": "glm-5.1",
+          "name": "glm-5.1",
+          "logicalModelId": "glm-5.1",
+          "apiType": "openai"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "openai"
+        },
+        {
+          "id": "MiMo-V2.5-Pro",
+          "name": "MiMo-V2.5-Pro",
+          "logicalModelId": "mimo-v2.5-pro",
+          "apiType": "openai"
+        },
+        {
+          "id": "MiMo-V2.5",
+          "name": "MiMo-V2.5",
+          "logicalModelId": "mimo-v2.5",
+          "apiType": "openai"
+        },
+        {
+          "id": "minimax-m2.7",
+          "name": "minimax-m2.7",
+          "logicalModelId": "minimax-m2.7",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "minimax-m2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "opencode_go",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "天翼云",
+      "platform": "ctyun",
+      "apiType": "openai",
+      "models": [
+        {
+          "id": "GLM-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "openai"
+        },
+        {
+          "id": "GLM-5-Turbo",
+          "name": "GLM-5-Turbo",
+          "logicalModelId": "glm-5-turbo",
+          "apiType": "openai"
+        },
+        {
+          "id": "GLM-5.1",
+          "name": "glm-5.1",
+          "logicalModelId": "glm-5.1",
+          "apiType": "openai"
+        }
+      ],
+      "active": true,
+      "domesticPolicy": {
+        "providerPlatform": "ctyun",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "Ollama Cloud",
+      "platform": "ollama_cloud",
+      "apiType": "openai",
+      "models": [
+        {
+          "id": "deepseek-v3.2",
+          "name": "deepseek-v3.2",
+          "logicalModelId": "deepseek-v3.2",
+          "apiType": "openai"
+        },
+        {
+          "id": "glm-4.7",
+          "name": "glm-4.7",
+          "logicalModelId": "glm-4.7",
+          "apiType": "openai"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "openai"
+        },
+        {
+          "id": "glm-5.1",
+          "name": "glm-5.1",
+          "logicalModelId": "glm-5.1",
+          "apiType": "openai"
+        },
+        {
+          "id": "kimi-k2.6",
+          "name": "kimi-k2.6",
+          "logicalModelId": "kimi-k2.6",
+          "apiType": "openai"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "openai"
+        },
+        {
+          "id": "minimax-m2.1",
+          "name": "minimax-m2.1",
+          "logicalModelId": "minimax-m2.1",
+          "apiType": "openai"
+        },
+        {
+          "id": "minimax-m2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "openai"
+        },
+        {
+          "id": "minimax-m2.7",
+          "name": "minimax-m2.7",
+          "logicalModelId": "minimax-m2.7",
+          "apiType": "openai"
+        }
+      ],
+      "active": true,
+      "purchaseUrl": "https://ollama.com/",
+      "domesticPolicy": {
+        "providerPlatform": "ollama_cloud",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_template",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 20,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    },
+    {
+      "name": "Alaya Code",
+      "platform": "alaya_code",
+      "apiType": "anthropic",
+      "models": [
+        {
+          "id": "minimax-m2.5",
+          "name": "MiniMax-M2.5",
+          "logicalModelId": "minimax-m2.5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "minimax-m2.1",
+          "name": "minimax-m2.1",
+          "logicalModelId": "minimax-m2.1",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "logicalModelId": "glm-5",
+          "apiType": "anthropic"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "logicalModelId": "kimi-k2.5",
+          "apiType": "anthropic"
+        }
+      ],
+      "active": true,
+      "purchaseUrl": "https://codingplan.alayanew.com",
+      "domesticPolicy": {
+        "providerPlatform": "alaya_code",
+        "stickyTtlSeconds": 300,
+        "rateLimitMode": "conservative_windowed",
+        "cooldownOn429Seconds": 180,
+        "cooldownOn403Seconds": 900,
+        "cooldownOn401Seconds": 180,
+        "maxConcurrent": 3,
+        "baseRpm": 24,
+        "probeReserveMode": "fixed_plus_percent",
+        "probeReserveRequestsPerHour": 2,
+        "probeReservePercent": 0.05,
+        "errorClassifier": "http_status"
+      }
+    }
+  ],
+  "snapshots": []
+}

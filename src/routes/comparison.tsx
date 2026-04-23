@@ -1,13 +1,14 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ArrowDown, ArrowUp, ArrowUpDown } from 'lucide-react';
 import { SectionCard } from '@/components/layout/section-card';
-import { ProviderBadge } from '@/components/provider/provider-badge';
 import { SegmentedControl } from '@/components/leaderboard/segmented-control';
+import { ProviderBadge } from '@/components/provider/provider-badge';
 import { useBenchmarkData } from '@/hooks/use-benchmark-data';
-import { computeCompositeScore } from '@/lib/scoring';
-import { DOMESTIC_WINDOW_OPTIONS, type DomesticWindow } from '@/lib/constants';
+import { useModelComparison, useModelListData } from '@/hooks/use-model-comparison';
 import { cn } from '@/lib/cn';
+import { DOMESTIC_WINDOW_OPTIONS, type DomesticWindow } from '@/lib/constants';
 import { formatDuration, formatNumber, formatPercent, formatRelativeTime } from '@/lib/format';
+import { computeCompositeScore } from '@/lib/scoring';
 import type { ModelProviderRow } from '@/lib/types';
 
 interface Column {
@@ -32,59 +33,76 @@ const COLUMNS: Column[] = [
 type SortState = { key: Column['key'] | null; direction: 'asc' | 'desc' | null };
 
 export function ComparisonRoute() {
-  const {
-    modelList,
-    modelComparison,
-    comparisonModel,
-    comparisonWindow,
-    setComparisonModel,
-    setComparisonWindow,
-    loading,
-  } = useBenchmarkData();
-
+  const { comparisonModel, comparisonWindow, setComparisonModel, setComparisonWindow } = useBenchmarkData();
+  const modelListState = useModelListData(true);
+  const comparisonState = useModelComparison(comparisonModel, comparisonWindow, Boolean(comparisonModel));
   const [sortState, setSortState] = useState<SortState>({ key: null, direction: null });
 
-  const multiProviderModels = useMemo(() => modelList.filter((m) => m.providerCount >= 2), [modelList]);
+  const multiProviderModels = useMemo(
+    () => modelListState.data.filter((item) => item.providerCount >= 2),
+    [modelListState.data],
+  );
+  const selectedModel = useMemo(
+    () => multiProviderModels.find((item) => item.logicalModelId === comparisonModel) ?? null,
+    [comparisonModel, multiProviderModels],
+  );
+
+  useEffect(() => {
+    if (!comparisonModel && multiProviderModels.length) {
+      setComparisonModel(multiProviderModels[0].logicalModelId);
+      return;
+    }
+
+    if (comparisonModel && !multiProviderModels.some((item) => item.logicalModelId === comparisonModel)) {
+      setComparisonModel(multiProviderModels[0]?.logicalModelId ?? '');
+    }
+  }, [comparisonModel, multiProviderModels, setComparisonModel]);
 
   const withComposite = useMemo(
     () =>
-      modelComparison.map((item) => ({
+      comparisonState.data.map((item) => ({
         ...item,
         compositeScore: computeCompositeScore(item.avgMedianTps || 0, item.ttftP50 || 0).composite,
       })),
-    [modelComparison],
+    [comparisonState.data],
   );
 
   const sorted = useMemo(() => {
     const defaultSort = (list: typeof withComposite) =>
-      list.slice().sort((l, r) => {
-        if (r.compositeScore !== l.compositeScore) return r.compositeScore - l.compositeScore;
-        if ((r.avgMedianTps || 0) !== (l.avgMedianTps || 0)) return (r.avgMedianTps || 0) - (l.avgMedianTps || 0);
-        if ((l.ttftP50 || 0) !== (r.ttftP50 || 0)) return (l.ttftP50 || 0) - (r.ttftP50 || 0);
-        if ((r.successRate || 0) !== (l.successRate || 0)) return (r.successRate || 0) - (l.successRate || 0);
-        return `${l.provider || ''}`.localeCompare(`${r.provider || ''}`);
+      list.slice().sort((left, right) => {
+        if (right.compositeScore !== left.compositeScore) return right.compositeScore - left.compositeScore;
+        if ((right.avgMedianTps || 0) !== (left.avgMedianTps || 0)) return (right.avgMedianTps || 0) - (left.avgMedianTps || 0);
+        if ((left.ttftP50 || 0) !== (right.ttftP50 || 0)) return (left.ttftP50 || 0) - (right.ttftP50 || 0);
+        if ((right.successRate || 0) !== (left.successRate || 0)) return (right.successRate || 0) - (left.successRate || 0);
+        return `${left.provider || ''}`.localeCompare(`${right.provider || ''}`);
       });
 
     if (!sortState.key || !sortState.direction) return defaultSort(withComposite);
-    const column = COLUMNS.find((c) => c.key === sortState.key);
+
+    const column = COLUMNS.find((item) => item.key === sortState.key);
     if (!column) return defaultSort(withComposite);
-    const dir = sortState.direction === 'asc' ? 1 : -1;
-    return [...withComposite].sort((l, r) => {
-      const lv = (l as any)[column.key];
-      const rv = (r as any)[column.key];
-      let cmp = 0;
-      if (column.sortType === 'string') cmp = `${lv ?? ''}`.localeCompare(`${rv ?? ''}`);
-      else if (column.sortType === 'date') cmp = (lv ? new Date(lv).getTime() : 0) - (rv ? new Date(rv).getTime() : 0);
-      else cmp = (Number(lv) || 0) - (Number(rv) || 0);
-      if (cmp !== 0) return cmp * dir;
-      return `${l.provider || ''}`.localeCompare(`${r.provider || ''}`);
+
+    const direction = sortState.direction === 'asc' ? 1 : -1;
+    return [...withComposite].sort((left, right) => {
+      const leftValue = (left as Record<string, unknown>)[column.key];
+      const rightValue = (right as Record<string, unknown>)[column.key];
+
+      let comparison = 0;
+      if (column.sortType === 'string') comparison = `${leftValue ?? ''}`.localeCompare(`${rightValue ?? ''}`);
+      else if (column.sortType === 'date') comparison = (leftValue ? new Date(String(leftValue)).getTime() : 0) - (rightValue ? new Date(String(rightValue)).getTime() : 0);
+      else comparison = (Number(leftValue) || 0) - (Number(rightValue) || 0);
+
+      if (comparison !== 0) return comparison * direction;
+      return `${left.provider || ''}`.localeCompare(`${right.provider || ''}`);
     });
-  }, [withComposite, sortState]);
+  }, [sortState, withComposite]);
 
   const handleSort = (column: Column) => {
-    setSortState((prev) => {
-      if (prev.key !== column.key) return { key: column.key, direction: column.firstDir };
-      if (prev.direction === column.firstDir) return { key: column.key, direction: column.firstDir === 'asc' ? 'desc' : 'asc' };
+    setSortState((previous) => {
+      if (previous.key !== column.key) return { key: column.key, direction: column.firstDir };
+      if (previous.direction === column.firstDir) {
+        return { key: column.key, direction: column.firstDir === 'asc' ? 'desc' : 'asc' };
+      }
       return { key: null, direction: null };
     });
   };
@@ -93,7 +111,9 @@ export function ComparisonRoute() {
     <div className="flex flex-col gap-3 sm:gap-4">
       <div className="flex flex-col gap-1">
         <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">模型多厂家对比</h1>
-        <p className="text-xs text-muted-foreground sm:text-sm">选择一个模型，查看同模型在各家的实际速度、成功率和样本覆盖。</p>
+        <p className="text-xs text-muted-foreground sm:text-sm">
+          先加载数据库历史里的模型列表，再按你选择的模型和时间窗口懒加载单独分片，停拨测模型也能继续查看历史。
+        </p>
       </div>
 
       <SectionCard
@@ -101,65 +121,80 @@ export function ComparisonRoute() {
         subtitle={`当前窗口 ${comparisonWindow}，按综合评分排序。`}
         action={
           <SegmentedControl
-            options={DOMESTIC_WINDOW_OPTIONS.map((w) => ({ value: w, label: w }))}
+            options={DOMESTIC_WINDOW_OPTIONS.map((item) => ({ value: item, label: item }))}
             value={comparisonWindow}
-            onChange={(v) => setComparisonWindow(v as DomesticWindow)}
+            onChange={(value) => setComparisonWindow(value as DomesticWindow)}
             size="sm"
           />
         }
       >
-        {multiProviderModels.length ? (
+        {modelListState.errorMessage ? (
+          <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-700 dark:text-amber-300">
+            {modelListState.errorMessage}
+          </div>
+        ) : multiProviderModels.length ? (
           <div className="-mx-1 flex flex-wrap gap-2 px-1">
-            {multiProviderModels.map((m) => (
+            {multiProviderModels.map((item) => (
               <button
-                key={m.logicalModelId}
-                onClick={() => setComparisonModel(m.logicalModelId)}
+                key={item.logicalModelId}
+                onClick={() => setComparisonModel(item.logicalModelId)}
                 className={cn(
                   'inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs font-medium transition-colors',
-                  comparisonModel === m.logicalModelId
+                  comparisonModel === item.logicalModelId
                     ? 'border-primary/60 bg-primary/10 text-foreground shadow-sm'
                     : 'border-border/60 bg-background/60 text-muted-foreground hover:border-border hover:text-foreground',
                 )}
               >
-                <span className="max-w-[14ch] truncate">{m.displayName}</span>
-                <span className="rounded bg-secondary px-1.5 py-0.5 text-[10px] text-muted-foreground">{m.providerCount} 家</span>
+                <span className="max-w-[14ch] truncate">{item.displayName}</span>
+                <span className="rounded bg-secondary px-1.5 py-0.5 text-[10px] text-muted-foreground">{item.providerCount} 家</span>
               </button>
             ))}
           </div>
+        ) : modelListState.loading ? (
+          <div className="text-sm text-muted-foreground">正在加载模型列表…</div>
         ) : (
-          <div className="text-sm text-muted-foreground">暂无多厂家共有的模型。</div>
+          <div className="text-sm text-muted-foreground">暂无多厂家共有的历史模型。</div>
         )}
       </SectionCard>
 
       {comparisonModel ? (
-        <SectionCard title={`${comparisonModel} · 跨厂家对比`} subtitle="点击表头可切换排序方向；窄屏下以卡片形式展示。">
+        <SectionCard
+          title={`${selectedModel?.displayName ?? comparisonModel} · 跨厂家对比`}
+          subtitle="点击表头可切换排序方向；窄屏下以卡片形式展示。"
+        >
+          {comparisonState.errorMessage ? (
+            <div className="mb-4 rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-700 dark:text-amber-300">
+              {comparisonState.errorMessage}
+            </div>
+          ) : null}
+
           {sorted.length ? (
             <>
-              {/* Desktop / tablet: table */}
               <div className="hidden overflow-x-auto rounded-lg border border-border/60 md:block">
                 <table className="min-w-full divide-y divide-border/60 text-sm">
                   <thead className="bg-secondary/40 text-xs font-medium uppercase tracking-wider text-muted-foreground">
                     <tr>
-                      {COLUMNS.map((col) => {
-                        const isActive = sortState.key === col.key;
+                      {COLUMNS.map((column) => {
+                        const isActive = sortState.key === column.key;
                         const indicator = isActive
                           ? sortState.direction === 'asc'
                             ? <ArrowUp className="h-3 w-3" />
                             : <ArrowDown className="h-3 w-3" />
                           : <ArrowUpDown className="h-3 w-3 opacity-60" />;
+
                         return (
-                          <th key={String(col.key)} className={cn('px-4 py-3', col.align === 'right' ? 'text-right' : 'text-left')}>
+                          <th key={String(column.key)} className={cn('px-4 py-3', column.align === 'right' ? 'text-right' : 'text-left')}>
                             <button
                               type="button"
-                              onClick={() => handleSort(col)}
+                              onClick={() => handleSort(column)}
                               className={cn(
                                 'inline-flex items-center gap-1 font-semibold transition-colors',
-                                col.align === 'right' && 'ml-auto',
+                                column.align === 'right' && 'ml-auto',
                                 isActive ? 'text-foreground' : 'hover:text-foreground',
                               )}
-                              aria-label={`按 ${col.label} 排序`}
+                              aria-label={`按 ${column.label} 排序`}
                             >
-                              {col.label}
+                              {column.label}
                               {indicator}
                             </button>
                           </th>
@@ -191,7 +226,6 @@ export function ComparisonRoute() {
                 </table>
               </div>
 
-              {/* Mobile: card list */}
               <div className="flex flex-col gap-3 md:hidden">
                 {sorted.map((item) => (
                   <article
@@ -234,8 +268,8 @@ export function ComparisonRoute() {
                 ))}
               </div>
             </>
-          ) : loading ? (
-            <div className="text-sm text-muted-foreground">正在加载…</div>
+          ) : comparisonState.loading ? (
+            <div className="text-sm text-muted-foreground">正在加载对比分片…</div>
           ) : (
             <div className="rounded-lg border border-dashed border-border/60 p-6 text-center text-sm text-muted-foreground">
               当前窗口内暂无该模型的测速数据。
@@ -246,3 +280,4 @@ export function ComparisonRoute() {
     </div>
   );
 }
+

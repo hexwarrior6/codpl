@@ -61,7 +61,7 @@ export function OverviewRoute() {
             </h1>
             <p className="text-sm leading-relaxed text-muted-foreground lg:text-base">
               对比不同厂商、不同模型的首字延迟、MedianTPS 与综合响应体验。
-              页面直接内嵌构建时快照，并基于近期历史 JSON 生成趋势图与排行榜。
+              首屏只加载最小 bootstrap 数据，进入趋势页和模型对比页后再按需拉取对应历史分片。
             </p>
             <div className="flex flex-wrap gap-2 pt-1 sm:pt-2">
               <Button asChild size="sm" className="sm:h-9 sm:px-4 sm:text-sm">
@@ -71,6 +71,11 @@ export function OverviewRoute() {
               </Button>
               <Button asChild variant="outline" size="sm" className="sm:h-9 sm:px-4 sm:text-sm">
                 <Link to="/compare">模型多厂家对比</Link>
+              </Button>
+              <Button asChild variant="ghost" size="sm" className="sm:h-9 sm:px-4 sm:text-sm">
+                <a href="/benchmark-dashboard/index.html" target="_blank" rel="noreferrer">
+                  编程能力面板 →
+                </a>
               </Button>
             </div>
           </div>

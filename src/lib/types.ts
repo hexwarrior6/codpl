@@ -103,18 +103,17 @@ export interface ModelProviderRow {
   latestProbeAt: string;
 }
 
-export interface BenchmarkSnapshot {
+export interface BootstrapData {
   meta: SnapshotMeta;
   summary: DashboardSummary;
   latest: LatestResult[];
   providers: Provider[];
-  historyByHours: Record<string, HistoryPoint[]>;
-  providerPerformance: PerformancePoint[];
-  modelPerformance: PerformancePoint[];
-  modelList: ModelListEntry[];
-  modelComparisons: Record<string, Record<string, ModelProviderRow[]>>;
   snapshots: SnapshotRun[];
 }
+
+export type BenchmarkSnapshot = BootstrapData;
+
+export type PerformanceRangeKey = '90d' | '365d';
 
 // Auth / Comments
 

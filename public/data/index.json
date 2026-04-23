@@ -1,51 +1,5 @@
 {
-  "generatedAt": "2026-04-23T17:31:38Z",
-  "generatedAtUnix": 1776965498811,
-  "runs": [
-    {
-      "key": "2026-04-23T16-47-46Z-00",
-      "file": "snapshots/2026-04-23T16-47-46Z-00.json",
-      "runStartedAt": "2026-04-23T16:47:46Z",
-      "generatedAt": "2026-04-23T17:31:38Z",
-      "totalTasks": 228,
-      "successCount": 216,
-      "errorCount": 12
-    },
-    {
-      "key": "2026-04-23T16-25-52Z-00",
-      "file": "snapshots/2026-04-23T16-25-52Z-00.json",
-      "runStartedAt": "2026-04-23T16:25:52Z",
-      "generatedAt": "2026-04-23T16:50:47Z",
-      "totalTasks": 228,
-      "successCount": 217,
-      "errorCount": 11
-    },
-    {
-      "key": "2026-04-23T14-43-42Z-00",
-      "file": "snapshots/2026-04-23T14-43-42Z-00.json",
-      "runStartedAt": "2026-04-23T14:43:42Z",
-      "generatedAt": "2026-04-23T15:29:10Z",
-      "totalTasks": 228,
-      "successCount": 217,
-      "errorCount": 11
-    },
-    {
-      "key": "2026-04-23T14-53-55Z-00",
-      "file": "snapshots/2026-04-23T14-53-55Z-00.json",
-      "runStartedAt": "2026-04-23T14:53:55Z",
-      "generatedAt": "2026-04-23T15:27:44Z",
-      "totalTasks": 228,
-      "successCount": 215,
-      "errorCount": 13
-    },
-    {
-      "key": "2026-04-23T13-48-44Z-00",
-      "file": "snapshots/2026-04-23T13-48-44Z-00.json",
-      "runStartedAt": "2026-04-23T13:48:44Z",
-      "generatedAt": "2026-04-23T14:14:15Z",
-      "totalTasks": 228,
-      "successCount": 211,
-      "errorCount": 17
-    }
-  ]
+  "generatedAt": "2026-04-23T17:31:58Z",
+  "generatedAtUnix": 1776965518068,
+  "runs": []
 }
