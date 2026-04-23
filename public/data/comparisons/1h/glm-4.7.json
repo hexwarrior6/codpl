@@ -1,41 +1,41 @@
 [
   {
-    "provider": "京东云",
-    "providerPlatform": "jdcloud",
-    "ttftP50": 444,
-    "ttftP95": 1534.8,
-    "avgMedianTps": 126.4408112261603,
-    "avgLatency": 21.03583233266667,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 1143.9490590402952,
-    "compositeScore": 94.34402824145775,
-    "latestProbeAt": "2026-04-24T03:25:39.029671112+08:00"
-  },
-  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 591,
-    "ttftP95": 776.6,
-    "avgMedianTps": 92.73670477381611,
-    "avgLatency": 26.2669589408,
+    "ttftP50": 587,
+    "ttftP95": 598.65,
+    "avgMedianTps": 91.11859193958456,
+    "avgLatency": 21.151410029,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": 781.5462551228967,
-    "compositeScore": 85.86006656747315,
-    "latestProbeAt": "2026-04-24T03:32:21.029271049+08:00"
+    "sampleCount": 4,
+    "score": 900.5263009125074,
+    "compositeScore": 84.98717513760901,
+    "latestProbeAt": "2026-04-24T04:11:12.514034442+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 454,
+    "ttftP95": 526.9,
+    "avgMedianTps": 81.88323594681043,
+    "avgLatency": 63.29000940233333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -181.75081937747063,
+    "compositeScore": 83.15264360013592,
+    "latestProbeAt": "2026-04-24T04:06:31.794416343+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1340,
-    "ttftP95": 4402.4,
-    "avgMedianTps": 69.23908307223746,
-    "avgLatency": 28.334159501400002,
+    "ttftP50": 1223,
+    "ttftP95": 1295.95,
+    "avgMedianTps": 76.58721677997497,
+    "avgLatency": 20.6377744215,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": 439.0805108984247,
-    "compositeScore": 59.95146389484994,
-    "latestProbeAt": "2026-04-24T03:31:57.07434779+08:00"
+    "sampleCount": 4,
+    "score": 698.9789401423499,
+    "compositeScore": 65.67843008766992,
+    "latestProbeAt": "2026-04-24T04:18:54.99476183+08:00"
   }
 ]
