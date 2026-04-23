@@ -2,14 +2,14 @@
   {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
-    "ttftP50": 423,
-    "ttftP95": 450,
-    "avgMedianTps": 107.26192293832962,
-    "avgLatency": 14.159551865333333,
+    "ttftP50": 418,
+    "ttftP95": 418,
+    "avgMedianTps": 110.84384743674526,
+    "avgLatency": 14.926522412,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 1204.9827409966445,
-    "compositeScore": 95.04304837375932,
+    "sampleCount": 1,
+    "score": 1208.3000243204717,
+    "compositeScore": 95.21459558414998,
     "latestProbeAt": "2026-04-24T01:51:10.978728781+08:00"
   },
   {

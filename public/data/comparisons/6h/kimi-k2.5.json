@@ -15,14 +15,14 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 202,
-    "ttftP95": 471.9,
-    "avgMedianTps": 33.481029128658626,
-    "avgLatency": 130.51574700600003,
+    "ttftP50": 200,
+    "ttftP95": 475,
+    "avgMedianTps": 33.092237410073615,
+    "avgLatency": 133.46707126952384,
     "successRate": 1,
-    "sampleCount": 22,
-    "score": -2102.407500378049,
-    "compositeScore": 60.08861747719517,
+    "sampleCount": 21,
+    "score": -2178.1233572776546,
+    "compositeScore": 59.85534244604417,
     "latestProbeAt": "2026-04-24T02:04:20.914788212+08:00"
   },
   {
@@ -37,19 +37,6 @@
     "score": -410.7798655251556,
     "compositeScore": 57.92580859030204,
     "latestProbeAt": "2026-04-24T01:55:43.099605049+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1595,
-    "ttftP95": 7438.999999999999,
-    "avgMedianTps": 69.73614168227621,
-    "avgLatency": 51.87830226286957,
-    "successRate": 1,
-    "sampleCount": 23,
-    "score": -197.5407064780818,
-    "compositeScore": 57.736464827802216,
-    "latestProbeAt": "2026-04-24T02:24:07.605163563+08:00"
   },
   {
     "provider": "Alaya Code",
@@ -89,6 +76,19 @@
     "score": 349.45543255335565,
     "compositeScore": 53.11071660778889,
     "latestProbeAt": "2026-04-24T01:55:31.074417532+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1616,
+    "ttftP95": 7495,
+    "avgMedianTps": 58.4562574762827,
+    "avgLatency": 56.02155227514285,
+    "successRate": 1,
+    "sampleCount": 21,
+    "score": -373.00126202087495,
+    "compositeScore": 50.779826563210484,
+    "latestProbeAt": "2026-04-24T02:24:07.605163563+08:00"
   },
   {
     "provider": "无问芯穹",

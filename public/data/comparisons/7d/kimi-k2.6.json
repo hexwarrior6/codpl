@@ -15,14 +15,14 @@
   {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
-    "ttftP50": 673.5,
-    "ttftP95": 6725.749999999996,
-    "avgMedianTps": 75.17195972295382,
-    "avgLatency": 29.1498803698611,
+    "ttftP50": 676,
+    "ttftP95": 6743,
+    "avgMedianTps": 75.01003218450424,
+    "avgLatency": 29.261476801157666,
     "successRate": 1,
-    "sampleCount": 504,
-    "score": 587.5847490911951,
-    "compositeScore": 73.43602138410807,
+    "sampleCount": 501,
+    "score": 583.3232730780838,
+    "compositeScore": 73.2854118528395,
     "latestProbeAt": "2026-04-24T01:50:31.960019248+08:00"
   },
   {

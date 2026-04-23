@@ -2,14 +2,14 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 820,
-    "ttftP95": 854.2,
-    "avgMedianTps": 70.06882727510282,
-    "avgLatency": 26.16214545566667,
+    "ttftP50": 564,
+    "ttftP95": 564,
+    "avgMedianTps": 66.6564894765705,
+    "avgLatency": 20.571378746,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 602.35932725895,
-    "compositeScore": 67.53468227496604,
+    "sampleCount": 1,
+    "score": 772.854468209423,
+    "compositeScore": 70.88656706691317,
     "latestProbeAt": "2026-04-24T01:51:04.895555897+08:00"
   },
   {
@@ -59,7 +59,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 3,
+    "sampleCount": 2,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-04-24T02:01:11.563811955+08:00"
