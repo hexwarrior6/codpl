@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import snapshotJson from '@/generated/benchmark-data.json';
 import { type DomesticWindow, type HistoryTimeRange } from '@/lib/constants';
+import { mergeProvidersWithCatalog } from '@/lib/provider-catalog';
 import type {
   BenchmarkSnapshot,
   DashboardSummary,
@@ -59,13 +60,15 @@ const BenchmarkDataContext = createContext<BenchmarkDataState | null>(null);
 export function BenchmarkDataProvider({ children }: { children: ReactNode }) {
   const snapshot = useMemo<BenchmarkSnapshot>(() => {
     const raw = (snapshotJson ?? {}) as Partial<BenchmarkSnapshot>;
+    const latest = Array.isArray(raw.latest) ? raw.latest : [];
+    const providers = mergeProvidersWithCatalog(Array.isArray(raw.providers) ? raw.providers : [], latest);
     return {
       ...emptySnapshot,
       ...raw,
       meta: { ...emptySnapshot.meta, ...(raw.meta ?? {}) },
       summary: { ...emptySummary, ...(raw.summary ?? {}) },
-      latest: Array.isArray(raw.latest) ? raw.latest : [],
-      providers: Array.isArray(raw.providers) ? raw.providers : [],
+      latest,
+      providers,
       historyByHours: raw.historyByHours ?? {},
       providerPerformance: Array.isArray(raw.providerPerformance) ? raw.providerPerformance : [],
       modelPerformance: Array.isArray(raw.modelPerformance) ? raw.modelPerformance : [],
