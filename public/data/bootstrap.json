@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generatedAt": "2026-04-23T19:10:10Z",
-    "generatedAtUnix": 1776971410918,
+    "generatedAt": "2026-04-23T19:20:10Z",
+    "generatedAtUnix": 1776972010249,
     "activeProviderCount": 0,
     "activeModelCount": 0,
     "snapshotCount": 1
@@ -94,11 +94,11 @@
       "provider": "Ollama Cloud",
       "model": "minimax-m2.1",
       "modelDisplay": "minimax-m2.1",
-      "avgTtft": 4866.228571428572,
-      "avgTps": 147.0301751349327,
-      "medianTps": 142.30665672918667,
-      "avgTotalTime": 19.39099219125714,
-      "successCount": 35,
+      "avgTtft": 4815.416666666667,
+      "avgTps": 147.00495959562483,
+      "medianTps": 142.19693340480228,
+      "avgTotalTime": 19.230442302777774,
+      "successCount": 36,
       "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
@@ -146,11 +146,11 @@
       "provider": "Ollama Cloud",
       "model": "minimax-m2.5",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1440.2857142857142,
-      "avgTps": 102.69868631460288,
-      "medianTps": 100.70972792410812,
-      "avgTotalTime": 26.649194237828574,
-      "successCount": 35,
+      "avgTtft": 1418.138888888889,
+      "avgTps": 103.09100735427788,
+      "medianTps": 101.25219974716939,
+      "avgTotalTime": 26.369806819611114,
+      "successCount": 36,
       "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
@@ -390,6 +390,19 @@
       "abnormalTps": false
     },
     {
+      "provider": "Ollama Cloud",
+      "model": "kimi-k2.5",
+      "modelDisplay": "kimi-k2.5",
+      "avgTtft": 2768,
+      "avgTps": 61.188551174124704,
+      "medianTps": 64.86377424972346,
+      "avgTotalTime": 52.964489720277776,
+      "successCount": 36,
+      "errorCount": 0,
+      "hasThinking": true,
+      "abnormalTps": false
+    },
+    {
       "provider": "智谱",
       "model": "glm-5-turbo",
       "modelDisplay": "GLM-5-Turbo",
@@ -411,19 +424,6 @@
       "medianTps": 64.0250197888082,
       "avgTotalTime": 38.187819388,
       "successCount": 36,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "kimi-k2.5",
-      "modelDisplay": "kimi-k2.5",
-      "avgTtft": 2792.657142857143,
-      "avgTps": 60.91276315104785,
-      "medianTps": 63.94698891534563,
-      "avgTotalTime": 53.43438201079999,
-      "successCount": 35,
       "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
@@ -705,11 +705,11 @@
       "provider": "Ollama Cloud",
       "model": "kimi-k2.6",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 4237.571428571428,
-      "avgTps": 41.77821725714412,
-      "medianTps": 48.16178911995059,
-      "avgTotalTime": 70.58076675914285,
-      "successCount": 32,
+      "avgTtft": 4139.472222222223,
+      "avgTps": 41.78648222959556,
+      "medianTps": 48.53984941891579,
+      "avgTotalTime": 70.1826169968611,
+      "successCount": 33,
       "errorCount": 3,
       "hasThinking": true,
       "abnormalTps": false
@@ -806,6 +806,19 @@
       "abnormalTps": false
     },
     {
+      "provider": "Ollama Cloud",
+      "model": "minimax-m2.7",
+      "modelDisplay": "minimax-m2.7",
+      "avgTtft": 3890.027777777778,
+      "avgTps": 40.88966160270973,
+      "medianTps": 39.11275231384659,
+      "avgTotalTime": 45.58209590091666,
+      "successCount": 36,
+      "errorCount": 0,
+      "hasThinking": true,
+      "abnormalTps": false
+    },
+    {
       "provider": "无问芯穹",
       "model": "deepseek-v3.2",
       "modelDisplay": "deepseek-v3.2",
@@ -827,19 +840,6 @@
       "medianTps": 38.85250185772605,
       "avgTotalTime": 70.07923122838889,
       "successCount": 36,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "minimax-m2.7",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 3964.9142857142856,
-      "avgTps": 40.093365790824606,
-      "medianTps": 38.378125194248206,
-      "avgTotalTime": 45.950221528114284,
-      "successCount": 35,
       "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false

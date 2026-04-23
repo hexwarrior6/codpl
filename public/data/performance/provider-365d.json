@@ -44539,9 +44539,9 @@
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "tokensPerSec": 73.78803052308119,
-    "medianTps": 82.26976377904406,
-    "ttft": 4591.533333333334
+    "tokensPerSec": 77.5712745314983,
+    "medianTps": 85.77167945144147,
+    "ttft": 3821.65
   },
   {
     "seriesKey": "腾讯云",

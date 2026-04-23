@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "无问芯穹",
-    "providerPlatform": "infini_genstudio",
-    "ttftP50": 2617,
-    "ttftP95": 2617,
-    "avgMedianTps": 91.5044960924511,
-    "avgLatency": 19.238967434,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 544.6527907047068,
-    "compositeScore": 63.653902469949124,
-    "latestProbeAt": "2026-04-24T03:07:12.526443716+08:00"
-  }
-]
+[]

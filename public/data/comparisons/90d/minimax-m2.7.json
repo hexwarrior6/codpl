@@ -16,14 +16,14 @@
     "provider": "MiniMax",
     "providerPlatform": "minimax",
     "ttftP50": 1247,
-    "ttftP95": 6380.25,
-    "avgMedianTps": 63.31685546999354,
-    "avgLatency": 30.469371495541267,
-    "successRate": 0.9785038693035254,
-    "sampleCount": 2326,
-    "score": 347.2707147349548,
-    "compositeScore": 57.435842688658234,
-    "latestProbeAt": "2026-04-24T02:55:58.531659978+08:00"
+    "ttftP95": 6378.550000000001,
+    "avgMedianTps": 63.317996404690284,
+    "avgLatency": 30.465927568249754,
+    "successRate": 0.9785223367697594,
+    "sampleCount": 2328,
+    "score": 347.3821259916572,
+    "compositeScore": 57.43652724947628,
+    "latestProbeAt": "2026-04-24T03:22:15.233649397+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -59,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 83,
+    "sampleCount": 84,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T03:02:12.132770844+08:00"
+    "latestProbeAt": "2026-04-24T03:21:18.115218377+08:00"
   }
 ]
