@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1373,
+    "ttftP95": 1373,
+    "avgMedianTps": 111.08252176134373,
+    "avgLatency": 24.468763603,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 780.1760404930626,
+    "compositeScore": 78.05702780348781,
+    "latestProbeAt": "2026-04-24T23:28:15.372667597+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1590,
+    "ttftP95": 1590,
+    "avgMedianTps": 42.70688831775411,
+    "avgLatency": 59.224041077,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -542.3596970184753,
+    "compositeScore": 41.564209393894096,
+    "latestProbeAt": "2026-04-24T23:25:44.892466685+08:00"
+  }
+]
