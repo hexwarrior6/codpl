@@ -15,28 +15,28 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 1276.5,
-    "ttftP95": 6500.5499999999965,
-    "avgMedianTps": 62.75231627358362,
-    "avgLatency": 30.727966110510636,
-    "successRate": 0.9772520473157416,
-    "sampleCount": 2198,
-    "score": 330.2667921944776,
-    "compositeScore": 56.75979844503779,
-    "latestProbeAt": "2026-04-24T10:42:37.553110282+08:00"
+    "ttftP50": 1276,
+    "ttftP95": 6496.5,
+    "avgMedianTps": 62.753574561934585,
+    "avgLatency": 30.719502482018992,
+    "successRate": 0.9772830531576556,
+    "sampleCount": 2201,
+    "score": 330.61693847878826,
+    "compositeScore": 56.76620550447086,
+    "latestProbeAt": "2026-04-24T11:55:41.576159286+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
     "ttftP50": 2084,
-    "ttftP95": 8226,
-    "avgMedianTps": 58.33150435996112,
-    "avgLatency": 34.958315423033405,
-    "successRate": 0.9992044550517104,
-    "sampleCount": 1257,
-    "score": 58.43559563564202,
-    "compositeScore": 47.0356938981504,
-    "latestProbeAt": "2026-04-24T10:47:26.281639548+08:00"
+    "ttftP95": 8252.699999999995,
+    "avgMedianTps": 58.338550571558734,
+    "avgLatency": 34.97240919103891,
+    "successRate": 0.9992057188244639,
+    "sampleCount": 1259,
+    "score": 58.12679247784331,
+    "compositeScore": 47.03992162510896,
+    "latestProbeAt": "2026-04-24T11:58:55.935724743+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -45,11 +45,11 @@
     "ttftP95": 23387.950000000004,
     "avgMedianTps": 61.70756494949064,
     "avgLatency": 37.59312384154028,
-    "successRate": 0.7055589492974954,
-    "sampleCount": 1637,
-    "score": -1643.323757044068,
+    "successRate": 0.7042682926829268,
+    "sampleCount": 1640,
+    "score": -1644.6144136586365,
     "compositeScore": 37.02453896969438,
-    "latestProbeAt": "2026-04-24T10:39:04.184498474+08:00"
+    "latestProbeAt": "2026-04-24T11:53:22.933927967+08:00"
   },
   {
     "provider": "火山引擎",
@@ -59,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 110,
+    "sampleCount": 112,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T10:50:38.565533421+08:00"
+    "latestProbeAt": "2026-04-24T11:58:27.311626167+08:00"
   }
 ]

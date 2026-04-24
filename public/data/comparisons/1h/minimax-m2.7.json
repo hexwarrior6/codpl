@@ -1,42 +1,29 @@
 [
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 2160,
-    "ttftP95": 2317.5,
-    "avgMedianTps": 53.296956622784215,
-    "avgLatency": 39.53875394366666,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": -100.68710885496125,
-    "compositeScore": 43.49820490812103,
-    "latestProbeAt": "2026-04-24T10:47:26.281639548+08:00"
-  },
-  {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 6483,
-    "ttftP95": 7520.7,
-    "avgMedianTps": 54.18384177716272,
-    "avgLatency": 41.91281757233333,
+    "ttftP50": 1166,
+    "ttftP95": 1465.7,
+    "avgMedianTps": 63.65450902123354,
+    "avgLatency": 24.659544482,
     "successRate": 1,
     "sampleCount": 3,
-    "score": -1019.3173886453571,
-    "compositeScore": 32.51030506629763,
-    "latestProbeAt": "2026-04-24T10:42:37.553110282+08:00"
+    "score": 532.2384420774013,
+    "compositeScore": 58.60737158569396,
+    "latestProbeAt": "2026-04-24T11:55:41.576159286+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 2775,
-    "ttftP95": 5950.2,
-    "avgMedianTps": 39.96752322672768,
-    "avgLatency": 24.295054617333335,
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 5938,
+    "ttftP95": 9344.5,
+    "avgMedianTps": 62.763571454857384,
+    "avgLatency": 43.8232954985,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 77.42877392703258,
-    "compositeScore": 31.885980279747102,
-    "latestProbeAt": "2026-04-24T10:53:05.579803183+08:00"
+    "sampleCount": 2,
+    "score": -906.6009587333558,
+    "compositeScore": 37.65814287291443,
+    "latestProbeAt": "2026-04-24T11:58:55.935724743+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -49,7 +36,7 @@
     "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T10:39:04.184498474+08:00"
+    "latestProbeAt": "2026-04-24T11:53:22.933927967+08:00"
   },
   {
     "provider": "火山引擎",
@@ -59,9 +46,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 3,
+    "sampleCount": 2,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T10:50:38.565533421+08:00"
+    "latestProbeAt": "2026-04-24T11:58:27.311626167+08:00"
   }
 ]
