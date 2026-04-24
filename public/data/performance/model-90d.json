@@ -9120,6 +9120,18 @@
     "ttft": 148
   },
   {
+    "seriesKey": "阶跃星辰__step-3.5-flash",
+    "seriesLabel": "阶跃星辰 / step-3.5-flash",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "阶跃星辰",
+    "model": "step-3.5-flash",
+    "modelDisplay": "step-3.5-flash",
+    "tokensPerSec": 272.1408976484399,
+    "medianTps": 308.021292721128,
+    "ttft": 213.66666666666666
+  },
+  {
     "seriesKey": "快手 StreamLake__kat-coder-pro-v2",
     "seriesLabel": "快手 StreamLake / KAT-Coder-ProV2",
     "timestamp": "2026/04/06 21:00",
@@ -14362,6 +14374,18 @@
     "tokensPerSec": 117.66283270500851,
     "medianTps": 167.31572199549632,
     "ttft": 648.3333333333334
+  },
+  {
+    "seriesKey": "快手 StreamLake__kat-coder-pro-v2",
+    "seriesLabel": "快手 StreamLake / KAT-Coder-ProV2",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "快手 StreamLake",
+    "model": "kat-coder-pro-v2",
+    "modelDisplay": "KAT-Coder-ProV2",
+    "tokensPerSec": 121.42255580569025,
+    "medianTps": 165.54568470756564,
+    "ttft": 612.6666666666666
   },
   {
     "seriesKey": "京东云__MiniMax-M2.5",
@@ -22800,6 +22824,18 @@
     "ttft": 211
   },
   {
+    "seriesKey": "京东云__MiniMax-M2.5",
+    "seriesLabel": "京东云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "京东云",
+    "model": "MiniMax-M2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 149.29303569238726,
+    "medianTps": 204.35800125761915,
+    "ttft": 173
+  },
+  {
     "seriesKey": "联通元景__kimi-k2.6",
     "seriesLabel": "联通元景 / kimi-k2.6",
     "timestamp": "2026/04/22 00:00",
@@ -29232,6 +29268,18 @@
     "ttft": 4367.333333333333
   },
   {
+    "seriesKey": "Alaya Code__minimax-m2.5",
+    "seriesLabel": "Alaya Code / MiniMax-M2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "Alaya Code",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 125.3084567697813,
+    "medianTps": 186.89686105133242,
+    "ttft": 5488
+  },
+  {
     "seriesKey": "小米 MiMo__mimo-v2.5",
     "seriesLabel": "小米 MiMo / MiMo-V2.5",
     "timestamp": "2026/04/23 22:00",
@@ -29614,6 +29662,18 @@
     "tokensPerSec": 131.15377912784155,
     "medianTps": 152.29230871071613,
     "ttft": 356
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 124.66133366715069,
+    "medianTps": 150.32348205696834,
+    "ttft": 445
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-omni",
@@ -37608,6 +37668,18 @@
     "ttft": 2597.6666666666665
   },
   {
+    "seriesKey": "Alaya Code__minimax-m2.1",
+    "seriesLabel": "Alaya Code / minimax-m2.1",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "Alaya Code",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "tokensPerSec": 116.14097361646982,
+    "medianTps": 13.736448247456863,
+    "ttft": 3594
+  },
+  {
     "seriesKey": "OpenCode Go__mimo-v2.5",
     "seriesLabel": "OpenCode Go / MiMo-V2.5",
     "timestamp": "2026/04/24 17:00",
@@ -37762,6 +37834,18 @@
     "tokensPerSec": 155.6061571236768,
     "medianTps": 157.01588890893336,
     "ttft": 1129.3333333333333
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 163.5178535263071,
+    "medianTps": 168.10151240777896,
+    "ttft": 1520
   },
   {
     "seriesKey": "OpenCode Go__mimo-v2-omni",
@@ -47616,6 +47700,18 @@
     "ttft": 920.6666666666666
   },
   {
+    "seriesKey": "腾讯云__hunyuan-2.0-instruct",
+    "seriesLabel": "腾讯云 / Hunyuan 2.0 Instruct",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "腾讯云",
+    "model": "hunyuan-2.0-instruct",
+    "modelDisplay": "Hunyuan 2.0 Instruct",
+    "tokensPerSec": 107.33302577140343,
+    "medianTps": 160.06331962691388,
+    "ttft": 865
+  },
+  {
     "seriesKey": "Alaya Code__kimi-k2.5",
     "seriesLabel": "Alaya Code / kimi-k2.5",
     "timestamp": "2026/04/16 16:00",
@@ -56304,6 +56400,18 @@
     "ttft": 1012.6666666666666
   },
   {
+    "seriesKey": "优云__moonshotai/kimi-k2.5",
+    "seriesLabel": "优云 / kimi-k2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "优云",
+    "model": "moonshotai/kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 31.75492546524949,
+    "medianTps": 44.58387124202678,
+    "ttft": 2625
+  },
+  {
     "seriesKey": "京东云__GLM-4.7",
     "seriesLabel": "京东云 / GLM-4.7",
     "timestamp": "2026/04/02 00:00",
@@ -62892,6 +63000,18 @@
     "ttft": 407
   },
   {
+    "seriesKey": "京东云__GLM-4.7",
+    "seriesLabel": "京东云 / GLM-4.7",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "京东云",
+    "model": "GLM-4.7",
+    "modelDisplay": "GLM-4.7",
+    "tokensPerSec": 89.95287009851126,
+    "medianTps": 129.3847815096985,
+    "ttft": 469
+  },
+  {
     "seriesKey": "移动云__cm-code-latest",
     "seriesLabel": "移动云 / cm-code-latest",
     "timestamp": "2026/04/02 00:00",
@@ -68940,6 +69060,18 @@
     "ttft": 678.6666666666666
   },
   {
+    "seriesKey": "移动云__cm-code-latest",
+    "seriesLabel": "移动云 / cm-code-latest",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "移动云",
+    "model": "cm-code-latest",
+    "modelDisplay": "cm-code-latest",
+    "tokensPerSec": 113.66623325466098,
+    "medianTps": 107.49078474465496,
+    "ttft": 831
+  },
+  {
     "seriesKey": "无问芯穹__minimax-m2.1",
     "seriesLabel": "无问芯穹 / minimax-m2.1",
     "timestamp": "2026/04/02 16:00",
@@ -74818,6 +74950,18 @@
     "tokensPerSec": 119.29893084597167,
     "medianTps": 157.0093069154463,
     "ttft": 929.3333333333334
+  },
+  {
+    "seriesKey": "OpenCode Go__glm-5.1",
+    "seriesLabel": "OpenCode Go / glm-5.1",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 84.51838815544359,
+    "medianTps": 106.24822776507,
+    "ttft": 765
   },
   {
     "seriesKey": "Ollama Cloud__minimax-m2.5",
@@ -83604,6 +83748,18 @@
     "ttft": 692
   },
   {
+    "seriesKey": "天翼云__GLM-5-Turbo",
+    "seriesLabel": "天翼云 / GLM-5-Turbo",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "天翼云",
+    "model": "GLM-5-Turbo",
+    "modelDisplay": "GLM-5-Turbo",
+    "tokensPerSec": 63.6029078887041,
+    "medianTps": 92.58632321582611,
+    "ttft": 656
+  },
+  {
     "seriesKey": "优云__MiniMax-M2.5",
     "seriesLabel": "优云 / MiniMax-M2.5",
     "timestamp": "2026/03/15 02:00",
@@ -88378,6 +88534,18 @@
     "tokensPerSec": 64.52483341659325,
     "medianTps": 68.40735161520678,
     "ttft": 1228.3333333333333
+  },
+  {
+    "seriesKey": "优云__MiniMax-M2.5",
+    "seriesLabel": "优云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "优云",
+    "model": "MiniMax-M2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 67.56809701714428,
+    "medianTps": 59.75917946867514,
+    "ttft": 2895
   },
   {
     "seriesKey": "无问芯穹__minimax-m2.5",
@@ -105204,6 +105372,18 @@
     "ttft": 1236.6666666666667
   },
   {
+    "seriesKey": "Ollama Cloud__glm-5",
+    "seriesLabel": "Ollama Cloud / glm-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "Ollama Cloud",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 50.24882137075917,
+    "medianTps": 88.42194158166495,
+    "ttft": 1387
+  },
+  {
     "seriesKey": "小米 MiMo__mimo-v2-pro",
     "seriesLabel": "小米 MiMo / MiMo-V2-Pro",
     "timestamp": "2026/04/03 12:00",
@@ -120492,6 +120672,18 @@
     "ttft": 675
   },
   {
+    "seriesKey": "火山引擎__minimax-m2.5",
+    "seriesLabel": "火山引擎 / minimax-m2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "火山引擎",
+    "model": "minimax-m2.5",
+    "modelDisplay": "minimax-m2.5",
+    "tokensPerSec": 102.73898211398821,
+    "medianTps": 98.08560799334717,
+    "ttft": 573
+  },
+  {
     "seriesKey": "小米 MiMo__mimo-v2.5-pro",
     "seriesLabel": "小米 MiMo / MiMo-V2.5-Pro",
     "timestamp": "2026/04/23 22:00",
@@ -120874,6 +121066,18 @@
     "tokensPerSec": 81.98440195881562,
     "medianTps": 82.9268388561771,
     "ttft": 580
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5-pro",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 81.37128890574525,
+    "medianTps": 81.52502224007442,
+    "ttft": 971.3333333333334
   },
   {
     "seriesKey": "OpenCode Go__mimo-v2-pro",
@@ -142440,6 +142644,18 @@
     "ttft": 1105.3333333333333
   },
   {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 87.01480592639777,
+    "medianTps": 87.37146910596547,
+    "ttft": 1152
+  },
+  {
     "seriesKey": "Ollama Cloud__glm-4.7",
     "seriesLabel": "Ollama Cloud / glm-4.7",
     "timestamp": "2026/04/12 19:00",
@@ -145618,6 +145834,18 @@
     "tokensPerSec": 202.85598714403582,
     "medianTps": 112.27026966153265,
     "ttft": 1241
+  },
+  {
+    "seriesKey": "Ollama Cloud__glm-4.7",
+    "seriesLabel": "Ollama Cloud / glm-4.7",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "tokensPerSec": 94.20604986580403,
+    "medianTps": 73.52708204740833,
+    "ttft": 2315
   },
   {
     "seriesKey": "OpenCode Go__glm-5",
@@ -150816,6 +151044,18 @@
     "ttft": 969
   },
   {
+    "seriesKey": "OpenCode Go__glm-5",
+    "seriesLabel": "OpenCode Go / glm-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 118.23259938765374,
+    "medianTps": 137.08922861998803,
+    "ttft": 1955
+  },
+  {
     "seriesKey": "腾讯云__minimax-m2.5",
     "seriesLabel": "腾讯云 / MiniMax-M2.5",
     "timestamp": "2026/04/08 02:00",
@@ -155518,6 +155758,18 @@
     "tokensPerSec": 119.12956576009044,
     "medianTps": 107.38378300289907,
     "ttft": 2749.3333333333335
+  },
+  {
+    "seriesKey": "腾讯云__minimax-m2.5",
+    "seriesLabel": "腾讯云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "腾讯云",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 116.79799284427669,
+    "medianTps": 106.53068628637386,
+    "ttft": 2838
   },
   {
     "seriesKey": "腾讯云__glm-5",
@@ -160800,6 +161052,18 @@
     "ttft": 800.3333333333334
   },
   {
+    "seriesKey": "腾讯云__glm-5",
+    "seriesLabel": "腾讯云 / glm-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "腾讯云",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 139.38933192074904,
+    "medianTps": 137.2331408871641,
+    "ttft": 13426
+  },
+  {
     "seriesKey": "智谱__glm-5-turbo",
     "seriesLabel": "智谱 / GLM-5-Turbo",
     "timestamp": "2026/04/16 06:00",
@@ -162838,6 +163102,18 @@
     "tokensPerSec": 59.509054565370356,
     "medianTps": 96.17038256682333,
     "ttft": 452.3333333333333
+  },
+  {
+    "seriesKey": "智谱__glm-5-turbo",
+    "seriesLabel": "智谱 / GLM-5-Turbo",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "智谱",
+    "model": "glm-5-turbo",
+    "modelDisplay": "GLM-5-Turbo",
+    "tokensPerSec": 55.296007934772085,
+    "medianTps": 86.99131504778084,
+    "ttft": 496.6666666666667
   },
   {
     "seriesKey": "无问芯穹__glm-4.7",
@@ -178956,6 +179232,18 @@
     "ttft": 784
   },
   {
+    "seriesKey": "MiniMax__MiniMax-M2.5-highspeed",
+    "seriesLabel": "MiniMax / MiniMax-M2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 63.96947359772747,
+    "medianTps": 62.1340968584657,
+    "ttft": 1206.5
+  },
+  {
     "seriesKey": "京东云__GLM-5",
     "seriesLabel": "京东云 / GLM-5",
     "timestamp": "2026/03/26 11:00",
@@ -187368,6 +187656,18 @@
     "ttft": 1201.6666666666667
   },
   {
+    "seriesKey": "京东云__GLM-5",
+    "seriesLabel": "京东云 / GLM-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "京东云",
+    "model": "GLM-5",
+    "modelDisplay": "GLM-5",
+    "tokensPerSec": 56.790886198004294,
+    "medianTps": 60.23587415116826,
+    "ttft": 1440.5
+  },
+  {
     "seriesKey": "联通元景__glm-5",
     "seriesLabel": "联通元景 / glm-5",
     "timestamp": "2026/03/26 16:00",
@@ -195168,6 +195468,18 @@
     "ttft": 1472.3333333333333
   },
   {
+    "seriesKey": "天翼云__GLM-5",
+    "seriesLabel": "天翼云 / GLM-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "天翼云",
+    "model": "GLM-5",
+    "modelDisplay": "GLM-5",
+    "tokensPerSec": 54.58350665394397,
+    "medianTps": 75.63217246052837,
+    "ttft": 1140.6666666666667
+  },
+  {
     "seriesKey": "天翼云__GLM-5.1",
     "seriesLabel": "天翼云 / GLM-5.1",
     "timestamp": "2026/04/06 10:00",
@@ -200338,6 +200650,18 @@
     "tokensPerSec": 57.240406972425156,
     "medianTps": 75.27409809724452,
     "ttft": 997
+  },
+  {
+    "seriesKey": "天翼云__GLM-5.1",
+    "seriesLabel": "天翼云 / GLM-5.1",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "天翼云",
+    "model": "GLM-5.1",
+    "modelDisplay": "GLM-5.1",
+    "tokensPerSec": 59.160858675663405,
+    "medianTps": 79.80559199024702,
+    "ttft": 938.3333333333334
   },
   {
     "seriesKey": "智谱__glm-5",
@@ -210972,6 +211296,18 @@
     "ttft": 993.6666666666666
   },
   {
+    "seriesKey": "智谱__glm-5",
+    "seriesLabel": "智谱 / glm-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "智谱",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 52.62139765339333,
+    "medianTps": 73.42013309493497,
+    "ttft": 1142.6666666666667
+  },
+  {
     "seriesKey": "京东云__Kimi-K2.5",
     "seriesLabel": "京东云 / Kimi-K2.5",
     "timestamp": "2026/03/26 11:00",
@@ -219394,6 +219730,18 @@
     "tokensPerSec": 68.13101311925877,
     "medianTps": 92.4968050443142,
     "ttft": 418
+  },
+  {
+    "seriesKey": "京东云__Kimi-K2.5",
+    "seriesLabel": "京东云 / Kimi-K2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "京东云",
+    "model": "Kimi-K2.5",
+    "modelDisplay": "Kimi-K2.5",
+    "tokensPerSec": 66.64052100957204,
+    "medianTps": 97.40786470125519,
+    "ttft": 341
   },
   {
     "seriesKey": "MiniMax__MiniMax-M2.7-highspeed",
@@ -228478,6 +228826,18 @@
     "tokensPerSec": 70.60220805208456,
     "medianTps": 72.67406662228734,
     "ttft": 781.6666666666666
+  },
+  {
+    "seriesKey": "MiniMax__MiniMax-M2.7-highspeed",
+    "seriesLabel": "MiniMax / minimax-m2.7",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "tokensPerSec": 60.664110926410196,
+    "medianTps": 58.39963101362522,
+    "ttft": 1489.3333333333333
   },
   {
     "seriesKey": "无问芯穹__minimax-m2.7",
@@ -239710,6 +240070,18 @@
     "tokensPerSec": 55.7910666912112,
     "medianTps": 58.69434815988952,
     "ttft": 448
+  },
+  {
+    "seriesKey": "京东云__DeepSeek-V3.2",
+    "seriesLabel": "京东云 / DeepSeek-V3.2",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "京东云",
+    "model": "DeepSeek-V3.2",
+    "modelDisplay": "DeepSeek-V3.2",
+    "tokensPerSec": 59.386838539905284,
+    "medianTps": 65.36104100170041,
+    "ttft": 420.5
   },
   {
     "seriesKey": "百炼(阿里云)__qwen3.5-plus",
@@ -251412,6 +251784,18 @@
     "ttft": 733.6666666666666
   },
   {
+    "seriesKey": "百炼(阿里云)__qwen3.5-plus",
+    "seriesLabel": "百炼(阿里云) / Qwen3.5 Plus",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "百炼(阿里云)",
+    "model": "qwen3.5-plus",
+    "modelDisplay": "Qwen3.5 Plus",
+    "tokensPerSec": 66.62142020469399,
+    "medianTps": 67.16455978718776,
+    "ttft": 1072
+  },
+  {
     "seriesKey": "讯飞星辰__astron-code-latest",
     "seriesLabel": "讯飞星辰 / Astron Code Latest",
     "timestamp": "2026/03/15 02:00",
@@ -262392,6 +262776,18 @@
     "ttft": 2279.3333333333335
   },
   {
+    "seriesKey": "讯飞星辰__astron-code-latest",
+    "seriesLabel": "讯飞星辰 / Astron Code Latest",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "讯飞星辰",
+    "model": "astron-code-latest",
+    "modelDisplay": "Astron Code Latest",
+    "tokensPerSec": 31.52757033150641,
+    "medianTps": 34.32113637015609,
+    "ttft": 2476.3333333333335
+  },
+  {
     "seriesKey": "智谱__glm-5.1",
     "seriesLabel": "智谱 / glm-5.1",
     "timestamp": "2026/04/02 00:00",
@@ -267898,6 +268294,18 @@
     "tokensPerSec": 56.40357373046127,
     "medianTps": 72.0278419041788,
     "ttft": 973.3333333333334
+  },
+  {
+    "seriesKey": "智谱__glm-5.1",
+    "seriesLabel": "智谱 / glm-5.1",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "智谱",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 55.34335702484822,
+    "medianTps": 75.97191490264214,
+    "ttft": 1069.5
   },
   {
     "seriesKey": "Kimi(月之暗面)__kimi-for-coding",
@@ -279504,6 +279912,18 @@
     "ttft": 593
   },
   {
+    "seriesKey": "Kimi(月之暗面)__kimi-for-coding",
+    "seriesLabel": "Kimi(月之暗面) / kimi-k2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 88.33918012944285,
+    "medianTps": 119.44910250491155,
+    "ttft": 446.3333333333333
+  },
+  {
     "seriesKey": "OpenCode Go__minimax-m2.7",
     "seriesLabel": "OpenCode Go / minimax-m2.7",
     "timestamp": "2026/04/07 00:00",
@@ -290952,6 +291372,642 @@
     "ttft": 1156
   },
   {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 01:00",
+    "timestampUnix": 1776877200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 81.82357340808113,
+    "medianTps": 116.85508651345754,
+    "ttft": 2144
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 02:00",
+    "timestampUnix": 1776880800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 28.72793201398935,
+    "medianTps": 41.56398248768322,
+    "ttft": 3794
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 03:00",
+    "timestampUnix": 1776884400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 24.632816114437606,
+    "medianTps": 36.232760888116964,
+    "ttft": 979.6666666666666
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 04:00",
+    "timestampUnix": 1776888000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 26.11883215020372,
+    "medianTps": 37.291272157124524,
+    "ttft": 872.6666666666666
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 05:00",
+    "timestampUnix": 1776891600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 32.55152772307505,
+    "medianTps": 46.17196764035859,
+    "ttft": 1723.6666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 06:00",
+    "timestampUnix": 1776895200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 28.789586512918728,
+    "medianTps": 41.98445236583485,
+    "ttft": 817.6666666666666
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 07:00",
+    "timestampUnix": 1776898800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 21.91974140552495,
+    "medianTps": 34.732663661482604,
+    "ttft": 4626.666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 08:00",
+    "timestampUnix": 1776902400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 59.91749402219795,
+    "medianTps": 95.97293364215261,
+    "ttft": 1168
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 09:00",
+    "timestampUnix": 1776906000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 48.82587582972491,
+    "medianTps": 79.71404488072835,
+    "ttft": 11428.333333333334
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 10:00",
+    "timestampUnix": 1776909600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 39.78017356061121,
+    "medianTps": 73.28172150460267,
+    "ttft": 4606.666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 11:00",
+    "timestampUnix": 1776913200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 28.93320442497522,
+    "medianTps": 47.329833413106456,
+    "ttft": 6518
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 12:00",
+    "timestampUnix": 1776916800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 45.72616257128669,
+    "medianTps": 79.09632496110636,
+    "ttft": 2441
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 13:00",
+    "timestampUnix": 1776920400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 34.12666568044659,
+    "medianTps": 55.54449198142952,
+    "ttft": 5078
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 14:00",
+    "timestampUnix": 1776924000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 33.02305073176678,
+    "medianTps": 55.49804860053181,
+    "ttft": 5479
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 15:00",
+    "timestampUnix": 1776927600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 35.24484296693158,
+    "medianTps": 56.9402073508924,
+    "ttft": 4135.666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 16:00",
+    "timestampUnix": 1776931200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 33.60517991238721,
+    "medianTps": 52.029730906715265,
+    "ttft": 4433.333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 17:00",
+    "timestampUnix": 1776934800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 39.870777232707624,
+    "medianTps": 58.77388775368947,
+    "ttft": 7117.333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 18:00",
+    "timestampUnix": 1776938400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 39.09556111601275,
+    "medianTps": 53.964304537746465,
+    "ttft": 4030.3333333333335
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 19:00",
+    "timestampUnix": 1776942000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 36.80740380616073,
+    "medianTps": 52.8424432060879,
+    "ttft": 5658.666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 20:00",
+    "timestampUnix": 1776945600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 30.769183281391662,
+    "medianTps": 45.67786314522507,
+    "ttft": 5956
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 21:00",
+    "timestampUnix": 1776949200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 41.80963933688229,
+    "medianTps": 55.06010565081524,
+    "ttft": 6012.666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 22:00",
+    "timestampUnix": 1776952800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 34.13764271950512,
+    "medianTps": 46.650383656221216,
+    "ttft": 5773.75
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/23 23:00",
+    "timestampUnix": 1776956400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 38.19837747717989,
+    "medianTps": 60.68358781405114,
+    "ttft": 2387.6
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 00:00",
+    "timestampUnix": 1776960000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 58.61837708849348,
+    "medianTps": 81.18101481482638,
+    "ttft": 3247.8
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 01:00",
+    "timestampUnix": 1776963600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 43.561937656229304,
+    "medianTps": 63.03106308803871,
+    "ttft": 6576.666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 02:00",
+    "timestampUnix": 1776967200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 42.87199719423351,
+    "medianTps": 61.76891935668605,
+    "ttft": 1164.3333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 42.16531159633021,
+    "medianTps": 61.362363280369024,
+    "ttft": 45757.5
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 04:00",
+    "timestampUnix": 1776974400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 47.33426620775896,
+    "medianTps": 63.22648628811252,
+    "ttft": 1846.8333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 05:00",
+    "timestampUnix": 1776978000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 51.45872056942363,
+    "medianTps": 70.42270627264966,
+    "ttft": 1101.3333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 06:00",
+    "timestampUnix": 1776981600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 44.53562551494853,
+    "medianTps": 62.318469344977274,
+    "ttft": 6839
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 08:00",
+    "timestampUnix": 1776988800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 35.4770738131879,
+    "medianTps": 52.63706080035351,
+    "ttft": 4045
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 09:00",
+    "timestampUnix": 1776992400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 34.607810484367356,
+    "medianTps": 52.43059625854743,
+    "ttft": 7375.333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 10:00",
+    "timestampUnix": 1776996000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 30.894805270139305,
+    "medianTps": 47.8217903899417,
+    "ttft": 13767
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 11:00",
+    "timestampUnix": 1776999600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 35.318274109808165,
+    "medianTps": 47.667537773121076,
+    "ttft": 2245.5
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 12:00",
+    "timestampUnix": 1777003200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 35.71442966299537,
+    "medianTps": 48.274968579228286,
+    "ttft": 4677.75
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 13:00",
+    "timestampUnix": 1777006800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 31.32194208166861,
+    "medianTps": 47.45049841888991,
+    "ttft": 5611.666666666667
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 14:00",
+    "timestampUnix": 1777010400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 34.1428350113008,
+    "medianTps": 47.69673866420294,
+    "ttft": 8434.333333333334
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 15:00",
+    "timestampUnix": 1777014000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 32.05981796075455,
+    "medianTps": 45.01294726272306,
+    "ttft": 3479
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 16:00",
+    "timestampUnix": 1777017600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 34.61093294846938,
+    "medianTps": 46.89816426417028,
+    "ttft": 12988
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 17:00",
+    "timestampUnix": 1777021200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 38.786905571650195,
+    "medianTps": 56.1981013343594,
+    "ttft": 8031.333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 18:00",
+    "timestampUnix": 1777024800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 35.73941741619258,
+    "medianTps": 50.48390698073266,
+    "ttft": 3397.2
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 19:00",
+    "timestampUnix": 1777028400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 35.2938632384378,
+    "medianTps": 47.88015146151317,
+    "ttft": 4092.6666666666665
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 20:00",
+    "timestampUnix": 1777032000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 36.099203668383375,
+    "medianTps": 54.855807000072815,
+    "ttft": 1860.3333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 21:00",
+    "timestampUnix": 1777035600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 35.395734228415215,
+    "medianTps": 49.19529691998511,
+    "ttft": 8089
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 38.61721549552018,
+    "medianTps": 48.96904454988274,
+    "ttft": 4932.333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/24 23:00",
+    "timestampUnix": 1777042800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 39.063123852827424,
+    "medianTps": 47.084187537828974,
+    "ttft": 2527.3333333333335
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 00:00",
+    "timestampUnix": 1777046400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 45.30703561479546,
+    "medianTps": 66.41614000004299,
+    "ttft": 1116
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 01:00",
+    "timestampUnix": 1777050000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 45.61994301591392,
+    "medianTps": 66.71696250015553,
+    "ttft": 2574.3333333333335
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 02:00",
+    "timestampUnix": 1777053600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 47.38018718299836,
+    "medianTps": 66.53175741094647,
+    "ttft": 3766
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 03:00",
+    "timestampUnix": 1777057200000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 44.42182674543918,
+    "medianTps": 60.779830080863654,
+    "ttft": 4107.333333333333
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 04:00",
+    "timestampUnix": 1777060800000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 48.20104665341187,
+    "medianTps": 67.17258529271297,
+    "ttft": 988.3333333333334
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 05:00",
+    "timestampUnix": 1777064400000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 50.57472318738663,
+    "medianTps": 62.728697862824866,
+    "ttft": 833.3333333333334
+  },
+  {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 60.81130165944054,
+    "medianTps": 82.61418443082987,
+    "ttft": 2180
+  },
+  {
     "seriesKey": "百度云(千帆)__qianfan-code-latest",
     "seriesLabel": "百度云(千帆) / Qianfan Code Latest",
     "timestamp": "2026/03/15 02:00",
@@ -295498,630 +296554,6 @@
     "tokensPerSec": 50.80418065572661,
     "medianTps": 52.13767027052739,
     "ttft": 1030.3333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 01:00",
-    "timestampUnix": 1776877200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 81.82357340808113,
-    "medianTps": 116.85508651345754,
-    "ttft": 2144
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 02:00",
-    "timestampUnix": 1776880800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 28.72793201398935,
-    "medianTps": 41.56398248768322,
-    "ttft": 3794
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 03:00",
-    "timestampUnix": 1776884400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 24.632816114437606,
-    "medianTps": 36.232760888116964,
-    "ttft": 979.6666666666666
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 04:00",
-    "timestampUnix": 1776888000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 26.11883215020372,
-    "medianTps": 37.291272157124524,
-    "ttft": 872.6666666666666
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 05:00",
-    "timestampUnix": 1776891600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 32.55152772307505,
-    "medianTps": 46.17196764035859,
-    "ttft": 1723.6666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 06:00",
-    "timestampUnix": 1776895200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 28.789586512918728,
-    "medianTps": 41.98445236583485,
-    "ttft": 817.6666666666666
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 07:00",
-    "timestampUnix": 1776898800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 21.91974140552495,
-    "medianTps": 34.732663661482604,
-    "ttft": 4626.666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 08:00",
-    "timestampUnix": 1776902400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 59.91749402219795,
-    "medianTps": 95.97293364215261,
-    "ttft": 1168
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 09:00",
-    "timestampUnix": 1776906000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 48.82587582972491,
-    "medianTps": 79.71404488072835,
-    "ttft": 11428.333333333334
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 10:00",
-    "timestampUnix": 1776909600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 39.78017356061121,
-    "medianTps": 73.28172150460267,
-    "ttft": 4606.666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 11:00",
-    "timestampUnix": 1776913200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 28.93320442497522,
-    "medianTps": 47.329833413106456,
-    "ttft": 6518
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 12:00",
-    "timestampUnix": 1776916800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 45.72616257128669,
-    "medianTps": 79.09632496110636,
-    "ttft": 2441
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 13:00",
-    "timestampUnix": 1776920400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 34.12666568044659,
-    "medianTps": 55.54449198142952,
-    "ttft": 5078
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 14:00",
-    "timestampUnix": 1776924000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 33.02305073176678,
-    "medianTps": 55.49804860053181,
-    "ttft": 5479
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 15:00",
-    "timestampUnix": 1776927600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 35.24484296693158,
-    "medianTps": 56.9402073508924,
-    "ttft": 4135.666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 16:00",
-    "timestampUnix": 1776931200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 33.60517991238721,
-    "medianTps": 52.029730906715265,
-    "ttft": 4433.333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 17:00",
-    "timestampUnix": 1776934800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 39.870777232707624,
-    "medianTps": 58.77388775368947,
-    "ttft": 7117.333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 18:00",
-    "timestampUnix": 1776938400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 39.09556111601275,
-    "medianTps": 53.964304537746465,
-    "ttft": 4030.3333333333335
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 19:00",
-    "timestampUnix": 1776942000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 36.80740380616073,
-    "medianTps": 52.8424432060879,
-    "ttft": 5658.666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 20:00",
-    "timestampUnix": 1776945600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 30.769183281391662,
-    "medianTps": 45.67786314522507,
-    "ttft": 5956
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 21:00",
-    "timestampUnix": 1776949200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 41.80963933688229,
-    "medianTps": 55.06010565081524,
-    "ttft": 6012.666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 22:00",
-    "timestampUnix": 1776952800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 34.13764271950512,
-    "medianTps": 46.650383656221216,
-    "ttft": 5773.75
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/23 23:00",
-    "timestampUnix": 1776956400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 38.19837747717989,
-    "medianTps": 60.68358781405114,
-    "ttft": 2387.6
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 00:00",
-    "timestampUnix": 1776960000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 58.61837708849348,
-    "medianTps": 81.18101481482638,
-    "ttft": 3247.8
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 01:00",
-    "timestampUnix": 1776963600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 43.561937656229304,
-    "medianTps": 63.03106308803871,
-    "ttft": 6576.666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 02:00",
-    "timestampUnix": 1776967200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 42.87199719423351,
-    "medianTps": 61.76891935668605,
-    "ttft": 1164.3333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 03:00",
-    "timestampUnix": 1776970800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 42.16531159633021,
-    "medianTps": 61.362363280369024,
-    "ttft": 45757.5
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 04:00",
-    "timestampUnix": 1776974400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 47.33426620775896,
-    "medianTps": 63.22648628811252,
-    "ttft": 1846.8333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 05:00",
-    "timestampUnix": 1776978000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 51.45872056942363,
-    "medianTps": 70.42270627264966,
-    "ttft": 1101.3333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 06:00",
-    "timestampUnix": 1776981600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 44.53562551494853,
-    "medianTps": 62.318469344977274,
-    "ttft": 6839
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 08:00",
-    "timestampUnix": 1776988800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 35.4770738131879,
-    "medianTps": 52.63706080035351,
-    "ttft": 4045
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 09:00",
-    "timestampUnix": 1776992400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 34.607810484367356,
-    "medianTps": 52.43059625854743,
-    "ttft": 7375.333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 10:00",
-    "timestampUnix": 1776996000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 30.894805270139305,
-    "medianTps": 47.8217903899417,
-    "ttft": 13767
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 11:00",
-    "timestampUnix": 1776999600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 35.318274109808165,
-    "medianTps": 47.667537773121076,
-    "ttft": 2245.5
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 12:00",
-    "timestampUnix": 1777003200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 35.71442966299537,
-    "medianTps": 48.274968579228286,
-    "ttft": 4677.75
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 13:00",
-    "timestampUnix": 1777006800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 31.32194208166861,
-    "medianTps": 47.45049841888991,
-    "ttft": 5611.666666666667
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 14:00",
-    "timestampUnix": 1777010400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 34.1428350113008,
-    "medianTps": 47.69673866420294,
-    "ttft": 8434.333333333334
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 15:00",
-    "timestampUnix": 1777014000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 32.05981796075455,
-    "medianTps": 45.01294726272306,
-    "ttft": 3479
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 16:00",
-    "timestampUnix": 1777017600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 34.61093294846938,
-    "medianTps": 46.89816426417028,
-    "ttft": 12988
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 17:00",
-    "timestampUnix": 1777021200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 38.786905571650195,
-    "medianTps": 56.1981013343594,
-    "ttft": 8031.333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 18:00",
-    "timestampUnix": 1777024800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 35.73941741619258,
-    "medianTps": 50.48390698073266,
-    "ttft": 3397.2
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 19:00",
-    "timestampUnix": 1777028400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 35.2938632384378,
-    "medianTps": 47.88015146151317,
-    "ttft": 4092.6666666666665
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 20:00",
-    "timestampUnix": 1777032000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 36.099203668383375,
-    "medianTps": 54.855807000072815,
-    "ttft": 1860.3333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 21:00",
-    "timestampUnix": 1777035600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 35.395734228415215,
-    "medianTps": 49.19529691998511,
-    "ttft": 8089
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 22:00",
-    "timestampUnix": 1777039200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 38.61721549552018,
-    "medianTps": 48.96904454988274,
-    "ttft": 4932.333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/24 23:00",
-    "timestampUnix": 1777042800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 39.063123852827424,
-    "medianTps": 47.084187537828974,
-    "ttft": 2527.3333333333335
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/25 00:00",
-    "timestampUnix": 1777046400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 45.30703561479546,
-    "medianTps": 66.41614000004299,
-    "ttft": 1116
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/25 01:00",
-    "timestampUnix": 1777050000000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 45.61994301591392,
-    "medianTps": 66.71696250015553,
-    "ttft": 2574.3333333333335
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/25 02:00",
-    "timestampUnix": 1777053600000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 47.38018718299836,
-    "medianTps": 66.53175741094647,
-    "ttft": 3766
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/25 03:00",
-    "timestampUnix": 1777057200000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 44.42182674543918,
-    "medianTps": 60.779830080863654,
-    "ttft": 4107.333333333333
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/25 04:00",
-    "timestampUnix": 1777060800000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 48.20104665341187,
-    "medianTps": 67.17258529271297,
-    "ttft": 988.3333333333334
-  },
-  {
-    "seriesKey": "火山引擎__glm-5.1",
-    "seriesLabel": "火山引擎 / glm-5.1",
-    "timestamp": "2026/04/25 05:00",
-    "timestampUnix": 1777064400000,
-    "provider": "火山引擎",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "tokensPerSec": 50.57472318738663,
-    "medianTps": 62.728697862824866,
-    "ttft": 833.3333333333334
   },
   {
     "seriesKey": "Ollama Cloud__kimi-k2.6",
@@ -303348,6 +303780,18 @@
     "ttft": 701.3333333333334
   },
   {
+    "seriesKey": "百度云(千帆)__kimi-k2.5",
+    "seriesLabel": "百度云(千帆) / kimi-k2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "百度云(千帆)",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 66.97704288642134,
+    "medianTps": 95.10338726314598,
+    "ttft": 675
+  },
+  {
     "seriesKey": "OpenCode Go__qwen3.6-plus",
     "seriesLabel": "OpenCode Go / qwen3.6-plus",
     "timestamp": "2026/04/24 17:00",
@@ -309708,6 +310152,18 @@
     "ttft": 1719
   },
   {
+    "seriesKey": "优云__zai-org/glm-5",
+    "seriesLabel": "优云 / glm-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "优云",
+    "model": "zai-org/glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 47.68543455302228,
+    "medianTps": 68.68611381608355,
+    "ttft": 1227
+  },
+  {
     "seriesKey": "百度云(千帆)__glm-5",
     "seriesLabel": "百度云(千帆) / glm-5",
     "timestamp": "2026/04/02 00:00",
@@ -315742,6 +316198,18 @@
     "tokensPerSec": 54.32103078721332,
     "medianTps": 55.25210849817367,
     "ttft": 1103.6666666666667
+  },
+  {
+    "seriesKey": "百度云(千帆)__glm-5",
+    "seriesLabel": "百度云(千帆) / glm-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "百度云(千帆)",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 59.79304589659909,
+    "medianTps": 61.94101159780391,
+    "ttft": 1163
   },
   {
     "seriesKey": "无问芯穹__kimi-k2.5",
@@ -337092,6 +337560,18 @@
     "ttft": 1263.6666666666667
   },
   {
+    "seriesKey": "百炼(阿里云)__kimi-k2.5",
+    "seriesLabel": "百炼(阿里云) / kimi-k2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "百炼(阿里云)",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 39.486783117628185,
+    "medianTps": 47.95966937115506,
+    "ttft": 5002
+  },
+  {
     "seriesKey": "腾讯云__kimi-k2.5",
     "seriesLabel": "腾讯云 / kimi-k2.5",
     "timestamp": "2026/04/06 15:00",
@@ -342372,172 +342852,16 @@
     "ttft": 949
   },
   {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 16:00",
-    "timestampUnix": 1777017600000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 25.300784898923162,
-    "medianTps": 26.465829922326197,
-    "ttft": 1778
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 17:00",
-    "timestampUnix": 1777021200000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 28.105179229587407,
-    "medianTps": 29.576502458893163,
-    "ttft": 2303
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 18:00",
-    "timestampUnix": 1777024800000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 56.83661266974316,
-    "medianTps": 54.745432685826856,
-    "ttft": 1523
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 19:00",
-    "timestampUnix": 1777028400000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 71.78344201288228,
-    "medianTps": 65.8971293893665,
-    "ttft": 1845
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 20:00",
-    "timestampUnix": 1777032000000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 41.22498798386768,
-    "medianTps": 38.45267638977246,
-    "ttft": 1633
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 21:00",
-    "timestampUnix": 1777035600000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 40.80070742824974,
-    "medianTps": 41.24412323162829,
-    "ttft": 1636.75
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 22:00",
-    "timestampUnix": 1777039200000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 40.2615390385416,
-    "medianTps": 41.39765425361684,
-    "ttft": 1796
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 23:00",
-    "timestampUnix": 1777042800000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 37.78395045423442,
-    "medianTps": 34.86184271335816,
-    "ttft": 2150.6666666666665
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 00:00",
-    "timestampUnix": 1777046400000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 43.11953821125763,
-    "medianTps": 42.440266300548124,
-    "ttft": 2038.3333333333333
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 01:00",
-    "timestampUnix": 1777050000000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 35.563509961252485,
-    "medianTps": 44.45656298927103,
-    "ttft": 1740.6666666666667
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 02:00",
-    "timestampUnix": 1777053600000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 63.08841682334728,
-    "medianTps": 62.25138108857417,
-    "ttft": 1340.6666666666667
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 03:00",
-    "timestampUnix": 1777057200000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 63.26113315931528,
-    "medianTps": 63.03597907002014,
-    "ttft": 1624.6666666666667
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 04:00",
-    "timestampUnix": 1777060800000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 52.46333462700297,
-    "medianTps": 51.65316639789061,
-    "ttft": 1312
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 05:00",
-    "timestampUnix": 1777064400000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 79.11542517978022,
-    "medianTps": 77.51450917303227,
-    "ttft": 1285.6666666666667
+    "seriesKey": "腾讯云__kimi-k2.5",
+    "seriesLabel": "腾讯云 / kimi-k2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "腾讯云",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 32.771903869933034,
+    "medianTps": 42.037450836293615,
+    "ttft": 964
   },
   {
     "seriesKey": "火山引擎__kimi-k2.6",
@@ -343162,6 +343486,198 @@
     "tokensPerSec": 51.78079123516281,
     "medianTps": 70.89031563146652,
     "ttft": 668.3333333333334
+  },
+  {
+    "seriesKey": "火山引擎__kimi-k2.6",
+    "seriesLabel": "火山引擎 / kimi-k2.6",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "火山引擎",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 56.683622997947914,
+    "medianTps": 73.36719374147185,
+    "ttft": 536
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 16:00",
+    "timestampUnix": 1777017600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 25.300784898923162,
+    "medianTps": 26.465829922326197,
+    "ttft": 1778
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 17:00",
+    "timestampUnix": 1777021200000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 28.105179229587407,
+    "medianTps": 29.576502458893163,
+    "ttft": 2303
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 18:00",
+    "timestampUnix": 1777024800000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 56.83661266974316,
+    "medianTps": 54.745432685826856,
+    "ttft": 1523
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 19:00",
+    "timestampUnix": 1777028400000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 71.78344201288228,
+    "medianTps": 65.8971293893665,
+    "ttft": 1845
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 20:00",
+    "timestampUnix": 1777032000000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 41.22498798386768,
+    "medianTps": 38.45267638977246,
+    "ttft": 1633
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 21:00",
+    "timestampUnix": 1777035600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 40.80070742824974,
+    "medianTps": 41.24412323162829,
+    "ttft": 1636.75
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 40.2615390385416,
+    "medianTps": 41.39765425361684,
+    "ttft": 1796
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 23:00",
+    "timestampUnix": 1777042800000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 37.78395045423442,
+    "medianTps": 34.86184271335816,
+    "ttft": 2150.6666666666665
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 00:00",
+    "timestampUnix": 1777046400000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 43.11953821125763,
+    "medianTps": 42.440266300548124,
+    "ttft": 2038.3333333333333
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 01:00",
+    "timestampUnix": 1777050000000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 35.563509961252485,
+    "medianTps": 44.45656298927103,
+    "ttft": 1740.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 02:00",
+    "timestampUnix": 1777053600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 63.08841682334728,
+    "medianTps": 62.25138108857417,
+    "ttft": 1340.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 03:00",
+    "timestampUnix": 1777057200000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 63.26113315931528,
+    "medianTps": 63.03597907002014,
+    "ttft": 1624.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 04:00",
+    "timestampUnix": 1777060800000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 52.46333462700297,
+    "medianTps": 51.65316639789061,
+    "ttft": 1312
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 05:00",
+    "timestampUnix": 1777064400000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 79.11542517978022,
+    "medianTps": 77.51450917303227,
+    "ttft": 1285.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 47.55878005114961,
+    "medianTps": 47.340280401942834,
+    "ttft": 1424
   },
   {
     "seriesKey": "OpenCode Go__kimi-k2.5",
@@ -348334,6 +348850,18 @@
     "tokensPerSec": 62.97001194853508,
     "medianTps": 61.97190119941294,
     "ttft": 1393.3333333333333
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.5",
+    "seriesLabel": "OpenCode Go / kimi-k2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 83.84829845673042,
+    "medianTps": 82.4065136509951,
+    "ttft": 1288
   },
   {
     "seriesKey": "无问芯穹__glm-5",
@@ -364452,6 +364980,18 @@
     "ttft": 548.3333333333334
   },
   {
+    "seriesKey": "百度云(千帆)__minimax-m2.5",
+    "seriesLabel": "百度云(千帆) / minimax-m2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "百度云(千帆)",
+    "model": "minimax-m2.5",
+    "modelDisplay": "minimax-m2.5",
+    "tokensPerSec": 43.756947133852854,
+    "medianTps": 58.885541082307405,
+    "ttft": 522
+  },
+  {
     "seriesKey": "Alaya Code__glm-5",
     "seriesLabel": "Alaya Code / glm-5",
     "timestamp": "2026/04/16 16:00",
@@ -378504,6 +379044,18 @@
     "ttft": 1618
   },
   {
+    "seriesKey": "联通云__MiniMax-M2.5",
+    "seriesLabel": "联通云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "联通云",
+    "model": "MiniMax-M2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 35.75148664178382,
+    "medianTps": 57.661808270854735,
+    "ttft": 584
+  },
+  {
     "seriesKey": "火山引擎__deepseek-v3.2",
     "seriesLabel": "火山引擎 / deepseek-v3.2",
     "timestamp": "2026/04/02 00:00",
@@ -384754,6 +385306,18 @@
     "tokensPerSec": 31.712794522017585,
     "medianTps": 41.89508584331136,
     "ttft": 950
+  },
+  {
+    "seriesKey": "火山引擎__deepseek-v3.2",
+    "seriesLabel": "火山引擎 / deepseek-v3.2",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "火山引擎",
+    "model": "deepseek-v3.2",
+    "modelDisplay": "deepseek-v3.2",
+    "tokensPerSec": 30.49408861562159,
+    "medianTps": 42.1381912712338,
+    "ttft": 755
   },
   {
     "seriesKey": "百炼(阿里云)__glm-5",
@@ -396442,6 +397006,18 @@
     "tokensPerSec": 44.75185822571867,
     "medianTps": 46.91723002831886,
     "ttft": 2644.3333333333335
+  },
+  {
+    "seriesKey": "百炼(阿里云)__glm-5",
+    "seriesLabel": "百炼(阿里云) / glm-5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "百炼(阿里云)",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 51.0887882177185,
+    "medianTps": 59.012335328782996,
+    "ttft": 986
   },
   {
     "seriesKey": "联通云__glm-5",
@@ -411490,6 +412066,18 @@
     "tokensPerSec": 59.32141559692389,
     "medianTps": 72.95206204888774,
     "ttft": 2087
+  },
+  {
+    "seriesKey": "Ollama Cloud__deepseek-v3.2",
+    "seriesLabel": "Ollama Cloud / deepseek-v3.2",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "Ollama Cloud",
+    "model": "deepseek-v3.2",
+    "modelDisplay": "deepseek-v3.2",
+    "tokensPerSec": 105.11234160160204,
+    "medianTps": 102.57364147513687,
+    "ttft": 765
   },
   {
     "seriesKey": "无问芯穹__deepseek-v3.2",
@@ -427306,6 +427894,18 @@
     "tokensPerSec": 33.456355907927794,
     "medianTps": 36.642577941933666,
     "ttft": 1002
+  },
+  {
+    "seriesKey": "百度云(千帆)__deepseek-v3.2",
+    "seriesLabel": "百度云(千帆) / deepseek-v3.2",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "百度云(千帆)",
+    "model": "deepseek-v3.2",
+    "modelDisplay": "deepseek-v3.2",
+    "tokensPerSec": 33.032556213219934,
+    "medianTps": 34.79285473755254,
+    "ttft": 898
   },
   {
     "seriesKey": "联通元景__glm-5.1",
@@ -446146,6 +446746,18 @@
     "tokensPerSec": 47.43580053742036,
     "medianTps": 33.55123187076972,
     "ttft": 36323.333333333336
+  },
+  {
+    "seriesKey": "联通云__kimi-k2.5",
+    "seriesLabel": "联通云 / kimi-k2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "联通云",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 53.33358429423645,
+    "medianTps": 32.613238665321035,
+    "ttft": 52403
   },
   {
     "seriesKey": "火山引擎__ark-code-latest",
