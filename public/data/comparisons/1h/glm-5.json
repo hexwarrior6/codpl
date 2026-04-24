@@ -145,15 +145,15 @@
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 64155.5,
-    "ttftP95": 79524.35,
-    "avgMedianTps": 3.239213237765277,
-    "avgLatency": 465.1853368545,
+    "ttftP50": 81232,
+    "ttftP95": 204305.19999999998,
+    "avgMedianTps": 3.2056640399587466,
+    "avgLatency": 537.8043904709999,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -23441.298141935906,
-    "compositeScore": 1.9435279426591663,
-    "latestProbeAt": "2026-04-24T10:57:21.603094873+08:00"
+    "sampleCount": 3,
+    "score": -28672.275777535247,
+    "compositeScore": 1.923398423975248,
+    "latestProbeAt": "2026-04-24T11:09:59.15055211+08:00"
   },
   {
     "provider": "无问芯穹",
