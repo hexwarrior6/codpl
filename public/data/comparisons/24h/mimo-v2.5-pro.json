@@ -19,9 +19,9 @@
     "ttftP95": 3740.749999999999,
     "avgMedianTps": 65.84168645100463,
     "avgLatency": 19.176726482499998,
-    "successRate": 0.14457831325301204,
-    "sampleCount": 83,
-    "score": -342.5897301034601,
+    "successRate": 0.14814814814814814,
+    "sampleCount": 81,
+    "score": -339.01989520832404,
     "compositeScore": 52.03471909549375,
     "latestProbeAt": "2026-04-24T19:25:24.296065465+08:00"
   }

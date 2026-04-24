@@ -26431,9 +26431,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
-    "tokensPerSec": 177.26227453359297,
-    "medianTps": 178.63366083088022,
-    "ttft": 1279
+    "tokensPerSec": 176.91360742061704,
+    "medianTps": 174.35123042353194,
+    "ttft": 1196
   },
   {
     "seriesKey": "Alaya Code__minimax-m2.5",
@@ -74047,9 +74047,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 114.69814176997687,
-    "medianTps": 113.21094689948883,
-    "ttft": 695
+    "tokensPerSec": 117.9993934160567,
+    "medianTps": 113.12858624319684,
+    "ttft": 694.3333333333334
   },
   {
     "seriesKey": "OpenCode Go__glm-5.1",
@@ -89575,9 +89575,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "tokensPerSec": 41.803567855793005,
-    "medianTps": 39.40065626499332,
-    "ttft": 3596.6666666666665
+    "tokensPerSec": 41.84597184079501,
+    "medianTps": 39.1904488086255,
+    "ttft": 3332
   },
   {
     "seriesKey": "无问芯穹__minimax-m2.5",
@@ -99283,9 +99283,9 @@
     "provider": "Ollama Cloud",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 48.38586226433551,
-    "medianTps": 51.336317806355794,
-    "ttft": 2473.6666666666665
+    "tokensPerSec": 51.56615834895834,
+    "medianTps": 53.51541253248525,
+    "ttft": 2144
   },
   {
     "seriesKey": "Ollama Cloud__glm-5.1",
@@ -290755,9 +290755,9 @@
     "provider": "Ollama Cloud",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 40.945738427601434,
-    "medianTps": 58.78144947859979,
-    "ttft": 2939
+    "tokensPerSec": 44.496557849762056,
+    "medianTps": 61.13196522955567,
+    "ttft": 2576.75
   },
   {
     "seriesKey": "火山引擎__glm-5.1",
