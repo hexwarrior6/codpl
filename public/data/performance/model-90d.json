@@ -49783,9 +49783,9 @@
     "provider": "Alaya Code",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 117.29196499509385,
-    "medianTps": 0,
-    "ttft": 16381.5
+    "tokensPerSec": 127.1021363781374,
+    "medianTps": 120.12961753074656,
+    "ttft": 12279
   },
   {
     "seriesKey": "优云__moonshotai/kimi-k2.5",
@@ -365467,9 +365467,9 @@
     "provider": "Alaya Code",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "tokensPerSec": 16.02149868453134,
-    "medianTps": 20.94211075465938,
-    "ttft": 36665.5
+    "tokensPerSec": 16.843648205081873,
+    "medianTps": 14.901497875749302,
+    "ttft": 35851
   },
   {
     "seriesKey": "联通云__MiniMax-M2.5",

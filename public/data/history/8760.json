@@ -16994,20 +16994,20 @@
     "provider": "Alaya Code",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 18.372269719836904,
-    "medianTps": 20.21870653298596,
-    "ttft": 56861.454545454544,
-    "dataPoints": 11
+    "avgTps": 18.38190951369907,
+    "medianTps": 18.76883699839789,
+    "ttft": 54974.833333333336,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/25",
     "provider": "Alaya Code",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 158.70626233222814,
-    "medianTps": 158.56791547212268,
-    "ttft": 7504.818181818182,
-    "dataPoints": 11
+    "avgTps": 157.70761373322784,
+    "medianTps": 154.72408567798507,
+    "ttft": 7218.916666666667,
+    "dataPoints": 12
   },
   {
     "timePoint": "04/25",
