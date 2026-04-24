@@ -1,41 +1,41 @@
 [
   {
-    "provider": "京东云",
-    "providerPlatform": "jdcloud",
-    "ttftP50": 519,
-    "ttftP95": 18333.600000000002,
-    "avgMedianTps": 80.81280132977739,
-    "avgLatency": 69.65830798176627,
-    "successRate": 1,
-    "sampleCount": 77,
-    "score": -360.38089156549245,
-    "compositeScore": 80.57996041924643,
-    "latestProbeAt": "2026-04-24T08:04:14.127940553+08:00"
-  },
-  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 621.5,
-    "ttftP95": 1357.9499999999996,
-    "avgMedianTps": 84.85375734667997,
-    "avgLatency": 28.4463935787971,
-    "successRate": 0.8961038961038961,
-    "sampleCount": 77,
-    "score": 569.7666007140484,
-    "compositeScore": 80.40433550244194,
-    "latestProbeAt": "2026-04-24T07:59:12.502072076+08:00"
+    "ttftP50": 616,
+    "ttftP95": 1369.099999999999,
+    "avgMedianTps": 84.93173947865539,
+    "avgLatency": 28.434180882147057,
+    "successRate": 0.8607594936708861,
+    "sampleCount": 79,
+    "score": 536.2954084891419,
+    "compositeScore": 80.57936518520303,
+    "latestProbeAt": "2026-04-24T08:32:30.606183205+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 519.5,
+    "ttftP95": 18259.649999999998,
+    "avgMedianTps": 79.71226776636139,
+    "avgLatency": 70.58949870780003,
+    "successRate": 1,
+    "sampleCount": 80,
+    "score": -390.36386109683235,
+    "compositeScore": 79.90574817573352,
+    "latestProbeAt": "2026-04-24T08:40:46.174445534+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 20612,
-    "ttftP95": 138901.80000000005,
-    "avgMedianTps": 47.1357349252571,
-    "avgLatency": 74.78098785997403,
-    "successRate": 0.9871794871794872,
-    "sampleCount": 78,
-    "score": -4721.930799768321,
-    "compositeScore": 28.281440955154256,
-    "latestProbeAt": "2026-04-24T08:25:32.078294097+08:00"
+    "ttftP50": 20481.5,
+    "ttftP95": 138012.34999999986,
+    "avgMedianTps": 47.23084873343857,
+    "avgLatency": 74.40117927265383,
+    "successRate": 0.9873417721518988,
+    "sampleCount": 79,
+    "score": -4685.602617263816,
+    "compositeScore": 28.338509240063143,
+    "latestProbeAt": "2026-04-24T08:52:56.066439967+08:00"
   }
 ]
