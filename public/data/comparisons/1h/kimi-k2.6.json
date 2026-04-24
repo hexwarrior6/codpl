@@ -1,54 +1,15 @@
 [
   {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 385,
-    "ttftP95": 385,
-    "avgMedianTps": 160.63488997006445,
-    "avgLatency": 16.804760394,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 1466.6903299703868,
-    "compositeScore": 96.40104054913618,
-    "latestProbeAt": "2026-04-24T06:49:48.517924808+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 672,
-    "ttftP95": 1477.5,
-    "avgMedianTps": 68.36638113767368,
-    "avgLatency": 35.030195181,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 400.04340730104184,
-    "compositeScore": 69.38484135977541,
-    "latestProbeAt": "2026-04-24T06:53:59.50207809+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 664,
-    "ttftP95": 767.5,
-    "avgMedianTps": 66.8909519833362,
-    "avgLatency": 41.102151913,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 240.99191407501735,
-    "compositeScore": 68.67236378149127,
-    "latestProbeAt": "2026-04-24T06:54:03.907092971+08:00"
-  },
-  {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
-    "ttftP50": 600,
-    "ttftP95": 600,
-    "avgMedianTps": 62.98923010869064,
-    "avgLatency": 25.471763498666665,
+    "ttftP50": 652,
+    "ttftP95": 737.5,
+    "avgMedianTps": 74.13792951459986,
+    "avgLatency": 23.5860638925,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 621.1412931854774,
-    "compositeScore": 67.79353806521439,
-    "latestProbeAt": "2026-04-24T06:43:51.987314025+08:00"
+    "sampleCount": 2,
+    "score": 724.775979775099,
+    "compositeScore": 73.28366307140794,
+    "latestProbeAt": "2026-04-24T07:59:58.278066346+08:00"
   }
 ]

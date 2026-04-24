@@ -16,14 +16,14 @@
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
     "ttftP50": 726,
-    "ttftP95": 19298.85000000001,
-    "avgMedianTps": 60.291308011197664,
-    "avgLatency": 34.951706127658525,
-    "successRate": 0.9929221435793731,
-    "sampleCount": 2967,
-    "score": 335.6773384550959,
-    "compositeScore": 63.4247143317199,
-    "latestProbeAt": "2026-04-24T06:43:51.987314025+08:00"
+    "ttftP95": 19288.94999999997,
+    "avgMedianTps": 60.30072748160815,
+    "avgLatency": 34.943995379873485,
+    "successRate": 0.9929269114179858,
+    "sampleCount": 2969,
+    "score": 335.93139181079755,
+    "compositeScore": 63.43036601396619,
+    "latestProbeAt": "2026-04-24T07:59:58.278066346+08:00"
   },
   {
     "provider": "火山引擎",

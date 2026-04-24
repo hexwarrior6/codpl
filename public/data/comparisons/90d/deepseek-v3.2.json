@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 441.5,
-    "ttftP95": 8736.249999999998,
-    "avgMedianTps": 61.96183816514375,
-    "avgLatency": 25.609036695870184,
-    "successRate": 0.9877300613496932,
-    "sampleCount": 1630,
-    "score": 630.9751729438011,
-    "compositeScore": 71.6025935275604,
-    "latestProbeAt": "2026-04-24T06:46:22.036461095+08:00"
+    "ttftP50": 442,
+    "ttftP95": 8734.5,
+    "avgMedianTps": 61.95902152392945,
+    "avgLatency": 25.607100280297328,
+    "successRate": 0.987737584304108,
+    "sampleCount": 1631,
+    "score": 630.9142064402513,
+    "compositeScore": 71.58457422540216,
+    "latestProbeAt": "2026-04-24T07:59:34.118896255+08:00"
   },
   {
     "provider": "火山引擎",
@@ -29,14 +29,14 @@
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
     "ttftP50": 1040,
-    "ttftP95": 1569.6999999999994,
-    "avgMedianTps": 35.16124619912667,
-    "avgLatency": 37.390411753616526,
-    "successRate": 0.9593846153846154,
-    "sampleCount": 1625,
-    "score": 27.591798738962325,
-    "compositeScore": 43.161256494150265,
-    "latestProbeAt": "2026-04-24T06:48:25.296744024+08:00"
+    "ttftP95": 1569.3499999999997,
+    "avgMedianTps": 35.16415190935835,
+    "avgLatency": 37.39141089382831,
+    "successRate": 0.959409594095941,
+    "sampleCount": 1626,
+    "score": 27.60923320638335,
+    "compositeScore": 43.16299992028928,
+    "latestProbeAt": "2026-04-24T07:59:50.65196109+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -45,11 +45,11 @@
     "ttftP95": 1921.5000000000005,
     "avgMedianTps": 37.67281238686273,
     "avgLatency": 37.53493279154225,
-    "successRate": 0.7233782129742962,
-    "sampleCount": 1634,
-    "score": -252.6582324930838,
+    "successRate": 0.722052535125229,
+    "sampleCount": 1637,
+    "score": -253.98391034215103,
     "compositeScore": 41.24505577843085,
-    "latestProbeAt": "2026-04-24T06:42:36.869936764+08:00"
+    "latestProbeAt": "2026-04-24T07:59:12.387264023+08:00"
   },
   {
     "provider": "Ollama Cloud",
