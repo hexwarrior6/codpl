@@ -2,15 +2,15 @@
   {
     "provider": "小米 MiMo",
     "providerPlatform": "xiaomi_mimo",
-    "ttftP50": 507,
-    "ttftP95": 848,
-    "avgMedianTps": 81.7179796698638,
-    "avgLatency": 13.91696182352381,
+    "ttftP50": 532,
+    "ttftP95": 1030,
+    "avgMedianTps": 81.07381414878454,
+    "avgLatency": 14.613720178619046,
     "successRate": 1,
     "sampleCount": 21,
-    "score": 1040.9838324310874,
-    "compositeScore": 81.46055533684368,
-    "latestProbeAt": "2026-04-24T08:33:40.52617617+08:00"
+    "score": 1014.699880427231,
+    "compositeScore": 80.37965103921763,
+    "latestProbeAt": "2026-04-24T09:27:13.151866085+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -20,9 +20,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 22,
+    "sampleCount": 19,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T08:38:13.412173081+08:00"
+    "latestProbeAt": "2026-04-24T09:28:08.126339998+08:00"
   }
 ]

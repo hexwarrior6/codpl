@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 516,
-    "ttftP95": 18654.049999999985,
-    "avgMedianTps": 98.3458767617504,
-    "avgLatency": 52.70252230997032,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": 167.3359182362642,
-    "compositeScore": 91.18344040777652,
-    "latestProbeAt": "2026-04-24T08:40:46.174445534+08:00"
+    "ttftP50": 517,
+    "ttftP95": 18629.399999999976,
+    "avgMedianTps": 98.20450128691847,
+    "avgLatency": 52.9403721977273,
+    "successRate": 0.9980276134122288,
+    "sampleCount": 507,
+    "score": 160.345316190557,
+    "compositeScore": 91.07068297396054,
+    "latestProbeAt": "2026-04-24T09:29:24.876182834+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,24 +19,24 @@
     "ttftP95": 1442.75,
     "avgMedianTps": 82.79682629117013,
     "avgLatency": 29.047975731773004,
-    "successRate": 0.9683168316831683,
-    "sampleCount": 505,
-    "score": 606.4983961358639,
+    "successRate": 0.9625984251968503,
+    "sampleCount": 508,
+    "score": 600.779989649546,
     "compositeScore": 78.25940861158871,
-    "latestProbeAt": "2026-04-24T08:32:30.606183205+08:00"
+    "latestProbeAt": "2026-04-24T09:26:07.189568689+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1374,
-    "ttftP95": 84959.19999999978,
-    "avgMedianTps": 83.25716528987894,
-    "avgLatency": 38.31674203459105,
-    "successRate": 0.8829365079365079,
-    "sampleCount": 504,
-    "score": 149.7609488110054,
-    "compositeScore": 68.00082319070516,
-    "latestProbeAt": "2026-04-24T08:52:56.066439967+08:00"
+    "ttftP50": 1367.5,
+    "ttftP95": 84719.75,
+    "avgMedianTps": 83.27093519806999,
+    "avgLatency": 38.24965708767269,
+    "successRate": 0.8831683168316832,
+    "sampleCount": 505,
+    "score": 153.05250082828593,
+    "compositeScore": 68.07749684700161,
+    "latestProbeAt": "2026-04-24T09:27:52.683191006+08:00"
   },
   {
     "provider": "火山引擎",
