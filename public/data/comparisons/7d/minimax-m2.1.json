@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 871.5,
+    "ttftP50": 871,
     "ttftP95": 16993.55,
-    "avgMedianTps": 151.0942956867238,
-    "avgLatency": 17.788838055665998,
+    "avgMedianTps": 151.16212771677942,
+    "avgLatency": 17.728586391131998,
     "successRate": 0.9960159362549801,
     "sampleCount": 502,
-    "score": 1283.560758983673,
-    "compositeScore": 84.61461836370196,
-    "latestProbeAt": "2026-04-24T10:05:33.842336418+08:00"
+    "score": 1285.5740427773567,
+    "compositeScore": 84.62289781897016,
+    "latestProbeAt": "2026-04-24T10:52:17.747769676+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5338,
-    "ttftP95": 26981.499999999996,
-    "avgMedianTps": 139.39094727137186,
-    "avgLatency": 23.923185887047687,
-    "successRate": 0.996039603960396,
-    "sampleCount": 505,
-    "score": 166.70564041243495,
+    "ttftP50": 5334,
+    "ttftP95": 26977.249999999996,
+    "avgMedianTps": 139.80244810197235,
+    "avgLatency": 23.847071431607116,
+    "successRate": 0.9960474308300395,
+    "sampleCount": 506,
+    "score": 171.88533365169576,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T09:34:44.409211394+08:00"
+    "latestProbeAt": "2026-04-24T10:58:36.102891525+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2974.5,
-    "ttftP95": 18010.049999999967,
-    "avgMedianTps": 63.15735940693217,
-    "avgLatency": 38.37493549228486,
-    "successRate": 0.9663366336633663,
+    "ttftP50": 2979,
+    "ttftP95": 18228.599999999933,
+    "avgMedianTps": 63.26472238173068,
+    "avgLatency": 38.39887592565569,
+    "successRate": 0.9603960396039604,
     "sampleCount": 505,
-    "score": -208.9925972021622,
-    "compositeScore": 44.798287919618076,
-    "latestProbeAt": "2026-04-24T09:26:07.241925874+08:00"
+    "score": -215.7875242470477,
+    "compositeScore": 44.84089625150192,
+    "latestProbeAt": "2026-04-24T10:39:03.837941608+08:00"
   }
 ]
