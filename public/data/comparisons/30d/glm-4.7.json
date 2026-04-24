@@ -29,14 +29,14 @@
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1541,
-    "ttftP95": 85950,
-    "avgMedianTps": 72.8975246393036,
-    "avgLatency": 42.9598040896208,
-    "successRate": 0.8822143698468787,
-    "sampleCount": 849,
-    "score": -62.59558455781962,
-    "compositeScore": 60.13019022339311,
-    "latestProbeAt": "2026-04-24T14:25:08.81517095+08:00"
+    "ttftP95": 85944.5,
+    "avgMedianTps": 72.7985339390884,
+    "avgLatency": 43.08366093407587,
+    "successRate": 0.882491186839013,
+    "sampleCount": 851,
+    "score": -66.00913287835351,
+    "compositeScore": 60.07079580326399,
+    "latestProbeAt": "2026-04-24T14:38:06.805918863+08:00"
   },
   {
     "provider": "火山引擎",

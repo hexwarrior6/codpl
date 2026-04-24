@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "京东云",
-    "providerPlatform": "jdcloud",
-    "ttftP50": 469,
-    "ttftP95": 474.4,
-    "avgMedianTps": 77.46805754495006,
-    "avgLatency": 97.361953872,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -1063.0405015302995,
-    "compositeScore": 80.03458030677508,
-    "latestProbeAt": "2026-04-24T14:29:31.558952415+08:00"
-  }
-]
+[]
