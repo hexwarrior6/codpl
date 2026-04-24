@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 878,
+    "ttftP50": 881,
     "ttftP95": 18801,
-    "avgMedianTps": 153.2873886071612,
-    "avgLatency": 20.1312678859753,
+    "avgMedianTps": 154.23033091773323,
+    "avgLatency": 20.35716143072839,
     "successRate": 1,
     "sampleCount": 81,
-    "score": 1240.8426344935847,
-    "compositeScore": 84.50741560960523,
-    "latestProbeAt": "2026-04-24T12:16:51.291709278+08:00"
+    "score": 1240.2529497381895,
+    "compositeScore": 84.45820481575467,
+    "latestProbeAt": "2026-04-24T12:51:34.9234566+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
     "ttftP50": 4216,
-    "ttftP95": 20598.84999999999,
-    "avgMedianTps": 139.97276450077092,
-    "avgLatency": 22.61458021850001,
-    "successRate": 0.9873417721518988,
-    "sampleCount": 79,
-    "score": 418.613853694024,
+    "ttftP95": 20391.299999999996,
+    "avgMedianTps": 141.83754164416052,
+    "avgLatency": 22.544447222312506,
+    "successRate": 0.9876543209876543,
+    "sampleCount": 81,
+    "score": 431.8683902948047,
     "compositeScore": 61.87159538858667,
-    "latestProbeAt": "2026-04-24T12:08:58.650137804+08:00"
+    "latestProbeAt": "2026-04-24T12:43:37.459108164+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2769,
-    "ttftP95": 21362,
-    "avgMedianTps": 73.76687919254141,
-    "avgLatency": 27.341294694016394,
-    "successRate": 0.7625,
-    "sampleCount": 80,
-    "score": -32.23109219516141,
-    "compositeScore": 52.19682103681435,
-    "latestProbeAt": "2026-04-24T11:53:22.509335531+08:00"
+    "ttftP50": 2770,
+    "ttftP95": 21411.499999999996,
+    "avgMedianTps": 73.58669650344378,
+    "avgLatency": 27.445923342186443,
+    "successRate": 0.7283950617283951,
+    "sampleCount": 81,
+    "score": -70.23284280560324,
+    "compositeScore": 52.08350219765957,
+    "latestProbeAt": "2026-04-24T12:35:54.878408487+08:00"
   }
 ]

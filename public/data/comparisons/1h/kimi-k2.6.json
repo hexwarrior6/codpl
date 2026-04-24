@@ -1,42 +1,42 @@
 [
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 999,
-    "ttftP95": 4093.2,
-    "avgMedianTps": 53.96422687356042,
-    "avgLatency": 86.80782661133333,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": -1046.2103040419706,
-    "compositeScore": 55.02331435117088,
-    "latestProbeAt": "2026-04-24T12:15:53.956599927+08:00"
-  },
-  {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
-    "ttftP50": 849,
-    "ttftP95": 1008.3,
-    "avgMedianTps": 38.62899233486505,
-    "avgLatency": 48.81372072533333,
+    "ttftP50": 893,
+    "ttftP95": 911,
+    "avgMedianTps": 40.69471822650959,
+    "avgLatency": 48.84245907033334,
     "successRate": 1,
     "sampleCount": 3,
-    "score": -158.36906412414305,
-    "compositeScore": 48.169374870347454,
-    "latestProbeAt": "2026-04-24T11:55:48.516259865+08:00"
+    "score": -155.49316739927622,
+    "compositeScore": 48.67985418965233,
+    "latestProbeAt": "2026-04-24T12:38:19.92276923+08:00"
   },
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
     "ttftP50": 1262,
-    "ttftP95": 9634.699999999999,
-    "avgMedianTps": 32.808630286690786,
-    "avgLatency": 76.638148604,
+    "ttftP95": 9327.399999999998,
+    "avgMedianTps": 47.638994927683044,
+    "avgLatency": 62.214380131999995,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": -971.5019333798551,
-    "compositeScore": 38.95840312714779,
-    "latestProbeAt": "2026-04-24T12:11:16.230956594+08:00"
+    "sampleCount": 5,
+    "score": -521.9255337339016,
+    "compositeScore": 47.85662191174315,
+    "latestProbeAt": "2026-04-24T12:48:25.85916736+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 2733.5,
+    "ttftP95": 4976.75,
+    "avgMedianTps": 56.25617520790556,
+    "avgLatency": 75.67503312416666,
+    "successRate": 1,
+    "sampleCount": 6,
+    "score": -1101.0387768567332,
+    "compositeScore": 41.87655542770631,
+    "latestProbeAt": "2026-04-24T12:50:49.118508722+08:00"
   },
   {
     "provider": "联通元景",
@@ -49,6 +49,6 @@
     "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T11:56:42.910959719+08:00"
+    "latestProbeAt": "2026-04-24T12:42:07.602088644+08:00"
   }
 ]
