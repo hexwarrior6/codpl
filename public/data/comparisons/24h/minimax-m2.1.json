@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 895,
-    "ttftP95": 13003.000000000015,
-    "avgMedianTps": 159.80530076886723,
-    "avgLatency": 18.23430180435065,
+    "ttftP50": 897.5,
+    "ttftP95": 13252.25,
+    "avgMedianTps": 160.5493835816182,
+    "avgLatency": 18.390802932052633,
     "successRate": 1,
-    "sampleCount": 77,
-    "score": 1323.974259504437,
-    "compositeScore": 84.23074818344261,
-    "latestProbeAt": "2026-04-25T02:43:31.47892284+08:00"
+    "sampleCount": 76,
+    "score": 1324.0262281883934,
+    "compositeScore": 84.19050561785467,
+    "latestProbeAt": "2026-04-25T03:28:39.918327178+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2650,
-    "ttftP95": 4255.999999999995,
-    "avgMedianTps": 98.22434727606846,
-    "avgLatency": 19.43660949307692,
-    "successRate": 0.16883116883116883,
-    "sampleCount": 77,
-    "score": -257.73798483934337,
-    "compositeScore": 67.50502882722064,
-    "latestProbeAt": "2026-04-25T02:22:39.782553691+08:00"
+    "ttftP50": 2669,
+    "ttftP95": 4840.5999999999985,
+    "avgMedianTps": 99.34188633313804,
+    "avgLatency": 19.164392709444442,
+    "successRate": 0.11842105263157894,
+    "sampleCount": 76,
+    "score": -298.437447105704,
+    "compositeScore": 68.07248280342196,
+    "latestProbeAt": "2026-04-25T03:17:27.415288183+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5695,
-    "ttftP95": 27572,
-    "avgMedianTps": 125.41583289577503,
-    "avgLatency": 30.609993697957737,
+    "ttftP50": 5477,
+    "ttftP95": 29979,
+    "avgMedianTps": 125.53928763606412,
+    "avgLatency": 30.5902750969014,
     "successRate": 0.9466666666666667,
     "sampleCount": 75,
-    "score": -205.08817840762674,
+    "score": -160.25448493948386,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-25T02:35:03.597407073+08:00"
+    "latestProbeAt": "2026-04-25T03:27:37.583016402+08:00"
   }
 ]
