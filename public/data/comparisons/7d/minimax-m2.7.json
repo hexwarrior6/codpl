@@ -15,14 +15,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 2798,
-    "ttftP95": 8617,
-    "avgMedianTps": 79.8145726858269,
-    "avgLatency": 34.024235530119775,
-    "successRate": 0.9960238568588469,
-    "sampleCount": 503,
-    "score": 64.70540472081382,
-    "compositeScore": 55.675128044807416,
+    "ttftP50": 2801,
+    "ttftP95": 8622.249999999995,
+    "avgMedianTps": 79.6799229875245,
+    "avgLatency": 34.07679225263601,
+    "successRate": 0.9960159362549801,
+    "sampleCount": 502,
+    "score": 61.97566786422669,
+    "compositeScore": 55.57887801672845,
     "latestProbeAt": "2026-04-25T06:47:57.990705688+08:00"
   },
   {
@@ -45,11 +45,11 @@
     "ttftP95": 18481.699999999993,
     "avgMedianTps": 72.03677967072132,
     "avgLatency": 38.849362125152396,
-    "successRate": 0.8333333333333334,
-    "sampleCount": 504,
-    "score": -1196.980041771149,
+    "successRate": 0.8284023668639053,
+    "sampleCount": 507,
+    "score": -1201.9110082405768,
     "compositeScore": 43.22206780243279,
-    "latestProbeAt": "2026-04-25T06:27:23.436544552+08:00"
+    "latestProbeAt": "2026-04-25T07:30:01.37223896+08:00"
   },
   {
     "provider": "火山引擎",

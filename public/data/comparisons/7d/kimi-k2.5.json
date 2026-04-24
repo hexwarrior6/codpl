@@ -29,13 +29,13 @@
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1246,
-    "ttftP95": 10662.8999999999,
-    "avgMedianTps": 85.80440710025458,
-    "avgLatency": 44.242419369308,
-    "successRate": 0.9940357852882704,
-    "sampleCount": 503,
-    "score": 153.6017436570978,
-    "compositeScore": 70.93994763487154,
+    "ttftP95": 10773.799999999925,
+    "avgMedianTps": 85.88227656198859,
+    "avgLatency": 44.152872806747496,
+    "successRate": 0.9940239043824701,
+    "sampleCount": 502,
+    "score": 156.2957435857145,
+    "compositeScore": 70.98666931191195,
     "latestProbeAt": "2026-04-25T06:47:06.695277062+08:00"
   },
   {
@@ -84,11 +84,11 @@
     "ttftP95": 15773.099999999966,
     "avgMedianTps": 57.631168279114796,
     "avgLatency": 57.81329969531367,
-    "successRate": 0.8396039603960396,
-    "sampleCount": 505,
-    "score": -497.74152231211315,
+    "successRate": 0.8346456692913385,
+    "sampleCount": 508,
+    "score": -502.6998134168143,
     "compositeScore": 54.71155787497113,
-    "latestProbeAt": "2026-04-25T06:27:23.192951715+08:00"
+    "latestProbeAt": "2026-04-25T07:30:01.091467408+08:00"
   },
   {
     "provider": "腾讯云",

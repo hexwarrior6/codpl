@@ -19,11 +19,11 @@
     "ttftP95": 1503.999999999998,
     "avgMedianTps": 82.88865435621085,
     "avgLatency": 29.04432031221029,
-    "successRate": 0.8475247524752475,
-    "sampleCount": 505,
-    "score": 487.3486708072552,
+    "successRate": 0.84251968503937,
+    "sampleCount": 508,
+    "score": 482.343603371378,
     "compositeScore": 78.42388391546203,
-    "latestProbeAt": "2026-04-25T06:27:23.079459398+08:00"
+    "latestProbeAt": "2026-04-25T07:30:00.978734227+08:00"
   },
   {
     "provider": "Ollama Cloud",

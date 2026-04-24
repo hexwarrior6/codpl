@@ -6,11 +6,11 @@
     "ttftP95": 480.79999999999995,
     "avgMedianTps": 70.39163712355523,
     "avgLatency": 42.09150122343086,
-    "successRate": 0.3700787401574803,
-    "sampleCount": 508,
-    "score": -341.65896768695984,
+    "successRate": 0.3693516699410609,
+    "sampleCount": 509,
+    "score": -342.38603790337925,
     "compositeScore": 77.76359884967445,
-    "latestProbeAt": "2026-04-25T06:34:50.930988179+08:00"
+    "latestProbeAt": "2026-04-25T07:29:58.063752608+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -136,11 +136,11 @@
     "ttftP95": 5352.8999999999905,
     "avgMedianTps": 53.95561963000056,
     "avgLatency": 37.2613973548341,
-    "successRate": 0.8475247524752475,
-    "sampleCount": 505,
-    "score": -45.276463615601756,
+    "successRate": 0.84251968503937,
+    "sampleCount": 508,
+    "score": -50.28153105147919,
     "compositeScore": 49.89409664356448,
-    "latestProbeAt": "2026-04-25T06:27:23.267681464+08:00"
+    "latestProbeAt": "2026-04-25T07:30:01.147809216+08:00"
   },
   {
     "provider": "讯飞星辰",

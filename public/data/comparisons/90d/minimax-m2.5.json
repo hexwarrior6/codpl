@@ -16,14 +16,14 @@
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
     "ttftP50": 344,
-    "ttftP95": 3986.8999999999987,
-    "avgMedianTps": 75.87865762293058,
-    "avgLatency": 33.91462647522039,
-    "successRate": 0.9469652327637006,
-    "sampleCount": 1697,
-    "score": 485.57151662077433,
-    "compositeScore": 83.55273393169617,
-    "latestProbeAt": "2026-04-25T06:36:03.525200207+08:00"
+    "ttftP95": 3986.5499999999993,
+    "avgMedianTps": 75.88879526481891,
+    "avgLatency": 33.904063531253215,
+    "successRate": 0.9469964664310954,
+    "sampleCount": 1698,
+    "score": 485.9276497386784,
+    "compositeScore": 83.55881651682918,
+    "latestProbeAt": "2026-04-25T07:30:15.206985078+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -110,11 +110,11 @@
     "ttftP95": 31469.60000000001,
     "avgMedianTps": 367.3351239537699,
     "avgLatency": 30.33351983733842,
-    "successRate": 0.8225913621262458,
-    "sampleCount": 3010,
-    "score": 1340.8641099154042,
+    "successRate": 0.8217723199468968,
+    "sampleCount": 3013,
+    "score": 1340.0450677360554,
     "compositeScore": 60.498426791213554,
-    "latestProbeAt": "2026-04-25T06:27:23.381786437+08:00"
+    "latestProbeAt": "2026-04-25T07:30:01.267697333+08:00"
   },
   {
     "provider": "Alaya Code",

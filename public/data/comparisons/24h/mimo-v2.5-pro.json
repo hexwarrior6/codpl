@@ -2,15 +2,15 @@
   {
     "provider": "小米 MiMo",
     "providerPlatform": "xiaomi_mimo",
-    "ttftP50": 871.5,
-    "ttftP95": 3547.400000000001,
-    "avgMedianTps": 72.2651548252403,
-    "avgLatency": 17.19405766073611,
+    "ttftP50": 865,
+    "ttftP95": 3532.7999999999975,
+    "avgMedianTps": 72.38104208645896,
+    "avgLatency": 17.150779983328768,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": 829.4394874330392,
-    "compositeScore": 67.97371125884614,
-    "latestProbeAt": "2026-04-25T06:28:19.377472328+08:00"
+    "sampleCount": 73,
+    "score": 832.5167529355347,
+    "compositeScore": 68.15124893159332,
+    "latestProbeAt": "2026-04-25T07:30:12.462290804+08:00"
   },
   {
     "provider": "OpenCode Go",

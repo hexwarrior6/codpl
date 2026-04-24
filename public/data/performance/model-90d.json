@@ -9132,6 +9132,18 @@
     "ttft": 213.66666666666666
   },
   {
+    "seriesKey": "阶跃星辰__step-3.5-flash",
+    "seriesLabel": "阶跃星辰 / step-3.5-flash",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "阶跃星辰",
+    "model": "step-3.5-flash",
+    "modelDisplay": "step-3.5-flash",
+    "tokensPerSec": 291.2412012648374,
+    "medianTps": 325.7995650282893,
+    "ttft": 242.5
+  },
+  {
     "seriesKey": "快手 StreamLake__kat-coder-pro-v2",
     "seriesLabel": "快手 StreamLake / KAT-Coder-ProV2",
     "timestamp": "2026/04/06 21:00",

@@ -45,11 +45,11 @@
     "ttftP95": 23387.950000000004,
     "avgMedianTps": 61.70756494949064,
     "avgLatency": 37.59312384154028,
-    "successRate": 0.6806128461991751,
-    "sampleCount": 1697,
-    "score": -1668.2698601423883,
+    "successRate": 0.6794117647058824,
+    "sampleCount": 1700,
+    "score": -1669.470941635681,
     "compositeScore": 37.02453896969438,
-    "latestProbeAt": "2026-04-25T06:27:23.436544552+08:00"
+    "latestProbeAt": "2026-04-25T07:30:01.37223896+08:00"
   },
   {
     "provider": "火山引擎",
@@ -59,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 170,
+    "sampleCount": 171,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-25T06:36:03.57059079+08:00"
+    "latestProbeAt": "2026-04-25T07:30:15.297304912+08:00"
   }
 ]

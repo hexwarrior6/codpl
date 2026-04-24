@@ -58,11 +58,11 @@
     "ttftP95": 59984.69999999983,
     "avgMedianTps": 57.66539874306934,
     "avgLatency": 47.44653242983951,
-    "successRate": 0.6721991701244814,
-    "sampleCount": 241,
-    "score": -539.5717481630903,
+    "successRate": 0.6639344262295082,
+    "sampleCount": 244,
+    "score": -547.8364920580635,
     "compositeScore": 48.29207828697388,
-    "latestProbeAt": "2026-04-25T06:27:23.32458228+08:00"
+    "latestProbeAt": "2026-04-25T07:30:01.205101696+08:00"
   },
   {
     "provider": "火山引擎",

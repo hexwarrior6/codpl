@@ -17664,9 +17664,9 @@
     "provider": "阶跃星辰",
     "model": "step-3.5-flash",
     "modelDisplay": "step-3.5-flash",
-    "avgTps": 264.1412191867157,
-    "medianTps": 293.47677032772737,
-    "ttft": 554.5714285714286,
-    "dataPoints": 21
+    "avgTps": 266.49773936742196,
+    "medianTps": 296.2874481277762,
+    "ttft": 527.4347826086956,
+    "dataPoints": 23
   }
 ]
