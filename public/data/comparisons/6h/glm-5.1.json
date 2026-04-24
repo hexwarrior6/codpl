@@ -2,80 +2,80 @@
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 1163.5,
-    "ttftP95": 6408.149999999999,
-    "avgMedianTps": 65.76241920274826,
-    "avgLatency": 39.6371334475,
+    "ttftP50": 1024,
+    "ttftP95": 2968.1999999999925,
+    "avgMedianTps": 75.71841420069799,
+    "avgLatency": 36.44329137677777,
     "successRate": 1,
     "sampleCount": 18,
-    "score": 170.9461790289895,
-    "compositeScore": 59.90308347255428,
-    "latestProbeAt": "2026-04-24T23:23:50.172701525+08:00"
+    "score": 338.4282007847437,
+    "compositeScore": 67.7192354253776,
+    "latestProbeAt": "2026-04-25T00:52:13.895380588+08:00"
   },
   {
     "provider": "天翼云",
     "providerPlatform": "ctyun",
-    "ttftP50": 2217.5,
+    "ttftP50": 1853,
     "ttftP95": 11679.25,
-    "avgMedianTps": 57.64201730146252,
-    "avgLatency": 28.0962066399375,
+    "avgMedianTps": 58.09139322570017,
+    "avgLatency": 28.066431725875002,
     "successRate": 0.8888888888888888,
     "sampleCount": 18,
-    "score": 88.83582669922635,
-    "compositeScore": 45.72621339395206,
-    "latestProbeAt": "2026-04-24T23:13:00.385433216+08:00"
+    "score": 165.1764550962148,
+    "compositeScore": 48.58655118010626,
+    "latestProbeAt": "2026-04-25T00:44:26.018601462+08:00"
   },
   {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
-    "ttftP50": 2893.5,
+    "ttftP50": 2108.5,
     "ttftP95": 7164.25,
-    "avgMedianTps": 59.05996189167661,
-    "avgLatency": 26.983231330187497,
+    "avgMedianTps": 58.42971186091145,
+    "avgLatency": 26.6512856678125,
     "successRate": 0.8888888888888888,
     "sampleCount": 18,
-    "score": -10.032123015738875,
-    "compositeScore": 42.73816475226217,
-    "latestProbeAt": "2026-04-24T23:13:02.891600472+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 2708,
-    "ttftP95": 44182.649999999965,
-    "avgMedianTps": 45.750270352195805,
-    "avgLatency": 117.04222191844445,
-    "successRate": 1,
-    "sampleCount": 18,
-    "score": -2193.1539258479365,
-    "compositeScore": 35.70822888052633,
-    "latestProbeAt": "2026-04-24T23:26:56.766808482+08:00"
+    "score": 151.48501835904494,
+    "compositeScore": 46.92600095871434,
+    "latestProbeAt": "2026-04-25T00:44:21.567745238+08:00"
   },
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 4270,
+    "ttftP50": 2764.5,
     "ttftP95": 9425.849999999995,
-    "avgMedianTps": 49.43923573476385,
-    "avgLatency": 70.50651200466665,
+    "avgMedianTps": 52.40010457822097,
+    "avgLatency": 67.99393282700001,
     "successRate": 1,
     "sampleCount": 18,
-    "score": -1320.027385708083,
-    "compositeScore": 31.351524800738588,
-    "latestProbeAt": "2026-04-24T23:19:02.917107344+08:00"
+    "score": -938.3476932056743,
+    "compositeScore": 39.400221088372696,
+    "latestProbeAt": "2026-04-25T00:50:18.15959282+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 3129,
+    "ttftP95": 44182.649999999965,
+    "avgMedianTps": 42.70872082288659,
+    "avgLatency": 120.02444297266669,
+    "successRate": 1,
+    "sampleCount": 18,
+    "score": -2370.1587493793477,
+    "compositeScore": 31.798559966281545,
+    "latestProbeAt": "2026-04-25T00:57:31.363642289+08:00"
   },
   {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
     "ttftP50": 29436,
     "ttftP95": 129460.34999999999,
-    "avgMedianTps": 27.690183336775924,
-    "avgLatency": 217.2464233628333,
+    "avgMedianTps": 27.888061611094297,
+    "avgLatency": 218.02306535399998,
     "successRate": 1,
     "sampleCount": 18,
-    "score": -10152.219484050178,
-    "compositeScore": 16.614110002065555,
-    "latestProbeAt": "2026-04-24T23:15:00.250629986+08:00"
+    "score": -10170.448264183435,
+    "compositeScore": 16.732836966656578,
+    "latestProbeAt": "2026-04-25T00:55:49.234372594+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -88,6 +88,6 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T23:08:29.713242415+08:00"
+    "latestProbeAt": "2026-04-25T00:40:59.149078365+08:00"
   }
 ]

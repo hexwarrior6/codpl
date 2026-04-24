@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 872.5,
-    "ttftP95": 17047.349999999995,
-    "avgMedianTps": 151.69311879662575,
-    "avgLatency": 17.756000695450012,
-    "successRate": 0.9960159362549801,
-    "sampleCount": 502,
-    "score": 1287.7746316484843,
-    "compositeScore": 84.59807369398867,
-    "latestProbeAt": "2026-04-24T23:28:28.552481183+08:00"
+    "ttftP50": 872,
+    "ttftP95": 17042,
+    "avgMedianTps": 151.9224318410543,
+    "avgLatency": 17.736585613301408,
+    "successRate": 0.9960238568588469,
+    "sampleCount": 503,
+    "score": 1289.7438075726373,
+    "compositeScore": 84.60634365718954,
+    "latestProbeAt": "2026-04-25T00:59:34.577233984+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5356,
+    "ttftP50": 5357,
     "ttftP95": 27167.29999999998,
-    "avgMedianTps": 140.13079286538374,
-    "avgLatency": 24.448068375048067,
+    "avgMedianTps": 139.63868595074848,
+    "avgLatency": 24.417911756102175,
     "successRate": 0.9881188118811881,
     "sampleCount": 505,
-    "score": 146.50185969728875,
+    "score": 144.1031336831245,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T23:23:00.850272514+08:00"
+    "latestProbeAt": "2026-04-25T00:56:41.833067886+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 3020,
-    "ttftP95": 18155.75,
-    "avgMedianTps": 64.09161580902199,
-    "avgLatency": 38.07681239285875,
-    "successRate": 0.8831683168316832,
+    "ttftP50": 3031,
+    "ttftP95": 18374.299999999967,
+    "avgMedianTps": 63.996009978725134,
+    "avgLatency": 38.19798077315801,
+    "successRate": 0.8772277227722772,
     "sampleCount": 505,
-    "score": -288.20229813565356,
-    "compositeScore": 45.139828048247594,
-    "latestProbeAt": "2026-04-24T23:08:29.5579617+08:00"
+    "score": -299.9457366843221,
+    "compositeScore": 45.0300115243506,
+    "latestProbeAt": "2026-04-25T00:40:58.973736552+08:00"
   }
 ]

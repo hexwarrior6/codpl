@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "provider": "天翼云",
+    "providerPlatform": "ctyun",
+    "ttftP50": 661,
+    "ttftP95": 1170.4,
+    "avgMedianTps": 69.84874725742729,
+    "avgLatency": 22.385365669333336,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 727.2583418112303,
+    "compositeScore": 70.51237064433826,
+    "latestProbeAt": "2026-04-25T00:44:04.98478194+08:00"
+  },
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 574,
+    "ttftP95": 583.9,
+    "avgMedianTps": 64.52481658491276,
+    "avgLatency": 24.372682971999996,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 663.0318252094766,
+    "compositeScore": 69.35400758914957,
+    "latestProbeAt": "2026-04-25T00:43:56.752950851+08:00"
+  }
+]
