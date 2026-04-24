@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "provider": "天翼云",
+    "providerPlatform": "ctyun",
+    "ttftP50": 602,
+    "ttftP95": 602,
+    "avgMedianTps": 61.26617505135729,
+    "avgLatency": 22.512868861,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 684.3753287831436,
+    "compositeScore": 66.71169516817616,
+    "latestProbeAt": "2026-04-25T02:25:20.683521167+08:00"
+  }
+]

@@ -2,28 +2,28 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 986.5,
-    "ttftP95": 1953.0499999999993,
-    "avgMedianTps": 67.25382107656935,
-    "avgLatency": 27.08016353783333,
+    "ttftP50": 925,
+    "ttftP95": 1880,
+    "avgMedianTps": 67.86438000588707,
+    "avgLatency": 26.411438562047618,
     "successRate": 1,
-    "sampleCount": 18,
-    "score": 529.218838013583,
-    "compositeScore": 63.17872714366483,
-    "latestProbeAt": "2026-04-25T01:10:43.994048208+08:00"
+    "sampleCount": 21,
+    "score": 561.9003159841319,
+    "compositeScore": 64.4737193544543,
+    "latestProbeAt": "2026-04-25T02:24:34.362498685+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 2224,
-    "ttftP95": 3593.249999999999,
-    "avgMedianTps": 63.10765101752999,
-    "avgLatency": 34.624548942833336,
+    "ttftP50": 2216,
+    "ttftP95": 3562.4999999999986,
+    "avgMedianTps": 63.3071556579825,
+    "avgLatency": 34.55245307515789,
     "successRate": 1,
-    "sampleCount": 18,
-    "score": 68.23218253434675,
-    "compositeScore": 48.96336678824173,
-    "latestProbeAt": "2026-04-25T01:22:37.895919665+08:00"
+    "sampleCount": 19,
+    "score": 72.83160706894773,
+    "compositeScore": 49.13505863925642,
+    "latestProbeAt": "2026-04-25T02:26:28.781246761+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -46,10 +46,10 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 18,
+    "sampleCount": 21,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-25T01:08:26.1911809+08:00"
+    "latestProbeAt": "2026-04-25T02:22:40.070419245+08:00"
   },
   {
     "provider": "火山引擎",
@@ -59,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 18,
+    "sampleCount": 20,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-25T01:18:02.760530405+08:00"
+    "latestProbeAt": "2026-04-25T02:26:53.933029154+08:00"
   }
 ]
