@@ -6,9 +6,9 @@
     "ttftP95": 529.25,
     "avgMedianTps": 165.24914783508672,
     "avgLatency": 7.881076750166666,
-    "successRate": 0.4235294117647059,
-    "sampleCount": 85,
-    "score": 1154.0973800210595,
+    "successRate": 0.43902439024390244,
+    "sampleCount": 82,
+    "score": 1169.592358500256,
     "compositeScore": 99.09146569548886,
     "latestProbeAt": "2026-04-24T08:00:14.649075446+08:00"
   },
@@ -20,9 +20,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 77,
+    "sampleCount": 78,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T06:48:07.15752762+08:00"
+    "latestProbeAt": "2026-04-24T08:07:54.165920073+08:00"
   }
 ]

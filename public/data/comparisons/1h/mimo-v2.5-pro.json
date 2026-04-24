@@ -11,5 +11,18 @@
     "score": 1119.9590518026944,
     "compositeScore": 84.10324625320591,
     "latestProbeAt": "2026-04-24T08:00:08.003590159+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-24T08:07:53.836119071+08:00"
   }
 ]
