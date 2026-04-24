@@ -15,28 +15,28 @@
   {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
-    "ttftP50": 911.5,
-    "ttftP95": 2553.3499999999995,
-    "avgMedianTps": 47.54790821627719,
-    "avgLatency": 42.89649443788889,
+    "ttftP50": 980,
+    "ttftP95": 3553.7499999999986,
+    "avgMedianTps": 45.45771144465769,
+    "avgLatency": 46.47428714016666,
     "successRate": 1,
     "sampleCount": 18,
-    "score": 30.575088350441092,
-    "compositeScore": 52.49594337433378,
-    "latestProbeAt": "2026-04-24T14:21:41.195164949+08:00"
+    "score": -85.11090983622034,
+    "compositeScore": 50.19643438172772,
+    "latestProbeAt": "2026-04-24T15:28:39.435238335+08:00"
   },
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 1213.5,
-    "ttftP95": 9834.849999999999,
-    "avgMedianTps": 39.83654788878405,
-    "avgLatency": 69.72768312338889,
+    "ttftP50": 1141,
+    "ttftP95": 7662.249999999995,
+    "avgMedianTps": 40.07628356356152,
+    "avgLatency": 68.69659212205556,
     "successRate": 1,
     "sampleCount": 18,
-    "score": -746.8727907520181,
-    "compositeScore": 43.7405317067179,
-    "latestProbeAt": "2026-04-24T14:34:25.896278335+08:00"
+    "score": -705.15710167002,
+    "compositeScore": 44.773126280208906,
+    "latestProbeAt": "2026-04-24T15:29:16.431746864+08:00"
   },
   {
     "provider": "联通元景",
@@ -46,9 +46,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 18,
+    "sampleCount": 20,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T14:37:26.216249672+08:00"
+    "latestProbeAt": "2026-04-24T15:29:31.076748905+08:00"
   }
 ]

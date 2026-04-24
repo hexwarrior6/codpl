@@ -19,11 +19,11 @@
     "ttftP95": 22304.350000000006,
     "avgMedianTps": 218.6249910634112,
     "avgLatency": 27.385013604453917,
-    "successRate": 0.7077294685990339,
-    "sampleCount": 1656,
-    "score": 596.9540748681529,
+    "successRate": 0.7064496684749849,
+    "sampleCount": 1659,
+    "score": 595.674274744104,
     "compositeScore": 63.79609089926616,
-    "latestProbeAt": "2026-04-24T14:19:36.414673051+08:00"
+    "latestProbeAt": "2026-04-24T15:25:35.980566507+08:00"
   },
   {
     "provider": "Alaya Code",

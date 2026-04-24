@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 1722,
+    "ttftP95": 1722,
+    "avgMedianTps": 51.551887477210784,
+    "avgLatency": 24.847941279,
+    "successRate": 0.3333333333333333,
+    "sampleCount": 3,
+    "score": -322.95387377840206,
+    "compositeScore": 45.72062511731684,
+    "latestProbeAt": "2026-04-24T15:28:46.94734462+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1436,
+    "ttftP95": 1436,
+    "avgMedianTps": 40.363703157003094,
+    "avgLatency": 41.309673726,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -77.75962420798146,
+    "compositeScore": 41.62800846093015,
+    "latestProbeAt": "2026-04-24T15:27:25.281221435+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 2065,
+    "ttftP95": 2065,
+    "avgMedianTps": 46.197947221933966,
+    "avgLatency": 69.600826791,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -875.8329864433963,
+    "compositeScore": 39.88769457505111,
+    "latestProbeAt": "2026-04-24T15:27:25.697213101+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 26935,
+    "ttftP95": 50509.6,
+    "avgMedianTps": 33.79425255313674,
+    "avgLatency": 118.0618035475,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -7135.77957336868,
+    "compositeScore": 20.276551531882042,
+    "latestProbeAt": "2026-04-24T15:29:30.911945284+08:00"
+  },
+  {
+    "provider": "天翼云",
+    "providerPlatform": "ctyun",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-24T15:28:04.04661029+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-24T15:25:36.451394931+08:00"
+  }
+]
