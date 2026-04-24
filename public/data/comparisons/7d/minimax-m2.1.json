@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 872,
-    "ttftP95": 16993.55,
-    "avgMedianTps": 151.88443232975524,
-    "avgLatency": 17.693365447372013,
-    "successRate": 0.9960159362549801,
-    "sampleCount": 502,
-    "score": 1290.588394049211,
-    "compositeScore": 84.60634365718954,
-    "latestProbeAt": "2026-04-24T19:31:41.760029051+08:00"
+    "ttftP50": 871.5,
+    "ttftP95": 16998.649999999998,
+    "avgMedianTps": 151.89679881580346,
+    "avgLatency": 17.70519083437953,
+    "successRate": 0.996,
+    "sampleCount": 500,
+    "score": 1290.4510220353327,
+    "compositeScore": 84.61461836370196,
+    "latestProbeAt": "2026-04-24T20:53:11.015394543+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
     "ttftP50": 5369,
     "ttftP95": 27167.29999999998,
-    "avgMedianTps": 139.57043054561782,
-    "avgLatency": 24.49395874864727,
+    "avgMedianTps": 139.6352760825984,
+    "avgLatency": 24.482862881268506,
     "successRate": 0.9881188118811881,
     "sampleCount": 505,
-    "score": 139.39242643871341,
+    "score": 140.05889634506605,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T19:16:44.507536545+08:00"
+    "latestProbeAt": "2026-04-24T20:55:34.377242629+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2986.5,
-    "ttftP95": 17281.549999999967,
-    "avgMedianTps": 64.19629731491999,
-    "avgLatency": 37.757971925838426,
-    "successRate": 0.906930693069307,
+    "ttftP50": 2993,
+    "ttftP95": 17500.099999999933,
+    "avgMedianTps": 64.1927284232737,
+    "avgLatency": 37.83623116038681,
+    "successRate": 0.900990099009901,
     "sampleCount": 505,
-    "score": -249.14082118713372,
-    "compositeScore": 45.36356522949421,
-    "latestProbeAt": "2026-04-24T19:12:29.696064127+08:00"
+    "score": -258.35930946012695,
+    "compositeScore": 45.33005832394202,
+    "latestProbeAt": "2026-04-24T20:46:15.842732094+08:00"
   }
 ]
