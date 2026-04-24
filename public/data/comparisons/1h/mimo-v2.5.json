@@ -20,9 +20,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 2,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T11:58:15.102078464+08:00"
+    "latestProbeAt": "2026-04-24T12:01:04.42875242+08:00"
   }
 ]
