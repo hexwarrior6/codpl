@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 2310,
+    "ttftP95": 2310,
+    "avgMedianTps": 98.4114877993833,
+    "avgLatency": 17.045493717,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 702.3315838712999,
+    "compositeScore": 69.59830822155459,
+    "latestProbeAt": "2026-04-24T17:58:00.871227782+08:00"
+  },
+  {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 1230,
+    "ttftP95": 1230,
+    "avgMedianTps": 64.25722977850316,
+    "avgLatency": 24.879044327,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 517.567270496019,
+    "compositeScore": 58.19809876979468,
+    "latestProbeAt": "2026-04-24T17:55:50.090824968+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-24T17:59:12.172871139+08:00"
+  }
+]

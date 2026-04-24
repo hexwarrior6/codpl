@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 967,
+    "ttftP95": 967,
+    "avgMedianTps": 33.03459450292092,
+    "avgLatency": 89.874991296,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -1242.0672153824748,
+    "compositeScore": 42.93522281194295,
+    "latestProbeAt": "2026-04-24T17:57:36.439889935+08:00"
+  },
+  {
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 879,
+    "ttftP95": 879,
+    "avgMedianTps": 29.140355234725774,
+    "avgLatency": 71.162589616,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -780.0226089916455,
+    "compositeScore": 41.975206494360236,
+    "latestProbeAt": "2026-04-24T17:56:24.585296125+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1859,
+    "ttftP95": 1859,
+    "avgMedianTps": 33.35301809707798,
+    "avgLatency": 76.616661419,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -1087.098426892532,
+    "compositeScore": 33.69688721401078,
+    "latestProbeAt": "2026-04-24T17:56:07.348053394+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-24T17:58:02.895660745+08:00"
+  }
+]
