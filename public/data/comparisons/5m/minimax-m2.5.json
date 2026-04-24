@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 721,
+    "ttftP95": 721,
+    "avgMedianTps": 97.39915540709018,
+    "avgLatency": 17.108079493,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 1012.492945117541,
+    "compositeScore": 85.78912565680469,
+    "latestProbeAt": "2026-04-24T22:28:05.257753237+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 494,
+    "ttftP95": 494,
+    "avgMedianTps": 69.40159618813121,
+    "avgLatency": 28.350937033,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 608.8361513037873,
+    "compositeScore": 74.44547230199076,
+    "latestProbeAt": "2026-04-24T22:27:02.563836279+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 2538,
+    "ttftP95": 2538,
+    "avgMedianTps": 115.89967631328744,
+    "avgLatency": 9.170393293,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 958.5382255547247,
+    "compositeScore": 69.19342336654775,
+    "latestProbeAt": "2026-04-24T22:26:07.491236493+08:00"
+  }
+]
