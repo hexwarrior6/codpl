@@ -32,11 +32,11 @@
     "ttftP95": 16437.649999999998,
     "avgMedianTps": 95.04377855605408,
     "avgLatency": 37.255114577595506,
-    "successRate": 0.9820359281437125,
-    "sampleCount": 501,
-    "score": 490.52073504014925,
+    "successRate": 0.9800796812749004,
+    "sampleCount": 502,
+    "score": 488.5644881713372,
     "compositeScore": 85.82717249628047,
-    "latestProbeAt": "2026-04-24T09:54:10.440545962+08:00"
+    "latestProbeAt": "2026-04-24T10:05:34.41433494+08:00"
   },
   {
     "provider": "火山引擎",
@@ -158,14 +158,14 @@
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 3141.5,
-    "ttftP95": 22926.399999999994,
-    "avgMedianTps": 62.234717662341666,
-    "avgLatency": 39.08138652119464,
-    "successRate": 0.9644268774703557,
-    "sampleCount": 506,
-    "score": -267.49947958546034,
-    "compositeScore": 43.45663885490276,
+    "ttftP50": 3149,
+    "ttftP95": 22937.199999999997,
+    "avgMedianTps": 62.15527944814815,
+    "avgLatency": 39.127331424969164,
+    "successRate": 0.9643564356435643,
+    "sampleCount": 505,
+    "score": -270.695173291776,
+    "compositeScore": 43.37457415249361,
     "latestProbeAt": "2026-04-24T09:26:07.52145796+08:00"
   }
 ]

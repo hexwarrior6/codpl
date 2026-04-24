@@ -15,14 +15,14 @@
   {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
-    "ttftP50": 722.5,
-    "ttftP95": 21056.249999999996,
-    "avgMedianTps": 62.680773208137225,
-    "avgLatency": 35.91106422554585,
-    "successRate": 0.9904675442578302,
-    "sampleCount": 2203,
-    "score": 324.2755778680073,
-    "compositeScore": 64.92811305596072,
+    "ttftP50": 723,
+    "ttftP95": 21061.5,
+    "avgMedianTps": 62.702980389996135,
+    "avgLatency": 35.91839676426849,
+    "successRate": 0.9904545454545455,
+    "sampleCount": 2200,
+    "score": 324.1125086878101,
+    "compositeScore": 64.9314567694453,
     "latestProbeAt": "2026-04-24T09:28:05.449038635+08:00"
   },
   {
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1367.5,
-    "ttftP95": 16921.5,
-    "avgMedianTps": 56.1889367894352,
-    "avgLatency": 64.91532097734338,
-    "successRate": 0.9431818181818182,
-    "sampleCount": 176,
-    "score": -616.0675855151551,
-    "compositeScore": 51.82829780182074,
-    "latestProbeAt": "2026-04-24T09:53:21.490735445+08:00"
+    "ttftP50": 1361,
+    "ttftP95": 16848.199999999983,
+    "avgMedianTps": 56.150009590577284,
+    "avgLatency": 64.77147294442517,
+    "successRate": 0.943502824858757,
+    "sampleCount": 177,
+    "score": -611.0839412084085,
+    "compositeScore": 51.873679144265225,
+    "latestProbeAt": "2026-04-24T10:04:47.323261739+08:00"
   }
 ]
