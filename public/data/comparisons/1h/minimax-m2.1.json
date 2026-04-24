@@ -3,14 +3,14 @@
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 986,
-    "ttftP95": 986,
-    "avgMedianTps": 181.09217669663494,
-    "avgLatency": 10.404200939,
+    "ttftP95": 1019.3,
+    "avgMedianTps": 172.1816881315558,
+    "avgLatency": 15.092670335,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 1629.2480367048095,
+    "sampleCount": 3,
+    "score": 1458.5733704143347,
     "compositeScore": 82.83374854117969,
-    "latestProbeAt": "2026-04-25T05:29:03.315811548+08:00"
+    "latestProbeAt": "2026-04-25T05:40:13.704913789+08:00"
   },
   {
     "provider": "Alaya Code",
