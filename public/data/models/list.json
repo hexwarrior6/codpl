@@ -25,6 +25,11 @@
     "providerCount": 5
   },
   {
+    "logicalModelId": "kimi-k2.6",
+    "displayName": "kimi-k2.6",
+    "providerCount": 5
+  },
+  {
     "logicalModelId": "minimax-m2.7",
     "displayName": "minimax-m2.7",
     "providerCount": 5
@@ -32,11 +37,6 @@
   {
     "logicalModelId": "glm-4.7",
     "displayName": "glm-4.7",
-    "providerCount": 4
-  },
-  {
-    "logicalModelId": "kimi-k2.6",
-    "displayName": "kimi-k2.6",
     "providerCount": 4
   },
   {

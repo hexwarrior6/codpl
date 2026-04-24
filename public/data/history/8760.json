@@ -16224,10 +16224,10 @@
     "provider": "Alaya Code",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 39.29320422154324,
-    "medianTps": 34.31208568885439,
-    "ttft": 61764.81481481482,
-    "dataPoints": 54
+    "avgTps": 38.84615409999378,
+    "medianTps": 35.60050997630293,
+    "ttft": 60874.58181818182,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
@@ -16244,90 +16244,90 @@
     "provider": "Alaya Code",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
-    "avgTps": 157.7586974221837,
-    "medianTps": 140.19782796457594,
-    "ttft": 8513.24074074074,
-    "dataPoints": 54
+    "avgTps": 156.99738581539685,
+    "medianTps": 137.8384514743609,
+    "ttft": 8377.6,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "Alaya Code",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 173.97270763796303,
-    "medianTps": 142.13952514280962,
-    "ttft": 9239.296296296296,
-    "dataPoints": 54
+    "avgTps": 173.56054958143173,
+    "medianTps": 141.50719121104586,
+    "ttft": 9139.636363636364,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "Kimi(月之暗面)",
     "model": "kimi-for-coding",
     "modelDisplay": "kimi-k2.6",
-    "avgTps": 44.86274231106173,
-    "medianTps": 59.490584351670805,
-    "ttft": 981.5185185185185,
-    "dataPoints": 54
+    "avgTps": 44.42401986934912,
+    "medianTps": 58.97519237235084,
+    "ttft": 1171.982456140351,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "MiniMax",
     "model": "MiniMax-M2.5-highspeed",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 61.725814829248776,
-    "medianTps": 62.72654288046924,
-    "ttft": 1598.648148148148,
-    "dataPoints": 54
+    "avgTps": 61.26793027849799,
+    "medianTps": 62.314697794395826,
+    "ttft": 1641.2105263157894,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "MiniMax",
     "model": "MiniMax-M2.7-highspeed",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 61.97655385140714,
-    "medianTps": 62.769958302321456,
-    "ttft": 1619.9074074074074,
-    "dataPoints": 54
+    "avgTps": 61.48063629634421,
+    "medianTps": 62.11252684311328,
+    "ttft": 1602.3333333333333,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "avgTps": 42.2475280584166,
-    "medianTps": 43.642116046708544,
-    "ttft": 1859.3333333333333,
-    "dataPoints": 54
+    "avgTps": 42.50048988233165,
+    "medianTps": 43.82856209646738,
+    "ttft": 1847.8,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "Ollama Cloud",
     "model": "glm-4.7",
     "modelDisplay": "glm-4.7",
-    "avgTps": 94.48578528924405,
-    "medianTps": 61.67045422254709,
-    "ttft": 15813.09090909091,
-    "dataPoints": 55
+    "avgTps": 93.42048781099915,
+    "medianTps": 61.05504372888914,
+    "ttft": 16058.339285714286,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "Ollama Cloud",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 86.0289870736988,
-    "medianTps": 99.42258320448323,
-    "ttft": 1921.090909090909,
-    "dataPoints": 55
+    "avgTps": 86.67819199307772,
+    "medianTps": 99.5171319354954,
+    "ttft": 1907.732142857143,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "Ollama Cloud",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 81.8235804637411,
-    "medianTps": 99.81111590766557,
-    "ttft": 9115.10909090909,
-    "dataPoints": 55
+    "avgTps": 83.43030288765816,
+    "medianTps": 99.43473273215075,
+    "ttft": 8967.19642857143,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
@@ -16344,10 +16344,10 @@
     "provider": "Ollama Cloud",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "avgTps": 45.79087932626251,
-    "medianTps": 55.74301470218474,
-    "ttft": 3865.296296296296,
-    "dataPoints": 54
+    "avgTps": 46.58971420965659,
+    "medianTps": 56.34253926130807,
+    "ttft": 3814.4,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
@@ -16384,30 +16384,40 @@
     "provider": "OpenCode Go",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 99.51444909523788,
-    "medianTps": 108.8208233159122,
-    "ttft": 1429.8333333333333,
-    "dataPoints": 54
+    "avgTps": 98.72866522448479,
+    "medianTps": 108.07275965535844,
+    "ttft": 1419.7818181818182,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "OpenCode Go",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 89.55116714780588,
-    "medianTps": 107.38465717394892,
-    "ttft": 1317.2592592592594,
-    "dataPoints": 54
+    "avgTps": 89.20039582035743,
+    "medianTps": 106.99583477822571,
+    "ttft": 1318.5272727272727,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "OpenCode Go",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 52.406952571073646,
-    "medianTps": 51.424259504437934,
-    "ttft": 2309.0925925925926,
-    "dataPoints": 54
+    "avgTps": 52.29085148300926,
+    "medianTps": 51.366529855309565,
+    "ttft": 2362.672727272727,
+    "dataPoints": 55
+  },
+  {
+    "timePoint": "04/24",
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 25.300784898923162,
+    "medianTps": 26.465829922326197,
+    "ttft": 1778,
+    "dataPoints": 1
   },
   {
     "timePoint": "04/24",
@@ -16434,10 +16444,10 @@
     "provider": "京东云",
     "model": "DeepSeek-V3.2",
     "modelDisplay": "DeepSeek-V3.2",
-    "avgTps": 53.755506979096694,
-    "medianTps": 58.068759166783856,
-    "ttft": 537.7037037037037,
-    "dataPoints": 54
+    "avgTps": 53.70270578661266,
+    "medianTps": 58.00525684631361,
+    "ttft": 542.7272727272727,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
@@ -16454,10 +16464,10 @@
     "provider": "京东云",
     "model": "GLM-5",
     "modelDisplay": "GLM-5",
-    "avgTps": 62.121760289293285,
-    "medianTps": 63.22865154390098,
-    "ttft": 2162.7843137254904,
-    "dataPoints": 51
+    "avgTps": 61.51044451160275,
+    "medianTps": 62.64767598708761,
+    "ttft": 2157.7884615384614,
+    "dataPoints": 52
   },
   {
     "timePoint": "04/24",
@@ -16484,90 +16494,90 @@
     "provider": "优云",
     "model": "MiniMax-M2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 56.40726416842858,
-    "medianTps": 58.5904230977788,
-    "ttft": 1663.5925925925926,
-    "dataPoints": 54
+    "avgTps": 56.2955563380375,
+    "medianTps": 58.47953913854597,
+    "ttft": 1633.267857142857,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "优云",
     "model": "moonshotai/kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 37.26355065799637,
-    "medianTps": 47.84692470967128,
-    "ttft": 1633.9074074074074,
-    "dataPoints": 54
+    "avgTps": 37.47621774930713,
+    "medianTps": 48.34037305555219,
+    "ttft": 1611.5438596491229,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "优云",
     "model": "zai-org/glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 52.699754328489696,
-    "medianTps": 67.03171103190047,
-    "ttft": 1553.433962264151,
-    "dataPoints": 53
+    "avgTps": 52.34651767317098,
+    "medianTps": 66.6552554131276,
+    "ttft": 1567.3272727272727,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "天翼云",
     "model": "GLM-5",
     "modelDisplay": "GLM-5",
-    "avgTps": 66.83856851153561,
-    "medianTps": 65.80360598329038,
-    "ttft": 2382.3584905660377,
-    "dataPoints": 53
+    "avgTps": 65.23688864269663,
+    "medianTps": 65.22188831876475,
+    "ttft": 2506.8928571428573,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "天翼云",
     "model": "GLM-5-Turbo",
     "modelDisplay": "GLM-5-Turbo",
-    "avgTps": 79.24415358862628,
-    "medianTps": 87.95998325447118,
-    "ttft": 1852.8148148148148,
-    "dataPoints": 54
+    "avgTps": 76.88918060429506,
+    "medianTps": 85.97205460045873,
+    "ttft": 1942.561403508772,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "天翼云",
     "model": "GLM-5.1",
     "modelDisplay": "GLM-5.1",
-    "avgTps": 66.91182534066516,
-    "medianTps": 65.585931206521,
-    "ttft": 2838.056603773585,
-    "dataPoints": 53
+    "avgTps": 65.73193982867839,
+    "medianTps": 65.19618755790692,
+    "ttft": 3036.7454545454543,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "小米 MiMo",
     "model": "mimo-v2.5",
     "modelDisplay": "MiMo-V2.5",
-    "avgTps": 143.1984147520295,
-    "medianTps": 156.93930606162118,
-    "ttft": 551.4444444444445,
-    "dataPoints": 54
+    "avgTps": 141.79049564154153,
+    "medianTps": 155.39427187913142,
+    "ttft": 540.2456140350877,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "小米 MiMo",
     "model": "mimo-v2.5-pro",
     "modelDisplay": "MiMo-V2.5-Pro",
-    "avgTps": 73.1807809823941,
-    "medianTps": 75.20807764183611,
-    "ttft": 1004.8888888888889,
-    "dataPoints": 54
+    "avgTps": 72.6162637878502,
+    "medianTps": 74.74076512401248,
+    "ttft": 1117.298245614035,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "快手 StreamLake",
     "model": "kat-coder-pro-v2",
     "modelDisplay": "KAT-Coder-ProV2",
-    "avgTps": 119.86897049715651,
-    "medianTps": 161.19630157559254,
-    "ttft": 655,
-    "dataPoints": 54
+    "avgTps": 119.71589357627906,
+    "medianTps": 161.08367292075025,
+    "ttft": 648.7894736842105,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
@@ -16664,90 +16674,90 @@
     "provider": "智谱",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 47.51807266570541,
-    "medianTps": 65.76556846141958,
-    "ttft": 1728.0384615384614,
-    "dataPoints": 52
+    "avgTps": 46.8857386692391,
+    "medianTps": 64.82584278607136,
+    "ttft": 1933.0181818181818,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "智谱",
     "model": "glm-5-turbo",
     "modelDisplay": "GLM-5-Turbo",
-    "avgTps": 55.90004400755,
-    "medianTps": 82.74172388820313,
-    "ttft": 1100.148148148148,
-    "dataPoints": 54
+    "avgTps": 54.32375622122346,
+    "medianTps": 80.54279337576725,
+    "ttft": 1197.438596491228,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "智谱",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 48.19782994359473,
-    "medianTps": 66.63802538447757,
-    "ttft": 1599.076923076923,
-    "dataPoints": 52
+    "avgTps": 47.78162209325114,
+    "medianTps": 66.01198021907284,
+    "ttft": 1641.8148148148148,
+    "dataPoints": 54
   },
   {
     "timePoint": "04/24",
     "provider": "火山引擎",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "avgTps": 31.095910425329947,
-    "medianTps": 40.83126964025761,
-    "ttft": 1137.462962962963,
-    "dataPoints": 54
+    "avgTps": 31.066182289789115,
+    "medianTps": 40.82549287635888,
+    "ttft": 1131.7272727272727,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "火山引擎",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 40.89781322322711,
-    "medianTps": 57.9413323473987,
-    "ttft": 7793.851851851852,
-    "dataPoints": 54
+    "avgTps": 40.783506309140606,
+    "medianTps": 57.74054747315818,
+    "ttft": 7888.290909090909,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "火山引擎",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 22.897159015519286,
-    "medianTps": 33.63043646818346,
-    "ttft": 292.25925925925924,
-    "dataPoints": 54
+    "avgTps": 22.92517189204094,
+    "medianTps": 33.67664711390286,
+    "ttft": 289.94545454545454,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "火山引擎",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "avgTps": 38.68399455943848,
-    "medianTps": 51.20151552219768,
-    "ttft": 1568.2407407407406,
-    "dataPoints": 54
+    "avgTps": 38.6132164055403,
+    "medianTps": 51.15755482013692,
+    "ttft": 1554.8181818181818,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "火山引擎",
     "model": "minimax-m2.5",
     "modelDisplay": "minimax-m2.5",
-    "avgTps": 95.5047284292121,
-    "medianTps": 97.17294835623508,
-    "ttft": 824.8148148148148,
-    "dataPoints": 54
+    "avgTps": 94.72478410585495,
+    "medianTps": 96.52960315755067,
+    "ttft": 823.125,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "百度云(千帆)",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "avgTps": 37.03810954571091,
-    "medianTps": 38.17928875529109,
-    "ttft": 1118.9444444444443,
-    "dataPoints": 54
+    "avgTps": 36.79694549020137,
+    "medianTps": 37.942458308929034,
+    "ttft": 1137.6964285714287,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
@@ -16764,80 +16774,80 @@
     "provider": "百度云(千帆)",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 45.28750867263914,
-    "medianTps": 59.89505438224486,
-    "ttft": 1080.4117647058824,
-    "dataPoints": 51
+    "avgTps": 45.019903662044264,
+    "medianTps": 59.38025912056815,
+    "ttft": 1076.2692307692307,
+    "dataPoints": 52
   },
   {
     "timePoint": "04/24",
     "provider": "百度云(千帆)",
     "model": "minimax-m2.5",
     "modelDisplay": "minimax-m2.5",
-    "avgTps": 32.40495039897235,
-    "medianTps": 47.40171756153933,
-    "ttft": 1484.351851851852,
-    "dataPoints": 54
+    "avgTps": 32.07567080500217,
+    "medianTps": 47.07661792776351,
+    "ttft": 1472.3272727272727,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "百炼(阿里云)",
     "model": "MiniMax-M2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 55.903004220031335,
-    "medianTps": 58.306430485149136,
-    "ttft": 1316.3333333333333,
-    "dataPoints": 54
+    "avgTps": 55.88790412861966,
+    "medianTps": 58.29901660671432,
+    "ttft": 1318.5272727272727,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "百炼(阿里云)",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 47.784793765654655,
-    "medianTps": 51.39952882263311,
-    "ttft": 6010.166666666667,
-    "dataPoints": 54
+    "avgTps": 47.898886549081155,
+    "medianTps": 51.4714088217175,
+    "ttft": 5887.589285714285,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "百炼(阿里云)",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 39.34562192523573,
-    "medianTps": 48.77120034739326,
-    "ttft": 6539.944444444444,
-    "dataPoints": 54
+    "avgTps": 39.3179090540503,
+    "medianTps": 48.678863034825696,
+    "ttft": 6441.6,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "百炼(阿里云)",
     "model": "qwen3.5-plus",
     "modelDisplay": "Qwen3.5 Plus",
-    "avgTps": 55.9910815888854,
-    "medianTps": 57.41927618927374,
-    "ttft": 1167.4716981132076,
-    "dataPoints": 53
+    "avgTps": 56.37783278499601,
+    "medianTps": 57.73702522248141,
+    "ttft": 1152.8545454545454,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
     "provider": "移动云",
     "model": "cm-code-latest",
     "modelDisplay": "cm-code-latest",
-    "avgTps": 80.28563346695925,
-    "medianTps": 86.02077020679228,
-    "ttft": 1576.0185185185185,
-    "dataPoints": 54
+    "avgTps": 79.91744437905304,
+    "medianTps": 86.27816315418421,
+    "ttft": 1790.578947368421,
+    "dataPoints": 57
   },
   {
     "timePoint": "04/24",
     "provider": "联通云",
     "model": "MiniMax-M2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 22.505450138900837,
-    "medianTps": 31.98249997767247,
-    "ttft": 1639.0555555555557,
-    "dataPoints": 54
+    "avgTps": 22.25356397922109,
+    "medianTps": 31.615794124042,
+    "ttft": 1625.2181818181818,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
@@ -16864,20 +16874,20 @@
     "provider": "联通元景",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 57.151502036036966,
-    "medianTps": 70.04352496927866,
-    "ttft": 364.2173913043478,
-    "dataPoints": 23
+    "avgTps": 56.93523716308013,
+    "medianTps": 70.07131845962034,
+    "ttft": 365.5416666666667,
+    "dataPoints": 24
   },
   {
     "timePoint": "04/24",
     "provider": "联通元景",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 24.36942935724703,
-    "medianTps": 41.64330268198056,
-    "ttft": 22400.59259259259,
-    "dataPoints": 54
+    "avgTps": 24.22906879208813,
+    "medianTps": 41.43751007545848,
+    "ttft": 22241.545454545456,
+    "dataPoints": 55
   },
   {
     "timePoint": "04/24",
@@ -16894,59 +16904,59 @@
     "provider": "腾讯云",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 56.07793788643502,
-    "medianTps": 73.53169272025441,
-    "ttft": 2813.4074074074074,
-    "dataPoints": 54
+    "avgTps": 55.37084538342698,
+    "medianTps": 72.66994730921854,
+    "ttft": 2832.964285714286,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "腾讯云",
     "model": "hunyuan-2.0-instruct",
     "modelDisplay": "Hunyuan 2.0 Instruct",
-    "avgTps": 69.64537456824982,
-    "medianTps": 108.78911702362218,
-    "ttft": 1011.8888888888889,
-    "dataPoints": 54
+    "avgTps": 68.99064407779535,
+    "medianTps": 108.24968456166815,
+    "ttft": 1009.3035714285714,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "腾讯云",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "avgTps": 40.056387330041744,
-    "medianTps": 54.45491898809694,
-    "ttft": 1680.4259259259259,
-    "dataPoints": 54
+    "avgTps": 40.17928801877292,
+    "medianTps": 54.4746078331908,
+    "ttft": 1682.4285714285713,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "腾讯云",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 89.64705595188369,
-    "medianTps": 81.31463334212839,
-    "ttft": 3919.277777777778,
-    "dataPoints": 54
+    "avgTps": 88.71736393969711,
+    "medianTps": 80.7029845034369,
+    "ttft": 4045.3035714285716,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "讯飞星辰",
     "model": "astron-code-latest",
     "modelDisplay": "glm-5",
-    "avgTps": 47.74784067016538,
-    "medianTps": 48.82168985875904,
-    "ttft": 1789.3584905660377,
-    "dataPoints": 53
+    "avgTps": 47.54858559965419,
+    "medianTps": 48.66293225337616,
+    "ttft": 1807.9464285714287,
+    "dataPoints": 56
   },
   {
     "timePoint": "04/24",
     "provider": "阶跃星辰",
     "model": "step-3.5-flash",
     "modelDisplay": "step-3.5-flash",
-    "avgTps": 254.00649984857301,
-    "medianTps": 279.65044906311425,
-    "ttft": 960.7222222222222,
-    "dataPoints": 54
+    "avgTps": 252.84333092394138,
+    "medianTps": 278.8422583826883,
+    "ttft": 926.8947368421053,
+    "dataPoints": 57
   }
 ]

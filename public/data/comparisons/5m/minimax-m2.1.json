@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 1053,
+    "ttftP95": 1053,
+    "avgMedianTps": 22.229003453823278,
+    "avgLatency": 20.089451751,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 420.5377269479396,
+    "compositeScore": 35.22269176699561,
+    "latestProbeAt": "2026-04-24T16:56:03.369481663+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-24T16:55:20.870948502+08:00"
+  }
+]
