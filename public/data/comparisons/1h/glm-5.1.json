@@ -2,15 +2,15 @@
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 1135,
-    "ttftP95": 1290.7,
-    "avgMedianTps": 95.06371851078846,
-    "avgLatency": 29.764447102,
+    "ttftP50": 962,
+    "ttftP95": 1273.4,
+    "avgMedianTps": 109.43427949747426,
+    "avgLatency": 25.476289474999998,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 599.2711335147309,
-    "compositeScore": 77.84165218964911,
-    "latestProbeAt": "2026-04-25T02:28:31.350072317+08:00"
+    "sampleCount": 3,
+    "score": 827.2984401098455,
+    "compositeScore": 83.18925606725838,
+    "latestProbeAt": "2026-04-25T02:32:25.303564268+08:00"
   },
   {
     "provider": "联通元景",
@@ -54,28 +54,28 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 4129.5,
-    "ttftP95": 6985.65,
-    "avgMedianTps": 65.58174648994523,
-    "avgLatency": 57.404453832499996,
+    "ttftP50": 3039,
+    "ttftP95": 6876.599999999999,
+    "avgMedianTps": 66.53175741094647,
+    "avgLatency": 53.51751909866666,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -867.5208668728285,
-    "compositeScore": 41.519720845758776,
-    "latestProbeAt": "2026-04-25T02:27:57.655094882+08:00"
+    "sampleCount": 3,
+    "score": -546.5474330009878,
+    "compositeScore": 46.513431756303746,
+    "latestProbeAt": "2026-04-25T02:31:26.205727224+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1303,
-    "ttftP95": 1303,
-    "avgMedianTps": 32.81718788401238,
-    "avgLatency": 116.296986384,
+    "ttftP50": 2829,
+    "ttftP95": 3594,
+    "avgMedianTps": 36.826641803711226,
+    "avgLatency": 109.23002732033335,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -1971.1215322959256,
-    "compositeScore": 38.50228594968488,
-    "latestProbeAt": "2026-04-25T02:27:56.080932126+08:00"
+    "sampleCount": 3,
+    "score": -2075.5908321860666,
+    "compositeScore": 29.72340737322302,
+    "latestProbeAt": "2026-04-25T02:41:43.601702063+08:00"
   },
   {
     "provider": "无问芯穹",

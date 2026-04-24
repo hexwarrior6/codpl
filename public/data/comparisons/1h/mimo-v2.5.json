@@ -16,13 +16,13 @@
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
     "ttftP50": 1524,
-    "ttftP95": 1524,
-    "avgMedianTps": 151.8243701888582,
-    "avgLatency": 8.119073141,
+    "ttftP95": 2355.6,
+    "avgMedianTps": 144.20700403836494,
+    "avgLatency": 10.404679538666667,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 1403.1693926081493,
+    "sampleCount": 3,
+    "score": 1300.325035763523,
     "compositeScore": 76.55171503002559,
-    "latestProbeAt": "2026-04-25T02:25:54.343849506+08:00"
+    "latestProbeAt": "2026-04-25T02:34:26.817059653+08:00"
   }
 ]

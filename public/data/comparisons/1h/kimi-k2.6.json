@@ -26,42 +26,42 @@
     "latestProbeAt": "2026-04-25T02:23:33.968443737+08:00"
   },
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1296,
+    "ttftP95": 3032.1,
+    "avgMedianTps": 64.6139084507948,
+    "avgLatency": 53.380336881333335,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -206.02497132856456,
+    "compositeScore": 57.65803194658943,
+    "latestProbeAt": "2026-04-25T02:42:52.415758873+08:00"
+  },
+  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 1271,
-    "ttftP95": 1287.2,
-    "avgMedianTps": 62.78330701477811,
-    "avgLatency": 41.4393082875,
+    "ttftP50": 1289,
+    "ttftP95": 1460.9,
+    "avgMedianTps": 62.25138108857417,
+    "avgLatency": 41.83759762933333,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 86.51713490116867,
-    "compositeScore": 56.84068796377609,
-    "latestProbeAt": "2026-04-25T02:29:04.679364309+08:00"
+    "sampleCount": 3,
+    "score": 69.7683457981118,
+    "compositeScore": 56.3186500744868,
+    "latestProbeAt": "2026-04-25T02:33:07.942218987+08:00"
   },
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 876,
-    "ttftP95": 1009.2,
-    "avgMedianTps": 44.45306705819299,
-    "avgLatency": 59.8965727645,
+    "ttftP50": 959,
+    "ttftP95": 1017.5,
+    "avgMedianTps": 44.8206991034605,
+    "avgLatency": 62.11015134833334,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -405.89591676334203,
-    "compositeScore": 51.212156543862875,
-    "latestProbeAt": "2026-04-25T02:29:40.125557684+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 3225,
-    "ttftP95": 3225,
-    "avgMedianTps": 63.62181136583027,
-    "avgLatency": 57.019206725,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -688.7492999300182,
-    "compositeScore": 43.91043927247718,
-    "latestProbeAt": "2026-04-25T02:28:54.248317704+08:00"
+    "sampleCount": 3,
+    "score": -475.62958908757037,
+    "compositeScore": 50.126736316853794,
+    "latestProbeAt": "2026-04-25T02:33:10.398056308+08:00"
   }
 ]
