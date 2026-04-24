@@ -67,14 +67,14 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 209,
-    "ttftP95": 5792.199999999997,
-    "avgMedianTps": 29.931830942784895,
-    "avgLatency": 105.18606727492295,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": -1493.8369808013447,
-    "compositeScore": 57.959098565670935,
+    "ttftP50": 208.5,
+    "ttftP95": 5795.649999999998,
+    "avgMedianTps": 29.913681884729137,
+    "avgLatency": 105.25397713988707,
+    "successRate": 0.998019801980198,
+    "sampleCount": 505,
+    "score": -1495.547535208604,
+    "compositeScore": 57.94820913083748,
     "latestProbeAt": "2026-04-24T19:24:05.58796439+08:00"
   },
   {
