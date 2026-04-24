@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 413,
+    "ttftP95": 438.2,
+    "avgMedianTps": 99.22213177561157,
+    "avgLatency": 30.183056138,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 758.1563872036695,
+    "compositeScore": 94.92148625613129,
+    "latestProbeAt": "2026-04-25T05:29:17.609905149+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1144,
+    "ttftP95": 1144,
+    "avgMedianTps": 138.8256814275926,
+    "avgLatency": 6.898368103,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 1431.6948859905556,
+    "compositeScore": 80.68947353717492,
+    "latestProbeAt": "2026-04-25T05:30:13.33982378+08:00"
+  }
+]

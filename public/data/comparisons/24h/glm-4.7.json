@@ -1,41 +1,41 @@
 [
   {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 539,
+    "ttftP95": 27205.04999999993,
+    "avgMedianTps": 79.36477963722199,
+    "avgLatency": 69.8184266118,
+    "successRate": 1,
+    "sampleCount": 75,
+    "score": -377.0719874716681,
+    "compositeScore": 79.16564005976694,
+    "latestProbeAt": "2026-04-25T05:29:17.609905149+08:00"
+  },
+  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
     "ttftP50": 595.5,
     "ttftP95": 672.45,
     "avgMedianTps": 81.21326944179938,
     "avgLatency": 20.3428023875,
-    "successRate": 0.027777777777777776,
-    "sampleCount": 72,
-    "score": -112.61266525892597,
+    "successRate": 0.02666666666666667,
+    "sampleCount": 75,
+    "score": -113.72377637003706,
     "compositeScore": 78.8365715913973,
-    "latestProbeAt": "2026-04-25T04:01:20.823878331+08:00"
-  },
-  {
-    "provider": "京东云",
-    "providerPlatform": "jdcloud",
-    "ttftP50": 563,
-    "ttftP95": 29005.5,
-    "avgMedianTps": 78.52573658912102,
-    "avgLatency": 71.46990038154168,
-    "successRate": 1,
-    "sampleCount": 72,
-    "score": -428.19309000381577,
-    "compositeScore": 78.03371773762913,
-    "latestProbeAt": "2026-04-25T04:07:22.839550662+08:00"
+    "latestProbeAt": "2026-04-25T05:24:13.848841576+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1621,
-    "ttftP95": 56144.09999999999,
-    "avgMedianTps": 56.28362683236413,
-    "avgLatency": 53.1407423303134,
-    "successRate": 0.9305555555555556,
-    "sampleCount": 72,
-    "score": -384.4612417080948,
-    "compositeScore": 49.43167924920187,
-    "latestProbeAt": "2026-04-25T04:17:41.257156805+08:00"
+    "ttftP50": 1587,
+    "ttftP95": 55914.79999999999,
+    "avgMedianTps": 58.30259193766544,
+    "avgLatency": 51.79281540259417,
+    "successRate": 0.9324324324324325,
+    "sampleCount": 74,
+    "score": -329.9724010064292,
+    "compositeScore": 50.948877939206255,
+    "latestProbeAt": "2026-04-25T05:30:13.33982378+08:00"
   }
 ]
