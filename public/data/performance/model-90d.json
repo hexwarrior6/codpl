@@ -14599,9 +14599,9 @@
     "provider": "联通元景",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 97.80396383547165,
-    "medianTps": 141.3840286232911,
-    "ttft": 260.5
+    "tokensPerSec": 93.88557700725534,
+    "medianTps": 136.33341523481968,
+    "ttft": 261.3333333333333
   },
   {
     "seriesKey": "京东云__MiniMax-M2.5",
@@ -26338,6 +26338,18 @@
     "tokensPerSec": 141.32874893250533,
     "medianTps": 122.89108190390839,
     "ttft": 933.4
+  },
+  {
+    "seriesKey": "Ollama Cloud__minimax-m2.1",
+    "seriesLabel": "Ollama Cloud / minimax-m2.1",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "tokensPerSec": 106.09774445073815,
+    "medianTps": 116.6442851833573,
+    "ttft": 10285.333333333334
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2.5",
@@ -41551,9 +41563,9 @@
     "provider": "OpenCode Go",
     "model": "mimo-v2.5",
     "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 123.89385295220082,
-    "medianTps": 122.85858306814352,
-    "ttft": 926.5
+    "tokensPerSec": 126.48964933353409,
+    "medianTps": 124.44565818942698,
+    "ttft": 953.6666666666666
   },
   {
     "seriesKey": "腾讯云__hunyuan-2.0-instruct",
@@ -74568,6 +74580,18 @@
     "ttft": 759.8
   },
   {
+    "seriesKey": "Ollama Cloud__minimax-m2.5",
+    "seriesLabel": "Ollama Cloud / MiniMax-M2.5",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 110.05663749800436,
+    "medianTps": 94.300572998291,
+    "ttft": 678
+  },
+  {
     "seriesKey": "OpenCode Go__glm-5.1",
     "seriesLabel": "OpenCode Go / glm-5.1",
     "timestamp": "2026/04/16 17:00",
@@ -90228,6 +90252,18 @@
     "ttft": 3874.6
   },
   {
+    "seriesKey": "Ollama Cloud__minimax-m2.7",
+    "seriesLabel": "Ollama Cloud / minimax-m2.7",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.7",
+    "modelDisplay": "minimax-m2.7",
+    "tokensPerSec": 47.65242483428898,
+    "medianTps": 45.801955121812675,
+    "ttft": 2281.6666666666665
+  },
+  {
     "seriesKey": "无问芯穹__minimax-m2.5",
     "seriesLabel": "无问芯穹 / MiniMax-M2.5",
     "timestamp": "2026/03/15 02:00",
@@ -99960,6 +99996,18 @@
     "ttft": 3549.6
   },
   {
+    "seriesKey": "Ollama Cloud__kimi-k2.5",
+    "seriesLabel": "Ollama Cloud / kimi-k2.5",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "Ollama Cloud",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 67.63061716563722,
+    "medianTps": 58.34456904978153,
+    "ttft": 1241.6666666666667
+  },
+  {
     "seriesKey": "Ollama Cloud__glm-5.1",
     "seriesLabel": "Ollama Cloud / glm-5.1",
     "timestamp": "2026/04/12 19:00",
@@ -103342,6 +103390,18 @@
     "tokensPerSec": 47.06485439915053,
     "medianTps": 43.606180623890346,
     "ttft": 13285
+  },
+  {
+    "seriesKey": "Ollama Cloud__glm-5.1",
+    "seriesLabel": "Ollama Cloud / glm-5.1",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "Ollama Cloud",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 68.33851017759467,
+    "medianTps": 94.90235200494857,
+    "ttft": 25012.333333333332
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-pro",
@@ -112315,9 +112375,9 @@
     "provider": "Ollama Cloud",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "tokensPerSec": 44.12290475460336,
-    "medianTps": 68.31331940942854,
-    "ttft": 1148
+    "tokensPerSec": 85.34020642467966,
+    "medianTps": 93.076489509358,
+    "ttft": 2264.3333333333335
   },
   {
     "seriesKey": "火山引擎__minimax-m2.5",
@@ -140035,9 +140095,9 @@
     "provider": "OpenCode Go",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 267.87411983464125,
-    "medianTps": 125.18366738139106,
-    "ttft": 2766.5
+    "tokensPerSec": 214.34595269515546,
+    "medianTps": 107.19680487273399,
+    "ttft": 2603.6666666666665
   },
   {
     "seriesKey": "Ollama Cloud__glm-4.7",
@@ -143143,9 +143203,9 @@
     "provider": "Ollama Cloud",
     "model": "glm-4.7",
     "modelDisplay": "glm-4.7",
-    "tokensPerSec": 23.839107470017307,
-    "medianTps": 19.187821033776643,
-    "ttft": 30092
+    "tokensPerSec": 24.6249507176078,
+    "medianTps": 20.69165355368238,
+    "ttft": 31654.333333333332
   },
   {
     "seriesKey": "腾讯云__minimax-m2.5",
@@ -280771,9 +280831,9 @@
     "provider": "OpenCode Go",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "tokensPerSec": 49.725540949078436,
-    "medianTps": 55.97491046655371,
-    "ttft": 2393.5
+    "tokensPerSec": 52.268747101566866,
+    "medianTps": 53.99569730942938,
+    "ttft": 2311.6666666666665
   },
   {
     "seriesKey": "火山引擎__glm-4.7",
@@ -292380,6 +292440,18 @@
     "ttft": 998.5
   },
   {
+    "seriesKey": "Ollama Cloud__kimi-k2.6",
+    "seriesLabel": "Ollama Cloud / kimi-k2.6",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "Ollama Cloud",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 44.25172961293125,
+    "medianTps": 47.289456195877165,
+    "ttft": 1510.6666666666667
+  },
+  {
     "seriesKey": "火山引擎__glm-5.1",
     "seriesLabel": "火山引擎 / glm-5.1",
     "timestamp": "2026/04/23 01:00",
@@ -299239,9 +299311,9 @@
     "provider": "OpenCode Go",
     "model": "qwen3.6-plus",
     "modelDisplay": "qwen3.6-plus",
-    "tokensPerSec": 58.40479417786945,
-    "medianTps": 54.69584762721993,
-    "ttft": 1505
+    "tokensPerSec": 58.59722678988286,
+    "medianTps": 54.93846005293989,
+    "ttft": 1335.3333333333333
   },
   {
     "seriesKey": "优云__zai-org/glm-5",
@@ -338311,9 +338383,9 @@
     "provider": "火山引擎",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 44.585117129884615,
-    "medianTps": 63.6843898284588,
-    "ttft": 797
+    "tokensPerSec": 43.925996337445156,
+    "medianTps": 62.1906410311862,
+    "ttft": 1177
   },
   {
     "seriesKey": "OpenCode Go__kimi-k2.5",
@@ -406051,9 +406123,9 @@
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "tokensPerSec": 12.394916185013125,
-    "medianTps": 12.846293519950583,
-    "ttft": 1365
+    "tokensPerSec": 10.773564089284848,
+    "medianTps": 10.701824260912725,
+    "ttft": 1696
   },
   {
     "seriesKey": "无问芯穹__deepseek-v3.2",
@@ -423151,9 +423223,9 @@
     "provider": "联通元景",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "tokensPerSec": 10.08963886126385,
-    "medianTps": 24.76259164919723,
-    "ttft": 64502.5
+    "tokensPerSec": 9.748700392626025,
+    "medianTps": 22.669835915749047,
+    "ttft": 52850
   },
   {
     "seriesKey": "火山引擎__kimi-k2.5",
@@ -429331,9 +429403,9 @@
     "provider": "火山引擎",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 16.77577135333656,
-    "medianTps": 27.966719713450935,
-    "ttft": 322
+    "tokensPerSec": 19.58543468435427,
+    "medianTps": 30.380969788645558,
+    "ttft": 274.3333333333333
   },
   {
     "seriesKey": "联通元景__kimi-k2.5",

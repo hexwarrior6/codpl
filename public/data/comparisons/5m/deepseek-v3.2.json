@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 770,
-    "ttftP95": 770,
-    "avgMedianTps": 41.80415895507319,
-    "avgLatency": 43.909439469,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -0.9110329945608555,
-    "compositeScore": 51.48353592218009,
-    "latestProbeAt": "2026-04-24T22:29:52.891873558+08:00"
-  }
-]
+[]
