@@ -6,23 +6,23 @@
     "ttftP95": 977.9999999999999,
     "avgMedianTps": 154.79094257308515,
     "avgLatency": 8.293221176666666,
-    "successRate": 0.7682926829268293,
-    "sampleCount": 82,
-    "score": 1421.9078089486736,
+    "successRate": 0.8076923076923077,
+    "sampleCount": 78,
+    "score": 1461.307433714152,
     "compositeScore": 98.23677227359536,
     "latestProbeAt": "2026-04-24T16:56:41.02368969+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 78,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-04-24T15:36:15.407593062+08:00"
+    "ttftP50": 1398,
+    "ttftP95": 1556.4,
+    "avgMedianTps": 112.71300198042611,
+    "avgLatency": 12.156183766333333,
+    "successRate": 0.0375,
+    "sampleCount": 80,
+    "score": 130.27341772422335,
+    "compositeScore": 77.79670045120444,
+    "latestProbeAt": "2026-04-24T17:15:21.714936725+08:00"
   }
 ]

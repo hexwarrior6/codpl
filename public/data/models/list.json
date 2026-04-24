@@ -100,6 +100,11 @@
     "providerCount": 1
   },
   {
+    "logicalModelId": "qwen3.6-plus",
+    "displayName": "qwen3.6-plus",
+    "providerCount": 1
+  },
+  {
     "logicalModelId": "step-3.5-flash",
     "displayName": "step-3.5-flash",
     "providerCount": 1

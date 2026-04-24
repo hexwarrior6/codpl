@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "小米 MiMo",
-    "providerPlatform": "xiaomi_mimo",
-    "ttftP50": 333,
-    "ttftP95": 358.2,
-    "avgMedianTps": 127.58365659431617,
-    "avgLatency": 8.076699625,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 1496.984448940897,
-    "compositeScore": 98.49440323424619,
-    "latestProbeAt": "2026-04-24T16:56:41.02368969+08:00"
-  }
-]
+[]
