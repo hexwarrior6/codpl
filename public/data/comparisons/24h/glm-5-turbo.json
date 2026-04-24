@@ -3,26 +3,26 @@
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
     "ttftP50": 512,
-    "ttftP95": 5915.299999999989,
-    "avgMedianTps": 72.65916308520234,
-    "avgLatency": 24.95774900387342,
+    "ttftP95": 4803.799999999982,
+    "avgMedianTps": 72.39823557116434,
+    "avgLatency": 25.08985020083544,
     "successRate": 0.9753086419753086,
     "sampleCount": 81,
-    "score": 684.919895389687,
-    "compositeScore": 75.88368475608021,
-    "latestProbeAt": "2026-04-24T20:50:23.74575914+08:00"
+    "score": 680.0518003814087,
+    "compositeScore": 75.72712824765742,
+    "latestProbeAt": "2026-04-24T21:24:19.576533209+08:00"
   },
   {
     "provider": "天翼云",
     "providerPlatform": "ctyun",
-    "ttftP50": 714,
-    "ttftP95": 10775.4,
-    "avgMedianTps": 79.78741961747545,
-    "avgLatency": 46.318033696240505,
-    "successRate": 0.9753086419753086,
-    "sampleCount": 81,
-    "score": 153.28231727414868,
-    "compositeScore": 75.36283603515308,
-    "latestProbeAt": "2026-04-24T20:50:32.340662922+08:00"
+    "ttftP50": 708,
+    "ttftP95": 10760,
+    "avgMedianTps": 78.90105116819637,
+    "avgLatency": 45.80977639714814,
+    "successRate": 0.9759036144578314,
+    "sampleCount": 83,
+    "score": 162.46551153830615,
+    "compositeScore": 74.95276210504666,
+    "latestProbeAt": "2026-04-24T21:24:58.124251273+08:00"
   }
 ]
