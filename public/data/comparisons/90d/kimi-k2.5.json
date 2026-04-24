@@ -54,15 +54,15 @@
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 8181,
-    "ttftP95": 49701.39999999995,
-    "avgMedianTps": 119.97561467537442,
-    "avgLatency": 42.82836301308475,
-    "successRate": 0.9768211920529801,
-    "sampleCount": 604,
-    "score": -1010.2341952218919,
+    "ttftP50": 8135,
+    "ttftP95": 49648,
+    "avgMedianTps": 119.81056475865284,
+    "avgLatency": 42.79858649731472,
+    "successRate": 0.9768595041322314,
+    "sampleCount": 605,
+    "score": -1001.2417697487197,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-24T23:22:07.212807025+08:00"
+    "latestProbeAt": "2026-04-24T23:30:44.438284022+08:00"
   },
   {
     "provider": "火山引擎",

@@ -15,14 +15,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1213.5,
-    "ttftP95": 1448,
-    "avgMedianTps": 79.67264532237436,
-    "avgLatency": 32.76114071633333,
+    "ttftP50": 1218,
+    "ttftP95": 1357.5,
+    "avgMedianTps": 101.0007215949672,
+    "avgLatency": 30.8189398,
     "successRate": 1,
-    "sampleCount": 6,
-    "score": 416.3073540259129,
-    "compositeScore": 67.6421901668721,
+    "sampleCount": 3,
+    "score": 591.9308345698034,
+    "compositeScore": 79.78520272589549,
     "latestProbeAt": "2026-04-24T23:28:15.372667597+08:00"
   },
   {
@@ -41,14 +41,14 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 167,
-    "ttftP95": 198.54999999999998,
-    "avgMedianTps": 38.958284206761235,
-    "avgLatency": 57.9422770465,
+    "ttftP50": 155,
+    "ttftP95": 197.3,
+    "avgMedianTps": 40.20788896267005,
+    "avgLatency": 58.37734124466667,
     "successRate": 1,
-    "sampleCount": 4,
-    "score": -248.20722092193273,
-    "compositeScore": 63.374970524056735,
+    "sampleCount": 3,
+    "score": -249.18619734064646,
+    "compositeScore": 64.12473337760203,
     "latestProbeAt": "2026-04-24T23:21:29.420661293+08:00"
   },
   {
@@ -91,19 +91,6 @@
     "latestProbeAt": "2026-04-24T23:16:21.039353362+08:00"
   },
   {
-    "provider": "Alaya Code",
-    "providerPlatform": "alaya code",
-    "ttftP50": 33401,
-    "ttftP95": 51578.299999999996,
-    "avgMedianTps": 60.54379289465736,
-    "avgLatency": 86.424548479,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -7477.550954607057,
-    "compositeScore": 36.326275736794415,
-    "latestProbeAt": "2026-04-24T23:22:07.212807025+08:00"
-  },
-  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
     "ttftP50": 3551,
@@ -115,6 +102,19 @@
     "score": -724.2258530724782,
     "compositeScore": 30.889246384167958,
     "latestProbeAt": "2026-04-24T23:25:44.892466685+08:00"
+  },
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 13204,
+    "ttftP95": 49558.6,
+    "avgMedianTps": 50.42534858938487,
+    "avgLatency": 66.02651305033332,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -2988.9107347220242,
+    "compositeScore": 30.25520915363092,
+    "latestProbeAt": "2026-04-24T23:30:44.438284022+08:00"
   },
   {
     "provider": "联通云",

@@ -2,13 +2,13 @@
   {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 251.5,
-    "ttftP95": 534.9999999999999,
-    "avgMedianTps": 133.22494044763042,
-    "avgLatency": 18.451081873499998,
+    "ttftP50": 240,
+    "ttftP95": 548.7,
+    "avgMedianTps": 135.55585777754825,
+    "avgLatency": 16.580063222666666,
     "successRate": 1,
-    "sampleCount": 4,
-    "score": 1287.7725958482827,
+    "sampleCount": 3,
+    "score": 1350.833566098623,
     "compositeScore": 100,
     "latestProbeAt": "2026-04-24T23:15:21.211988125+08:00"
   },
@@ -26,29 +26,16 @@
     "latestProbeAt": "2026-04-24T23:10:28.512012031+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1917.5,
-    "ttftP95": 9156,
-    "avgMedianTps": 45.08602629168542,
-    "avgLatency": 66.61681500300001,
-    "successRate": 1,
-    "sampleCount": 6,
-    "score": -778.4042173248877,
-    "compositeScore": 40.289694056067106,
-    "latestProbeAt": "2026-04-24T23:27:50.898847869+08:00"
-  },
-  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 1662.5,
-    "ttftP95": 1912.6999999999998,
-    "avgMedianTps": 39.42503917349368,
-    "avgLatency": 60.9681278785,
+    "ttftP50": 1550,
+    "ttftP95": 1752.5,
+    "avgMedianTps": 32.83233775244457,
+    "avgLatency": 71.13181645166667,
     "successRate": 1,
-    "sampleCount": 4,
-    "score": -620.152961921538,
-    "compositeScore": 38.95182415629587,
+    "sampleCount": 3,
+    "score": -891.3013847769992,
+    "compositeScore": 36.00706455480956,
     "latestProbeAt": "2026-04-24T23:20:52.323543371+08:00"
   },
   {
@@ -63,5 +50,18 @@
     "score": -1038.551620386518,
     "compositeScore": 33.3753567860306,
     "latestProbeAt": "2026-04-24T23:24:45.663390089+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 7608,
+    "ttftP95": 9465.6,
+    "avgMedianTps": 42.882596387493685,
+    "avgLatency": 65.85841727833333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1910.7648536333713,
+    "compositeScore": 25.72955783249621,
+    "latestProbeAt": "2026-04-24T23:27:50.898847869+08:00"
   }
 ]

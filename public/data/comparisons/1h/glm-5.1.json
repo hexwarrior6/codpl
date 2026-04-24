@@ -1,5 +1,18 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 633,
+    "ttftP95": 19634.699999999997,
+    "avgMedianTps": 53.17230483361623,
+    "avgLatency": 104.64761760333333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1423.7566110816358,
+    "compositeScore": 61.13095291084514,
+    "latestProbeAt": "2026-04-24T23:15:00.250629986+08:00"
+  },
+  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
     "ttftP50": 1155,
@@ -54,28 +67,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 4819,
-    "ttftP95": 54328.75,
-    "avgMedianTps": 57.79378946750614,
-    "avgLatency": 133.382143033,
+    "ttftP50": 4382,
+    "ttftP95": 13912.099999999999,
+    "avgMedianTps": 20.685226930063703,
+    "avgLatency": 77.59136310733332,
     "successRate": 1,
-    "sampleCount": 6,
-    "score": -2951.5908390199634,
-    "compositeScore": 34.676273680503684,
+    "sampleCount": 3,
+    "score": -1692.0727161029508,
+    "compositeScore": 13.725585373094805,
     "latestProbeAt": "2026-04-24T23:26:56.766808482+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 11189.5,
-    "ttftP95": 28375.149999999998,
-    "avgMedianTps": 44.50030973742534,
-    "avgLatency": 146.22948239349998,
-    "successRate": 1,
-    "sampleCount": 4,
-    "score": -4626.635201412948,
-    "compositeScore": 26.700185842455202,
-    "latestProbeAt": "2026-04-24T23:15:00.250629986+08:00"
   },
   {
     "provider": "无问芯穹",
