@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 522,
-    "ttftP95": 20055.39999999998,
-    "avgMedianTps": 92.18111521777325,
-    "avgLatency": 56.62080818893266,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": 31.190201998342673,
-    "compositeScore": 87.31779606992392,
-    "latestProbeAt": "2026-04-26T06:36:14.390067075+08:00"
+    "ttftP50": 521,
+    "ttftP95": 19912,
+    "avgMedianTps": 92.34421578855843,
+    "avgLatency": 56.422445057047234,
+    "successRate": 0.9980353634577603,
+    "sampleCount": 509,
+    "score": 37.339531762930164,
+    "compositeScore": 87.44332075530879,
+    "latestProbeAt": "2026-04-26T07:12:57.119285751+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,11 +19,11 @@
     "ttftP95": 1518.9999999999995,
     "avgMedianTps": 82.99564965327619,
     "avgLatency": 28.985418828089898,
-    "successRate": 0.7049504950495049,
-    "sampleCount": 505,
-    "score": 347.48892226691464,
+    "successRate": 0.7007874015748031,
+    "sampleCount": 508,
+    "score": 343.32582879221286,
     "compositeScore": 78.5541084419437,
-    "latestProbeAt": "2026-04-26T06:31:12.995313525+08:00"
+    "latestProbeAt": "2026-04-26T07:07:59.662952648+08:00"
   },
   {
     "provider": "火山引擎",
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1649,
-    "ttftP95": 77352.24999999993,
-    "avgMedianTps": 70.05173440800691,
-    "avgLatency": 48.02939532023981,
-    "successRate": 0.9742574257425742,
-    "sampleCount": 505,
-    "score": -135.96705081537948,
-    "compositeScore": 57.44547071538828,
-    "latestProbeAt": "2026-04-26T06:40:27.178850684+08:00"
+    "ttftP50": 1654.5,
+    "ttftP95": 76665.74999999977,
+    "avgMedianTps": 69.8842305321547,
+    "avgLatency": 48.02525693252224,
+    "successRate": 0.9743589743589743,
+    "sampleCount": 507,
+    "score": -137.86706576115353,
+    "compositeScore": 57.29692946112624,
+    "latestProbeAt": "2026-04-26T07:19:16.440776924+08:00"
   }
 ]
