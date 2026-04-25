@@ -9139,9 +9139,9 @@
     "provider": "阶跃星辰",
     "model": "step-3.5-flash",
     "modelDisplay": "step-3.5-flash",
-    "tokensPerSec": 291.2412012648374,
-    "medianTps": 325.7995650282893,
-    "ttft": 242.5
+    "tokensPerSec": 286.5984197103256,
+    "medianTps": 313.90430885828545,
+    "ttft": 214.33333333333334
   },
   {
     "seriesKey": "快手 StreamLake__kat-coder-pro-v2",
@@ -14398,6 +14398,18 @@
     "tokensPerSec": 121.42255580569025,
     "medianTps": 165.54568470756564,
     "ttft": 612.6666666666666
+  },
+  {
+    "seriesKey": "快手 StreamLake__kat-coder-pro-v2",
+    "seriesLabel": "快手 StreamLake / KAT-Coder-ProV2",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "快手 StreamLake",
+    "model": "kat-coder-pro-v2",
+    "modelDisplay": "KAT-Coder-ProV2",
+    "tokensPerSec": 113.52477890521443,
+    "medianTps": 152.59542852257326,
+    "ttft": 583.6666666666666
   },
   {
     "seriesKey": "京东云__MiniMax-M2.5",
@@ -22848,6 +22860,18 @@
     "ttft": 208.33333333333334
   },
   {
+    "seriesKey": "京东云__MiniMax-M2.5",
+    "seriesLabel": "京东云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "京东云",
+    "model": "MiniMax-M2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 145.06079023463127,
+    "medianTps": 205.0216280745626,
+    "ttft": 355.3333333333333
+  },
+  {
     "seriesKey": "联通元景__kimi-k2.6",
     "seriesLabel": "联通元景 / kimi-k2.6",
     "timestamp": "2026/04/22 00:00",
@@ -23350,6 +23374,18 @@
     "tokensPerSec": 110.91806030908792,
     "medianTps": 164.94157730738695,
     "ttft": 338.6666666666667
+  },
+  {
+    "seriesKey": "联通元景__kimi-k2.6",
+    "seriesLabel": "联通元景 / kimi-k2.6",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "联通元景",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 111.33390031818044,
+    "medianTps": 150.7956058429213,
+    "ttft": 242
   },
   {
     "seriesKey": "Ollama Cloud__minimax-m2.1",
@@ -26844,6 +26880,426 @@
     "ttft": 901.3333333333334
   },
   {
+    "seriesKey": "Ollama Cloud__minimax-m2.1",
+    "seriesLabel": "Ollama Cloud / minimax-m2.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "tokensPerSec": 179.60880827997144,
+    "medianTps": 179.730827429747,
+    "ttft": 858.3333333333334
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/23 22:00",
+    "timestampUnix": 1776952800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 139.7136603483354,
+    "medianTps": 150.50664308573337,
+    "ttft": 322.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/23 23:00",
+    "timestampUnix": 1776956400000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 140.68594944102674,
+    "medianTps": 147.61198524555746,
+    "ttft": 432
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 00:00",
+    "timestampUnix": 1776960000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 149.27527610536708,
+    "medianTps": 164.6652799490353,
+    "ttft": 354.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 01:00",
+    "timestampUnix": 1776963600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 155.4500507822503,
+    "medianTps": 172.8807867587927,
+    "ttft": 314
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 02:00",
+    "timestampUnix": 1776967200000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 146.66391945213812,
+    "medianTps": 153.9147173637524,
+    "ttft": 347
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 03:00",
+    "timestampUnix": 1776970800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 145.57029220610696,
+    "medianTps": 174.83901195060272,
+    "ttft": 318
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 04:00",
+    "timestampUnix": 1776974400000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 153.75332733926922,
+    "medianTps": 165.20349984330588,
+    "ttft": 360.6
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 05:00",
+    "timestampUnix": 1776978000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 171.85681654819084,
+    "medianTps": 185.53985253617262,
+    "ttft": 305
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 06:00",
+    "timestampUnix": 1776981600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 164.33641695693856,
+    "medianTps": 185.2966280320179,
+    "ttft": 323
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 07:00",
+    "timestampUnix": 1776985200000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 141.76670323139905,
+    "medianTps": 154.69631236790747,
+    "ttft": 650.5
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 08:00",
+    "timestampUnix": 1776988800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 145.28808550544534,
+    "medianTps": 148.51428217441094,
+    "ttft": 424.5
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 09:00",
+    "timestampUnix": 1776992400000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 139.15285560773293,
+    "medianTps": 155.77951054715268,
+    "ttft": 681.6666666666666
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 10:00",
+    "timestampUnix": 1776996000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 130.6986892828614,
+    "medianTps": 145.01879784269008,
+    "ttft": 334.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 11:00",
+    "timestampUnix": 1776999600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 121.12808816037898,
+    "medianTps": 131.4273435591207,
+    "ttft": 343.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 12:00",
+    "timestampUnix": 1777003200000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 138.4285576575487,
+    "medianTps": 147.11335141422362,
+    "ttft": 2837.3333333333335
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 13:00",
+    "timestampUnix": 1777006800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 129.94784974724632,
+    "medianTps": 147.2853313032314,
+    "ttft": 812
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 14:00",
+    "timestampUnix": 1777010400000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 124.01984047121603,
+    "medianTps": 130.65353289476167,
+    "ttft": 548
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 15:00",
+    "timestampUnix": 1777014000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 118.75997732417626,
+    "medianTps": 131.05933014172842,
+    "ttft": 345.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 16:00",
+    "timestampUnix": 1777017600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 116.44795165275825,
+    "medianTps": 127.58365659431617,
+    "ttft": 338.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 17:00",
+    "timestampUnix": 1777021200000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 121.7060511379931,
+    "medianTps": 134.36431693419703,
+    "ttft": 334.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 18:00",
+    "timestampUnix": 1777024800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 122.20613460662382,
+    "medianTps": 125.8010350373092,
+    "ttft": 360
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 19:00",
+    "timestampUnix": 1777028400000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 114.79842346912983,
+    "medianTps": 131.17457063871663,
+    "ttft": 389.3333333333333
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 20:00",
+    "timestampUnix": 1777032000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 130.54137638098862,
+    "medianTps": 143.2270437150985,
+    "ttft": 408.3333333333333
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 21:00",
+    "timestampUnix": 1777035600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 119.0715927544047,
+    "medianTps": 137.28729560007454,
+    "ttft": 429
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 125.67575161403799,
+    "medianTps": 131.4799403390251,
+    "ttft": 377.3333333333333
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/24 23:00",
+    "timestampUnix": 1777042800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 125.96337226311557,
+    "medianTps": 140.2565883878357,
+    "ttft": 388
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 00:00",
+    "timestampUnix": 1777046400000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 122.59766071048689,
+    "medianTps": 129.49876787674427,
+    "ttft": 376.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 01:00",
+    "timestampUnix": 1777050000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 128.50084086967695,
+    "medianTps": 143.6433883203548,
+    "ttft": 487
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 02:00",
+    "timestampUnix": 1777053600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 120.25335962016544,
+    "medianTps": 140.83454030024524,
+    "ttft": 323.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 03:00",
+    "timestampUnix": 1777057200000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 134.52336675807754,
+    "medianTps": 145.04836074018598,
+    "ttft": 1435.3333333333333
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 04:00",
+    "timestampUnix": 1777060800000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 116.73108837092256,
+    "medianTps": 142.08418533060126,
+    "ttft": 351.6666666666667
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 05:00",
+    "timestampUnix": 1777064400000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 131.15377912784155,
+    "medianTps": 152.29230871071613,
+    "ttft": 356
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 124.66133366715069,
+    "medianTps": 150.32348205696834,
+    "ttft": 445
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 138.40801630636477,
+    "medianTps": 157.93909932925172,
+    "ttft": 331.3333333333333
+  },
+  {
     "seriesKey": "Alaya Code__minimax-m2.5",
     "seriesLabel": "Alaya Code / MiniMax-M2.5",
     "timestamp": "2026/04/16 16:00",
@@ -29316,400 +29772,16 @@
     "ttft": 2550.3333333333335
   },
   {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/23 22:00",
-    "timestampUnix": 1776952800000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 139.7136603483354,
-    "medianTps": 150.50664308573337,
-    "ttft": 322.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/23 23:00",
-    "timestampUnix": 1776956400000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 140.68594944102674,
-    "medianTps": 147.61198524555746,
-    "ttft": 432
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 00:00",
-    "timestampUnix": 1776960000000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 149.27527610536708,
-    "medianTps": 164.6652799490353,
-    "ttft": 354.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 01:00",
-    "timestampUnix": 1776963600000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 155.4500507822503,
-    "medianTps": 172.8807867587927,
-    "ttft": 314
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 02:00",
-    "timestampUnix": 1776967200000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 146.66391945213812,
-    "medianTps": 153.9147173637524,
-    "ttft": 347
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 03:00",
-    "timestampUnix": 1776970800000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 145.57029220610696,
-    "medianTps": 174.83901195060272,
-    "ttft": 318
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 04:00",
-    "timestampUnix": 1776974400000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 153.75332733926922,
-    "medianTps": 165.20349984330588,
-    "ttft": 360.6
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 05:00",
-    "timestampUnix": 1776978000000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 171.85681654819084,
-    "medianTps": 185.53985253617262,
-    "ttft": 305
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 06:00",
-    "timestampUnix": 1776981600000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 164.33641695693856,
-    "medianTps": 185.2966280320179,
-    "ttft": 323
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 07:00",
-    "timestampUnix": 1776985200000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 141.76670323139905,
-    "medianTps": 154.69631236790747,
-    "ttft": 650.5
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 08:00",
-    "timestampUnix": 1776988800000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 145.28808550544534,
-    "medianTps": 148.51428217441094,
-    "ttft": 424.5
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 09:00",
-    "timestampUnix": 1776992400000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 139.15285560773293,
-    "medianTps": 155.77951054715268,
-    "ttft": 681.6666666666666
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 10:00",
-    "timestampUnix": 1776996000000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 130.6986892828614,
-    "medianTps": 145.01879784269008,
-    "ttft": 334.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 11:00",
-    "timestampUnix": 1776999600000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 121.12808816037898,
-    "medianTps": 131.4273435591207,
-    "ttft": 343.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 12:00",
-    "timestampUnix": 1777003200000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 138.4285576575487,
-    "medianTps": 147.11335141422362,
-    "ttft": 2837.3333333333335
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 13:00",
-    "timestampUnix": 1777006800000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 129.94784974724632,
-    "medianTps": 147.2853313032314,
-    "ttft": 812
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 14:00",
-    "timestampUnix": 1777010400000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 124.01984047121603,
-    "medianTps": 130.65353289476167,
-    "ttft": 548
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 15:00",
-    "timestampUnix": 1777014000000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 118.75997732417626,
-    "medianTps": 131.05933014172842,
-    "ttft": 345.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 16:00",
-    "timestampUnix": 1777017600000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 116.44795165275825,
-    "medianTps": 127.58365659431617,
-    "ttft": 338.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 17:00",
-    "timestampUnix": 1777021200000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 121.7060511379931,
-    "medianTps": 134.36431693419703,
-    "ttft": 334.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 18:00",
-    "timestampUnix": 1777024800000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 122.20613460662382,
-    "medianTps": 125.8010350373092,
-    "ttft": 360
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 19:00",
-    "timestampUnix": 1777028400000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 114.79842346912983,
-    "medianTps": 131.17457063871663,
-    "ttft": 389.3333333333333
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 20:00",
-    "timestampUnix": 1777032000000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 130.54137638098862,
-    "medianTps": 143.2270437150985,
-    "ttft": 408.3333333333333
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 21:00",
-    "timestampUnix": 1777035600000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 119.0715927544047,
-    "medianTps": 137.28729560007454,
-    "ttft": 429
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 22:00",
-    "timestampUnix": 1777039200000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 125.67575161403799,
-    "medianTps": 131.4799403390251,
-    "ttft": 377.3333333333333
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/24 23:00",
-    "timestampUnix": 1777042800000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 125.96337226311557,
-    "medianTps": 140.2565883878357,
-    "ttft": 388
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/25 00:00",
-    "timestampUnix": 1777046400000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 122.59766071048689,
-    "medianTps": 129.49876787674427,
-    "ttft": 376.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/25 01:00",
-    "timestampUnix": 1777050000000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 128.50084086967695,
-    "medianTps": 143.6433883203548,
-    "ttft": 487
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/25 02:00",
-    "timestampUnix": 1777053600000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 120.25335962016544,
-    "medianTps": 140.83454030024524,
-    "ttft": 323.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/25 03:00",
-    "timestampUnix": 1777057200000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 134.52336675807754,
-    "medianTps": 145.04836074018598,
-    "ttft": 1435.3333333333333
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/25 04:00",
-    "timestampUnix": 1777060800000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 116.73108837092256,
-    "medianTps": 142.08418533060126,
-    "ttft": 351.6666666666667
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/25 05:00",
-    "timestampUnix": 1777064400000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 131.15377912784155,
-    "medianTps": 152.29230871071613,
-    "ttft": 356
-  },
-  {
-    "seriesKey": "小米 MiMo__mimo-v2.5",
-    "seriesLabel": "小米 MiMo / MiMo-V2.5",
-    "timestamp": "2026/04/25 06:00",
-    "timestampUnix": 1777068000000,
-    "provider": "小米 MiMo",
-    "model": "mimo-v2.5",
-    "modelDisplay": "MiMo-V2.5",
-    "tokensPerSec": 124.66133366715069,
-    "medianTps": 150.32348205696834,
-    "ttft": 445
+    "seriesKey": "Alaya Code__minimax-m2.5",
+    "seriesLabel": "Alaya Code / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Alaya Code",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 187.99685962246778,
+    "medianTps": 104.02546949090258,
+    "ttft": 7571.333333333333
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-omni",
@@ -37716,6 +37788,18 @@
     "ttft": 2732.3333333333335
   },
   {
+    "seriesKey": "Alaya Code__minimax-m2.1",
+    "seriesLabel": "Alaya Code / minimax-m2.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Alaya Code",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "tokensPerSec": 180.88592697309264,
+    "medianTps": 137.80132522358244,
+    "ttft": 3160.3333333333335
+  },
+  {
     "seriesKey": "OpenCode Go__mimo-v2.5",
     "seriesLabel": "OpenCode Go / MiMo-V2.5",
     "timestamp": "2026/04/24 17:00",
@@ -37882,6 +37966,18 @@
     "tokensPerSec": 143.4763275725144,
     "medianTps": 152.94061790771113,
     "ttft": 1439.3333333333333
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5",
+    "modelDisplay": "MiMo-V2.5",
+    "tokensPerSec": 147.9543466180432,
+    "medianTps": 156.53405991444689,
+    "ttft": 1129.6666666666667
   },
   {
     "seriesKey": "OpenCode Go__mimo-v2-omni",
@@ -47748,6 +47844,18 @@
     "ttft": 914
   },
   {
+    "seriesKey": "腾讯云__hunyuan-2.0-instruct",
+    "seriesLabel": "腾讯云 / Hunyuan 2.0 Instruct",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "腾讯云",
+    "model": "hunyuan-2.0-instruct",
+    "modelDisplay": "Hunyuan 2.0 Instruct",
+    "tokensPerSec": 91.71236440089233,
+    "medianTps": 143.7269740529351,
+    "ttft": 826.3333333333334
+  },
+  {
     "seriesKey": "Alaya Code__kimi-k2.5",
     "seriesLabel": "Alaya Code / kimi-k2.5",
     "timestamp": "2026/04/16 16:00",
@@ -50194,6 +50302,18 @@
     "tokensPerSec": 226.4670746998021,
     "medianTps": 178.6260643099907,
     "ttft": 7485.666666666667
+  },
+  {
+    "seriesKey": "Alaya Code__kimi-k2.5",
+    "seriesLabel": "Alaya Code / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Alaya Code",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 142.18942418725567,
+    "medianTps": 116.55030195379017,
+    "ttft": 4922
   },
   {
     "seriesKey": "优云__moonshotai/kimi-k2.5",
@@ -56458,6 +56578,18 @@
     "tokensPerSec": 36.3643008468155,
     "medianTps": 45.69072187457905,
     "ttft": 1562
+  },
+  {
+    "seriesKey": "优云__moonshotai/kimi-k2.5",
+    "seriesLabel": "优云 / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "优云",
+    "model": "moonshotai/kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 39.165744419573905,
+    "medianTps": 53.83046456109338,
+    "ttft": 1668.6666666666667
   },
   {
     "seriesKey": "京东云__GLM-4.7",
@@ -63060,6 +63192,18 @@
     "ttft": 430
   },
   {
+    "seriesKey": "京东云__GLM-4.7",
+    "seriesLabel": "京东云 / GLM-4.7",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "京东云",
+    "model": "GLM-4.7",
+    "modelDisplay": "GLM-4.7",
+    "tokensPerSec": 94.09702580917723,
+    "medianTps": 129.64573830335078,
+    "ttft": 3354.6666666666665
+  },
+  {
     "seriesKey": "移动云__cm-code-latest",
     "seriesLabel": "移动云 / cm-code-latest",
     "timestamp": "2026/04/02 00:00",
@@ -69120,6 +69264,18 @@
     "ttft": 831
   },
   {
+    "seriesKey": "移动云__cm-code-latest",
+    "seriesLabel": "移动云 / cm-code-latest",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "移动云",
+    "model": "cm-code-latest",
+    "modelDisplay": "cm-code-latest",
+    "tokensPerSec": 66.4787454223277,
+    "medianTps": 85.65454402132055,
+    "ttft": 665
+  },
+  {
     "seriesKey": "无问芯穹__minimax-m2.1",
     "seriesLabel": "无问芯穹 / minimax-m2.1",
     "timestamp": "2026/04/02 16:00",
@@ -75012,6 +75168,18 @@
     "ttft": 881
   },
   {
+    "seriesKey": "OpenCode Go__glm-5.1",
+    "seriesLabel": "OpenCode Go / glm-5.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 91.33086157389,
+    "medianTps": 117.07680689045004,
+    "ttft": 1018
+  },
+  {
     "seriesKey": "Ollama Cloud__minimax-m2.5",
     "seriesLabel": "Ollama Cloud / MiniMax-M2.5",
     "timestamp": "2026/04/12 19:00",
@@ -78490,6 +78658,18 @@
     "tokensPerSec": 63.6473851169101,
     "medianTps": 97.39972929230112,
     "ttft": 684
+  },
+  {
+    "seriesKey": "Ollama Cloud__minimax-m2.5",
+    "seriesLabel": "Ollama Cloud / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 100.41255031828045,
+    "medianTps": 96.26502287175221,
+    "ttft": 647.3333333333334
   },
   {
     "seriesKey": "天翼云__GLM-5-Turbo",
@@ -83820,6 +84000,18 @@
     "ttft": 656
   },
   {
+    "seriesKey": "天翼云__GLM-5-Turbo",
+    "seriesLabel": "天翼云 / GLM-5-Turbo",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "天翼云",
+    "model": "GLM-5-Turbo",
+    "modelDisplay": "GLM-5-Turbo",
+    "tokensPerSec": 73.74058098678003,
+    "medianTps": 109.07389101324274,
+    "ttft": 623.6666666666666
+  },
+  {
     "seriesKey": "优云__MiniMax-M2.5",
     "seriesLabel": "优云 / MiniMax-M2.5",
     "timestamp": "2026/03/15 02:00",
@@ -88606,6 +88798,18 @@
     "tokensPerSec": 66.38408462584661,
     "medianTps": 48.25152954164105,
     "ttft": 2935.6666666666665
+  },
+  {
+    "seriesKey": "优云__MiniMax-M2.5",
+    "seriesLabel": "优云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "优云",
+    "model": "MiniMax-M2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 67.8864454853715,
+    "medianTps": 67.516736331123,
+    "ttft": 1704.3333333333333
   },
   {
     "seriesKey": "无问芯穹__minimax-m2.5",
@@ -98448,6 +98652,18 @@
     "ttft": 2975.6666666666665
   },
   {
+    "seriesKey": "Ollama Cloud__minimax-m2.7",
+    "seriesLabel": "Ollama Cloud / minimax-m2.7",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.7",
+    "modelDisplay": "minimax-m2.7",
+    "tokensPerSec": 88.32639377672426,
+    "medianTps": 75.36857716993639,
+    "ttft": 1998.3333333333333
+  },
+  {
     "seriesKey": "Ollama Cloud__kimi-k2.5",
     "seriesLabel": "Ollama Cloud / kimi-k2.5",
     "timestamp": "2026/04/12 19:00",
@@ -101938,6 +102154,18 @@
     "tokensPerSec": 66.73577203593386,
     "medianTps": 99.8053292875914,
     "ttft": 1997.6666666666667
+  },
+  {
+    "seriesKey": "Ollama Cloud__kimi-k2.5",
+    "seriesLabel": "Ollama Cloud / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 52.23008754465229,
+    "medianTps": 86.07506516655518,
+    "ttft": 3424
   },
   {
     "seriesKey": "Ollama Cloud__glm-5",
@@ -105466,6 +105694,18 @@
     "tokensPerSec": 43.61244413722002,
     "medianTps": 72.29284281171715,
     "ttft": 3407.6666666666665
+  },
+  {
+    "seriesKey": "Ollama Cloud__glm-5",
+    "seriesLabel": "Ollama Cloud / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 66.30471250525898,
+    "medianTps": 83.52190171090653,
+    "ttft": 1084.6666666666667
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-pro",
@@ -114504,6 +114744,18 @@
     "ttft": 1240.3333333333333
   },
   {
+    "seriesKey": "Ollama Cloud__glm-5.1",
+    "seriesLabel": "Ollama Cloud / glm-5.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 86.08223816853325,
+    "medianTps": 125.97502003027455,
+    "ttft": 2408.3333333333335
+  },
+  {
     "seriesKey": "火山引擎__minimax-m2.5",
     "seriesLabel": "火山引擎 / minimax-m2.5",
     "timestamp": "2026/04/02 00:00",
@@ -120780,6 +121032,18 @@
     "ttft": 612.3333333333334
   },
   {
+    "seriesKey": "火山引擎__minimax-m2.5",
+    "seriesLabel": "火山引擎 / minimax-m2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "火山引擎",
+    "model": "minimax-m2.5",
+    "modelDisplay": "minimax-m2.5",
+    "tokensPerSec": 100.77629099161324,
+    "medianTps": 109.47677130623806,
+    "ttft": 574
+  },
+  {
     "seriesKey": "小米 MiMo__mimo-v2.5-pro",
     "seriesLabel": "小米 MiMo / MiMo-V2.5-Pro",
     "timestamp": "2026/04/23 22:00",
@@ -121174,6 +121438,18 @@
     "tokensPerSec": 81.37128890574525,
     "medianTps": 81.52502224007442,
     "ttft": 971.3333333333334
+  },
+  {
+    "seriesKey": "小米 MiMo__mimo-v2.5-pro",
+    "seriesLabel": "小米 MiMo / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "小米 MiMo",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 80.76219802001303,
+    "medianTps": 84.62728199733566,
+    "ttft": 486.3333333333333
   },
   {
     "seriesKey": "OpenCode Go__mimo-v2-pro",
@@ -130930,6 +131206,198 @@
     "tokensPerSec": 257.5310330604141,
     "medianTps": 44.65731822526078,
     "ttft": 2205.6666666666665
+  },
+  {
+    "seriesKey": "OpenCode Go__minimax-m2.5",
+    "seriesLabel": "OpenCode Go / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 112.28947740164615,
+    "medianTps": 81.54144729055668,
+    "ttft": 3626
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/24 17:00",
+    "timestampUnix": 1777021200000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 67.28208127175589,
+    "medianTps": 61.90182234150267,
+    "ttft": 1763
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/24 18:00",
+    "timestampUnix": 1777024800000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 72.62241772440139,
+    "medianTps": 67.5997841247275,
+    "ttft": 2688.2
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/24 19:00",
+    "timestampUnix": 1777028400000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 75.11331138300496,
+    "medianTps": 68.16467580746912,
+    "ttft": 2503
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/24 20:00",
+    "timestampUnix": 1777032000000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 74.87702183287449,
+    "medianTps": 71.15834331873279,
+    "ttft": 1679
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/24 21:00",
+    "timestampUnix": 1777035600000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 71.02036324485046,
+    "medianTps": 66.20565950213472,
+    "ttft": 1940.25
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 75.21750276088845,
+    "medianTps": 70.68481427023157,
+    "ttft": 1880
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/24 23:00",
+    "timestampUnix": 1777042800000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 74.43189829248782,
+    "medianTps": 65.76138594624983,
+    "ttft": 2543
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 00:00",
+    "timestampUnix": 1777046400000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 78.2200452022399,
+    "medianTps": 74.01936847048309,
+    "ttft": 1570
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 01:00",
+    "timestampUnix": 1777050000000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 75.21984038537845,
+    "medianTps": 71.25406874935565,
+    "ttft": 2253.3333333333335
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 02:00",
+    "timestampUnix": 1777053600000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 81.20997603595877,
+    "medianTps": 80.49293916549914,
+    "ttft": 1546
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 03:00",
+    "timestampUnix": 1777057200000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 72.52583824463214,
+    "medianTps": 73.41497887881678,
+    "ttft": 1940
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 04:00",
+    "timestampUnix": 1777060800000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 77.12376167484504,
+    "medianTps": 75.73772535306047,
+    "ttft": 1647
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 05:00",
+    "timestampUnix": 1777064400000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 86.62814511145196,
+    "medianTps": 85.56945961482245,
+    "ttft": 1105.3333333333333
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 85.7265848925353,
+    "medianTps": 83.89814149704749,
+    "ttft": 1427.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
+    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "mimo-v2.5-pro",
+    "modelDisplay": "MiMo-V2.5-Pro",
+    "tokensPerSec": 86.519271047073,
+    "medianTps": 87.88031876834543,
+    "ttft": 1864.6666666666667
   },
   {
     "seriesKey": "百炼(阿里云)__MiniMax-M2.5",
@@ -142608,172 +143076,16 @@
     "ttft": 1018
   },
   {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/24 17:00",
-    "timestampUnix": 1777021200000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 67.28208127175589,
-    "medianTps": 61.90182234150267,
-    "ttft": 1763
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/24 18:00",
-    "timestampUnix": 1777024800000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 72.62241772440139,
-    "medianTps": 67.5997841247275,
-    "ttft": 2688.2
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/24 19:00",
-    "timestampUnix": 1777028400000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 75.11331138300496,
-    "medianTps": 68.16467580746912,
-    "ttft": 2503
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/24 20:00",
-    "timestampUnix": 1777032000000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 74.87702183287449,
-    "medianTps": 71.15834331873279,
-    "ttft": 1679
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/24 21:00",
-    "timestampUnix": 1777035600000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 71.02036324485046,
-    "medianTps": 66.20565950213472,
-    "ttft": 1940.25
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/24 22:00",
-    "timestampUnix": 1777039200000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 75.21750276088845,
-    "medianTps": 70.68481427023157,
-    "ttft": 1880
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/24 23:00",
-    "timestampUnix": 1777042800000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 74.43189829248782,
-    "medianTps": 65.76138594624983,
-    "ttft": 2543
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/25 00:00",
-    "timestampUnix": 1777046400000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 78.2200452022399,
-    "medianTps": 74.01936847048309,
-    "ttft": 1570
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/25 01:00",
-    "timestampUnix": 1777050000000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 75.21984038537845,
-    "medianTps": 71.25406874935565,
-    "ttft": 2253.3333333333335
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/25 02:00",
-    "timestampUnix": 1777053600000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 81.20997603595877,
-    "medianTps": 80.49293916549914,
-    "ttft": 1546
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/25 03:00",
-    "timestampUnix": 1777057200000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 72.52583824463214,
-    "medianTps": 73.41497887881678,
-    "ttft": 1940
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/25 04:00",
-    "timestampUnix": 1777060800000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 77.12376167484504,
-    "medianTps": 75.73772535306047,
-    "ttft": 1647
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/25 05:00",
-    "timestampUnix": 1777064400000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 86.62814511145196,
-    "medianTps": 85.56945961482245,
-    "ttft": 1105.3333333333333
-  },
-  {
-    "seriesKey": "OpenCode Go__mimo-v2.5-pro",
-    "seriesLabel": "OpenCode Go / MiMo-V2.5-Pro",
-    "timestamp": "2026/04/25 06:00",
-    "timestampUnix": 1777068000000,
-    "provider": "OpenCode Go",
-    "model": "mimo-v2.5-pro",
-    "modelDisplay": "MiMo-V2.5-Pro",
-    "tokensPerSec": 85.7265848925353,
-    "medianTps": 83.89814149704749,
-    "ttft": 1427.6666666666667
+    "seriesKey": "百炼(阿里云)__MiniMax-M2.5",
+    "seriesLabel": "百炼(阿里云) / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百炼(阿里云)",
+    "model": "MiniMax-M2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 60.93032137342436,
+    "medianTps": 63.60733997904561,
+    "ttft": 946
   },
   {
     "seriesKey": "Ollama Cloud__glm-4.7",
@@ -145966,6 +146278,18 @@
     "tokensPerSec": 115.930811110932,
     "medianTps": 78.4746679841478,
     "ttft": 1511
+  },
+  {
+    "seriesKey": "Ollama Cloud__glm-4.7",
+    "seriesLabel": "Ollama Cloud / glm-4.7",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "tokensPerSec": 151.57156446173997,
+    "medianTps": 81.45375817180481,
+    "ttft": 1204.3333333333333
   },
   {
     "seriesKey": "OpenCode Go__glm-5",
@@ -151176,6 +151500,18 @@
     "ttft": 1153.3333333333333
   },
   {
+    "seriesKey": "OpenCode Go__glm-5",
+    "seriesLabel": "OpenCode Go / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 113.15212429060871,
+    "medianTps": 128.03455907031116,
+    "ttft": 898.6666666666666
+  },
+  {
     "seriesKey": "腾讯云__minimax-m2.5",
     "seriesLabel": "腾讯云 / MiniMax-M2.5",
     "timestamp": "2026/04/08 02:00",
@@ -155890,6 +156226,18 @@
     "tokensPerSec": 111.70922217075514,
     "medianTps": 104.14949056498511,
     "ttft": 2812
+  },
+  {
+    "seriesKey": "腾讯云__minimax-m2.5",
+    "seriesLabel": "腾讯云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "腾讯云",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 107.5912427729985,
+    "medianTps": 103.35343612105669,
+    "ttft": 3238
   },
   {
     "seriesKey": "腾讯云__glm-5",
@@ -161184,6 +161532,18 @@
     "ttft": 5555.666666666667
   },
   {
+    "seriesKey": "腾讯云__glm-5",
+    "seriesLabel": "腾讯云 / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "腾讯云",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 90.37227225494071,
+    "medianTps": 110.35287852544975,
+    "ttft": 2611.6666666666665
+  },
+  {
     "seriesKey": "智谱__glm-5-turbo",
     "seriesLabel": "智谱 / GLM-5-Turbo",
     "timestamp": "2026/04/16 06:00",
@@ -163234,6 +163594,18 @@
     "tokensPerSec": 55.296007934772085,
     "medianTps": 86.99131504778084,
     "ttft": 496.6666666666667
+  },
+  {
+    "seriesKey": "智谱__glm-5-turbo",
+    "seriesLabel": "智谱 / GLM-5-Turbo",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "智谱",
+    "model": "glm-5-turbo",
+    "modelDisplay": "GLM-5-Turbo",
+    "tokensPerSec": 88.86164121419962,
+    "medianTps": 117.21090961147569,
+    "ttft": 839.6666666666666
   },
   {
     "seriesKey": "无问芯穹__glm-4.7",
@@ -179364,6 +179736,18 @@
     "ttft": 958.6666666666666
   },
   {
+    "seriesKey": "MiniMax__MiniMax-M2.5-highspeed",
+    "seriesLabel": "MiniMax / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 60.46842088585323,
+    "medianTps": 58.751845935630875,
+    "ttft": 1842.6666666666667
+  },
+  {
     "seriesKey": "京东云__GLM-5",
     "seriesLabel": "京东云 / GLM-5",
     "timestamp": "2026/03/26 11:00",
@@ -187788,6 +188172,18 @@
     "ttft": 1497.6666666666667
   },
   {
+    "seriesKey": "京东云__GLM-5",
+    "seriesLabel": "京东云 / GLM-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "京东云",
+    "model": "GLM-5",
+    "modelDisplay": "GLM-5",
+    "tokensPerSec": 62.607521079149954,
+    "medianTps": 64.9125088048764,
+    "ttft": 1280.3333333333333
+  },
+  {
     "seriesKey": "联通元景__glm-5",
     "seriesLabel": "联通元景 / glm-5",
     "timestamp": "2026/03/26 16:00",
@@ -190318,6 +190714,18 @@
     "tokensPerSec": 59.45143922463114,
     "medianTps": 71.67321866208303,
     "ttft": 361.5
+  },
+  {
+    "seriesKey": "联通元景__glm-5",
+    "seriesLabel": "联通元景 / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "联通元景",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 61.463932287128515,
+    "medianTps": 71.41245677835319,
+    "ttft": 372
   },
   {
     "seriesKey": "天翼云__GLM-5",
@@ -195612,6 +196020,18 @@
     "ttft": 1140.6666666666667
   },
   {
+    "seriesKey": "天翼云__GLM-5",
+    "seriesLabel": "天翼云 / GLM-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "天翼云",
+    "model": "GLM-5",
+    "modelDisplay": "GLM-5",
+    "tokensPerSec": 53.18088684950222,
+    "medianTps": 67.7016434212831,
+    "ttft": 1748
+  },
+  {
     "seriesKey": "天翼云__GLM-5.1",
     "seriesLabel": "天翼云 / GLM-5.1",
     "timestamp": "2026/04/06 10:00",
@@ -200794,6 +201214,18 @@
     "tokensPerSec": 59.160858675663405,
     "medianTps": 79.80559199024702,
     "ttft": 938.3333333333334
+  },
+  {
+    "seriesKey": "天翼云__GLM-5.1",
+    "seriesLabel": "天翼云 / GLM-5.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "天翼云",
+    "model": "GLM-5.1",
+    "modelDisplay": "GLM-5.1",
+    "tokensPerSec": 57.39211263354846,
+    "medianTps": 76.84917036166514,
+    "ttft": 2182.6666666666665
   },
   {
     "seriesKey": "智谱__glm-5",
@@ -211440,6 +211872,18 @@
     "ttft": 1142.6666666666667
   },
   {
+    "seriesKey": "智谱__glm-5",
+    "seriesLabel": "智谱 / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "智谱",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 48.269654797717244,
+    "medianTps": 69.78644990855604,
+    "ttft": 1698.3333333333333
+  },
+  {
     "seriesKey": "京东云__Kimi-K2.5",
     "seriesLabel": "京东云 / Kimi-K2.5",
     "timestamp": "2026/03/26 11:00",
@@ -219874,6 +220318,18 @@
     "tokensPerSec": 66.0879100303061,
     "medianTps": 92.88007772113315,
     "ttft": 476
+  },
+  {
+    "seriesKey": "京东云__Kimi-K2.5",
+    "seriesLabel": "京东云 / Kimi-K2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "京东云",
+    "model": "Kimi-K2.5",
+    "modelDisplay": "Kimi-K2.5",
+    "tokensPerSec": 65.16272384222803,
+    "medianTps": 89.97950505051982,
+    "ttft": 408
   },
   {
     "seriesKey": "MiniMax__MiniMax-M2.7-highspeed",
@@ -228970,6 +229426,18 @@
     "tokensPerSec": 60.664110926410196,
     "medianTps": 58.39963101362522,
     "ttft": 1489.3333333333333
+  },
+  {
+    "seriesKey": "MiniMax__MiniMax-M2.7-highspeed",
+    "seriesLabel": "MiniMax / minimax-m2.7",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "tokensPerSec": 59.118885713191425,
+    "medianTps": 60.06879562077814,
+    "ttft": 921.3333333333334
   },
   {
     "seriesKey": "无问芯穹__minimax-m2.7",
@@ -240214,6 +240682,18 @@
     "tokensPerSec": 56.95859143673235,
     "medianTps": 58.144447845108026,
     "ttft": 541
+  },
+  {
+    "seriesKey": "京东云__DeepSeek-V3.2",
+    "seriesLabel": "京东云 / DeepSeek-V3.2",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "京东云",
+    "model": "DeepSeek-V3.2",
+    "modelDisplay": "DeepSeek-V3.2",
+    "tokensPerSec": 61.45665896992663,
+    "medianTps": 68.53805076451408,
+    "ttft": 445.3333333333333
   },
   {
     "seriesKey": "百炼(阿里云)__qwen3.5-plus",
@@ -251928,6 +252408,18 @@
     "ttft": 780.3333333333334
   },
   {
+    "seriesKey": "百炼(阿里云)__qwen3.5-plus",
+    "seriesLabel": "百炼(阿里云) / Qwen3.5 Plus",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百炼(阿里云)",
+    "model": "qwen3.5-plus",
+    "modelDisplay": "Qwen3.5 Plus",
+    "tokensPerSec": 66.66207381076843,
+    "medianTps": 67.08082514134186,
+    "ttft": 1960.6666666666667
+  },
+  {
     "seriesKey": "讯飞星辰__astron-code-latest",
     "seriesLabel": "讯飞星辰 / Astron Code Latest",
     "timestamp": "2026/03/15 02:00",
@@ -262920,6 +263412,18 @@
     "ttft": 2476.3333333333335
   },
   {
+    "seriesKey": "讯飞星辰__astron-code-latest",
+    "seriesLabel": "讯飞星辰 / Astron Code Latest",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "讯飞星辰",
+    "model": "astron-code-latest",
+    "modelDisplay": "Astron Code Latest",
+    "tokensPerSec": 52.69929742274176,
+    "medianTps": 53.26581735317918,
+    "ttft": 1894
+  },
+  {
     "seriesKey": "智谱__glm-5.1",
     "seriesLabel": "智谱 / glm-5.1",
     "timestamp": "2026/04/02 00:00",
@@ -268438,6 +268942,18 @@
     "tokensPerSec": 53.6947968055022,
     "medianTps": 76.39016952153972,
     "ttft": 958
+  },
+  {
+    "seriesKey": "智谱__glm-5.1",
+    "seriesLabel": "智谱 / glm-5.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "智谱",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 57.278534013232765,
+    "medianTps": 72.8991472518849,
+    "ttft": 939.6666666666666
   },
   {
     "seriesKey": "Kimi(月之暗面)__kimi-for-coding",
@@ -280056,6 +280572,18 @@
     "ttft": 446.3333333333333
   },
   {
+    "seriesKey": "Kimi(月之暗面)__kimi-for-coding",
+    "seriesLabel": "Kimi(月之暗面) / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 47.40631314736961,
+    "medianTps": 60.15127992860881,
+    "ttft": 693.3333333333334
+  },
+  {
     "seriesKey": "OpenCode Go__minimax-m2.7",
     "seriesLabel": "OpenCode Go / minimax-m2.7",
     "timestamp": "2026/04/07 00:00",
@@ -285250,6 +285778,18 @@
     "tokensPerSec": 133.7521726591632,
     "medianTps": 117.6942863592048,
     "ttft": 3298.3333333333335
+  },
+  {
+    "seriesKey": "OpenCode Go__minimax-m2.7",
+    "seriesLabel": "OpenCode Go / minimax-m2.7",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "minimax-m2.7",
+    "modelDisplay": "minimax-m2.7",
+    "tokensPerSec": 96.02071304803887,
+    "medianTps": 96.15907882923587,
+    "ttft": 2069.6666666666665
   },
   {
     "seriesKey": "火山引擎__glm-4.7",
@@ -292152,6 +292692,18 @@
     "ttft": 1242.6666666666667
   },
   {
+    "seriesKey": "火山引擎__glm-5.1",
+    "seriesLabel": "火山引擎 / glm-5.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "火山引擎",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 38.8447414628146,
+    "medianTps": 59.31454112891658,
+    "ttft": 947
+  },
+  {
     "seriesKey": "百度云(千帆)__qianfan-code-latest",
     "seriesLabel": "百度云(千帆) / Qianfan Code Latest",
     "timestamp": "2026/03/15 02:00",
@@ -297598,6 +298150,18 @@
     "tokensPerSec": 47.8564430541895,
     "medianTps": 54.53522791859758,
     "ttft": 3817.6666666666665
+  },
+  {
+    "seriesKey": "Ollama Cloud__kimi-k2.6",
+    "seriesLabel": "Ollama Cloud / kimi-k2.6",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 66.31941276591195,
+    "medianTps": 72.58704037290819,
+    "ttft": 1115
   },
   {
     "seriesKey": "百度云(千帆)__kimi-k2.5",
@@ -303948,6 +304512,18 @@
     "ttft": 2896.6666666666665
   },
   {
+    "seriesKey": "百度云(千帆)__kimi-k2.5",
+    "seriesLabel": "百度云(千帆) / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百度云(千帆)",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 59.654695846929506,
+    "medianTps": 78.79135442880022,
+    "ttft": 1658.6666666666667
+  },
+  {
     "seriesKey": "OpenCode Go__qwen3.6-plus",
     "seriesLabel": "OpenCode Go / qwen3.6-plus",
     "timestamp": "2026/04/24 17:00",
@@ -304114,6 +304690,18 @@
     "tokensPerSec": 58.36242275702216,
     "medianTps": 55.89286555111081,
     "ttft": 1327
+  },
+  {
+    "seriesKey": "OpenCode Go__qwen3.6-plus",
+    "seriesLabel": "OpenCode Go / qwen3.6-plus",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "qwen3.6-plus",
+    "modelDisplay": "qwen3.6-plus",
+    "tokensPerSec": 58.86862666746621,
+    "medianTps": 57.56341180913301,
+    "ttft": 1447.3333333333333
   },
   {
     "seriesKey": "优云__zai-org/glm-5",
@@ -310332,6 +310920,18 @@
     "ttft": 1602
   },
   {
+    "seriesKey": "优云__zai-org/glm-5",
+    "seriesLabel": "优云 / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "优云",
+    "model": "zai-org/glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 51.86133248677336,
+    "medianTps": 70.58997309451604,
+    "ttft": 1223.6666666666667
+  },
+  {
     "seriesKey": "百度云(千帆)__glm-5",
     "seriesLabel": "百度云(千帆) / glm-5",
     "timestamp": "2026/04/02 00:00",
@@ -316378,6 +316978,18 @@
     "tokensPerSec": 56.77514649399139,
     "medianTps": 58.68501299367633,
     "ttft": 1011.6666666666666
+  },
+  {
+    "seriesKey": "百度云(千帆)__glm-5",
+    "seriesLabel": "百度云(千帆) / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百度云(千帆)",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 53.15762322375041,
+    "medianTps": 54.66381754782825,
+    "ttft": 1093.6666666666667
   },
   {
     "seriesKey": "无问芯穹__kimi-k2.5",
@@ -337740,6 +338352,18 @@
     "ttft": 2252
   },
   {
+    "seriesKey": "百炼(阿里云)__kimi-k2.5",
+    "seriesLabel": "百炼(阿里云) / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百炼(阿里云)",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 38.95174907967668,
+    "medianTps": 49.825661891220555,
+    "ttft": 2164
+  },
+  {
     "seriesKey": "腾讯云__kimi-k2.5",
     "seriesLabel": "腾讯云 / kimi-k2.5",
     "timestamp": "2026/04/06 15:00",
@@ -343032,6 +343656,210 @@
     "ttft": 2438
   },
   {
+    "seriesKey": "腾讯云__kimi-k2.5",
+    "seriesLabel": "腾讯云 / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "腾讯云",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 33.518480831215705,
+    "medianTps": 44.44627487496314,
+    "ttft": 6253.333333333333
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 16:00",
+    "timestampUnix": 1777017600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 25.300784898923162,
+    "medianTps": 26.465829922326197,
+    "ttft": 1778
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 17:00",
+    "timestampUnix": 1777021200000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 28.105179229587407,
+    "medianTps": 29.576502458893163,
+    "ttft": 2303
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 18:00",
+    "timestampUnix": 1777024800000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 56.83661266974316,
+    "medianTps": 54.745432685826856,
+    "ttft": 1523
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 19:00",
+    "timestampUnix": 1777028400000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 71.78344201288228,
+    "medianTps": 65.8971293893665,
+    "ttft": 1845
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 20:00",
+    "timestampUnix": 1777032000000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 41.22498798386768,
+    "medianTps": 38.45267638977246,
+    "ttft": 1633
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 21:00",
+    "timestampUnix": 1777035600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 40.80070742824974,
+    "medianTps": 41.24412323162829,
+    "ttft": 1636.75
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 22:00",
+    "timestampUnix": 1777039200000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 40.2615390385416,
+    "medianTps": 41.39765425361684,
+    "ttft": 1796
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/24 23:00",
+    "timestampUnix": 1777042800000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 37.78395045423442,
+    "medianTps": 34.86184271335816,
+    "ttft": 2150.6666666666665
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 00:00",
+    "timestampUnix": 1777046400000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 43.11953821125763,
+    "medianTps": 42.440266300548124,
+    "ttft": 2038.3333333333333
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 01:00",
+    "timestampUnix": 1777050000000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 35.563509961252485,
+    "medianTps": 44.45656298927103,
+    "ttft": 1740.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 02:00",
+    "timestampUnix": 1777053600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 63.08841682334728,
+    "medianTps": 62.25138108857417,
+    "ttft": 1340.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 03:00",
+    "timestampUnix": 1777057200000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 63.26113315931528,
+    "medianTps": 63.03597907002014,
+    "ttft": 1624.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 04:00",
+    "timestampUnix": 1777060800000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 52.46333462700297,
+    "medianTps": 51.65316639789061,
+    "ttft": 1312
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 05:00",
+    "timestampUnix": 1777064400000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 79.11542517978022,
+    "medianTps": 77.51450917303227,
+    "ttft": 1285.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 06:00",
+    "timestampUnix": 1777068000000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 50.85859860809564,
+    "medianTps": 50.26796201784369,
+    "ttft": 1494.6666666666667
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.6",
+    "seriesLabel": "OpenCode Go / kimi-k2.6",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.6",
+    "modelDisplay": "kimi-k2.6",
+    "tokensPerSec": 66.89791118447143,
+    "medianTps": 66.17536429242702,
+    "ttft": 1504.6666666666667
+  },
+  {
     "seriesKey": "火山引擎__kimi-k2.6",
     "seriesLabel": "火山引擎 / kimi-k2.6",
     "timestamp": "2026/04/23 01:00",
@@ -343668,184 +344496,16 @@
     "ttft": 638.3333333333334
   },
   {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 16:00",
-    "timestampUnix": 1777017600000,
-    "provider": "OpenCode Go",
+    "seriesKey": "火山引擎__kimi-k2.6",
+    "seriesLabel": "火山引擎 / kimi-k2.6",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "火山引擎",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 25.300784898923162,
-    "medianTps": 26.465829922326197,
-    "ttft": 1778
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 17:00",
-    "timestampUnix": 1777021200000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 28.105179229587407,
-    "medianTps": 29.576502458893163,
-    "ttft": 2303
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 18:00",
-    "timestampUnix": 1777024800000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 56.83661266974316,
-    "medianTps": 54.745432685826856,
-    "ttft": 1523
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 19:00",
-    "timestampUnix": 1777028400000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 71.78344201288228,
-    "medianTps": 65.8971293893665,
-    "ttft": 1845
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 20:00",
-    "timestampUnix": 1777032000000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 41.22498798386768,
-    "medianTps": 38.45267638977246,
-    "ttft": 1633
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 21:00",
-    "timestampUnix": 1777035600000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 40.80070742824974,
-    "medianTps": 41.24412323162829,
-    "ttft": 1636.75
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 22:00",
-    "timestampUnix": 1777039200000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 40.2615390385416,
-    "medianTps": 41.39765425361684,
-    "ttft": 1796
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/24 23:00",
-    "timestampUnix": 1777042800000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 37.78395045423442,
-    "medianTps": 34.86184271335816,
-    "ttft": 2150.6666666666665
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 00:00",
-    "timestampUnix": 1777046400000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 43.11953821125763,
-    "medianTps": 42.440266300548124,
-    "ttft": 2038.3333333333333
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 01:00",
-    "timestampUnix": 1777050000000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 35.563509961252485,
-    "medianTps": 44.45656298927103,
-    "ttft": 1740.6666666666667
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 02:00",
-    "timestampUnix": 1777053600000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 63.08841682334728,
-    "medianTps": 62.25138108857417,
-    "ttft": 1340.6666666666667
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 03:00",
-    "timestampUnix": 1777057200000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 63.26113315931528,
-    "medianTps": 63.03597907002014,
-    "ttft": 1624.6666666666667
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 04:00",
-    "timestampUnix": 1777060800000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 52.46333462700297,
-    "medianTps": 51.65316639789061,
-    "ttft": 1312
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 05:00",
-    "timestampUnix": 1777064400000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 79.11542517978022,
-    "medianTps": 77.51450917303227,
-    "ttft": 1285.6666666666667
-  },
-  {
-    "seriesKey": "OpenCode Go__kimi-k2.6",
-    "seriesLabel": "OpenCode Go / kimi-k2.6",
-    "timestamp": "2026/04/25 06:00",
-    "timestampUnix": 1777068000000,
-    "provider": "OpenCode Go",
-    "model": "kimi-k2.6",
-    "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 50.85859860809564,
-    "medianTps": 50.26796201784369,
-    "ttft": 1494.6666666666667
+    "tokensPerSec": 40.815748565754866,
+    "medianTps": 57.344552391074096,
+    "ttft": 829
   },
   {
     "seriesKey": "OpenCode Go__kimi-k2.5",
@@ -349030,6 +349690,18 @@
     "tokensPerSec": 83.18078124421281,
     "medianTps": 82.84587577117448,
     "ttft": 1855
+  },
+  {
+    "seriesKey": "OpenCode Go__kimi-k2.5",
+    "seriesLabel": "OpenCode Go / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "OpenCode Go",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 60.27406344704869,
+    "medianTps": 59.833978586295665,
+    "ttft": 13129.666666666666
   },
   {
     "seriesKey": "无问芯穹__glm-5",
@@ -365160,6 +365832,18 @@
     "ttft": 548
   },
   {
+    "seriesKey": "百度云(千帆)__minimax-m2.5",
+    "seriesLabel": "百度云(千帆) / minimax-m2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百度云(千帆)",
+    "model": "minimax-m2.5",
+    "modelDisplay": "minimax-m2.5",
+    "tokensPerSec": 41.51080510574594,
+    "medianTps": 58.54248599356982,
+    "ttft": 1662
+  },
+  {
     "seriesKey": "Alaya Code__glm-5",
     "seriesLabel": "Alaya Code / glm-5",
     "timestamp": "2026/04/16 16:00",
@@ -367606,6 +368290,18 @@
     "tokensPerSec": 43.854552360932466,
     "medianTps": 37.360284043631886,
     "ttft": 94268.33333333333
+  },
+  {
+    "seriesKey": "Alaya Code__glm-5",
+    "seriesLabel": "Alaya Code / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Alaya Code",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 50.52749091037623,
+    "medianTps": 42.99926476483071,
+    "ttft": 126570.66666666667
   },
   {
     "seriesKey": "联通云__MiniMax-M2.5",
@@ -379236,6 +379932,18 @@
     "ttft": 711.3333333333334
   },
   {
+    "seriesKey": "联通云__MiniMax-M2.5",
+    "seriesLabel": "联通云 / MiniMax-M2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "联通云",
+    "model": "MiniMax-M2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 42.38275718366208,
+    "medianTps": 58.09355002712228,
+    "ttft": 715.6666666666666
+  },
+  {
     "seriesKey": "火山引擎__deepseek-v3.2",
     "seriesLabel": "火山引擎 / deepseek-v3.2",
     "timestamp": "2026/04/02 00:00",
@@ -385498,6 +386206,18 @@
     "tokensPerSec": 31.112600756816267,
     "medianTps": 41.67095309279319,
     "ttft": 1216.6666666666667
+  },
+  {
+    "seriesKey": "火山引擎__deepseek-v3.2",
+    "seriesLabel": "火山引擎 / deepseek-v3.2",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "火山引擎",
+    "model": "deepseek-v3.2",
+    "modelDisplay": "deepseek-v3.2",
+    "tokensPerSec": 30.121947352113683,
+    "medianTps": 39.23538007582798,
+    "ttft": 1090.6666666666667
   },
   {
     "seriesKey": "百炼(阿里云)__glm-5",
@@ -397200,6 +397920,18 @@
     "ttft": 999
   },
   {
+    "seriesKey": "百炼(阿里云)__glm-5",
+    "seriesLabel": "百炼(阿里云) / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百炼(阿里云)",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 46.62977588554072,
+    "medianTps": 50.980941369996124,
+    "ttft": 16918.333333333332
+  },
+  {
     "seriesKey": "联通云__glm-5",
     "seriesLabel": "联通云 / glm-5",
     "timestamp": "2026/03/15 02:00",
@@ -408732,6 +409464,18 @@
     "ttft": 774.3333333333334
   },
   {
+    "seriesKey": "联通云__glm-5",
+    "seriesLabel": "联通云 / glm-5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "联通云",
+    "model": "glm-5",
+    "modelDisplay": "glm-5",
+    "tokensPerSec": 44.50470414039978,
+    "medianTps": 60.64183402113489,
+    "ttft": 2159
+  },
+  {
     "seriesKey": "Ollama Cloud__deepseek-v3.2",
     "seriesLabel": "Ollama Cloud / deepseek-v3.2",
     "timestamp": "2026/04/12 19:00",
@@ -412270,6 +413014,18 @@
     "tokensPerSec": 96.13398409919165,
     "medianTps": 102.23976882138629,
     "ttft": 757
+  },
+  {
+    "seriesKey": "Ollama Cloud__deepseek-v3.2",
+    "seriesLabel": "Ollama Cloud / deepseek-v3.2",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "Ollama Cloud",
+    "model": "deepseek-v3.2",
+    "modelDisplay": "deepseek-v3.2",
+    "tokensPerSec": 11.39240513421538,
+    "medianTps": 11.85999706718812,
+    "ttft": 1372.3333333333333
   },
   {
     "seriesKey": "无问芯穹__deepseek-v3.2",
@@ -428100,6 +428856,18 @@
     "ttft": 938.3333333333334
   },
   {
+    "seriesKey": "百度云(千帆)__deepseek-v3.2",
+    "seriesLabel": "百度云(千帆) / deepseek-v3.2",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "百度云(千帆)",
+    "model": "deepseek-v3.2",
+    "modelDisplay": "deepseek-v3.2",
+    "tokensPerSec": 35.856661826190894,
+    "medianTps": 36.06284859488749,
+    "ttft": 1131.6666666666667
+  },
+  {
     "seriesKey": "联通元景__glm-5.1",
     "seriesLabel": "联通元景 / glm-5.1",
     "timestamp": "2026/04/20 00:00",
@@ -429562,6 +430330,18 @@
     "tokensPerSec": 14.524358611714296,
     "medianTps": 22.56385683636971,
     "ttft": 4318.666666666667
+  },
+  {
+    "seriesKey": "联通元景__glm-5.1",
+    "seriesLabel": "联通元景 / glm-5.1",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "联通元景",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "tokensPerSec": 21.719943405628644,
+    "medianTps": 40.23599382899519,
+    "ttft": 365.3333333333333
   },
   {
     "seriesKey": "火山引擎__kimi-k2.5",
@@ -435838,6 +436618,18 @@
     "tokensPerSec": 27.278278071004163,
     "medianTps": 38.33932179027266,
     "ttft": 166.66666666666666
+  },
+  {
+    "seriesKey": "火山引擎__kimi-k2.5",
+    "seriesLabel": "火山引擎 / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "火山引擎",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 17.109313283469664,
+    "medianTps": 27.954508396475305,
+    "ttft": 372.3333333333333
   },
   {
     "seriesKey": "联通元景__kimi-k2.5",
@@ -446974,6 +447766,18 @@
     "tokensPerSec": 38.87887395234196,
     "medianTps": 32.05748181040309,
     "ttft": 38196.5
+  },
+  {
+    "seriesKey": "联通云__kimi-k2.5",
+    "seriesLabel": "联通云 / kimi-k2.5",
+    "timestamp": "2026/04/25 07:00",
+    "timestampUnix": 1777071600000,
+    "provider": "联通云",
+    "model": "kimi-k2.5",
+    "modelDisplay": "kimi-k2.5",
+    "tokensPerSec": 25.898893765985676,
+    "medianTps": 35.534456254264484,
+    "ttft": 1001
   },
   {
     "seriesKey": "火山引擎__ark-code-latest",
