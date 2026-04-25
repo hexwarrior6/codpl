@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1423,
-    "ttftP95": 1423,
-    "avgMedianTps": 62.402211823740416,
-    "avgLatency": 48.479552706,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -122.17554670755749,
-    "compositeScore": 54.982314533938236,
-    "latestProbeAt": "2026-04-26T01:55:29.249070987+08:00"
-  }
-]
+[]

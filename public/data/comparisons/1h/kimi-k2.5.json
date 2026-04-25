@@ -28,15 +28,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1201.5,
-    "ttftP95": 1400.85,
-    "avgMedianTps": 77.11812592225039,
-    "avgLatency": 32.306357676,
+    "ttftP50": 1423,
+    "ttftP95": 1721.8,
+    "avgMedianTps": 73.66612410684642,
+    "avgLatency": 36.20368190466667,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 414.7498136335025,
-    "compositeScore": 66.25285312701038,
-    "latestProbeAt": "2026-04-26T01:55:29.249070987+08:00"
+    "sampleCount": 3,
+    "score": 252.30469702441178,
+    "compositeScore": 61.740661903801836,
+    "latestProbeAt": "2026-04-26T02:04:29.980666045+08:00"
   },
   {
     "provider": "百炼(阿里云)",
