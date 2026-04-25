@@ -1,29 +1,42 @@
 [
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 1459.5,
-    "ttftP95": 1709.25,
-    "avgMedianTps": 68.9549304051767,
-    "avgLatency": 32.858925768,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": 300.3564382310601,
-    "compositeScore": 58.54856019304215,
-    "latestProbeAt": "2026-04-26T00:00:18.244283844+08:00"
-  },
-  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 883,
-    "ttftP95": 957.7,
-    "avgMedianTps": 55.31524145644788,
-    "avgLatency": 36.0560944175,
+    "ttftP50": 796,
+    "ttftP95": 796,
+    "avgMedianTps": 70.79449941998081,
+    "avgLatency": 21.655431869,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 253.88908830118748,
-    "compositeScore": 57.61463550234288,
-    "latestProbeAt": "2026-04-26T00:00:14.316919478+08:00"
+    "sampleCount": 1,
+    "score": 724.1811997948847,
+    "compositeScore": 68.3986403515108,
+    "latestProbeAt": "2026-04-26T00:29:18.850416841+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1648,
+    "ttftP95": 1648,
+    "avgMedianTps": 69.30724593810677,
+    "avgLatency": 32.423818955,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 275.64800175364064,
+    "compositeScore": 57.007529195990685,
+    "latestProbeAt": "2026-04-26T00:27:51.380515666+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1169,
+    "ttftP95": 1169,
+    "avgMedianTps": 49.170585063313524,
+    "avgLatency": 57.571003736,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -378.05158302011887,
+    "compositeScore": 49.87994579763036,
+    "latestProbeAt": "2026-04-26T00:29:22.928582654+08:00"
   },
   {
     "provider": "联通元景",
@@ -36,6 +49,6 @@
     "sampleCount": 1,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-25T23:57:06.12270644+08:00"
+    "latestProbeAt": "2026-04-26T00:28:42.299073468+08:00"
   }
 ]

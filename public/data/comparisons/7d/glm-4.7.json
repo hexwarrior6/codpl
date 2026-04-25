@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 524,
-    "ttftP95": 20055.39999999998,
-    "avgMedianTps": 93.39006166980839,
-    "avgLatency": 55.930311687849496,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": 55.306293237632644,
-    "compositeScore": 87.98799389146934,
-    "latestProbeAt": "2026-04-25T23:54:43.036337307+08:00"
+    "ttftP50": 522.5,
+    "ttftP95": 19912,
+    "avgMedianTps": 93.38475813704981,
+    "avgLatency": 55.90297659042519,
+    "successRate": 0.9980353634577603,
+    "sampleCount": 509,
+    "score": 56.26949751942948,
+    "compositeScore": 88.02616951750625,
+    "latestProbeAt": "2026-04-26T00:28:09.144505146+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,11 +19,11 @@
     "ttftP95": 1483.7499999999984,
     "avgMedianTps": 82.7037241826775,
     "avgLatency": 28.96479973967906,
-    "successRate": 0.7465346534653465,
-    "sampleCount": 505,
-    "score": 388.03700506943517,
+    "successRate": 0.7421259842519685,
+    "sampleCount": 508,
+    "score": 383.6283358560571,
     "compositeScore": 78.401029599101,
-    "latestProbeAt": "2026-04-25T23:48:55.957318881+08:00"
+    "latestProbeAt": "2026-04-26T00:21:45.509524344+08:00"
   },
   {
     "provider": "火山引擎",
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1613,
-    "ttftP95": 77695.5,
-    "avgMedianTps": 72.14277135739613,
-    "avgLatency": 46.51222298088389,
-    "successRate": 0.9742063492063492,
-    "sampleCount": 504,
-    "score": -78.34259717137138,
-    "compositeScore": 59.018542487840065,
-    "latestProbeAt": "2026-04-26T00:00:11.661272711+08:00"
+    "ttftP50": 1620,
+    "ttftP95": 77352.24999999993,
+    "avgMedianTps": 71.79984922576757,
+    "avgLatency": 46.917574177587376,
+    "successRate": 0.9742574257425742,
+    "sampleCount": 505,
+    "score": -91.88283334250468,
+    "compositeScore": 58.750315462699476,
+    "latestProbeAt": "2026-04-26T00:25:31.545827471+08:00"
   }
 ]
