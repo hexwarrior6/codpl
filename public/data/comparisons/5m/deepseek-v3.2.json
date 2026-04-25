@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1434,
+    "ttftP95": 1434,
+    "avgMedianTps": 39.01782402378018,
+    "avgLatency": 40.376279557,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -62.10004478231872,
+    "compositeScore": 40.84058823220787,
+    "latestProbeAt": "2026-04-25T10:28:39.005973352+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1338,
+    "ttftP95": 1338,
+    "avgMedianTps": 14.16656422174777,
+    "avgLatency": 148.001495921,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -2882.6380126945132,
+    "compositeScore": 26.92950143159286,
+    "latestProbeAt": "2026-04-25T10:26:33.827164851+08:00"
+  }
+]

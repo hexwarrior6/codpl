@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 494,
-    "ttftP95": 12985.399999999998,
-    "avgMedianTps": 111.43793258326743,
-    "avgLatency": 43.9605005945871,
-    "successRate": 0.9988283538371412,
-    "sampleCount": 1707,
-    "score": 469.6434344720683,
-    "compositeScore": 92.80451458911205,
-    "latestProbeAt": "2026-04-25T09:38:41.024869696+08:00"
+    "ttftP50": 493.5,
+    "ttftP95": 12983,
+    "avgMedianTps": 111.40569665026239,
+    "avgLatency": 43.93404846172952,
+    "successRate": 0.9988304093567252,
+    "sampleCount": 1710,
+    "score": 470.2133777150616,
+    "compositeScore": 92.81912416039484,
+    "latestProbeAt": "2026-04-25T10:23:48.049898861+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,24 +19,24 @@
     "ttftP95": 4076.149999999956,
     "avgMedianTps": 69.43252964265993,
     "avgLatency": 28.967051396755057,
-    "successRate": 0.684179801517805,
-    "sampleCount": 1713,
-    "score": 236.3986944548882,
+    "successRate": 0.682983682983683,
+    "sampleCount": 1716,
+    "score": 235.20257592076598,
     "compositeScore": 69.41499835044854,
-    "latestProbeAt": "2026-04-25T09:33:03.354197715+08:00"
+    "latestProbeAt": "2026-04-25T10:17:21.05150132+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1560,
-    "ttftP95": 81983.9,
-    "avgMedianTps": 71.63564278154463,
-    "avgLatency": 43.8798513540361,
-    "successRate": 0.8843612334801763,
-    "sampleCount": 908,
-    "score": -94.82119368145845,
-    "compositeScore": 59.19626943638948,
-    "latestProbeAt": "2026-04-25T09:45:02.306360143+08:00"
+    "ttftP50": 1564,
+    "ttftP95": 81973.79999999999,
+    "avgMedianTps": 71.64671401910417,
+    "avgLatency": 43.82771863392296,
+    "successRate": 0.8846153846153846,
+    "sampleCount": 910,
+    "score": -93.99729711806435,
+    "compositeScore": 59.16596734334779,
+    "latestProbeAt": "2026-04-25T10:26:54.117420293+08:00"
   },
   {
     "provider": "火山引擎",
