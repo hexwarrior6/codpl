@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 877,
+    "ttftP50": 878,
     "ttftP95": 17047.349999999995,
-    "avgMedianTps": 152.1394378643768,
-    "avgLatency": 17.82614675362599,
+    "avgMedianTps": 152.23129491889,
+    "avgLatency": 17.850953147292,
     "successRate": 0.9960159362549801,
     "sampleCount": 502,
-    "score": 1287.798894600591,
-    "compositeScore": 84.52385658051148,
-    "latestProbeAt": "2026-04-25T17:04:09.850763117+08:00"
+    "score": 1287.52987708602,
+    "compositeScore": 84.50741560960523,
+    "latestProbeAt": "2026-04-25T17:57:30.724724656+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5329,
-    "ttftP95": 27100.099999999962,
-    "avgMedianTps": 139.10163507892253,
-    "avgLatency": 24.479834517677343,
+    "ttftP50": 5326,
+    "ttftP95": 26913.499999999996,
+    "avgMedianTps": 139.76378802116426,
+    "avgLatency": 24.485453574346682,
     "successRate": 0.9881188118811881,
     "sampleCount": 505,
-    "score": 144.93275941278978,
+    "score": 149.3652006495065,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-25T16:56:55.896388107+08:00"
+    "latestProbeAt": "2026-04-25T17:46:04.674837589+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 3129,
-    "ttftP95": 18671.199999999975,
-    "avgMedianTps": 63.44079539325624,
-    "avgLatency": 38.64915762472154,
-    "successRate": 0.7821782178217822,
-    "sampleCount": 505,
-    "score": -429.2059504367188,
-    "compositeScore": 44.23780470850333,
-    "latestProbeAt": "2026-04-25T16:47:36.379248879+08:00"
+    "ttftP50": 3125,
+    "ttftP95": 18721.599999999988,
+    "avgMedianTps": 63.606186749499,
+    "avgLatency": 38.48922549199492,
+    "successRate": 0.7766798418972332,
+    "sampleCount": 506,
+    "score": -428.91367490564585,
+    "compositeScore": 44.35549421029009,
+    "latestProbeAt": "2026-04-25T17:39:00.703405585+08:00"
   }
 ]
