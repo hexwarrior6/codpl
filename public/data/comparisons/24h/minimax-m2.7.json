@@ -2,14 +2,14 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 1076,
-    "ttftP95": 3858.2500000000023,
-    "avgMedianTps": 63.95162325222254,
-    "avgLatency": 28.669746078055557,
+    "ttftP50": 1098,
+    "ttftP95": 3969.999999999996,
+    "avgMedianTps": 64.19301421911808,
+    "avgLatency": 28.685166855869575,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": 451.7660875619464,
-    "compositeScore": 59.9445372307261,
+    "sampleCount": 69,
+    "score": 448.4289139179691,
+    "compositeScore": 59.79737204637767,
     "latestProbeAt": "2026-04-26T05:23:18.270921676+08:00"
   },
   {
@@ -46,7 +46,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 72,
+    "sampleCount": 69,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-04-26T05:21:05.539062099+08:00"
@@ -59,7 +59,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 72,
+    "sampleCount": 71,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-04-26T05:29:08.177793615+08:00"
