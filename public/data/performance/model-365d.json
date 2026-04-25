@@ -192775,9 +192775,9 @@
     "provider": "联通元景",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "tokensPerSec": 56.40475278692654,
-    "medianTps": 71.56358835211574,
-    "ttft": 277.5
+    "tokensPerSec": 57.20661582656083,
+    "medianTps": 71.58239186685576,
+    "ttft": 392.3333333333333
   },
   {
     "seriesKey": "天翼云__GLM-5",
@@ -413203,9 +413203,9 @@
     "provider": "联通云",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "tokensPerSec": 17.546592392423843,
-    "medianTps": 23.5795238681589,
-    "ttft": 1020.5
+    "tokensPerSec": 20.79163263168144,
+    "medianTps": 28.571915686677166,
+    "ttft": 994
   },
   {
     "seriesKey": "Ollama Cloud__deepseek-v3.2",
@@ -434251,9 +434251,9 @@
     "provider": "联通元景",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "tokensPerSec": 8.358175421194831,
-    "medianTps": 22.674153693249593,
-    "ttft": 56673.666666666664
+    "tokensPerSec": 7.231534156794138,
+    "medianTps": 21.563065149094896,
+    "ttft": 50517.6
   },
   {
     "seriesKey": "火山引擎__kimi-k2.5",

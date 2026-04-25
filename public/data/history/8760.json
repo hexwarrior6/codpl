@@ -17564,10 +17564,10 @@
     "provider": "联通云",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 28.38162621562319,
-    "medianTps": 38.699009883479896,
-    "ttft": 1049.2631578947369,
-    "dataPoints": 38
+    "avgTps": 28.51983563544598,
+    "medianTps": 38.95138098802529,
+    "ttft": 1045.128205128205,
+    "dataPoints": 39
   },
   {
     "timePoint": "04/25",
@@ -17584,20 +17584,20 @@
     "provider": "联通元景",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 58.688541328049595,
-    "medianTps": 71.82754384014727,
-    "ttft": 352.05,
-    "dataPoints": 20
+    "avgTps": 58.69434135556292,
+    "medianTps": 71.81766074758482,
+    "ttft": 364.9047619047619,
+    "dataPoints": 21
   },
   {
     "timePoint": "04/25",
     "provider": "联通元景",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 23.66116859199041,
-    "medianTps": 38.52380301856102,
-    "ttft": 19550.486486486487,
-    "dataPoints": 37
+    "avgTps": 22.731958523693113,
+    "medianTps": 37.568553239807265,
+    "ttft": 20665,
+    "dataPoints": 39
   },
   {
     "timePoint": "04/25",

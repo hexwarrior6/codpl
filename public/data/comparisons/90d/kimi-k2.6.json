@@ -6,11 +6,11 @@
     "ttftP95": 592,
     "avgMedianTps": 151.31005731015625,
     "avgLatency": 17.37786928277305,
-    "successRate": 0.5444015444015444,
-    "sampleCount": 259,
-    "score": 958.6151561931556,
+    "successRate": 0.5402298850574713,
+    "sampleCount": 261,
+    "score": 954.4434968490823,
     "compositeScore": 100,
-    "latestProbeAt": "2026-04-25T12:22:21.385319305+08:00"
+    "latestProbeAt": "2026-04-25T12:37:27.527948069+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
