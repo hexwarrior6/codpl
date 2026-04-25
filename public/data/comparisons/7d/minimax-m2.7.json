@@ -41,14 +41,14 @@
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 7593,
-    "ttftP95": 18544.399999999998,
-    "avgMedianTps": 72.4661710216786,
-    "avgLatency": 39.03897243858681,
-    "successRate": 0.80990099009901,
-    "sampleCount": 505,
-    "score": -1249.876294735589,
-    "compositeScore": 43.47970261300716,
+    "ttftP50": 7602,
+    "ttftP95": 18550.1,
+    "avgMedianTps": 72.50134720716235,
+    "avgLatency": 39.07953808005639,
+    "successRate": 0.8095238095238095,
+    "sampleCount": 504,
+    "score": -1252.8565592346263,
+    "compositeScore": 43.50080832429741,
     "latestProbeAt": "2026-04-25T10:17:21.428669494+08:00"
   },
   {

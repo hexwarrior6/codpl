@@ -158,14 +158,14 @@
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 44084,
-    "ttftP95": 282729.59999999986,
-    "avgMedianTps": 25.99821975769375,
-    "avgLatency": 246.6782591708507,
-    "successRate": 0.9178082191780822,
-    "sampleCount": 73,
-    "score": -13909.958941547025,
-    "compositeScore": 15.59893185461625,
+    "ttftP50": 43107,
+    "ttftP95": 284536.5,
+    "avgMedianTps": 26.35540185321481,
+    "avgLatency": 240.06667979913632,
+    "successRate": 0.9166666666666666,
+    "sampleCount": 72,
+    "score": -13548.267917192452,
+    "compositeScore": 15.813241111928885,
     "latestProbeAt": "2026-04-25T10:46:37.080294379+08:00"
   },
   {
