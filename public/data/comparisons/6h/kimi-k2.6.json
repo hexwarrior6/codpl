@@ -15,41 +15,41 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 796,
-    "ttftP95": 1161.3999999999996,
-    "avgMedianTps": 54.38502460635732,
-    "avgLatency": 43.05251588511765,
+    "ttftP50": 798,
+    "ttftP95": 1144.2999999999995,
+    "avgMedianTps": 55.177636990577575,
+    "avgLatency": 42.87689159366667,
     "successRate": 1,
-    "sampleCount": 17,
-    "score": 90.79725051020273,
-    "compositeScore": 58.552955463336716,
-    "latestProbeAt": "2026-04-26T00:29:18.850416841+08:00"
+    "sampleCount": 18,
+    "score": 99.54353210179875,
+    "compositeScore": 58.9923197370819,
+    "latestProbeAt": "2026-04-26T00:32:24.70414158+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1305.5,
-    "ttftP95": 12733.5,
-    "avgMedianTps": 63.718225584966774,
-    "avgLatency": 50.71502178374999,
+    "ttftP95": 10613.29999999997,
+    "avgMedianTps": 62.0721122478297,
+    "avgLatency": 49.624002676777764,
     "successRate": 1,
-    "sampleCount": 16,
-    "score": -146.66619108394912,
-    "compositeScore": 57.015254832810456,
-    "latestProbeAt": "2026-04-26T00:29:22.928582654+08:00"
+    "sampleCount": 18,
+    "score": -129.26739343246572,
+    "compositeScore": 56.02758683052821,
+    "latestProbeAt": "2026-04-26T00:42:43.089803797+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 1425,
-    "ttftP95": 2115.2,
-    "avgMedianTps": 61.36833079992169,
-    "avgLatency": 39.05205435476471,
+    "ttftP50": 1460.5,
+    "ttftP95": 2098.8999999999996,
+    "avgMedianTps": 61.69097855069687,
+    "avgLatency": 38.919162323444446,
     "successRate": 1,
-    "sampleCount": 17,
-    "score": 106.90862593041243,
-    "compositeScore": 54.34172334551715,
-    "latestProbeAt": "2026-04-26T00:27:51.380515666+08:00"
+    "sampleCount": 18,
+    "score": 105.06681321807002,
+    "compositeScore": 54.18030760708514,
+    "latestProbeAt": "2026-04-26T00:32:11.717197807+08:00"
   },
   {
     "provider": "联通元景",
@@ -59,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 16,
+    "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T00:28:42.299073468+08:00"
+    "latestProbeAt": "2026-04-26T00:40:15.342322763+08:00"
   }
 ]
