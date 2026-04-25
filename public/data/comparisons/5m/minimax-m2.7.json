@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 1786,
+    "ttftP95": 2772.3999999999996,
+    "avgMedianTps": 69.72252889954642,
+    "avgLatency": 31.676544003333333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 269.2215733139452,
+    "compositeScore": 56.09654059347443,
+    "latestProbeAt": "2026-04-25T14:00:03.652145613+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-25T13:57:38.872132913+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-25T13:57:56.966094435+08:00"
+  }
+]
