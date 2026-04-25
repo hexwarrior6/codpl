@@ -2,41 +2,41 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 1096,
-    "ttftP95": 4894.999999999997,
-    "avgMedianTps": 62.69197222211869,
-    "avgLatency": 29.81846912150496,
+    "ttftP50": 1082.5,
+    "ttftP95": 4863.499999999991,
+    "avgMedianTps": 62.704549831546736,
+    "avgLatency": 29.797458925970616,
     "successRate": 1,
-    "sampleCount": 507,
-    "score": 411.49010529508814,
-    "compositeScore": 58.923049408624756,
-    "latestProbeAt": "2026-04-26T04:59:38.269891958+08:00"
+    "sampleCount": 510,
+    "score": 414.7908258400149,
+    "compositeScore": 59.10940370774598,
+    "latestProbeAt": "2026-04-26T05:23:18.270921676+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 2857,
-    "ttftP95": 8255.599999999999,
-    "avgMedianTps": 69.8614672086228,
-    "avgLatency": 35.22654647913885,
-    "successRate": 0.9959919839679359,
-    "sampleCount": 499,
-    "score": -36.90287475879836,
-    "compositeScore": 49.40221402076877,
-    "latestProbeAt": "2026-04-26T03:40:21.789683562+08:00"
+    "ttftP50": 2855,
+    "ttftP95": 8242,
+    "avgMedianTps": 69.83310714251587,
+    "avgLatency": 35.184052215437134,
+    "successRate": 0.9960238568588469,
+    "sampleCount": 503,
+    "score": -35.578805671986174,
+    "compositeScore": 49.39530088796628,
+    "latestProbeAt": "2026-04-26T05:27:22.750445099+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 2225,
-    "ttftP95": 8213.3,
-    "avgMedianTps": 63.16652580025111,
-    "avgLatency": 36.72637347952287,
+    "ttftP50": 2220,
+    "ttftP95": 8201.9,
+    "avgMedianTps": 63.664130741321216,
+    "avgLatency": 36.55744340800198,
     "successRate": 1,
-    "sampleCount": 503,
-    "score": 15.83981781343482,
-    "compositeScore": 48.99220617769824,
-    "latestProbeAt": "2026-04-26T04:59:49.535877598+08:00"
+    "sampleCount": 507,
+    "score": 24.04869924787772,
+    "compositeScore": 49.32322573737685,
+    "latestProbeAt": "2026-04-26T05:27:47.744179924+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -45,11 +45,11 @@
     "ttftP95": 19108.35,
     "avgMedianTps": 75.96692403081232,
     "avgLatency": 38.90937295616952,
-    "successRate": 0.7023809523809523,
-    "sampleCount": 504,
-    "score": -1502.351827338412,
+    "successRate": 0.6982248520710059,
+    "sampleCount": 507,
+    "score": -1506.5079276483584,
     "compositeScore": 45.58015441848739,
-    "latestProbeAt": "2026-04-26T04:57:02.586130101+08:00"
+    "latestProbeAt": "2026-04-26T05:21:05.539062099+08:00"
   },
   {
     "provider": "火山引擎",
@@ -59,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 234,
+    "sampleCount": 239,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T04:57:18.406072449+08:00"
+    "latestProbeAt": "2026-04-26T05:29:08.177793615+08:00"
   }
 ]
