@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 524,
-    "ttftP95": 20055.39999999998,
-    "avgMedianTps": 92.7511176756057,
-    "avgLatency": 56.41873037464553,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": 39.26216210251573,
-    "compositeScore": 87.60462749494772,
-    "latestProbeAt": "2026-04-26T02:37:44.612354464+08:00"
+    "ttftP50": 522.5,
+    "ttftP95": 19912,
+    "avgMedianTps": 92.82074338612023,
+    "avgLatency": 56.348872326377936,
+    "successRate": 0.9980353634577603,
+    "sampleCount": 509,
+    "score": 41.73801561503342,
+    "compositeScore": 87.68776066694849,
+    "latestProbeAt": "2026-04-26T03:22:47.528054056+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,11 +19,11 @@
     "ttftP95": 1504.0000000000005,
     "avgMedianTps": 82.83895501455827,
     "avgLatency": 28.977486736921204,
-    "successRate": 0.7287128712871287,
-    "sampleCount": 505,
-    "score": 370.7094329514483,
+    "successRate": 0.7244094488188977,
+    "sampleCount": 508,
+    "score": 366.4060104832173,
     "compositeScore": 78.48216809822945,
-    "latestProbeAt": "2026-04-26T02:32:19.686700891+08:00"
+    "latestProbeAt": "2026-04-26T03:16:53.209889024+08:00"
   },
   {
     "provider": "火山引擎",
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1637,
-    "ttftP95": 77352.24999999993,
-    "avgMedianTps": 71.04527851524499,
-    "avgLatency": 47.73530610359754,
-    "successRate": 0.9742574257425742,
-    "sampleCount": 505,
-    "score": -120.25355575589447,
-    "compositeScore": 58.14696794936426,
-    "latestProbeAt": "2026-04-26T02:45:14.868567545+08:00"
+    "ttftP50": 1644,
+    "ttftP95": 77008.99999999984,
+    "avgMedianTps": 71.07445171536067,
+    "avgLatency": 47.62619168896752,
+    "successRate": 0.974308300395257,
+    "sampleCount": 506,
+    "score": -118.69978153676698,
+    "compositeScore": 58.10291209735838,
+    "latestProbeAt": "2026-04-26T03:28:20.623816066+08:00"
   }
 ]
