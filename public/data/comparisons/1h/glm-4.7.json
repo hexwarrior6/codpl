@@ -2,27 +2,40 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 399,
-    "ttftP95": 399,
-    "avgMedianTps": 69.34276086894035,
-    "avgLatency": 59.395627476,
+    "ttftP50": 516,
+    "ttftP95": 700.5,
+    "avgMedianTps": 90.16914266680743,
+    "avgLatency": 35.693557179,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -148.63412168635796,
-    "compositeScore": 77.49139406409955,
-    "latestProbeAt": "2026-04-25T21:32:08.818801301+08:00"
+    "sampleCount": 3,
+    "score": 545.4759265258446,
+    "compositeScore": 86.27739995081073,
+    "latestProbeAt": "2026-04-25T22:41:54.13999075+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 18298.5,
-    "ttftP95": 31285.949999999997,
-    "avgMedianTps": 22.608660229858007,
-    "avgLatency": 118.1438031725,
+    "ttftP50": 40915.5,
+    "ttftP95": 42128.25,
+    "avgMedianTps": 23.63058799812785,
+    "avgLatency": 118.667772434,
     "successRate": 1,
     "sampleCount": 2,
-    "score": -5477.643117933352,
-    "compositeScore": 13.565196137914803,
-    "latestProbeAt": "2026-04-25T21:43:23.938821479+08:00"
+    "score": -10008.010782861233,
+    "compositeScore": 14.17835279887671,
+    "latestProbeAt": "2026-04-25T22:57:24.415757459+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-25T22:36:26.592960291+08:00"
   }
 ]
