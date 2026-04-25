@@ -3,27 +3,27 @@
     "provider": "京东云",
     "providerPlatform": "jdcloud",
     "ttftP50": 524,
-    "ttftP95": 20055.39999999998,
-    "avgMedianTps": 93.74441004863075,
-    "avgLatency": 55.98541637437029,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": 56.054766347547,
-    "compositeScore": 88.20060291876277,
-    "latestProbeAt": "2026-04-25T20:11:39.356556258+08:00"
+    "ttftP95": 20433.399999999983,
+    "avgMedianTps": 93.85837940690209,
+    "avgLatency": 56.06710941321498,
+    "successRate": 0.9980314960629921,
+    "sampleCount": 508,
+    "score": 54.70403717403042,
+    "compositeScore": 88.26898453372556,
+    "latestProbeAt": "2026-04-25T21:29:35.296339836+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 653.5,
-    "ttftP95": 1464.5499999999993,
-    "avgMedianTps": 82.66287416167941,
-    "avgLatency": 29.061067170545225,
-    "successRate": 0.7648221343873518,
-    "sampleCount": 506,
-    "score": 403.5727000937976,
-    "compositeScore": 78.36547714401212,
-    "latestProbeAt": "2026-04-25T20:05:25.861278781+08:00"
+    "ttftP50": 654,
+    "ttftP95": 1465.6999999999994,
+    "avgMedianTps": 82.66068195392475,
+    "avgLatency": 29.053399714694308,
+    "successRate": 0.7598425196850394,
+    "sampleCount": 508,
+    "score": 398.6716185412304,
+    "compositeScore": 78.35312782233282,
+    "latestProbeAt": "2026-04-25T21:23:33.146428715+08:00"
   },
   {
     "provider": "火山引擎",
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1564,
-    "ttftP95": 77695.5,
-    "avgMedianTps": 72.86870782417267,
-    "avgLatency": 45.26827474004681,
-    "successRate": 0.9742063492063492,
-    "sampleCount": 504,
-    "score": -33.08827234978503,
-    "compositeScore": 59.8991636263889,
-    "latestProbeAt": "2026-04-25T20:21:17.558228688+08:00"
+    "ttftP50": 1568.5,
+    "ttftP95": 77352.24999999993,
+    "avgMedianTps": 72.76944711934856,
+    "avgLatency": 45.30339553967477,
+    "successRate": 0.9742574257425742,
+    "sampleCount": 505,
+    "score": -35.410780033203764,
+    "compositeScore": 59.79815703813191,
+    "latestProbeAt": "2026-04-25T21:25:39.22400148+08:00"
   }
 ]

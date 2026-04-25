@@ -2,41 +2,28 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 834,
-    "ttftP95": 1563,
-    "avgMedianTps": 68.48488738131495,
-    "avgLatency": 31.065447725333332,
+    "ttftP50": 1887,
+    "ttftP95": 2686.2,
+    "avgMedianTps": 65.19932970762105,
+    "avgLatency": 26.053709803,
     "successRate": 1,
     "sampleCount": 3,
-    "score": 467.47313115455654,
-    "compositeScore": 66.34008359930115,
-    "latestProbeAt": "2026-04-25T20:07:54.629468964+08:00"
+    "score": 362.4532331707262,
+    "compositeScore": 52.58899765352699,
+    "latestProbeAt": "2026-04-25T21:25:54.509061076+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 2746,
-    "ttftP95": 6724,
-    "avgMedianTps": 54.076422066283634,
-    "avgLatency": 37.190063497666664,
+    "ttftP50": 2757,
+    "ttftP95": 2757,
+    "avgMedianTps": 65.9962020728567,
+    "avgLatency": 36.993653907,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": -154.493055043965,
-    "compositeScore": 40.502881043257986,
-    "latestProbeAt": "2026-04-25T20:19:09.049680379+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 3864,
-    "ttftP95": 5565,
-    "avgMedianTps": 36.307660654456654,
-    "avgLatency": 41.939860066666675,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": -603.4505377399272,
-    "compositeScore": 24.91398950927507,
-    "latestProbeAt": "2026-04-25T20:26:53.269124932+08:00"
+    "sampleCount": 1,
+    "score": -80.26413523785982,
+    "compositeScore": 47.59707262857092,
+    "latestProbeAt": "2026-04-25T21:27:53.738200101+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -49,7 +36,7 @@
     "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-25T20:05:26.262851705+08:00"
+    "latestProbeAt": "2026-04-25T21:23:33.585525807+08:00"
   },
   {
     "provider": "火山引擎",
@@ -59,9 +46,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 3,
+    "sampleCount": 2,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-25T20:13:59.528270315+08:00"
+    "latestProbeAt": "2026-04-25T21:30:09.503272283+08:00"
   }
 ]
