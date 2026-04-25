@@ -6,11 +6,11 @@
     "ttftP95": 403.54999999999995,
     "avgMedianTps": 155.5550721554078,
     "avgLatency": 18.2249693154,
-    "successRate": 0.5882352941176471,
-    "sampleCount": 17,
-    "score": 1017.6414941650938,
+    "successRate": 0.5555555555555556,
+    "sampleCount": 18,
+    "score": 984.9617556030024,
     "compositeScore": 100,
-    "latestProbeAt": "2026-04-25T10:29:53.499061179+08:00"
+    "latestProbeAt": "2026-04-25T10:35:59.499143536+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
@@ -28,15 +28,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1024,
-    "ttftP95": 5993.399999999998,
-    "avgMedianTps": 75.83799977645131,
-    "avgLatency": 44.58461099535295,
+    "ttftP50": 1040.5,
+    "ttftP95": 5803.799999999995,
+    "avgMedianTps": 77.65924338229264,
+    "avgLatency": 43.51706464044445,
     "successRate": 1,
-    "sampleCount": 17,
-    "score": 135.61272377488422,
-    "compositeScore": 67.79098677082959,
-    "latestProbeAt": "2026-04-25T10:28:27.152062986+08:00"
+    "sampleCount": 18,
+    "score": 169.92884428264483,
+    "compositeScore": 68.65312043698106,
+    "latestProbeAt": "2026-04-25T10:34:42.124211769+08:00"
   },
   {
     "provider": "火山引擎",

@@ -15,15 +15,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1083,
-    "ttftP95": 7172.4,
-    "avgMedianTps": 90.92524639136941,
-    "avgLatency": 39.09364600129411,
+    "ttftP50": 1062.5,
+    "ttftP95": 7127.799999999998,
+    "avgMedianTps": 90.09839090378871,
+    "avgLatency": 39.499281661444435,
     "successRate": 1,
-    "sampleCount": 17,
-    "score": 351.6103283158636,
-    "compositeScore": 76.03515946369718,
-    "latestProbeAt": "2026-04-25T10:28:57.994615615+08:00"
+    "sampleCount": 18,
+    "score": 340.60830388662146,
+    "compositeScore": 75.81475018810777,
+    "latestProbeAt": "2026-04-25T10:35:28.522797163+08:00"
   },
   {
     "provider": "百度云(千帆)",
@@ -39,30 +39,30 @@
     "latestProbeAt": "2026-04-25T10:24:54.676761342+08:00"
   },
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 174,
-    "ttftP95": 882.7999999999998,
-    "avgMedianTps": 33.811831542722985,
-    "avgLatency": 95.97140919347058,
-    "successRate": 1,
-    "sampleCount": 17,
-    "score": -1231.2142405804263,
-    "compositeScore": 60.287098925633785,
-    "latestProbeAt": "2026-04-25T10:26:43.715223417+08:00"
-  },
-  {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
     "ttftP50": 6822,
-    "ttftP95": 15007.5,
-    "avgMedianTps": 195.62964504593415,
-    "avgLatency": 21.173167283625,
+    "ttftP95": 15002.5,
+    "avgMedianTps": 183.6405827866273,
+    "avgLatency": 22.111970322944444,
     "successRate": 1,
-    "sampleCount": 16,
-    "score": 280.04868818497994,
+    "sampleCount": 18,
+    "score": 184.64423864615242,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-25T10:26:26.433789702+08:00"
+    "latestProbeAt": "2026-04-25T10:47:13.909010986+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 182.5,
+    "ttftP95": 869.3499999999996,
+    "avgMedianTps": 33.12438179898142,
+    "avgLatency": 98.13747478594445,
+    "successRate": 1,
+    "sampleCount": 18,
+    "score": -1291.1905788547228,
+    "compositeScore": 59.87462907938885,
+    "latestProbeAt": "2026-04-25T10:31:27.914905743+08:00"
   },
   {
     "provider": "百炼(阿里云)",
