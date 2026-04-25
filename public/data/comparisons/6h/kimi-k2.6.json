@@ -6,24 +6,24 @@
     "ttftP95": 234,
     "avgMedianTps": 126.39831521879955,
     "avgLatency": 22.785401801,
-    "successRate": 0.06666666666666667,
-    "sampleCount": 15,
-    "score": 208.62151295446404,
+    "successRate": 0.05555555555555555,
+    "sampleCount": 18,
+    "score": 197.51040184335295,
     "compositeScore": 100,
-    "latestProbeAt": "2026-04-25T12:37:27.527948069+08:00"
+    "latestProbeAt": "2026-04-25T14:11:26.342699009+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1009,
-    "ttftP95": 3703.399999999998,
-    "avgMedianTps": 90.22687959755885,
-    "avgLatency": 36.83322489653334,
+    "ttftP50": 1103,
+    "ttftP95": 3375.199999999997,
+    "avgMedianTps": 96.21478982012025,
+    "avgLatency": 34.124126593,
     "successRate": 1,
-    "sampleCount": 15,
-    "score": 418.7306551720196,
-    "compositeScore": 76.63721007243055,
-    "latestProbeAt": "2026-04-25T12:28:19.955837474+08:00"
+    "sampleCount": 18,
+    "score": 503.5855740957213,
+    "compositeScore": 78.94489004111713,
+    "latestProbeAt": "2026-04-25T14:12:34.489140823+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
@@ -41,27 +41,27 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 810.5,
-    "ttftP95": 1812.75,
-    "avgMedianTps": 55.341569802952435,
-    "avgLatency": 45.32727640843749,
+    "ttftP50": 791,
+    "ttftP95": 1808.05,
+    "avgMedianTps": 57.82465177556451,
+    "avgLatency": 43.54317913988888,
     "successRate": 1,
-    "sampleCount": 16,
-    "score": 36.767508606777255,
-    "compositeScore": 58.86644503155485,
-    "latestProbeAt": "2026-04-25T14:00:07.08967992+08:00"
+    "sampleCount": 18,
+    "score": 100.16843215616495,
+    "compositeScore": 60.70763912556959,
+    "latestProbeAt": "2026-04-25T14:06:58.973881085+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
     "ttftP50": 1428,
-    "ttftP95": 1965.75,
-    "avgMedianTps": 55.99997409238584,
-    "avgLatency": 47.52537371762501,
+    "ttftP95": 1959.4499999999998,
+    "avgMedianTps": 57.63801499777818,
+    "avgLatency": 45.432958827055565,
     "successRate": 1,
-    "sampleCount": 16,
-    "score": -137.73449838630995,
-    "compositeScore": 51.09036872009932,
-    "latestProbeAt": "2026-04-25T13:58:46.820847788+08:00"
+    "sampleCount": 18,
+    "score": -75.59588068971993,
+    "compositeScore": 52.07319326333472,
+    "latestProbeAt": "2026-04-25T14:08:21.750590268+08:00"
   }
 ]
