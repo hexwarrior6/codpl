@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 714,
+    "ttftP95": 714,
+    "avgMedianTps": 244.85905990730603,
+    "avgLatency": 10.421915177,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 2065.806480018836,
+    "compositeScore": 87.49038426466781,
+    "latestProbeAt": "2026-04-25T16:57:52.238229013+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1094,
+    "ttftP95": 1094,
+    "avgMedianTps": 75.85494822611535,
+    "avgLatency": 53.155223418,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -92.55089609330776,
+    "compositeScore": 66.84718561270246,
+    "latestProbeAt": "2026-04-25T16:55:50.713927511+08:00"
+  },
+  {
+    "provider": "百炼(阿里云)",
+    "providerPlatform": "aliyun_bailian",
+    "ttftP50": 985,
+    "ttftP95": 985,
+    "avgMedianTps": 52.67085107316859,
+    "avgLatency": 51.595319721,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -170.85788658598858,
+    "compositeScore": 54.45089840542258,
+    "latestProbeAt": "2026-04-25T16:55:46.342067433+08:00"
+  },
+  {
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 784,
+    "ttftP95": 784,
+    "avgMedianTps": 41.12500731650513,
+    "avgLatency": 57.975494781,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -359.43732562596915,
+    "compositeScore": 50.816092853709804,
+    "latestProbeAt": "2026-04-25T16:58:12.416677667+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 2542,
+    "ttftP95": 2542,
+    "avgMedianTps": 49.214711202414975,
+    "avgLatency": 56.740553495,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -631.6255701605103,
+    "compositeScore": 38.699530476358206,
+    "latestProbeAt": "2026-04-25T16:55:50.234871552+08:00"
+  },
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 102349,
+    "ttftP95": 177157.9,
+    "avgMedianTps": 15.610586324663482,
+    "avgLatency": 181.24615389899998,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -23907.290329527023,
+    "compositeScore": 9.366351794798089,
+    "latestProbeAt": "2026-04-25T17:00:01.377172766+08:00"
+  }
+]
