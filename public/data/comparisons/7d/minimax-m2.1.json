@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 876.5,
-    "ttftP95": 17170.999999999978,
-    "avgMedianTps": 151.68935078936818,
-    "avgLatency": 18.006065571164005,
-    "successRate": 0.9960159362549801,
-    "sampleCount": 502,
-    "score": 1280.700401712089,
-    "compositeScore": 84.53208409736342,
-    "latestProbeAt": "2026-04-26T00:44:12.244940535+08:00"
+    "ttftP50": 877,
+    "ttftP95": 17589,
+    "avgMedianTps": 151.54846319715364,
+    "avgLatency": 18.088388170219567,
+    "successRate": 0.9960238568588469,
+    "sampleCount": 503,
+    "score": 1277.7049317862793,
+    "compositeScore": 84.52385658051148,
+    "latestProbeAt": "2026-04-26T01:55:45.703120537+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5323,
+    "ttftP50": 5320,
     "ttftP95": 25713.299999999974,
-    "avgMedianTps": 140.84022304513186,
-    "avgLatency": 24.36188315482365,
+    "avgMedianTps": 140.3741920677363,
+    "avgLatency": 24.344219676380764,
     "successRate": 0.9881188118811881,
     "sampleCount": 505,
-    "score": 159.51307128138785,
+    "score": 157.7584723780867,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-26T00:28:48.175351774+08:00"
+    "latestProbeAt": "2026-04-26T01:46:07.700224389+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 3033,
-    "ttftP95": 19096,
-    "avgMedianTps": 65.3478410582287,
-    "avgLatency": 37.56281334869005,
-    "successRate": 0.7346534653465346,
+    "ttftP50": 3055.5,
+    "ttftP95": 19117.6,
+    "avgMedianTps": 65.5501981286385,
+    "avgLatency": 37.543595307956544,
+    "successRate": 0.7287128712871287,
     "sampleCount": 505,
-    "score": -418.92982202134465,
-    "compositeScore": 45.831593713654314,
-    "latestProbeAt": "2026-04-26T00:21:45.566785285+08:00"
+    "score": -427.6758226399538,
+    "compositeScore": 45.846378125271464,
+    "latestProbeAt": "2026-04-26T01:36:27.402291194+08:00"
   }
 ]
