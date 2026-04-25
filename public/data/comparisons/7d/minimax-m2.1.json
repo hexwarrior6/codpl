@@ -2,40 +2,40 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 877,
-    "ttftP95": 17609.84999999998,
-    "avgMedianTps": 151.5051962818931,
-    "avgLatency": 18.167933170622007,
-    "successRate": 0.9960159362549801,
-    "sampleCount": 502,
-    "score": 1275.4487846807883,
-    "compositeScore": 84.52385658051148,
-    "latestProbeAt": "2026-04-26T02:05:31.059166283+08:00"
+    "ttftP50": 876,
+    "ttftP95": 17589,
+    "avgMedianTps": 151.26399019661628,
+    "avgLatency": 18.235362405219565,
+    "successRate": 0.9960238568588469,
+    "sampleCount": 503,
+    "score": 1272.5237379080552,
+    "compositeScore": 84.54031630894707,
+    "latestProbeAt": "2026-04-26T02:48:08.106501156+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 5320,
+    "ttftP50": 5315,
     "ttftP95": 25713.299999999974,
-    "avgMedianTps": 140.3741920677363,
-    "avgLatency": 24.344219676380764,
+    "avgMedianTps": 140.48390399538263,
+    "avgLatency": 24.33323995618438,
     "successRate": 0.9881188118811881,
     "sampleCount": 505,
-    "score": 157.7584723780867,
+    "score": 159.69123694887435,
     "compositeScore": 60,
-    "latestProbeAt": "2026-04-26T01:46:07.700224389+08:00"
+    "latestProbeAt": "2026-04-26T02:39:36.811195315+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 3055.5,
-    "ttftP95": 19117.6,
-    "avgMedianTps": 65.5501981286385,
-    "avgLatency": 37.543595307956544,
-    "successRate": 0.7287128712871287,
+    "ttftP50": 3083,
+    "ttftP95": 19139.2,
+    "avgMedianTps": 65.7238432294025,
+    "avgLatency": 37.51781014155618,
+    "successRate": 0.7227722772277227,
     "sampleCount": 505,
-    "score": -427.6758226399538,
-    "compositeScore": 45.846378125271464,
-    "latestProbeAt": "2026-04-26T01:36:27.402291194+08:00"
+    "score": -437.429916934767,
+    "compositeScore": 45.82130110152856,
+    "latestProbeAt": "2026-04-26T02:32:19.745450829+08:00"
   }
 ]
