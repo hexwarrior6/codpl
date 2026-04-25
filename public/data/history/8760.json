@@ -17134,20 +17134,20 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 97.89042055134318,
-    "medianTps": 99.62864012211769,
-    "ttft": 1011.6170212765958,
-    "dataPoints": 47
+    "avgTps": 98.28961019514769,
+    "medianTps": 99.78181521316337,
+    "ttft": 1003.8541666666666,
+    "dataPoints": 48
   },
   {
     "timePoint": "04/25",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 61.30281146875884,
-    "medianTps": 56.956835687815754,
-    "ttft": 3102.68085106383,
-    "dataPoints": 47
+    "avgTps": 60.77712349523484,
+    "medianTps": 56.49351672999655,
+    "ttft": 3098.1041666666665,
+    "dataPoints": 48
   },
   {
     "timePoint": "04/25",
@@ -17584,20 +17584,20 @@
     "provider": "联通元景",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "avgTps": 58.35400220539618,
-    "medianTps": 71.7469776969191,
-    "ttft": 349.5,
-    "dataPoints": 26
+    "avgTps": 58.72152396623555,
+    "medianTps": 72.01176273507036,
+    "ttft": 345.8888888888889,
+    "dataPoints": 27
   },
   {
     "timePoint": "04/25",
     "provider": "联通元景",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "avgTps": 20.721561746664555,
-    "medianTps": 34.95976918391818,
-    "ttft": 27892,
-    "dataPoints": 46
+    "avgTps": 20.58498639427822,
+    "medianTps": 34.5967999785531,
+    "ttft": 36281,
+    "dataPoints": 47
   },
   {
     "timePoint": "04/25",

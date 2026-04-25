@@ -80059,9 +80059,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 117.8140207152205,
-    "medianTps": 110.5243741612664,
-    "ttft": 1034.25
+    "tokensPerSec": 117.66152126296822,
+    "medianTps": 109.81570822747531,
+    "ttft": 955.2
   },
   {
     "seriesKey": "天翼云__GLM-5-Turbo",
@@ -103903,9 +103903,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "tokensPerSec": 51.147321019291994,
-    "medianTps": 48.77231203251837,
-    "ttft": 3195.25
+    "tokensPerSec": 48.13181456335497,
+    "medianTps": 45.96135476851347,
+    "ttft": 3132.8
   },
   {
     "seriesKey": "Ollama Cloud__glm-5",
@@ -193819,9 +193819,9 @@
     "provider": "联通元景",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "tokensPerSec": 60.06161844544309,
-    "medianTps": 71.42511385802993,
-    "ttft": 275
+    "tokensPerSec": 64.16935409675123,
+    "medianTps": 75.1606437925166,
+    "ttft": 263.5
   },
   {
     "seriesKey": "天翼云__GLM-5",
@@ -436291,9 +436291,9 @@
     "provider": "联通元景",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "tokensPerSec": 7.944626706486111,
-    "medianTps": 20.107464202250725,
-    "ttft": 98574
+    "tokensPerSec": 10.063924532493004,
+    "medianTps": 19.371714978753584,
+    "ttft": 206441
   },
   {
     "seriesKey": "火山引擎__kimi-k2.5",

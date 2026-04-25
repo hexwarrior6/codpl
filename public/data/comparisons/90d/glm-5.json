@@ -3,14 +3,14 @@
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
     "ttftP50": 412,
-    "ttftP95": 488.5999999999999,
-    "avgMedianTps": 64.55676881901906,
-    "avgLatency": 48.5049140879244,
-    "successRate": 0.23358985966500678,
-    "sampleCount": 2209,
-    "score": -674.0923796189888,
-    "compositeScore": 74.15724292453805,
-    "latestProbeAt": "2026-04-25T15:22:46.335154895+08:00"
+    "ttftP95": 488.5,
+    "avgMedianTps": 64.58455836341436,
+    "avgLatency": 48.47685240225917,
+    "successRate": 0.2339366515837104,
+    "sampleCount": 2210,
+    "score": -672.8773082922828,
+    "compositeScore": 74.17391665117523,
+    "latestProbeAt": "2026-04-25T15:32:45.88641293+08:00"
   },
   {
     "provider": "京东云",

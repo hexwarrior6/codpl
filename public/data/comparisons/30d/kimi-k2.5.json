@@ -6,9 +6,9 @@
     "ttftP95": 10679.8,
     "avgMedianTps": 122.95443311683464,
     "avgLatency": 29.757617954514686,
-    "successRate": 0.6494331065759638,
-    "sampleCount": 2205,
-    "score": 487.01925641410446,
+    "successRate": 0.6512050932241928,
+    "sampleCount": 2199,
+    "score": 488.79124306233336,
     "compositeScore": 86.19639952353901,
     "latestProbeAt": "2026-04-25T15:14:56.307438199+08:00"
   },
@@ -119,14 +119,14 @@
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 5541.5,
-    "ttftP95": 47999.249999999956,
-    "avgMedianTps": 57.536454237615395,
-    "avgLatency": 53.0309698925768,
-    "successRate": 0.7450890817724989,
-    "sampleCount": 2189,
-    "score": -1343.7664401162285,
-    "compositeScore": 34.521872542569234,
+    "ttftP50": 5532,
+    "ttftP95": 48014.49999999994,
+    "avgMedianTps": 57.54881771518172,
+    "avgLatency": 53.02479373216672,
+    "successRate": 0.7449725776965265,
+    "sampleCount": 2188,
+    "score": -1341.7543593165512,
+    "compositeScore": 34.52929062910903,
     "latestProbeAt": "2026-04-25T15:14:55.17549615+08:00"
   },
   {
@@ -149,9 +149,9 @@
     "ttftP95": 160544.1,
     "avgMedianTps": 28.087635473751334,
     "avgLatency": 125.48035996219632,
-    "successRate": 0.9036866359447004,
-    "sampleCount": 2170,
-    "score": -12407.196550267701,
+    "successRate": 0.9045202952029521,
+    "sampleCount": 2168,
+    "score": -12406.362891009449,
     "compositeScore": 16.8525812842508,
     "latestProbeAt": "2026-04-25T15:25:58.162697565+08:00"
   }

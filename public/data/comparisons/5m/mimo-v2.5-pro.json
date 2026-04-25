@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 1529,
-    "ttftP95": 1529,
-    "avgMedianTps": 68.07677674676424,
-    "avgLatency": 16.03865943,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 701.6941747305855,
-    "compositeScore": 57.3505260394093,
-    "latestProbeAt": "2026-04-25T15:27:20.349725808+08:00"
-  }
-]
+[]

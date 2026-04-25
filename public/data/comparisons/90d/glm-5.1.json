@@ -80,14 +80,14 @@
   {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 3477,
-    "ttftP95": 177633.29999999984,
-    "avgMedianTps": 33.81334333579377,
-    "avgLatency": 191.85432440551358,
-    "successRate": 0.9901719901719902,
-    "sampleCount": 407,
-    "score": -4298.706059951087,
-    "compositeScore": 24.939919389158785,
-    "latestProbeAt": "2026-04-25T15:22:07.620249373+08:00"
+    "ttftP50": 3803,
+    "ttftP95": 180875.0499999999,
+    "avgMedianTps": 33.773954408061016,
+    "avgLatency": 192.77886057946776,
+    "successRate": 0.9877750611246944,
+    "sampleCount": 409,
+    "score": -4389.652726913634,
+    "compositeScore": 23.62333731348951,
+    "latestProbeAt": "2026-04-25T15:42:45.893874296+08:00"
   }
 ]
