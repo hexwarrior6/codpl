@@ -2,14 +2,14 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 469,
-    "ttftP95": 18582.000000000036,
-    "avgMedianTps": 90.31988743145179,
-    "avgLatency": 46.97643247054167,
+    "ttftP50": 464,
+    "ttftP95": 2855.5999999999985,
+    "avgMedianTps": 91.84469381292497,
+    "avgLatency": 44.35717205776812,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": 273.70851282516924,
-    "compositeScore": 87.74567823867612,
+    "sampleCount": 69,
+    "score": 349.3388614333469,
+    "compositeScore": 88.81519324143807,
     "latestProbeAt": "2026-04-26T00:28:09.144505146+08:00"
   },
   {
@@ -19,9 +19,9 @@
     "ttftP95": 52437.399999999936,
     "avgMedianTps": 50.01441005570428,
     "avgLatency": 57.45717075656523,
-    "successRate": 0.9452054794520548,
-    "sampleCount": 73,
-    "score": -849.7373291278503,
+    "successRate": 1,
+    "sampleCount": 69,
+    "score": -794.9428085799051,
     "compositeScore": 35.444964972427904,
     "latestProbeAt": "2026-04-26T00:40:19.809091201+08:00"
   },
@@ -33,7 +33,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 72,
+    "sampleCount": 69,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-04-26T00:21:45.509524344+08:00"
