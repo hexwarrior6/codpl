@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 261,
-    "ttftP95": 261,
-    "avgMedianTps": 71.34841403356236,
-    "avgLatency": 38.405003563,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 415.7653951263742,
-    "compositeScore": 82.80904842013742,
-    "latestProbeAt": "2026-04-25T17:56:13.932646264+08:00"
-  }
-]
+[]
