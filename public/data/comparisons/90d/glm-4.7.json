@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 494,
-    "ttftP95": 12994.199999999999,
-    "avgMedianTps": 111.18689386711729,
-    "avgLatency": 44.04994216919454,
-    "successRate": 0.9988365328679465,
-    "sampleCount": 1719,
-    "score": 465.90934184078696,
-    "compositeScore": 92.80451458911205,
-    "latestProbeAt": "2026-04-25T14:06:16.969230348+08:00"
+    "ttftP50": 493,
+    "ttftP95": 12990.599999999997,
+    "avgMedianTps": 111.14201369659467,
+    "avgLatency": 44.06235036165699,
+    "successRate": 0.9988385598141696,
+    "sampleCount": 1722,
+    "score": 465.531882952313,
+    "compositeScore": 92.83374854117969,
+    "latestProbeAt": "2026-04-25T14:51:33.393340157+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,24 +19,24 @@
     "ttftP95": 4076.149999999956,
     "avgMedianTps": 69.43252964265993,
     "avgLatency": 28.967051396755057,
-    "successRate": 0.6794202898550724,
-    "sampleCount": 1725,
-    "score": 231.63918279215557,
+    "successRate": 0.6782407407407407,
+    "sampleCount": 1728,
+    "score": 230.45963367782372,
     "compositeScore": 69.41499835044854,
-    "latestProbeAt": "2026-04-25T13:57:38.451720344+08:00"
+    "latestProbeAt": "2026-04-25T14:43:21.94176345+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1552,
-    "ttftP95": 81923.29999999999,
-    "avgMedianTps": 71.4345962739985,
-    "avgLatency": 43.74014766057667,
-    "successRate": 0.8858695652173914,
-    "sampleCount": 920,
-    "score": -89.42654865303439,
-    "compositeScore": 59.14981624748663,
-    "latestProbeAt": "2026-04-25T14:11:49.306018598+08:00"
+    "ttftP50": 1557,
+    "ttftP95": 82471.99999999984,
+    "avgMedianTps": 71.35061552749926,
+    "avgLatency": 43.95145362501589,
+    "successRate": 0.886117136659436,
+    "sampleCount": 922,
+    "score": -95.9655108009656,
+    "compositeScore": 59.05302393066799,
+    "latestProbeAt": "2026-04-25T14:57:13.292102152+08:00"
   },
   {
     "provider": "火山引擎",
