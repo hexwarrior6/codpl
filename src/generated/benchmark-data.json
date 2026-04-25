@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-04-25T20:30:12Z",
-    "generatedAtUnix": 1777149012503,
+    "generatedAt": "2026-04-25T21:00:12Z",
+    "generatedAtUnix": 1777150812443,
     "activeProviderCount": 19,
     "activeModelCount": 66,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/4/26",
-    "dailyRunIndex": 5,
-    "nextRunAt": "2026/4/26 04:56"
+    "dailyRunIndex": 6,
+    "nextRunAt": "2026/4/26 05:21"
   },
   "latest": [
     {
