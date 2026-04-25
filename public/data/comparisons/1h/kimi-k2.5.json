@@ -26,19 +26,6 @@
     "latestProbeAt": "2026-04-25T22:43:15.031737426+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 993,
-    "ttftP95": 993,
-    "avgMedianTps": 72.31918124236547,
-    "avgLatency": 34.142750715,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 381.746319579193,
-    "compositeScore": 66.12319657509435,
-    "latestProbeAt": "2026-04-25T22:53:33.340459311+08:00"
-  },
-  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
     "ttftP50": 162,
@@ -76,6 +63,19 @@
     "score": 462.53431580083486,
     "compositeScore": 50.88466689607671,
     "latestProbeAt": "2026-04-25T22:40:36.943422558+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1498,
+    "ttftP95": 3375.3999999999996,
+    "avgMedianTps": 54.02668382076271,
+    "avgLatency": 48.786505333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -195.1025304004238,
+    "compositeScore": 49.21597811282893,
+    "latestProbeAt": "2026-04-25T23:12:51.827803689+08:00"
   },
   {
     "provider": "百炼(阿里云)",
