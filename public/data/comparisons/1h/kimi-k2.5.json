@@ -128,18 +128,5 @@
     "score": -1087.4720251752215,
     "compositeScore": 26.66776492497788,
     "latestProbeAt": "2026-04-25T07:34:31.958982468+08:00"
-  },
-  {
-    "provider": "无问芯穹",
-    "providerPlatform": "infini_genstudio",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 3,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-04-25T07:30:01.091467408+08:00"
   }
 ]
