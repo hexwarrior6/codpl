@@ -28,15 +28,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1284,
-    "ttftP95": 9077.299999999988,
-    "avgMedianTps": 80.57574011125863,
-    "avgLatency": 44.355705508134726,
-    "successRate": 0.990546218487395,
-    "sampleCount": 952,
-    "score": 108.30802145157872,
-    "compositeScore": 67.36933610049095,
-    "latestProbeAt": "2026-04-26T03:23:53.926567662+08:00"
+    "ttftP50": 1282,
+    "ttftP95": 9024.599999999977,
+    "avgMedianTps": 80.63755334923569,
+    "avgLatency": 44.30197593407306,
+    "successRate": 0.9905660377358491,
+    "sampleCount": 954,
+    "score": 110.44195947943649,
+    "compositeScore": 67.42891344831281,
+    "latestProbeAt": "2026-04-26T03:39:24.479510164+08:00"
   },
   {
     "provider": "百度云(千帆)",

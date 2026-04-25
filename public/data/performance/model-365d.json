@@ -27847,9 +27847,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
-    "tokensPerSec": 180.1946465500775,
-    "medianTps": 182.47370547039205,
-    "ttft": 856
+    "tokensPerSec": 171.57007539325673,
+    "medianTps": 174.68640290435943,
+    "ttft": 834.6666666666666
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-omni",
@@ -82075,9 +82075,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 103.56451066074936,
-    "medianTps": 107.64669944185725,
-    "ttft": 681
+    "tokensPerSec": 113.55153815975457,
+    "medianTps": 113.9619953011604,
+    "ttft": 669
   },
   {
     "seriesKey": "天翼云__GLM-5-Turbo",
@@ -102619,9 +102619,9 @@
     "provider": "Ollama Cloud",
     "model": "kimi-k2.5",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 118.82023125615184,
-    "medianTps": 123.14993583195626,
-    "ttft": 1067
+    "tokensPerSec": 100.81696062063996,
+    "medianTps": 114.23830864759755,
+    "ttft": 1094
   },
   {
     "seriesKey": "Ollama Cloud__glm-5",
@@ -106387,9 +106387,9 @@
     "provider": "Ollama Cloud",
     "model": "glm-5",
     "modelDisplay": "glm-5",
-    "tokensPerSec": 128.86834730743857,
-    "medianTps": 130.1632094909217,
-    "ttft": 751.5
+    "tokensPerSec": 116.1643026716222,
+    "medianTps": 121.99430881624748,
+    "ttft": 796.6666666666666
   },
   {
     "seriesKey": "Ollama Cloud__minimax-m2.7",
@@ -110119,9 +110119,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "tokensPerSec": 70.00914135625518,
-    "medianTps": 68.20241453598061,
-    "ttft": 1213
+    "tokensPerSec": 70.86900741910837,
+    "medianTps": 71.89353277620866,
+    "ttft": 1977.3333333333333
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-pro",
@@ -119395,9 +119395,9 @@
     "provider": "Ollama Cloud",
     "model": "glm-5.1",
     "modelDisplay": "glm-5.1",
-    "tokensPerSec": 16.205816799379107,
-    "medianTps": 38.12391990420315,
-    "ttft": 1512
+    "tokensPerSec": 16.8767035083912,
+    "medianTps": 34.97543767524718,
+    "ttft": 4924.666666666667
   },
   {
     "seriesKey": "火山引擎__minimax-m2.5",
@@ -132007,9 +132007,9 @@
     "provider": "OpenCode Go",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 121.50992691002683,
-    "medianTps": 101.43781539095582,
-    "ttft": 3108
+    "tokensPerSec": 113.7866381169459,
+    "medianTps": 92.49351862845488,
+    "ttft": 2878
   },
   {
     "seriesKey": "OpenCode Go__mimo-v2-pro",
@@ -172915,9 +172915,9 @@
     "provider": "Ollama Cloud",
     "model": "glm-4.7",
     "modelDisplay": "glm-4.7",
-    "tokensPerSec": 143.09600227771097,
-    "medianTps": 75.16420493689752,
-    "ttft": 2402
+    "tokensPerSec": 111.41144049927391,
+    "medianTps": 70.91143412417819,
+    "ttft": 1955.6666666666667
   },
   {
     "seriesKey": "智谱__glm-5-turbo",
@@ -274171,9 +274171,9 @@
     "provider": "Ollama Cloud",
     "model": "kimi-k2.6",
     "modelDisplay": "kimi-k2.6",
-    "tokensPerSec": 37.499177783114824,
-    "medianTps": 54.75759942392085,
-    "ttft": 1865
+    "tokensPerSec": 43.927461247494925,
+    "medianTps": 58.337020933904256,
+    "ttft": 1342.6666666666667
   },
   {
     "seriesKey": "智谱__glm-5.1",
@@ -316387,9 +316387,9 @@
     "provider": "OpenCode Go",
     "model": "qwen3.6-plus",
     "modelDisplay": "qwen3.6-plus",
-    "tokensPerSec": 58.64425103820391,
-    "medianTps": 58.255908438374746,
-    "ttft": 1555
+    "tokensPerSec": 58.798007726259414,
+    "medianTps": 57.57242849483788,
+    "ttft": 1393
   },
   {
     "seriesKey": "优云__zai-org/glm-5",
@@ -415663,9 +415663,9 @@
     "provider": "Ollama Cloud",
     "model": "deepseek-v3.2",
     "modelDisplay": "deepseek-v3.2",
-    "tokensPerSec": 9.956652215153179,
-    "medianTps": 10.551918283763136,
-    "ttft": 1495.5
+    "tokensPerSec": 11.151263619230642,
+    "medianTps": 12.607364235875886,
+    "ttft": 1388.6666666666667
   },
   {
     "seriesKey": "联通云__glm-5",
