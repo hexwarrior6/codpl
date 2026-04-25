@@ -1,15 +1,1 @@
-[
-  {
-    "provider": "Alaya Code",
-    "providerPlatform": "alaya code",
-    "ttftP50": 4176,
-    "ttftP95": 4176,
-    "avgMedianTps": 32.63353664557014,
-    "avgLatency": 19.194061746,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -119.25032377657914,
-    "compositeScore": 21.589248926602046,
-    "latestProbeAt": "2026-04-25T21:29:39.537288634+08:00"
-  }
-]
+[]
