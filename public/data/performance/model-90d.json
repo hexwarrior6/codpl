@@ -111427,9 +111427,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "tokensPerSec": 42.88107973650044,
-    "medianTps": 39.108418105565676,
-    "ttft": 5092
+    "tokensPerSec": 51.49513076028853,
+    "medianTps": 53.10769107581689,
+    "ttft": 4166.333333333333
   },
   {
     "seriesKey": "小米 MiMo__mimo-v2-pro",

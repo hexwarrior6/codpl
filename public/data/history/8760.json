@@ -17824,10 +17824,10 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.7",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 65.67403362019786,
-    "medianTps": 61.41010731604001,
-    "ttft": 2800.735294117647,
-    "dataPoints": 34
+    "avgTps": 65.76115359698835,
+    "medianTps": 61.97285387890514,
+    "ttft": 2786.8571428571427,
+    "dataPoints": 35
   },
   {
     "timePoint": "04/26",
