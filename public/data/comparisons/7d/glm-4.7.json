@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 522,
-    "ttftP95": 20055.39999999998,
-    "avgMedianTps": 91.33062427044815,
-    "avgLatency": 57.289865510017826,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": 9.360823287262974,
-    "compositeScore": 86.80750150152886,
-    "latestProbeAt": "2026-04-26T09:39:59.178199327+08:00"
+    "ttftP50": 521,
+    "ttftP95": 19912,
+    "avgMedianTps": 91.40301985899859,
+    "avgLatency": 57.18389331625984,
+    "successRate": 0.9980353634577603,
+    "sampleCount": 509,
+    "score": 12.656149705255984,
+    "compositeScore": 86.87860319757289,
+    "latestProbeAt": "2026-04-26T10:19:33.958323958+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,11 +19,11 @@
     "ttftP95": 1525.7499999999995,
     "avgMedianTps": 83.04168606541258,
     "avgLatency": 29.01116212172623,
-    "successRate": 0.6871287128712872,
-    "sampleCount": 505,
-    "score": 329.09977622060705,
+    "successRate": 0.6830708661417323,
+    "sampleCount": 508,
+    "score": 325.0419294910521,
     "compositeScore": 78.55968757995822,
-    "latestProbeAt": "2026-04-26T09:33:14.440326106+08:00"
+    "latestProbeAt": "2026-04-26T10:14:16.721112207+08:00"
   },
   {
     "provider": "火山引擎",
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1698,
-    "ttftP95": 77695.5,
-    "avgMedianTps": 68.61518645512905,
-    "avgLatency": 48.68512813447043,
-    "successRate": 0.9742063492063492,
-    "sampleCount": 504,
-    "score": -170.83073542463717,
-    "compositeScore": 56.16109134250585,
-    "latestProbeAt": "2026-04-26T09:53:25.057002103+08:00"
+    "ttftP50": 1697,
+    "ttftP95": 76665.74999999977,
+    "avgMedianTps": 68.4109257718277,
+    "avgLatency": 48.60059619889673,
+    "successRate": 0.9743589743589743,
+    "sampleCount": 507,
+    "score": -169.59037598247778,
+    "compositeScore": 56.0470338726288,
+    "latestProbeAt": "2026-04-26T10:26:30.965323584+08:00"
   }
 ]
