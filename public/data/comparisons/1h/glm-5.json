@@ -1,1 +1,93 @@
-[]
+[
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 726,
+    "ttftP95": 726,
+    "avgMedianTps": 118.47478473230343,
+    "avgLatency": 20.781693205,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 1046.1063782688207,
+    "compositeScore": 87.2499295250013,
+    "latestProbeAt": "2026-04-26T08:59:56.503056439+08:00"
+  },
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 1064,
+    "ttftP95": 1064,
+    "avgMedianTps": 75.17793819204464,
+    "avgLatency": 19.499021968,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 750.7920799522677,
+    "compositeScore": 66.8421254651737,
+    "latestProbeAt": "2026-04-26T08:59:54.521111765+08:00"
+  },
+  {
+    "provider": "天翼云",
+    "providerPlatform": "ctyun",
+    "ttftP50": 1042,
+    "ttftP95": 1042,
+    "avgMedianTps": 74.48668855305489,
+    "avgLatency": 18.809076614,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 768.2932159683294,
+    "compositeScore": 66.72880441400666,
+    "latestProbeAt": "2026-04-26T08:59:54.100385759+08:00"
+  },
+  {
+    "provider": "讯飞星辰",
+    "providerPlatform": "iflytek_astron",
+    "ttftP50": 1167,
+    "ttftP95": 1167,
+    "avgMedianTps": 59.94094092043392,
+    "avgLatency": 20.450435951,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 614.9847467476034,
+    "compositeScore": 56.36686300014568,
+    "latestProbeAt": "2026-04-26T08:59:55.359087121+08:00"
+  },
+  {
+    "provider": "优云",
+    "providerPlatform": "modelverse",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-26T08:59:35.645988331+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-26T08:59:36.781231448+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-26T08:59:35.18528087+08:00"
+  }
+]

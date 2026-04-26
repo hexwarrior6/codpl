@@ -6,11 +6,11 @@
     "ttftP95": 10683.399999999998,
     "avgMedianTps": 114.7270356000321,
     "avgLatency": 35.03071964303378,
-    "successRate": 0.6632694659600489,
-    "sampleCount": 2453,
-    "score": 284.2636884843972,
+    "successRate": 0.6624592833876222,
+    "sampleCount": 2456,
+    "score": 283.4535059119702,
     "compositeScore": 83.249368447597,
-    "latestProbeAt": "2026-04-26T07:07:59.083649378+08:00"
+    "latestProbeAt": "2026-04-26T08:59:35.367615665+08:00"
   },
   {
     "provider": "京东云",
@@ -136,11 +136,11 @@
     "ttftP95": 49284.79999999994,
     "avgMedianTps": 53.67274263492234,
     "avgLatency": 53.40263421545283,
-    "successRate": 0.8031828515751868,
-    "sampleCount": 3079,
-    "score": -3726.4465480015997,
+    "successRate": 0.8024010382868267,
+    "sampleCount": 3082,
+    "score": -3727.22836128996,
     "compositeScore": 32.203645580953406,
-    "latestProbeAt": "2026-04-26T07:07:59.770093884+08:00"
+    "latestProbeAt": "2026-04-26T08:59:36.711984473+08:00"
   },
   {
     "provider": "联通云",
