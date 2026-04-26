@@ -15,15 +15,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1713,
-    "ttftP95": 42268.64999999997,
-    "avgMedianTps": 79.22451598544757,
-    "avgLatency": 91.46917195484487,
-    "successRate": 0.9825997952917093,
-    "sampleCount": 977,
-    "score": -1171.382407666727,
-    "compositeScore": 62.39980213538736,
-    "latestProbeAt": "2026-04-26T11:55:46.32380476+08:00"
+    "ttftP50": 1722,
+    "ttftP95": 42225.59999999998,
+    "avgMedianTps": 79.21863276654206,
+    "avgLatency": 91.82385449023086,
+    "successRate": 0.982635342185904,
+    "sampleCount": 979,
+    "score": -1182.0492234706153,
+    "compositeScore": 62.32067229091561,
+    "latestProbeAt": "2026-04-26T12:11:07.404652708+08:00"
   },
   {
     "provider": "智谱",

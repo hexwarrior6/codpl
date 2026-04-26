@@ -16,14 +16,14 @@
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1012,
-    "ttftP95": 1012,
-    "avgMedianTps": 70.85362714065192,
-    "avgLatency": 45.538299937,
+    "ttftP95": 1164.1,
+    "avgMedianTps": 62.196388483403695,
+    "avgLatency": 39.24425349733333,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 84.26426441891135,
-    "compositeScore": 64.97042744240686,
-    "latestProbeAt": "2026-04-26T11:56:32.987096814+08:00"
+    "sampleCount": 3,
+    "score": 189.67199346708878,
+    "compositeScore": 59.77608424805793,
+    "latestProbeAt": "2026-04-26T12:11:38.095604378+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
