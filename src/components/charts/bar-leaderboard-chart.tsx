@@ -189,14 +189,6 @@ export function BarLeaderboardChart<T extends BarLeaderboardDatumBase>({
     el.scrollBy({ left: delta, behavior: 'smooth' });
   }, []);
 
-  if (!data.length) {
-    return (
-      <div className="flex h-[200px] items-center justify-center text-sm text-muted-foreground sm:h-[240px]">
-        暂无数据
-      </div>
-    );
-  }
-
   const axisKey = mode === 'provider' ? 'provider' : 'normalizedModelDisplay';
   const metricAxis =
     metric === 'ttft'
@@ -248,6 +240,14 @@ export function BarLeaderboardChart<T extends BarLeaderboardDatumBase>({
     ),
     [data, dataKey, axisKey, mode, metric, tooltipContent, isMobile, effectiveMode, innerWidth, effectiveHeight, showLabelText, metricAxis],
   );
+
+  if (!data.length) {
+    return (
+      <div className="flex h-[200px] items-center justify-center text-sm text-muted-foreground sm:h-[240px]">
+        暂无数据
+      </div>
+    );
+  }
 
   return (
     <div ref={wrapperRef} className="relative w-full">
