@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 518,
-    "ttftP95": 20468.699999999993,
-    "avgMedianTps": 89.71925578982928,
-    "avgLatency": 58.036363324744535,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": -18.169832964617854,
-    "compositeScore": 85.95165750199084,
-    "latestProbeAt": "2026-04-26T15:07:43.173145891+08:00"
+    "ttftP50": 516.5,
+    "ttftP95": 20415.75,
+    "avgMedianTps": 89.87097347289598,
+    "avgLatency": 57.871005711870055,
+    "successRate": 0.9980353634577603,
+    "sampleCount": 509,
+    "score": -12.813938501614984,
+    "compositeScore": 86.0845256000458,
+    "latestProbeAt": "2026-04-26T16:15:36.806097672+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,11 +19,11 @@
     "ttftP95": 1462.25,
     "avgMedianTps": 82.63553159159626,
     "avgLatency": 28.52092317222798,
-    "successRate": 0.6514851485148515,
-    "sampleCount": 505,
-    "score": 303.7752587587296,
+    "successRate": 0.6476377952755905,
+    "sampleCount": 508,
+    "score": 299.9279055194687,
     "compositeScore": 78.3711649453441,
-    "latestProbeAt": "2026-04-26T15:02:10.630772136+08:00"
+    "latestProbeAt": "2026-04-26T16:10:12.812151567+08:00"
   },
   {
     "provider": "火山引擎",
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1742,
-    "ttftP95": 77695.5,
-    "avgMedianTps": 66.35545418767302,
-    "avgLatency": 49.89989085483703,
-    "successRate": 0.9742063492063492,
-    "sampleCount": 504,
-    "score": -223.55819703853854,
-    "compositeScore": 54.436170331573976,
-    "latestProbeAt": "2026-04-26T15:15:06.846599117+08:00"
+    "ttftP50": 1764.5,
+    "ttftP95": 82804.14999999983,
+    "avgMedianTps": 66.11528888852605,
+    "avgLatency": 50.47667363034207,
+    "successRate": 0.9743589743589743,
+    "sampleCount": 507,
+    "score": -243.7661330684209,
+    "compositeScore": 54.1069230902772,
+    "latestProbeAt": "2026-04-26T16:27:04.770890928+08:00"
   }
 ]
