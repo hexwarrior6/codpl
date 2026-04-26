@@ -2,54 +2,54 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 431,
-    "ttftP95": 471.5,
-    "avgMedianTps": 62.78034661112105,
-    "avgLatency": 23.159481856333333,
+    "ttftP50": 473,
+    "ttftP95": 1456.5,
+    "avgMedianTps": 60.83328466348308,
+    "avgLatency": 23.349227520166668,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 711.4950332583928,
-    "compositeScore": 72.44095428074044,
-    "latestProbeAt": "2026-04-26T13:38:58.94696037+08:00"
+    "sampleCount": 6,
+    "score": 686.6690199767318,
+    "compositeScore": 69.93119396965471,
+    "latestProbeAt": "2026-04-26T14:25:23.345925047+08:00"
   },
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 800,
-    "ttftP95": 811.7,
-    "avgMedianTps": 39.010449451682106,
-    "avgLatency": 42.413126115000004,
+    "ttftP50": 813,
+    "ttftP95": 1396.8,
+    "avgMedianTps": 39.595177285803295,
+    "avgLatency": 40.62093087980001,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 13.734543835092609,
-    "compositeScore": 49.25589467822083,
-    "latestProbeAt": "2026-04-26T13:42:49.794799314+08:00"
+    "sampleCount": 5,
+    "score": 59.447791719819406,
+    "compositeScore": 49.37417785569051,
+    "latestProbeAt": "2026-04-26T14:27:01.244685981+08:00"
   },
   {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
-    "ttftP50": 1017,
-    "ttftP95": 1358.1,
-    "avgMedianTps": 42.74312602543349,
-    "avgLatency": 27.403213617000002,
+    "ttftP50": 1039,
+    "ttftP95": 1345,
+    "avgMedianTps": 41.344719781571804,
+    "avgLatency": 29.162657710333338,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 367.9784157276008,
-    "compositeScore": 48.0330228816439,
-    "latestProbeAt": "2026-04-26T13:39:15.960112347+08:00"
+    "sampleCount": 6,
+    "score": 311.20187593109733,
+    "compositeScore": 46.885219384859774,
+    "latestProbeAt": "2026-04-26T14:25:55.675782037+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1429,
-    "ttftP95": 1499.2,
-    "avgMedianTps": 12.6952166775157,
-    "avgLatency": 172.98266046233334,
+    "ttftP95": 1595,
+    "avgMedianTps": 11.593841692872775,
+    "avgLatency": 178.1595229504,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": -3534.195211493239,
-    "compositeScore": 25.097414900510064,
-    "latestProbeAt": "2026-04-26T13:50:01.589739176+08:00"
+    "sampleCount": 5,
+    "score": -3670.225023602763,
+    "compositeScore": 24.436589909724308,
+    "latestProbeAt": "2026-04-26T14:29:10.841665728+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -59,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 3,
+    "sampleCount": 6,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T13:33:23.269507335+08:00"
+    "latestProbeAt": "2026-04-26T14:19:23.209734264+08:00"
   }
 ]
