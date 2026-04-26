@@ -3,14 +3,14 @@
     "provider": "京东云",
     "providerPlatform": "jdcloud",
     "ttftP50": 518,
-    "ttftP95": 20468.699999999993,
-    "avgMedianTps": 89.8795543961997,
-    "avgLatency": 58.043504648099,
-    "successRate": 0.9980237154150198,
-    "sampleCount": 506,
-    "score": -17.386574410257253,
-    "compositeScore": 86.0478366658131,
-    "latestProbeAt": "2026-04-26T14:27:01.104286323+08:00"
+    "ttftP95": 20415.75,
+    "avgMedianTps": 89.9021269212986,
+    "avgLatency": 57.921381102543286,
+    "successRate": 0.9980353634577603,
+    "sampleCount": 509,
+    "score": -14.186402578029856,
+    "compositeScore": 86.06138018087243,
+    "latestProbeAt": "2026-04-26T15:07:43.173145891+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,11 +19,11 @@
     "ttftP95": 1521.9999999999995,
     "avgMedianTps": 83.38939047822069,
     "avgLatency": 28.57617653328014,
-    "successRate": 0.6574257425742575,
-    "sampleCount": 505,
-    "score": 312.75767211157813,
+    "successRate": 0.6535433070866141,
+    "sampleCount": 508,
+    "score": 308.8752366239347,
     "compositeScore": 78.8124293764269,
-    "latestProbeAt": "2026-04-26T14:19:23.320659037+08:00"
+    "latestProbeAt": "2026-04-26T15:02:10.630772136+08:00"
   },
   {
     "provider": "火山引擎",
@@ -41,14 +41,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1785,
-    "ttftP95": 77695.5,
-    "avgMedianTps": 66.56036772418585,
-    "avgLatency": 49.753435380419525,
-    "successRate": 0.9742063492063492,
-    "sampleCount": 504,
-    "score": -227.26732895902387,
-    "compositeScore": 54.20732395030569,
-    "latestProbeAt": "2026-04-26T14:37:44.175783668+08:00"
+    "ttftP50": 1743,
+    "ttftP95": 76665.74999999977,
+    "avgMedianTps": 66.34689319228313,
+    "avgLatency": 49.7537230152611,
+    "successRate": 0.9743589743589743,
+    "sampleCount": 507,
+    "score": -220.0027418688545,
+    "compositeScore": 54.422754279071846,
+    "latestProbeAt": "2026-04-26T15:15:06.846599117+08:00"
   }
 ]

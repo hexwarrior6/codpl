@@ -2,15 +2,15 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 491.5,
-    "ttftP95": 12549.349999999957,
-    "avgMedianTps": 110.34569399145654,
-    "avgLatency": 44.27031755780969,
-    "successRate": 0.9988851727982163,
-    "sampleCount": 1794,
-    "score": 455.9013978017133,
-    "compositeScore": 92.87771084155301,
-    "latestProbeAt": "2026-04-26T14:27:01.104286323+08:00"
+    "ttftP50": 491,
+    "ttftP95": 12408.799999999872,
+    "avgMedianTps": 110.3177488148443,
+    "avgLatency": 44.25877482807631,
+    "successRate": 0.9988870339454646,
+    "sampleCount": 1797,
+    "score": 456.1241561326226,
+    "compositeScore": 92.89239476181189,
+    "latestProbeAt": "2026-04-26T15:07:43.173145891+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -19,11 +19,11 @@
     "ttftP95": 4076.149999999956,
     "avgMedianTps": 69.43252964265993,
     "avgLatency": 28.967051396755057,
-    "successRate": 0.6511111111111111,
-    "sampleCount": 1800,
-    "score": 203.33000404819416,
+    "successRate": 0.6500277315585136,
+    "sampleCount": 1803,
+    "score": 202.24662449559685,
     "compositeScore": 69.41499835044854,
-    "latestProbeAt": "2026-04-26T14:19:23.320659037+08:00"
+    "latestProbeAt": "2026-04-26T15:02:10.630772136+08:00"
   },
   {
     "provider": "火山引擎",
@@ -42,13 +42,13 @@
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1630,
-    "ttftP95": 78170.59999999996,
-    "avgMedianTps": 68.96321596627101,
-    "avgLatency": 45.399512013462925,
-    "successRate": 0.8944723618090452,
-    "sampleCount": 995,
-    "score": -152.73614272990199,
-    "compositeScore": 56.95955399353701,
-    "latestProbeAt": "2026-04-26T14:37:44.175783668+08:00"
+    "ttftP95": 78042.79999999997,
+    "avgMedianTps": 68.83705139349811,
+    "avgLatency": 45.41429797282755,
+    "successRate": 0.8947895791583166,
+    "sampleCount": 998,
+    "score": -153.54556180138343,
+    "compositeScore": 56.88385524987327,
+    "latestProbeAt": "2026-04-26T15:15:06.846599117+08:00"
   }
 ]
