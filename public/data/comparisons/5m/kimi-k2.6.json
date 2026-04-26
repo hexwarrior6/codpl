@@ -1,28 +1,15 @@
 [
   {
-    "provider": "Kimi(月之暗面)",
-    "providerPlatform": "moonshot_kimi",
-    "ttftP50": 742,
-    "ttftP95": 742,
-    "avgMedianTps": 57.298145403691194,
-    "avgLatency": 39.327873094,
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1052,
+    "ttftP95": 1052,
+    "avgMedianTps": 57.264682004853704,
+    "avgLatency": 45.626330876,
     "successRate": 1,
     "sampleCount": 1,
-    "score": 212.19204507214704,
-    "compositeScore": 61.31432038096549,
-    "latestProbeAt": "2026-04-26T09:00:13.905690526+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 3,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T08:59:35.328561446+08:00"
+    "score": -7.4701798708777005,
+    "compositeScore": 56.257806214948005,
+    "latestProbeAt": "2026-04-26T09:26:39.215873127+08:00"
   }
 ]

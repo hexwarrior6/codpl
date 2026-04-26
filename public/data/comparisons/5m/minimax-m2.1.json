@@ -1,15 +1,15 @@
 [
   {
-    "provider": "无问芯穹",
-    "providerPlatform": "infini_genstudio",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 3,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T08:59:36.615711111+08:00"
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 929,
+    "ttftP95": 929,
+    "avgMedianTps": 163.8840235576313,
+    "avgLatency": 17.167857914,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 1368.307693495788,
+    "compositeScore": 83.69283904113229,
+    "latestProbeAt": "2026-04-26T09:28:33.8147586+08:00"
   }
 ]

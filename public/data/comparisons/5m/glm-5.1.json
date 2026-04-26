@@ -1,28 +1,15 @@
 [
   {
-    "provider": "无问芯穹",
-    "providerPlatform": "infini_genstudio",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 3,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T08:59:36.859151968+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 3,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T08:59:35.25841321+08:00"
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 42240,
+    "ttftP95": 42240,
+    "avgMedianTps": 72.44304085707817,
+    "avgLatency": 384.684842842,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -16630.462825907533,
+    "compositeScore": 43.465824514246904,
+    "latestProbeAt": "2026-04-26T09:25:53.58406486+08:00"
   }
 ]
