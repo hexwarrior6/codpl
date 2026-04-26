@@ -2,14 +2,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1052,
-    "ttftP95": 1052,
-    "avgMedianTps": 57.264682004853704,
-    "avgLatency": 45.626330876,
+    "ttftP50": 1079,
+    "ttftP95": 1079,
+    "avgMedianTps": 79.71976543861032,
+    "avgLatency": 43.606728355,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -7.4701798708777005,
-    "compositeScore": 56.257806214948005,
-    "latestProbeAt": "2026-04-26T09:26:39.215873127+08:00"
+    "score": 172.3503837566618,
+    "compositeScore": 69.36525467324483,
+    "latestProbeAt": "2026-04-26T09:55:33.482032625+08:00"
   }
 ]

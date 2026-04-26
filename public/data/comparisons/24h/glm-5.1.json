@@ -4,78 +4,78 @@
     "providerPlatform": "opencode_go",
     "ttftP50": 912,
     "ttftP95": 1816.5,
-    "avgMedianTps": 119.4990579047901,
-    "avgLatency": 22.953915086225347,
+    "avgMedianTps": 122.19326198978023,
+    "avgLatency": 22.478206814126754,
     "successRate": 0.9861111111111112,
     "sampleCount": 72,
-    "score": 946.8575813842182,
+    "score": 974.9155126966236,
     "compositeScore": 83.9592867633114,
-    "latestProbeAt": "2026-04-26T09:09:59.479528265+08:00"
+    "latestProbeAt": "2026-04-26T09:42:44.929429658+08:00"
   },
   {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
-    "ttftP50": 1091.5,
+    "ttftP50": 1097.5,
     "ttftP95": 4110.05,
-    "avgMedianTps": 65.09456994526494,
-    "avgLatency": 21.55644646134722,
+    "avgMedianTps": 65.1805337777347,
+    "avgLatency": 21.470909101916664,
     "successRate": 1,
     "sampleCount": 72,
-    "score": 633.356258137909,
-    "compositeScore": 60.42396472220986,
-    "latestProbeAt": "2026-04-26T09:02:44.900451695+08:00"
+    "score": 634.8104751184916,
+    "compositeScore": 60.39645492737242,
+    "latestProbeAt": "2026-04-26T09:36:12.786454383+08:00"
   },
   {
     "provider": "天翼云",
     "providerPlatform": "ctyun",
-    "ttftP50": 1237,
+    "ttftP50": 1196,
     "ttftP95": 6272.5,
-    "avgMedianTps": 65.02852706172358,
-    "avgLatency": 22.67916892667605,
+    "avgMedianTps": 65.62199849090325,
+    "avgLatency": 22.383344030690136,
     "successRate": 0.9861111111111112,
     "sampleCount": 72,
-    "score": 561.9030503145514,
-    "compositeScore": 58.57900529222926,
-    "latestProbeAt": "2026-04-26T09:02:24.153081496+08:00"
+    "score": 581.0595012892774,
+    "compositeScore": 59.421369257519714,
+    "latestProbeAt": "2026-04-26T09:36:25.185202379+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1835,
-    "ttftP95": 17467.800000000003,
-    "avgMedianTps": 72.19749418960012,
-    "avgLatency": 86.7491252950278,
+    "ttftP50": 1923,
+    "ttftP95": 25583.35000000001,
+    "avgMedianTps": 72.85003302100519,
+    "avgLatency": 88.91797408605557,
     "successRate": 1,
     "sampleCount": 72,
-    "score": -1102.543167238094,
-    "compositeScore": 57.19103994141313,
-    "latestProbeAt": "2026-04-26T09:25:53.58406486+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 406,
-    "ttftP95": 169730.5999999999,
-    "avgMedianTps": 32.75961918348968,
-    "avgLatency": 214.26051165144617,
-    "successRate": 0.9027777777777778,
-    "sampleCount": 72,
-    "score": -4338.3772984074385,
-    "compositeScore": 55.29059924320086,
-    "latestProbeAt": "2026-04-26T08:59:35.25841321+08:00"
+    "score": -1170.449154025358,
+    "compositeScore": 56.906776244162955,
+    "latestProbeAt": "2026-04-26T09:54:49.872068937+08:00"
   },
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 2629,
+    "ttftP50": 2834,
     "ttftP95": 11749.300000000001,
-    "avgMedianTps": 55.479213087424164,
-    "avgLatency": 62.21332653145833,
+    "avgMedianTps": 54.99682851495702,
+    "avgLatency": 62.646776539777775,
     "successRate": 1,
     "sampleCount": 72,
-    "score": -748.2578847619133,
-    "compositeScore": 41.972730491232845,
-    "latestProbeAt": "2026-04-26T09:10:42.548821551+08:00"
+    "score": -802.9884424047024,
+    "compositeScore": 40.60004358475284,
+    "latestProbeAt": "2026-04-26T09:42:07.627054677+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 1130,
+    "ttftP95": 175937.14999999982,
+    "avgMedianTps": 32.80186962906877,
+    "avgLatency": 218.9163935885484,
+    "successRate": 0.8611111111111112,
+    "sampleCount": 72,
+    "score": -4640.987510828187,
+    "compositeScore": 40.548238109374566,
+    "latestProbeAt": "2026-04-26T09:33:13.697208656+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -88,6 +88,6 @@
     "sampleCount": 72,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-26T08:59:36.859151968+08:00"
+    "latestProbeAt": "2026-04-26T09:33:14.649187803+08:00"
   }
 ]
